@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "destination": "Mũi Né",
+    "description": "Thiên đường lướt ván diều của Đông Nam Á - đồi cát đỏ huyền ảo, suối Tiên nhiều màu sắc và làng chài trăm năm tuổi tại Phan Thiết, Bình Thuận",
+    "version": "1.0",
+    "source": "Tổng hợp từ lịch trình thực tế và review địa phương",
+    "trending_keywords": ["đồi cát bay", "suối tiên Mũi Né", "kite surfing", "bãi Rạng", "Fairy Stream"]
+  },
+  "itinerary": {
+    "day_1": {
+      "title": "Ngày 1 - Đồi Cát Đỏ & Làng Chài Mũi Né",
+      "morning": [
+        {
+          "time": "6:00",
+          "activity": "Ngắm bình minh đồi cát",
+          "name": "Đồi Cát Đỏ (Red Sand Dunes)",
+          "address": "Đường Huyền Trân Công Chúa, phường Mũi Né, thành phố Phan Thiết, Bình Thuận",
+          "type": "attraction",
+          "note": "Đến sớm 6-7h để có ánh bình minh vàng trên cát đỏ, và tránh nắng gắt. Thuê tấm trượt cát 20-30k/lần. Giữ chặt đồ vì gió mạnh. Đây là ảnh 'vàng' nhất Mũi Né."
+        },
+        {
+          "time": "8:00",
+          "activity": "Ăn sáng",
+          "name": "Bánh căn Mũi Né - Quán Cô Minh",
+          "address": "Đường Nguyễn Đình Chiểu, phường Hàm Tiến, Phan Thiết, Bình Thuận",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Bánh mì thanh long Phan Thiết", "address": "Chợ Phan Thiết, đường Trần Hưng Đạo, Phan Thiết"},
+            {"name": "Cháo cá Mũi Né buổi sáng", "address": "Khu làng chài Mũi Né"}
+          ]
+        },
+        {
+          "time": "9:30 - 12:00",
+          "activity": "Khám phá làng chài",
+          "name": "Làng Chài Mũi Né",
+          "address": "Khu làng chài, phường Mũi Né, thành phố Phan Thiết",
+          "type": "attraction",
+          "note": "Thuyền đánh cá về bến từ 5-9h sáng - đây là giờ vàng. Ngắm ngư dân phân loại cá mực tươi, mua hải sản thẳng từ tàu. Rất photogenic với những chiếc thúng chai và lưới đầy màu sắc."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Bún cá Phan Thiết",
+          "address": "Nhà hàng Rạng Đông, đường Nguyễn Đình Chiểu, Hàm Tiến, Phan Thiết",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Lẩu hải sản chợ Phan Thiết", "address": "Khu ẩm thực chợ Phan Thiết, đường Trần Hưng Đạo"},
+            {"name": "Cơm chiên hải sản Mũi Né", "address": "Đường Nguyễn Đình Chiểu, Mũi Né"}
+          ]
+        },
+        {
+          "time": "14:00 - 17:00",
+          "activity": "Tắm biển & nghỉ ngơi",
+          "name": "Bãi biển Mũi Né",
+          "address": "Đường Nguyễn Đình Chiểu, phường Mũi Né, Phan Thiết",
+          "type": "attraction",
+          "note": "Biển trong, sóng vừa, nước ấm. Mùa gió tháng 11-4 có thể thuê kite-surfing: 2 tiếng học 800k-1.5 triệu. Mùa hè biển lặng hơn. Thuê ghế nằm 30-50k."
+        },
+        {
+          "time": "17:00",
+          "activity": "Cà phê đồi cát",
+          "name": "Sailing Club Mui Ne",
+          "address": "24 Nguyen Dinh Chieu, Ham Tien, Phan Thiet, Binh Thuan",
+          "type": "cafe",
+          "note": "Beach bar nổi tiếng nhất Mũi Né - cocktail tropical view biển. Về đêm có nhạc sống. Ageless classic spot."
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Ăn tối hải sản",
+          "name": "Lẩu hải sản chợ Phan Thiết - Quán Lan",
+          "address": "Chợ Phan Thiết, 46 Trần Hưng Đạo, thành phố Phan Thiết",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Nhà hàng Cô Ba Vũng Tàu Mũi Né", "address": "Đường Nguyễn Đình Chiểu, Mũi Né"},
+            {"name": "Full Moon Village Restaurant", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến"}
+          ]
+        },
+        {
+          "time": "20:30",
+          "activity": "Bar & nightlife",
+          "name": "Jibe's Beach Club Mui Ne",
+          "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến, Phan Thiết",
+          "type": "attraction",
+          "note": "Kite-surfing spot ban ngày, beach bar ban đêm. Nhạc hay, đồ uống ngon, dân tây và local pha trộn sôi động."
+        }
+      ]
+    },
+    "day_2": {
+      "title": "Ngày 2 - Bàu Trắng & Suối Tiên",
+      "morning": [
+        {
+          "time": "6:00",
+          "activity": "Đồi cát trắng bình minh",
+          "name": "Đồi Cát Trắng Bàu Trắng (White Sand Dunes)",
+          "address": "Xã Hòa Thắng, huyện Bắc Bình, Bình Thuận (cách Mũi Né 60km)",
+          "type": "attraction",
+          "note": "Đi xe máy hoặc thuê xe từ Mũi Né, khoảng 60km. Bàu Trắng có hồ nước ngọt giữa đồi cát trắng tinh - cảnh quan không kém sa mạc Sahara. Thuê xe jeep địa hình leo đồi cát 250-350k/xe."
+        },
+        {
+          "time": "9:00",
+          "activity": "Ăn sáng",
+          "name": "Bánh căn hải sản bà Tuyết",
+          "address": "Thị trấn Liên Hương, huyện Tuy Phong, Bình Thuận",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Cháo cá biển sáng sớm", "address": "Dọc đường ven biển Bình Thuận"},
+            {"name": "Bánh mì thịt nướng Phan Thiết", "address": "Chợ Phan Thiết, đường Trần Hưng Đạo"}
+          ]
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Cơm hải sản ven biển Bàu Trắng",
+          "address": "Khu vực Bàu Trắng, xã Hòa Thắng, Bắc Bình",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Bánh căn Bình Thuận dọc đường", "address": "Đường ven biển Bình Thuận"},
+            {"name": "Cơm chiên hải sản local", "address": "Khu vực Hòa Thắng, Bắc Bình"}
+          ]
+        },
+        {
+          "time": "14:30 - 17:00",
+          "activity": "Khám phá suối màu",
+          "name": "Suối Tiên (Fairy Stream)",
+          "address": "Đường Huyền Trân Công Chúa, phường Mũi Né, Phan Thiết",
+          "type": "attraction",
+          "note": "Suối nước nông chảy qua hẻm đất đỏ và đất trắng tạo hiệu ứng màu sắc kỳ ảo. Đi chân trần 1-2km trong lòng suối. Hoàn toàn miễn phí. Đẹp nhất buổi chiều ánh sáng vàng chiếu vào."
+        }
+      ],
+      "evening": [
+        {
+          "time": "17:30",
+          "activity": "Cà phê hoàng hôn",
+          "name": "Red Sand Dunes Cafe",
+          "address": "Đồi Cát Đỏ, đường Huyền Trân Công Chúa, Mũi Né",
+          "type": "cafe",
+          "note": "Ngồi trên đồi cát đỏ uống cà phê ngắm hoàng hôn - trải nghiệm độc đáo chỉ có ở Mũi Né. Gọi sinh tố thanh long địa phương."
+        },
+        {
+          "time": "19:00",
+          "activity": "Ăn tối",
+          "name": "Bánh căn & hải sản phố Nguyễn Đình Chiểu",
+          "address": "Phố Nguyễn Đình Chiểu, phường Hàm Tiến, Phan Thiết",
+          "type": "food",
+          "category": "dinner",
+          "note": "Phố ẩm thực chính của Mũi Né - dài 11km với hàng chục nhà hàng hải sản. Bánh căn chiều tối ngon nhất kèm trứng cút và tôm tươi."
+        }
+      ]
+    },
+    "day_3": {
+      "title": "Ngày 3 - Mũi Đá Ông Địa & Kite Surfing",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng",
+          "name": "Bánh mì thanh long Phan Thiết",
+          "address": "Chợ Phan Thiết, đường Trần Hưng Đạo, thành phố Phan Thiết",
+          "type": "food",
+          "category": "breakfast",
+          "note": "Bánh mì vỏ màu hồng tím từ nước cốt thanh long - đặc sản Instagram-worthy của Phan Thiết."
+        },
+        {
+          "time": "8:30 - 11:30",
+          "activity": "Học lướt ván diều",
+          "name": "Kite Surfing Mũi Né",
+          "address": "Bãi biển Hàm Tiến - Mũi Né, đường Nguyễn Đình Chiểu",
+          "type": "attraction",
+          "note": "Mùa gió tháng 11-4 là mùa vàng. Các trường kite nổi tiếng: Kite Surf Vietnam, Windchimes. Học 1 buổi 2 tiếng khoảng 800k-1.5 triệu. Book trước qua website để có chỗ."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Bánh căn tôm mực - Quán Cô Lan",
+          "address": "Gần biển Hàm Tiến, đường Nguyễn Đình Chiểu, Phan Thiết",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Bún cá Mũi Né bà Hương", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến"},
+            {"name": "Nhà hàng Coco Beach", "address": "Đường Nguyễn Đình Chiểu, Mũi Né"}
+          ]
+        },
+        {
+          "time": "14:30 - 17:00",
+          "activity": "Tham quan mũi đá",
+          "name": "Mũi Đá Ông Địa (Hon Ro)",
+          "address": "Phường Mũi Né, thành phố Phan Thiết, Bình Thuận",
+          "type": "attraction",
+          "note": "Mỏm đá nhô ra biển với miếu thờ Ông Địa - điểm check-in classic của Mũi Né. Sóng vỗ vào đá trắng xóa, rất đẹp để chụp ảnh nghệ thuật."
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:00",
+          "activity": "Mua sắm đặc sản",
+          "name": "Chợ Phan Thiết",
+          "address": "Đường Trần Hưng Đạo, thành phố Phan Thiết",
+          "type": "attraction",
+          "note": "Mua nước mắm Phan Thiết nguyên chất (200-300k/lít), bánh tráng phơi sương, mực khô, thanh long tươi."
+        },
+        {
+          "time": "19:30",
+          "activity": "Ăn tối chia tay",
+          "name": "Lẩu hải sản & gỏi mực tươi",
+          "address": "Nhà hàng Full Moon Village, đường Nguyễn Đình Chiểu, Hàm Tiến",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Bún cá Phan Thiết nhà hàng Rạng Đông", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến"},
+            {"name": "Hải sản tươi bến thuyền", "address": "Bến thuyền làng chài Mũi Né"}
+          ]
+        }
+      ]
+    }
+  },
+  "places_directory": {
+    "food": {
+      "breakfast": {
+        "category": "Ăn sáng",
+        "places": [
+          {"name": "Bánh căn Mũi Né - Quán Cô Minh", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến, Phan Thiết", "note": "Bánh căn giòn đều, nhân trứng cút hoặc tôm tươi, chấm mắm ngọt"},
+          {"name": "Bánh mì thanh long Phan Thiết", "address": "Chợ Phan Thiết, đường Trần Hưng Đạo", "note": "Vỏ bánh hồng tím từ thanh long - viral trên mạng, ngon thật"},
+          {"name": "Cháo cá biển bà Lan", "address": "Khu làng chài Mũi Né, phường Mũi Né", "note": "Cháo cá tươi từ tàu vừa vào bờ, nấu loãng ăn sáng"},
+          {"name": "Bún cá sáng sớm phố Nguyễn Đình Chiểu", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến", "note": "Bún cá thu nước dùng đậm đà đặc trưng Bình Thuận"},
+          {"name": "Bánh căn hải sản bà Tuyết", "address": "Thị trấn Liên Hương, huyện Tuy Phong", "note": "Bánh căn vùng biển Bình Thuận, nhân phong phú hơn"}
+        ]
+      },
+      "lunch": {
+        "category": "Ăn trưa",
+        "places": [
+          {"name": "Bún cá Phan Thiết - Rạng Đông", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến", "note": "Bún cá nước me chua ngọt đặc trưng miền Trung"},
+          {"name": "Lẩu hải sản chợ Phan Thiết", "address": "Khu ẩm thực 46 Trần Hưng Đạo, Phan Thiết", "note": "Lẩu hải sản tươi ngay chợ, giá rẻ hơn nhà hàng 30%"},
+          {"name": "Nhà hàng Coco Beach", "address": "Đường Nguyễn Đình Chiểu, Mũi Né", "note": "Nhà hàng beach chân biển, cơm hải sản và cocktail"},
+          {"name": "Bánh căn tôm mực Cô Lan", "address": "Gần biển Hàm Tiến, đường Nguyễn Đình Chiểu", "note": "Ăn trưa nhanh bánh căn, ngon, giá bình dân"},
+          {"name": "Full Moon Village Restaurant", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến", "note": "View biển, thực đơn hải sản và pizza ngon"}
+        ]
+      },
+      "dinner": {
+        "category": "Ăn tối",
+        "places": [
+          {"name": "Lẩu hải sản chợ Phan Thiết - Quán Lan", "address": "Chợ Phan Thiết, 46 Trần Hưng Đạo", "note": "Quen thuộc dân địa phương, tươi ngon, giá tốt"},
+          {"name": "Gỏi mực tươi & hải sản nướng", "address": "Dọc đường Nguyễn Đình Chiểu, Hàm Tiến", "note": "Nhiều quán vỉa hè ven biển buổi tối, mực tươi nướng than"},
+          {"name": "Nhà hàng Cô Ba Vũng Tàu Mũi Né", "address": "Đường Nguyễn Đình Chiểu, Mũi Né", "note": "Hải sản đa dạng, không gian rộng thoáng"},
+          {"name": "Bún cá Mũi Né bà Hương", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến", "note": "Bún cá chiều tối, đậm đà hơn buổi sáng"},
+          {"name": "Sailing Club Mui Ne", "address": "24 Nguyen Dinh Chieu, Ham Tien, Phan Thiet", "note": "Beach bar + nhà hàng, đồ uống ngon, nhạc hay buổi tối"}
+        ]
+      },
+      "snack": {
+        "category": "Ăn vặt & Đồ uống",
+        "places": [
+          {"name": "Sinh tố thanh long Phan Thiết", "address": "Dọc đường Nguyễn Đình Chiểu và chợ Phan Thiết", "note": "Thanh long Bình Thuận ngọt nhất Việt Nam, sinh tố tươi mát"},
+          {"name": "Bánh tráng nướng Mũi Né", "address": "Chợ đêm Mũi Né, đường Nguyễn Đình Chiểu", "note": "Bánh tráng phơi sương nướng với trứng cút và mỡ hành"},
+          {"name": "Nước mắm Phan Thiết tươi", "address": "Chợ Phan Thiết, đường Trần Hưng Đạo", "note": "Nước mắm nhĩ nguyên chất, mang về quà không thể bỏ"},
+          {"name": "Mực khô Mũi Né", "address": "Các cửa hàng làng chài Mũi Né", "note": "Mực rim, mực một nắng, ngon nhất khi ăn cùng bia"},
+          {"name": "Cocktail & beer Jibe Beach Club", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến", "note": "Cocktail nhiệt đới, view đẹp, nhạc hay - spot chill buổi chiều"}
+        ]
+      }
+    },
+    "cafe": {
+      "category": "Quán cà phê",
+      "places": [
+        {"name": "Sailing Club Mui Ne", "address": "24 Nguyen Dinh Chieu, Ham Tien, Phan Thiet", "vibe": "view"},
+        {"name": "Red Sand Dunes Cafe", "address": "Đồi Cát Đỏ, đường Huyền Trân Công Chúa, Mũi Né", "vibe": "view"},
+        {"name": "Jibe's Beach Club Cafe", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến, Phan Thiết", "vibe": "chill"},
+        {"name": "Cafe trên đồi cát nhìn biển", "address": "Khu đồi cát đỏ, Mũi Né", "vibe": "aesthetic"},
+        {"name": "The Cactus Beach Cafe", "address": "Đường Nguyễn Đình Chiểu, Mũi Né", "vibe": "aesthetic"},
+        {"name": "Cocobay Cafe Mui Ne", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến", "vibe": "chill"}
+      ]
+    },
+    "attractions": {
+      "category": "Điểm tham quan",
+      "places": [
+        {"name": "Đồi Cát Đỏ (Red Sand Dunes)", "address": "Đường Huyền Trân Công Chúa, phường Mũi Né, Phan Thiết", "type": "nature", "note": "Đến 6h sáng để chụp bình minh, thuê tấm trượt 20-30k"},
+        {"name": "Đồi Cát Trắng Bàu Trắng", "address": "Xã Hòa Thắng, huyện Bắc Bình, Bình Thuận (60km)", "type": "nature", "note": "Hồ nước ngọt giữa đồi cát trắng, xe jeep 250-350k/xe"},
+        {"name": "Suối Tiên (Fairy Stream)", "address": "Đường Huyền Trân Công Chúa, phường Mũi Né", "type": "nature", "note": "Miễn phí, đi chân trần 1-2km trong suối đất đỏ đất trắng"},
+        {"name": "Làng Chài Mũi Né", "address": "Phường Mũi Né, thành phố Phan Thiết", "type": "nature", "note": "5-9h sáng tàu về, thúng chai, lưới đầy màu sắc"},
+        {"name": "Mũi Đá Ông Địa", "address": "Phường Mũi Né, thành phố Phan Thiết", "type": "viewpoint", "note": "Mỏm đá nhô ra biển, miếu thờ Ông Địa, sóng vỗ đẹp"},
+        {"name": "Kite Surfing Hàm Tiến", "address": "Bãi biển Hàm Tiến, đường Nguyễn Đình Chiểu", "type": "nature", "note": "Mùa gió tháng 11-4, học 2 tiếng 800k-1.5 triệu"},
+        {"name": "Tháp Chăm Phú Hài", "address": "Phường Phú Hài, thành phố Phan Thiết", "type": "temple", "note": "Cụm tháp Chăm Pa thế kỷ 8-9, kiến trúc độc đáo"},
+        {"name": "Hải dương học Phan Thiết", "address": "Đường Trần Phú, thành phố Phan Thiết", "type": "nature", "note": "Bảo tàng sinh vật biển, phù hợp gia đình có trẻ em"}
+      ]
+    },
+    "accommodation": {
+      "category": "Lưu trú",
+      "places": [
+        {"name": "Mia Mui Ne Resort", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến, Phan Thiết", "type": "resort", "price_range": "2-4 triệu/đêm"},
+        {"name": "Cham Villas Beach Resort", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến", "type": "resort", "price_range": "3-6 triệu/đêm"},
+        {"name": "Mui Ne Backpacker Village", "address": "Đường Nguyễn Đình Chiểu, Mũi Né", "type": "homestay", "price_range": "150-300k/người/đêm"},
+        {"name": "The Shells Resort & Spa", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến", "type": "resort", "price_range": "2.5-5 triệu/đêm"},
+        {"name": "Mui Ne Hills Vista", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến", "type": "hotel", "price_range": "700k-1.5 triệu/đêm"},
+        {"name": "Homestay làng chài Mũi Né", "address": "Khu làng chài, phường Mũi Né", "type": "homestay", "price_range": "300-500k/đêm"}
+      ]
+    },
+    "market_shopping": {
+      "category": "Chợ & Mua sắm",
+      "places": [
+        {"name": "Chợ Phan Thiết", "address": "Đường Trần Hưng Đạo, thành phố Phan Thiết", "type": "market"},
+        {"name": "Chợ đêm Mũi Né", "address": "Đường Nguyễn Đình Chiểu, phường Mũi Né", "type": "night_market"},
+        {"name": "Phố đặc sản Nguyễn Đình Chiểu", "address": "Đường Nguyễn Đình Chiểu, Hàm Tiến, Phan Thiết", "type": "shopping_street"},
+        {"name": "Cửa hàng nước mắm Phan Thiết", "address": "Dọc đường Trần Hưng Đạo, Phan Thiết", "type": "shopping_street"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "metadata": {
+    "destination": "Nha Trang",
+    "description": "Knowledge base địa điểm Nha Trang tổng hợp từ lịch trình thực tế và danh sách địa điểm",
+    "version": "1.0",
+    "source": "Tổng hợp từ lịch trình thực tế và review địa phương"
+  },
+  "itinerary": {
+    "day_1": {
+      "title": "Ngày 1 - Bãi Biển & Phố Biển Nha Trang",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng bún cá",
+          "name": "Bún cá sứa Nha Trang",
+          "address": "16 Hoàng Hoa Thám, Phường Phước Hải, Nha Trang",
+          "type": "food",
+          "category": "breakfast",
+          "note": "Bún cá sứa đặc sản Nha Trang, sứa biển tươi giòn sừng sực",
+          "alternatives": [
+            {"name": "Bánh canh chả cá Nha Trang", "address": "17 Lê Thánh Tôn, Nha Trang"},
+            {"name": "Bún cá bà Hải", "address": "15 Ngô Gia Tự, Nha Trang"},
+            {"name": "Bánh mì que Nha Trang", "address": "Đường Trần Phú, Nha Trang"}
+          ]
+        },
+        {
+          "time": "9:00 - 12:00",
+          "activity": "Tắm biển & thư giãn",
+          "name": "Bãi biển Trần Phú",
+          "address": "Đường Trần Phú, Phường Lộc Thọ, Nha Trang",
+          "type": "attraction",
+          "note": "Bãi biển đẹp dài 6km ngay trung tâm thành phố"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa bánh mì que",
+          "name": "Bánh mì que Nha Trang - Bà Cúc",
+          "address": "Hẻm 1 Trần Phú, Nha Trang",
+          "type": "food",
+          "category": "lunch",
+          "note": "Bánh mì que nướng than, ăn với chả và pate - đặc sản đường phố",
+          "alternatives": [
+            {"name": "Nem nướng Ninh Hòa - Quán Bé Lùn", "address": "1 Hiền Vương, Nha Trang"},
+            {"name": "Bún bò Huế Nha Trang", "address": "27 Lý Tự Trọng, Nha Trang"},
+            {"name": "Cơm tấm Nha Trang", "address": "45 Phan Chu Trinh, Nha Trang"}
+          ]
+        },
+        {
+          "time": "14:30",
+          "activity": "Tham quan tháp Chăm",
+          "name": "Tháp Bà Po Nagar",
+          "address": "2 Tháng 4, Phường Vĩnh Phước, Nha Trang",
+          "type": "attraction",
+          "note": "Tháp Chăm 1200 năm tuổi, vé 30.000đ, view sông Cái đẹp"
+        },
+        {
+          "time": "16:30",
+          "activity": "Cà phê view biển",
+          "name": "Cà phê The Shack",
+          "address": "Đường Trần Phú, Phường Lộc Thọ, Nha Trang",
+          "type": "cafe"
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Ăn tối hải sản",
+          "name": "Phố Hải sản Đường Biển",
+          "address": "Đường Trần Phú, Nha Trang",
+          "type": "food",
+          "category": "dinner",
+          "note": "Các nhà hàng hải sản dọc bờ biển, giá cả cạnh tranh",
+          "alternatives": [
+            {"name": "Bạch Tuộc Hải Sản Tươi Sống", "address": "Đường Trần Phú, Nha Trang"},
+            {"name": "Sailing Club Restaurant", "address": "72-74 Trần Phú, Nha Trang"},
+            {"name": "Nhà hàng Lẩu Mắm Nha Trang", "address": "28 Bùi Thị Xuân, Nha Trang"}
+          ]
+        },
+        {
+          "time": "20:30",
+          "activity": "Dạo phố đêm & ăn vặt",
+          "name": "Đường Trần Phú ban đêm",
+          "address": "Đường Trần Phú, Nha Trang",
+          "type": "attraction"
+        }
+      ]
+    },
+    "day_2": {
+      "title": "Ngày 2 - Lặn Biển & Đảo",
+      "morning": [
+        {
+          "time": "7:30",
+          "activity": "Ăn sáng",
+          "name": "Bánh canh chả cá Nha Trang",
+          "address": "17 Lê Thánh Tôn, Phường Tân Lập, Nha Trang",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Bún suông tôm thịt", "address": "68 Ngô Gia Tự, Nha Trang"},
+            {"name": "Cháo cá Nha Trang", "address": "Chợ Đầm, Nha Trang"}
+          ]
+        },
+        {
+          "time": "8:00 - 17:00",
+          "activity": "Tour 4 đảo",
+          "name": "Hòn Mun - Hòn Mieu - Hòn Tằm - Hòn Một",
+          "address": "Cảng du thuyền Cầu Đá, Nha Trang",
+          "type": "attraction",
+          "note": "Tour 4 đảo ~250.000đ/người, lặn ngắm san hô tại Hòn Mun"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "17:30",
+          "activity": "Nghỉ ngơi & cà phê",
+          "name": "Cà phê Chill on the Hill",
+          "address": "Đường Trần Phú, Nha Trang",
+          "type": "cafe",
+          "note": "View toàn cảnh vịnh Nha Trang"
+        }
+      ],
+      "evening": [
+        {
+          "time": "19:00",
+          "activity": "Ăn tối nem nướng Ninh Hòa",
+          "name": "Quán Nem Nướng Ninh Hòa Bé Lùn",
+          "address": "1 Hiền Vương, Phường Vĩnh Hải, Nha Trang",
+          "type": "food",
+          "category": "dinner",
+          "note": "Nem nướng Ninh Hòa đặc sản nổi tiếng nhất Nha Trang",
+          "alternatives": [
+            {"name": "Nem nướng 3A", "address": "3A Trần Hưng Đạo, Nha Trang"},
+            {"name": "Quán lẩu cá đuối", "address": "34 Đặng Tất, Nha Trang"}
+          ]
+        }
+      ]
+    },
+    "day_3": {
+      "title": "Ngày 3 - Vinpearl & Suối khoáng",
+      "morning": [
+        {
+          "time": "8:00 - 16:00",
+          "activity": "Tham quan Vinpearl Land",
+          "name": "Vinpearl Land Nha Trang",
+          "address": "Đảo Hòn Tre, Nha Trang",
+          "type": "attraction",
+          "note": "Vé cáp treo + vé vào cửa ~800.000đ/người, sơ đồ trong resort lớn"
+        },
+        {
+          "time": "17:00",
+          "activity": "Tắm suối khoáng I-Resort",
+          "name": "I-Resort Suối khoáng nóng",
+          "address": "Đường 19/5, Phường Vĩnh Ngọc, Nha Trang",
+          "type": "attraction",
+          "note": "Tắm bùn khoáng ~350.000đ/người, rất thư giãn"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "19:00",
+          "activity": "Ăn tối hải sản cuối chuyến",
+          "name": "Nhà hàng Lẩu Hải Sản Nha Trang",
+          "address": "58 Trần Phú, Nha Trang",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Sailing Club Restaurant", "address": "72-74 Trần Phú, Nha Trang"},
+            {"name": "El Camino Beach Bar", "address": "Trần Phú, Nha Trang"}
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "time": "21:00",
+          "activity": "Uống cocktail & xem biển đêm",
+          "name": "Sailing Club Nha Trang",
+          "address": "72-74 Trần Phú, Nha Trang",
+          "type": "cafe",
+          "note": "Bar view biển nổi tiếng nhất Nha Trang, DJ set về đêm"
+        }
+      ]
+    }
+  },
+  "places_directory": {
+    "food": {
+      "breakfast": {
+        "category": "Ăn sáng",
+        "places": [
+          {"name": "Bún cá sứa Nha Trang", "address": "16 Hoàng Hoa Thám, Nha Trang", "note": "Đặc sản bún cá sứa biển"},
+          {"name": "Bánh canh chả cá", "address": "17 Lê Thánh Tôn, Nha Trang", "note": "Bánh canh đặc trưng miền Trung"},
+          {"name": "Bánh mì que Nha Trang", "address": "Hẻm 1 Trần Phú, Nha Trang", "note": "Bánh mì que nướng than đặc sản"},
+          {"name": "Bún cá bà Hải", "address": "15 Ngô Gia Tự, Nha Trang", "note": "Bún cá tươi buổi sáng"},
+          {"name": "Bánh cuốn Nha Trang", "address": "23 Nguyễn Thiện Thuật, Nha Trang", "note": "Bánh cuốn cá đặc trưng"},
+          {"name": "Xôi gà Nha Trang", "address": "Chợ Đầm, Nha Trang", "note": "Xôi gà đơn giản ngon miệng"}
+        ]
+      },
+      "lunch": {
+        "category": "Ăn trưa",
+        "places": [
+          {"name": "Nem nướng Ninh Hòa Bé Lùn", "address": "1 Hiền Vương, Nha Trang", "note": "Đặc sản nem nướng nổi tiếng nhất"},
+          {"name": "Bún bò Huế Nha Trang", "address": "27 Lý Tự Trọng, Nha Trang", "note": "Bún bò cay đặc trưng"},
+          {"name": "Lẩu cá đuối Nha Trang", "address": "34 Đặng Tất, Nha Trang", "note": "Đặc sản lẩu cá đuối"},
+          {"name": "Cơm tấm Nha Trang", "address": "45 Phan Chu Trinh, Nha Trang", "note": "Cơm tấm sườn bì chả"},
+          {"name": "Bún suông tôm thịt", "address": "68 Ngô Gia Tự, Nha Trang", "note": "Món đặc trưng địa phương"},
+          {"name": "Bánh ướt heo quay", "address": "15 Lê Thánh Tôn, Nha Trang", "note": "Bánh ướt cuốn heo quay ngon"}
+        ]
+      },
+      "dinner": {
+        "category": "Ăn tối",
+        "places": [
+          {"name": "Sailing Club Restaurant", "address": "72-74 Trần Phú, Nha Trang", "note": "View biển, hải sản tươi sống"},
+          {"name": "Nhà hàng Lẩu Hải Sản", "address": "58 Trần Phú, Nha Trang", "note": "Lẩu hải sản phong phú"},
+          {"name": "Bạch Tuộc Hải Sản", "address": "12 Trần Quang Khải, Nha Trang", "note": "Chuyên bạch tuộc hải sản tươi"},
+          {"name": "Nhà hàng Lẩu Mắm", "address": "28 Bùi Thị Xuân, Nha Trang", "note": "Lẩu mắm miền Tây đặc biệt"},
+          {"name": "El Camino Beach Bar", "address": "Trần Phú, Nha Trang", "note": "Cocktail và đồ ăn quốc tế view biển"},
+          {"name": "Quán hải sản 99 Ngô Gia Tự", "address": "99 Ngô Gia Tự, Nha Trang", "note": "Hải sản tươi giá bình dân"}
+        ]
+      },
+      "snack": {
+        "category": "Ăn vặt",
+        "places": [
+          {"name": "Bánh tráng nướng Nha Trang", "address": "Đường Lê Lợi, Nha Trang", "note": "Bánh tráng nướng mực, tôm, thịt"},
+          {"name": "Chả cá Nha Trang", "address": "Chợ Đầm, Nha Trang", "note": "Chả cá tươi chiên giòn"},
+          {"name": "Gỏi cuốn hải sản", "address": "15 Hoàng Hoa Thám, Nha Trang", "note": "Gỏi cuốn tôm cua tươi"},
+          {"name": "Kem bò đá Nha Trang", "address": "Trần Phú, Nha Trang", "note": "Kem mát mẻ buổi chiều"},
+          {"name": "Trái cây biển", "address": "Bãi biển Trần Phú, Nha Trang", "note": "Trái cây tươi dọc bãi biển"}
+        ]
+      }
+    },
+    "cafe": {
+      "category": "Quán cà phê",
+      "places": [
+        {"name": "Sailing Club", "address": "72-74 Trần Phú, Nha Trang", "vibe": "Bar & cafe view biển, DJ set, cocktail"},
+        {"name": "The Shack Cafe", "address": "Trần Phú, Nha Trang", "vibe": "View biển, cà phê phong cách"},
+        {"name": "Chill on the Hill", "address": "Đường Trần Phú, Nha Trang", "vibe": "View toàn cảnh vịnh"},
+        {"name": "Cộng Cà Phê Nha Trang", "address": "56 Trần Phú, Nha Trang", "vibe": "Retro, cốt dừa nổi tiếng"},
+        {"name": "The Coffee House Nha Trang", "address": "Đường Lê Lợi, Nha Trang", "vibe": "Chuỗi phổ biến, không gian thoáng"},
+        {"name": "El Camino", "address": "Trần Phú, Nha Trang", "vibe": "Beach bar, nhạc hay, cocktail"},
+        {"name": "Same Same But Different", "address": "Trần Phú, Nha Trang", "vibe": "Quán cà phê backpacker thân thiện"},
+        {"name": "Lanterns Restaurant & Bar", "address": "34/6 Nguyễn Thiện Thuật, Nha Trang", "vibe": "Ẩm thực Việt và cà phê"}
+      ]
+    },
+    "attractions": {
+      "category": "Điểm tham quan",
+      "places": [
+        {"name": "Bãi biển Trần Phú", "address": "Trần Phú, Lộc Thọ, Nha Trang", "type": "beach", "note": "Bãi biển trung tâm, dài 6km"},
+        {"name": "Vinpearl Land", "address": "Đảo Hòn Tre, Nha Trang", "type": "theme_park", "note": "Vé ~800.000đ, công viên giải trí lớn"},
+        {"name": "Tháp Bà Po Nagar", "address": "2 Tháng 4, Vĩnh Phước, Nha Trang", "type": "heritage", "note": "Tháp Chăm 1200 năm, vé 30.000đ"},
+        {"name": "Hòn Mun - tour lặn biển", "address": "Cảng Cầu Đá, Nha Trang", "type": "island", "note": "Rạn san hô đẹp nhất VN"},
+        {"name": "I-Resort suối khoáng nóng", "address": "19/5 Vĩnh Ngọc, Nha Trang", "type": "spa", "note": "Tắm bùn khoáng nóng ~350.000đ"},
+        {"name": "Yang Bay Waterfall", "address": "Khánh Vĩnh, Khánh Hòa", "type": "waterfall", "note": "Thác nước đẹp cách 45km, vé 200.000đ"},
+        {"name": "Chùa Long Sơn", "address": "22 Đường 23 Tháng 10, Nha Trang", "type": "pagoda", "note": "Tượng Phật trắng trên đồi cao"},
+        {"name": "Bãi biển Bãi Dài (Cam Ranh)", "address": "Cam Lâm, Khánh Hòa", "type": "beach", "note": "Bãi biển nguyên sơ, nước trong xanh"},
+        {"name": "Hòn Tằm", "address": "Nha Trang Bay", "type": "island", "note": "Đảo riêng tư, khu nghỉ dưỡng cao cấp"},
+        {"name": "Viện Hải dương học", "address": "1 Cầu Đá, Vĩnh Nguyên, Nha Trang", "type": "museum", "note": "Thủy cung đặc sắc, vé 40.000đ"}
+      ]
+    },
+    "accommodation": {
+      "category": "Lưu trú",
+      "places": [
+        {"name": "Mia Resort Nha Trang", "address": "Bãi Dương, Nha Trang", "type": "resort", "price_range": "3.000.000 - 10.000.000đ/đêm"},
+        {"name": "Sheraton Nha Trang Hotel", "address": "26-28 Trần Phú, Nha Trang", "type": "hotel", "price_range": "2.500.000 - 7.000.000đ/đêm"},
+        {"name": "Nha Trang Center Hotel", "address": "20 Trần Phú, Nha Trang", "type": "hotel", "price_range": "800.000 - 2.000.000đ/đêm"},
+        {"name": "Nha Trang Backpackers Hostel", "address": "10 Bùi Thị Xuân, Nha Trang", "type": "hostel", "price_range": "130.000 - 300.000đ/đêm"},
+        {"name": "Perfume Grass Inn", "address": "4 Bùi Thị Xuân, Nha Trang", "type": "guesthouse", "price_range": "250.000 - 500.000đ/đêm"},
+        {"name": "Anantara Quy Nhon Villas", "address": "Khánh Hòa", "type": "resort", "price_range": "5.000.000 - 15.000.000đ/đêm"}
+      ]
+    },
+    "market_shopping": {
+      "category": "Chợ & Mua sắm",
+      "places": [
+        {"name": "Chợ Đầm", "address": "Quang Trung, Lộc Thọ, Nha Trang", "type": "market", "note": "Chợ trung tâm, ăn sáng ngon"},
+        {"name": "Nha Trang Center Mall", "address": "20 Trần Phú, Nha Trang", "type": "mall"},
+        {"name": "Lotte Mart Nha Trang", "address": "30 Tháng 4, Nha Trang", "type": "supermarket"},
+        {"name": "Chợ xép đêm Nha Trang", "address": "Đường Trần Phú, Nha Trang", "type": "night_market"},
+        {"name": "Phố Hải sản khô Nha Trang", "address": "Đường Bà Triệu, Nha Trang", "type": "shopping_street", "note": "Mua hải sản khô về làm quà"}
+      ]
+    }
+  }
+}

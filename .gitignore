@@ -1,0 +1,10 @@
+.env
+.greennode.json
+__pycache__/
+*.pyc
+*.pyo
+.agentbase/
+.claude/
+node_modules/
+*.log
+.DS_Store

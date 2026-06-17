@@ -1,0 +1,306 @@
+{
+  "metadata": {
+    "destination": "Đà Nẵng",
+    "description": "Knowledge base địa điểm Đà Nẵng tổng hợp từ lịch trình thực tế và danh sách địa điểm",
+    "version": "1.0",
+    "source": "Tổng hợp từ lịch trình thực tế và review địa phương"
+  },
+  "itinerary": {
+    "day_1": {
+      "title": "Ngày 1 - Bãi Biển & Ẩm Thực Đà Nẵng",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng",
+          "name": "Mỳ Quảng Bà Mua",
+          "address": "19-21 Trần Bình Trọng, Phường Hải Châu 1, Đà Nẵng",
+          "type": "food",
+          "category": "breakfast",
+          "note": "Mỳ Quảng chuẩn vị Đà Nẵng, mở từ 6h sáng, đông khách",
+          "alternatives": [
+            {"name": "Bún chả cá 109", "address": "109 Nguyễn Chí Thanh, Đà Nẵng"},
+            {"name": "Bánh mì Bà Lan", "address": "47 Nguyễn Chí Thanh, Đà Nẵng"},
+            {"name": "Mỳ Quảng Ếch bà Vị", "address": "166 Lê Đình Lý, Đà Nẵng"}
+          ]
+        },
+        {
+          "time": "9:00 - 12:00",
+          "activity": "Tắm biển & thư giãn",
+          "name": "Bãi biển Mỹ Khê",
+          "address": "Đường Võ Nguyên Giáp, Phường Mỹ An, Đà Nẵng",
+          "type": "attraction",
+          "note": "Một trong những bãi biển đẹp nhất thế giới theo Forbes. Thuê dù ghế 50.000đ"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa bún chả cá",
+          "name": "Bún chả cá 109",
+          "address": "109 Nguyễn Chí Thanh, Đà Nẵng",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Quán Bà Hoa", "address": "100 Nguyễn Chí Thanh, Đà Nẵng"},
+            {"name": "Nhà hàng Madame Lân", "address": "4 Bạch Đằng, Đà Nẵng"},
+            {"name": "Bún cá Ngân", "address": "26/7 Hải Phòng, Đà Nẵng"}
+          ]
+        },
+        {
+          "time": "15:00",
+          "activity": "Cà phê chiều",
+          "name": "43 Factory Coffee Roaster",
+          "address": "12 Thái Phiên, Phường Phước Ninh, Đà Nẵng",
+          "type": "cafe",
+          "note": "Specialty coffee nổi tiếng Đà Nẵng, rang xay tại chỗ"
+        },
+        {
+          "time": "17:00 - 19:00",
+          "activity": "Ngắm cầu Rồng phun lửa",
+          "name": "Cầu Rồng Đà Nẵng",
+          "address": "Đường Trần Hưng Đạo - Phạm Văn Đồng, Đà Nẵng",
+          "type": "attraction",
+          "note": "Cầu phun lửa thứ 7 & CN 21h - miễn phí xem từ xa"
+        }
+      ],
+      "evening": [
+        {
+          "time": "19:30",
+          "activity": "Ăn tối hải sản",
+          "name": "Chợ hải sản Phạm Văn Đồng",
+          "address": "Đường Phạm Văn Đồng, Phường An Hải Bắc, Đà Nẵng",
+          "type": "food",
+          "category": "dinner",
+          "note": "Chọn hải sản tươi rồi nhờ nhà hàng xung quanh chế biến",
+          "alternatives": [
+            {"name": "Nhà hàng Trúc Lâm Viên", "address": "74 Trần Quang Khải, Đà Nẵng"},
+            {"name": "Bé Mặn Restaurant", "address": "Đường Võ Nguyên Giáp, Đà Nẵng"}
+          ]
+        },
+        {
+          "time": "21:00",
+          "activity": "Dạo bờ sông Hàn & check in cầu đêm",
+          "name": "Cầu Sông Hàn",
+          "address": "Đường Nguyễn Văn Linh, Đà Nẵng",
+          "type": "attraction",
+          "note": "Cầu quay - quay đêm thứ 7 để tàu thuyền qua lại"
+        }
+      ]
+    },
+    "day_2": {
+      "title": "Ngày 2 - Bà Nà Hills & Cầu Vàng",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng",
+          "name": "Bánh mì Bà Lan",
+          "address": "47 Nguyễn Chí Thanh, Đà Nẵng",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Bánh cuốn Mỹ Hường", "address": "69 Lê Hồng Phong, Đà Nẵng"},
+            {"name": "Xôi bắp cô Châu", "address": "Chợ Cồn, Đà Nẵng"}
+          ]
+        },
+        {
+          "time": "8:00 - 16:00",
+          "activity": "Tham quan Bà Nà Hills & Cầu Vàng",
+          "name": "Bà Nà Hills",
+          "address": "Xã Hòa Ninh, Huyện Hòa Vang, Đà Nẵng",
+          "type": "attraction",
+          "note": "Vé người lớn 750.000đ, mua online giảm 10%. Đi sớm tránh đông"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "17:00",
+          "activity": "Nghỉ ngơi & cafe",
+          "name": "Cà phê Nối",
+          "address": "87 Bạch Đằng, Phường Hải Châu 1, Đà Nẵng",
+          "type": "cafe",
+          "note": "View sông Hàn cực đẹp, giá hợp lý"
+        }
+      ],
+      "evening": [
+        {
+          "time": "19:00",
+          "activity": "Ăn tối",
+          "name": "Nhà hàng Madame Lân",
+          "address": "4 Bạch Đằng, Đà Nẵng",
+          "type": "food",
+          "category": "dinner",
+          "note": "Biệt thự Pháp cổ, ẩm thực Việt Nam phong phú",
+          "alternatives": [
+            {"name": "Quán ngon Đà Nẵng", "address": "Đường Trần Phú, Đà Nẵng"},
+            {"name": "Nhà Hàng Cổ Nhà", "address": "35 Hoàng Diệu, Đà Nẵng"}
+          ]
+        },
+        {
+          "time": "21:00",
+          "activity": "Xem cầu Rồng phun lửa",
+          "name": "Cầu Rồng",
+          "address": "Đường Trần Hưng Đạo, Đà Nẵng",
+          "type": "attraction"
+        }
+      ]
+    },
+    "day_3": {
+      "title": "Ngày 3 - Sơn Trà & Linh Ứng",
+      "morning": [
+        {
+          "time": "6:00 - 10:00",
+          "activity": "Tham quan bán đảo Sơn Trà",
+          "name": "Bán đảo Sơn Trà",
+          "address": "Phường Thọ Quang, Quận Sơn Trà, Đà Nẵng",
+          "type": "attraction",
+          "note": "Thuê xe máy 150.000đ/ngày, đường lên đỉnh dài 15km, view biển 360 độ"
+        },
+        {
+          "time": "9:00",
+          "activity": "Thăm chùa",
+          "name": "Chùa Linh Ứng Sơn Trà",
+          "address": "Bán đảo Sơn Trà, Đà Nẵng",
+          "type": "attraction",
+          "note": "Tượng Phật Quan Âm 67m cao nhất Việt Nam"
+        },
+        {
+          "time": "10:30",
+          "activity": "Ăn sáng muộn",
+          "name": "Bún mắm nêm Bà Thân",
+          "address": "25 Hoàng Sa, Sơn Trà, Đà Nẵng",
+          "type": "food",
+          "category": "breakfast"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Hải sản Biển Đông",
+          "address": "Đường Hoàng Sa, Sơn Trà, Đà Nẵng",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Quán hải sản Bà Thuần", "address": "58 Mân Thái, Đà Nẵng"},
+            {"name": "Nhà hàng Oceanami", "address": "Đường Võ Nguyên Giáp, Đà Nẵng"}
+          ]
+        },
+        {
+          "time": "15:00",
+          "activity": "Cà phê & mua quà",
+          "name": "43 Factory Coffee Roaster",
+          "address": "12 Thái Phiên, Đà Nẵng",
+          "type": "cafe"
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Ăn tối & mua đồ lưu niệm",
+          "name": "Chợ Hàn",
+          "address": "119 Trần Phú, Đà Nẵng",
+          "type": "market"
+        }
+      ]
+    }
+  },
+  "places_directory": {
+    "food": {
+      "breakfast": {
+        "category": "Ăn sáng",
+        "places": [
+          {"name": "Mỳ Quảng Bà Mua", "address": "19-21 Trần Bình Trọng, Đà Nẵng", "note": "Mỳ Quảng ngon nhất Đà Nẵng"},
+          {"name": "Bún chả cá 109", "address": "109 Nguyễn Chí Thanh, Đà Nẵng", "note": "Bún chả cá đặc trưng Đà Nẵng"},
+          {"name": "Bánh mì Bà Lan", "address": "47 Nguyễn Chí Thanh, Đà Nẵng", "note": "Bánh mì thịt heo quay giòn"},
+          {"name": "Mỳ Quảng Ếch Bà Vị", "address": "166 Lê Đình Lý, Đà Nẵng", "note": "Mỳ Quảng ếch độc đáo"},
+          {"name": "Bánh cuốn Mỹ Hường", "address": "69 Lê Hồng Phong, Đà Nẵng", "note": "Bánh cuốn nóng buổi sáng"},
+          {"name": "Bún mắm nêm Bà Thân", "address": "25 Hoàng Sa, Sơn Trà, Đà Nẵng", "note": "Đặc sản Đà Nẵng"}
+        ]
+      },
+      "lunch": {
+        "category": "Ăn trưa",
+        "places": [
+          {"name": "Bún chả cá 109", "address": "109 Nguyễn Chí Thanh, Đà Nẵng", "note": "Đặc sản Đà Nẵng"},
+          {"name": "Nhà hàng Madame Lân", "address": "4 Bạch Đằng, Đà Nẵng", "note": "Nhà Pháp cổ, ẩm thực phong phú"},
+          {"name": "Quán Bà Hoa", "address": "100 Nguyễn Chí Thanh, Đà Nẵng", "note": "Mỳ Quảng và bánh xèo ngon"},
+          {"name": "Hải sản Biển Đông", "address": "Đường Hoàng Sa, Sơn Trà, Đà Nẵng", "note": "Hải sản tươi sống view biển"},
+          {"name": "Nhà hàng Trúc Lâm Viên", "address": "74 Trần Quang Khải, Đà Nẵng", "note": "Ẩm thực Việt Nam truyền thống"},
+          {"name": "Cơm Gà Bà Đệ", "address": "184 Ngô Gia Tự, Đà Nẵng", "note": "Cơm gà Tam Kỳ ngon"}
+        ]
+      },
+      "dinner": {
+        "category": "Ăn tối",
+        "places": [
+          {"name": "Chợ hải sản Phạm Văn Đồng", "address": "Phạm Văn Đồng, An Hải Bắc, Đà Nẵng", "note": "Chọn hải sản tươi, nhờ nướng"},
+          {"name": "Nhà hàng Madame Lân", "address": "4 Bạch Đằng, Đà Nẵng", "note": "Không gian đẹp, ẩm thực đa dạng"},
+          {"name": "Bé Mặn Restaurant", "address": "Võ Nguyên Giáp, Đà Nẵng", "note": "Hải sản tươi view biển"},
+          {"name": "Nhà Hàng Cổ Nhà", "address": "35 Hoàng Diệu, Đà Nẵng", "note": "Cơm niêu cổ truyền"},
+          {"name": "Ốc & Hải sản Mỹ Khê", "address": "Đường Trần Bạch Đằng, Mỹ An, Đà Nẵng", "note": "Ốc các loại, giá dân dã"},
+          {"name": "Quán ngon Đà Nẵng", "address": "165 Trần Phú, Đà Nẵng", "note": "Buffet ẩm thực Việt"}
+        ]
+      },
+      "snack": {
+        "category": "Ăn vặt",
+        "places": [
+          {"name": "Bánh tráng cuốn thịt heo Đà Nẵng", "address": "Chợ Cồn, Đà Nẵng", "note": "Đặc sản không thể bỏ qua"},
+          {"name": "Bánh xèo Bà Dưỡng", "address": "Đường K280, Đà Nẵng", "note": "Bánh xèo tôm thịt giòn rụm"},
+          {"name": "Chè Hẻm 8 Hùng Vương", "address": "8 Hùng Vương, Đà Nẵng", "note": "Chè các loại bình dân"},
+          {"name": "Bò né Hằng", "address": "128 Phan Chu Trinh, Đà Nẵng", "note": "Bò né đêm rất ngon"},
+          {"name": "Bánh tráng nướng đêm", "address": "Đường Trần Phú, Đà Nẵng", "note": "Ăn vặt đêm phổ biến"}
+        ]
+      }
+    },
+    "cafe": {
+      "category": "Quán cà phê",
+      "places": [
+        {"name": "43 Factory Coffee Roaster", "address": "12 Thái Phiên, Đà Nẵng", "vibe": "Specialty coffee, rang xay tại chỗ, không gian công nghiệp"},
+        {"name": "Cà phê Nối", "address": "87 Bạch Đằng, Đà Nẵng", "vibe": "View sông Hàn cực đẹp, cà phê sáng tạo"},
+        {"name": "The Boathouse Danang", "address": "Đường Bạch Đằng, Đà Nẵng", "vibe": "View sông Hàn, phong cách hải cảng"},
+        {"name": "Cộng Cà Phê Đà Nẵng", "address": "98 Bạch Đằng, Đà Nẵng", "vibe": "Phong cách retro, cà phê cốt dừa nổi tiếng"},
+        {"name": "Phin & More", "address": "25 Phan Châu Trinh, Đà Nẵng", "vibe": "Specialty coffee, không gian ấm cúng"},
+        {"name": "Coffee Bike Đà Nẵng", "address": "Đường Phạm Văn Đồng, Đà Nẵng", "vibe": "Cà phê xe đạp view biển"},
+        {"name": "Blooms & Beans", "address": "Đường Ngô Thì Nhậm, Đà Nẵng", "vibe": "Quán hoa, ảnh đẹp, Gen Z check-in"},
+        {"name": "Horizon Coffee", "address": "17 Lê Duẩn, Đà Nẵng", "vibe": "Rooftop view thành phố"},
+        {"name": "Cheese Coffee", "address": "163 Trần Phú, Đà Nẵng", "vibe": "Phong cách Hàn Quốc, cà phê phô mai"},
+        {"name": "Stir Coffee & Bar", "address": "27 Phạm Cự Lượng, Đà Nẵng", "vibe": "Cocktail và cà phê, nhạc hay"}
+      ]
+    },
+    "attractions": {
+      "category": "Điểm tham quan",
+      "places": [
+        {"name": "Bãi biển Mỹ Khê", "address": "Võ Nguyên Giáp, Mỹ An, Đà Nẵng", "type": "beach", "note": "Top 6 bãi biển đẹp nhất thế giới theo Forbes"},
+        {"name": "Cầu Rồng", "address": "Trần Hưng Đạo - Phạm Văn Đồng, Đà Nẵng", "type": "landmark", "note": "Phun lửa thứ 7 & CN lúc 21h - miễn phí"},
+        {"name": "Cầu Sông Hàn", "address": "Nguyễn Văn Linh, Đà Nẵng", "type": "landmark", "note": "Cầu quay đêm thứ 7"},
+        {"name": "Bà Nà Hills & Cầu Vàng", "address": "Xã Hòa Ninh, Hòa Vang, Đà Nẵng", "type": "theme_park", "note": "Vé 750.000đ, cáp treo dài nhất thế giới"},
+        {"name": "Bán đảo Sơn Trà", "address": "Phường Thọ Quang, Sơn Trà, Đà Nẵng", "type": "nature", "note": "Rừng nguyên sinh, khỉ vọc chà vá chân nâu"},
+        {"name": "Chùa Linh Ứng Sơn Trà", "address": "Bán đảo Sơn Trà, Đà Nẵng", "type": "pagoda", "note": "Tượng Quan Âm 67m, view biển 360 độ"},
+        {"name": "Ngũ Hành Sơn", "address": "Huyện Ngũ Hành Sơn, Đà Nẵng", "type": "attraction", "note": "5 ngọn núi đá vôi, chùa chiền, hang động"},
+        {"name": "Bảo tàng Chăm", "address": "2 Tháng 9, Đà Nẵng", "type": "museum", "note": "Bảo tàng điêu khắc Chăm lớn nhất thế giới"},
+        {"name": "Làng đá mỹ nghệ Non Nước", "address": "Ngũ Hành Sơn, Đà Nẵng", "type": "craft_village", "note": "Mua đồ đá thủ công"},
+        {"name": "Bãi biển Non Nước", "address": "Ngũ Hành Sơn, Đà Nẵng", "type": "beach", "note": "Ít đông hơn Mỹ Khê, sóng đẹp"}
+      ]
+    },
+    "accommodation": {
+      "category": "Lưu trú",
+      "places": [
+        {"name": "InterContinental Danang Sun Peninsula", "address": "Bán đảo Sơn Trà, Đà Nẵng", "type": "resort", "price_range": "5.000.000 - 15.000.000đ/đêm"},
+        {"name": "Hyatt Regency Danang", "address": "5 Trường Sa, Đà Nẵng", "type": "resort", "price_range": "3.000.000 - 8.000.000đ/đêm"},
+        {"name": "Mường Thanh Luxury Danang", "address": "60 Võ Nguyên Giáp, Đà Nẵng", "type": "hotel", "price_range": "1.200.000 - 3.000.000đ/đêm"},
+        {"name": "Danang Backpackers Hostel", "address": "7 Lý Tự Trọng, Đà Nẵng", "type": "hostel", "price_range": "150.000 - 350.000đ/đêm"},
+        {"name": "Aria Grand Hotel", "address": "28 Trần Phú, Đà Nẵng", "type": "hotel", "price_range": "600.000 - 1.200.000đ/đêm"},
+        {"name": "Homestay Sông Hàn", "address": "Đường Bạch Đằng, Đà Nẵng", "type": "homestay", "price_range": "350.000 - 700.000đ/đêm"}
+      ]
+    },
+    "market_shopping": {
+      "category": "Chợ & Mua sắm",
+      "places": [
+        {"name": "Chợ Hàn", "address": "119 Trần Phú, Đà Nẵng", "type": "market", "note": "Chợ truyền thống nổi tiếng, mua sắm tầng 1-2"},
+        {"name": "Chợ Cồn", "address": "292 Hùng Vương, Đà Nẵng", "type": "market", "note": "Chợ địa phương, giá rẻ, ăn vặt ngon"},
+        {"name": "Vincom Plaza Đà Nẵng", "address": "910A Ngô Quyền, Đà Nẵng", "type": "mall"},
+        {"name": "Lotte Mart Đà Nẵng", "address": "6 Nại Nam, Đà Nẵng", "type": "supermarket"},
+        {"name": "Indochina Riverside Towers", "address": "74 Bạch Đằng, Đà Nẵng", "type": "mall"},
+        {"name": "Chợ đêm Helio", "address": "Đường 2/9, Đà Nẵng", "type": "night_market", "note": "Chợ đêm nhộn nhịp, đồ ăn đa dạng"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "destination": "Huế",
+    "description": "Knowledge base địa điểm Huế tổng hợp từ lịch trình thực tế và danh sách địa điểm",
+    "version": "1.0",
+    "source": "Tổng hợp từ lịch trình thực tế và review địa phương"
+  },
+  "itinerary": {
+    "day_1": {
+      "title": "Ngày 1 - Đại Nội & Bún Bò Huế",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng bún bò",
+          "name": "Bún bò Huế Bà Tuyết",
+          "address": "31 Ngô Gia Tự, Phường Đúc, Tp. Huế",
+          "type": "food",
+          "category": "breakfast",
+          "note": "Bún bò chuẩn vị Huế, đậm đà, cay nồng - mở từ 6h sáng",
+          "alternatives": [
+            {"name": "Bún bò Huế Mụ Rớt", "address": "17 Lý Thường Kiệt, Huế"},
+            {"name": "Bún bò Huế O Xuân", "address": "15 Lý Thường Kiệt, Huế"},
+            {"name": "Bún bò Huế Bà Mãng", "address": "8 Ngô Gia Tự, Huế"}
+          ]
+        },
+        {
+          "time": "8:30 - 12:00",
+          "activity": "Tham quan Đại Nội Huế",
+          "name": "Đại Nội Huế (Hoàng thành Huế)",
+          "address": "Ngọ Môn, 23 Tháng 8, Phường Thuận Hòa, Huế",
+          "type": "attraction",
+          "note": "Di sản thế giới UNESCO, vé 200.000đ người lớn. Nên đi sớm tránh nắng và đông người"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa cơm hến",
+          "name": "Cơm hến đảo Cồn Hến",
+          "address": "Đảo Cồn Hến, Phường Vĩ Dạ, Huế",
+          "type": "food",
+          "category": "lunch",
+          "note": "Cơm hến đặc sản Huế - ăn ở ngay đảo Cồn Hến mới chuẩn vị",
+          "alternatives": [
+            {"name": "Cơm hến Bà Yến", "address": "102 Trung Bộ, Phường Vĩ Dạ, Huế"},
+            {"name": "Cơm hến Bà Cầu", "address": "Cồn Hến, Huế"},
+            {"name": "Bún hến đặc sản", "address": "Cồn Hến, Phường Vĩ Dạ, Huế"}
+          ]
+        },
+        {
+          "time": "14:30",
+          "activity": "Tham quan Chùa Thiên Mụ",
+          "name": "Chùa Thiên Mụ",
+          "address": "Kim Long, Phường Hương Long, Huế",
+          "type": "attraction",
+          "note": "Chùa cổ nhất Huế xây 1601, tháp Phước Duyên 7 tầng biểu tượng Huế"
+        },
+        {
+          "time": "16:30",
+          "activity": "Dạo bờ sông Hương",
+          "name": "Sông Hương - Bờ Bắc",
+          "address": "Đường Lê Lợi, Phường Phú Hội, Huế",
+          "type": "attraction",
+          "note": "Đường đi bộ ven sông, rất đẹp lúc hoàng hôn"
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Ăn tối đặc sản Huế",
+          "name": "Bánh khoái bờ sông Phú Xuân",
+          "address": "Đường Bạch Đằng, Phường Phú Hội, Huế",
+          "type": "food",
+          "category": "dinner",
+          "note": "Bánh khoái đặc sản Huế, ăn với tương đậu phộng",
+          "alternatives": [
+            {"name": "Lẩu bò Huế Bà Cam", "address": "21 Đào Duy Anh, Huế"},
+            {"name": "Nhà hàng Bà Bé Hoàng", "address": "133 Nguyễn Sinh Cung, Huế"}
+          ]
+        },
+        {
+          "time": "20:00",
+          "activity": "Chè Huế đêm",
+          "name": "Chè Đông Ba",
+          "address": "Chợ Đông Ba, Trần Hưng Đạo, Huế",
+          "type": "food",
+          "category": "snack",
+          "note": "Hơn 20 loại chè đặc sản Huế, giá bình dân"
+        }
+      ]
+    },
+    "day_2": {
+      "title": "Ngày 2 - Lăng Tẩm & Núi Ngự",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng bánh bèo nậm lọc",
+          "name": "Bánh bèo Bà Đỏ",
+          "address": "8 Nguyễn Bỉnh Khiêm, Phường Phú Nhuận, Huế",
+          "type": "food",
+          "category": "breakfast",
+          "note": "Bánh bèo, bánh nậm, bánh lọc - 3 loại bánh cổ truyền Huế",
+          "alternatives": [
+            {"name": "Bánh bèo cô Xuân", "address": "10 Nguyễn Bỉnh Khiêm, Huế"},
+            {"name": "Bánh bèo chị Liên", "address": "20 Đinh Bộ Lĩnh, Huế"}
+          ]
+        },
+        {
+          "time": "9:00 - 12:00",
+          "activity": "Tham quan Lăng Khải Định",
+          "name": "Lăng Khải Định",
+          "address": "Khải Định, Phường Thủy Bằng, Huế",
+          "type": "attraction",
+          "note": "Lăng nổi tiếng nhất, kiến trúc pha Đông-Tây, vé 150.000đ"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Cơm Huế đặc sản",
+          "address": "Đường Nguyễn Đình Chiểu, Huế",
+          "type": "food",
+          "category": "lunch",
+          "note": "Phố ăn đặc sản Huế - cơm hến, bún bò, bánh khoái",
+          "alternatives": [
+            {"name": "Nhà hàng Tịnh Tâm", "address": "1 Phan Đình Phùng, Huế"},
+            {"name": "Quán Bà Bé", "address": "133 Nguyễn Sinh Cung, Huế"}
+          ]
+        },
+        {
+          "time": "14:00 - 17:00",
+          "activity": "Tham quan Lăng Minh Mạng & Lăng Tự Đức",
+          "places": [
+            {"name": "Lăng Minh Mạng", "address": "Xã Hương Thọ, Hương Trà, Huế", "note": "Lăng đẹp nhất, vé 150.000đ"},
+            {"name": "Lăng Tự Đức", "address": "Thôn Thượng Ba, Thủy Xuân, Huế", "note": "Vườn tùng cực đẹp, vé 150.000đ"}
+          ],
+          "type": "attraction"
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Du thuyền sông Hương ngắm Huế đêm",
+          "name": "Du thuyền rồng sông Hương",
+          "address": "Bến thuyền Tòa Khâm, Đường Lê Lợi, Huế",
+          "type": "attraction",
+          "note": "Thuê thuyền rồng ~200.000đ/giờ, nghe ca Huế trên thuyền"
+        },
+        {
+          "time": "20:00",
+          "activity": "Ăn vặt đêm phố cổ",
+          "name": "Phố cổ đường Nguyễn Đình Chiểu",
+          "address": "Nguyễn Đình Chiểu, Huế",
+          "type": "attraction",
+          "note": "Phố cổ Huế - nhà cổ tường vàng rêu phong rất đẹp"
+        }
+      ]
+    },
+    "day_3": {
+      "title": "Ngày 3 - Chợ Đông Ba & Phố Làng",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng",
+          "name": "Bún bò Huế Mụ Rớt",
+          "address": "17 Lý Thường Kiệt, Huế",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Bánh mì thịt nướng Huế", "address": "Chợ Đông Ba, Huế"},
+            {"name": "Chè Sương sa hạt lựu", "address": "Chợ Đông Ba, Huế"}
+          ]
+        },
+        {
+          "time": "8:30 - 11:00",
+          "activity": "Mua sắm Chợ Đông Ba",
+          "name": "Chợ Đông Ba",
+          "address": "2 Trần Hưng Đạo, Phường Phú Hòa, Huế",
+          "type": "market",
+          "note": "Chợ lớn nhất Huế, mua đặc sản và đồ lưu niệm"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:00",
+          "activity": "Ăn trưa",
+          "name": "Bánh mì Cô Thảo",
+          "address": "45 Nguyễn Lương Bằng, Huế",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Cơm hến Bà Cầu", "address": "Cồn Hến, Huế"},
+            {"name": "Bánh canh cá tràu", "address": "Phường Phú Hòa, Huế"}
+          ]
+        },
+        {
+          "time": "14:00 - 17:00",
+          "activity": "Tham quan làng Phước Tích",
+          "name": "Làng cổ Phước Tích",
+          "address": "Thôn Phước Tích, Phong Điền, Thừa Thiên Huế",
+          "type": "attraction",
+          "note": "Làng cổ hơn 500 năm, nhà cổ bằng gỗ còn nguyên vẹn - Cần đặt xe"
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Ăn tối & ngắm cầu Trường Tiền",
+          "name": "Cầu Trường Tiền",
+          "address": "Đường Trần Hưng Đạo, Huế",
+          "type": "attraction",
+          "note": "Cầu biểu tượng Huế, đẹp nhất về đêm có đèn"
+        },
+        {
+          "time": "20:00",
+          "activity": "Chè Huế chia tay",
+          "name": "Chè Hẻm Lê Thánh Tôn",
+          "address": "Hẻm Lê Thánh Tôn, Huế",
+          "type": "food",
+          "category": "snack"
+        }
+      ]
+    }
+  },
+  "places_directory": {
+    "food": {
+      "breakfast": {
+        "category": "Ăn sáng",
+        "places": [
+          {"name": "Bún bò Huế Bà Tuyết", "address": "31 Ngô Gia Tự, Phường Đúc, Huế", "note": "Bún bò chuẩn vị, đậm đà nhất"},
+          {"name": "Bún bò Huế Mụ Rớt", "address": "17 Lý Thường Kiệt, Huế", "note": "Bún bò nổi tiếng lâu năm"},
+          {"name": "Bún bò Huế O Xuân", "address": "15 Lý Thường Kiệt, Huế", "note": "Giá bình dân, chuẩn vị Huế"},
+          {"name": "Bánh bèo Bà Đỏ", "address": "8 Nguyễn Bỉnh Khiêm, Huế", "note": "Bánh bèo nậm lọc đặc trưng"},
+          {"name": "Chè Đông Ba buổi sáng", "address": "Chợ Đông Ba, Huế", "note": "Chè buổi sáng đặc biệt"},
+          {"name": "Bánh canh cá tràu", "address": "Phường Phú Hòa, Huế", "note": "Đặc sản sáng ít người biết"}
+        ]
+      },
+      "lunch": {
+        "category": "Ăn trưa",
+        "places": [
+          {"name": "Cơm hến đảo Cồn Hến", "address": "Cồn Hến, Vĩ Dạ, Huế", "note": "Ăn tại đảo mới chuẩn vị nhất"},
+          {"name": "Bánh khoái bờ sông", "address": "Đường Bạch Đằng, Phú Hội, Huế", "note": "Bánh khoái đặc sản Huế"},
+          {"name": "Nhà hàng Tịnh Tâm", "address": "1 Phan Đình Phùng, Huế", "note": "Ẩm thực chay Huế đặc sắc"},
+          {"name": "Cơm hến Bà Yến", "address": "102 Trung Bộ, Vĩ Dạ, Huế", "note": "Cơm hến nổi tiếng"},
+          {"name": "Bánh mì thịt nướng Huế", "address": "Chợ Đông Ba, Huế", "note": "Bánh mì đặc trưng miền Trung"},
+          {"name": "Quán Bà Bé Hoàng", "address": "133 Nguyễn Sinh Cung, Huế", "note": "Ẩm thực cung đình Huế"}
+        ]
+      },
+      "dinner": {
+        "category": "Ăn tối",
+        "places": [
+          {"name": "Bánh khoái bờ sông Phú Xuân", "address": "Đường Bạch Đằng, Huế", "note": "Đặc sản Huế phải thử buổi tối"},
+          {"name": "Lẩu bò Huế Bà Cam", "address": "21 Đào Duy Anh, Huế", "note": "Lẩu bò Huế đặc trưng, cay thơm"},
+          {"name": "Nhà hàng Bữa Cơm Gia Đình", "address": "42 Lý Thường Kiệt, Huế", "note": "Ẩm thực Huế truyền thống"},
+          {"name": "Nhà hàng Halong", "address": "36 Trần Thúc Nhẫn, Huế", "note": "Hải sản và ẩm thực đa dạng"},
+          {"name": "Phố ăn đêm Nguyễn Đình Chiểu", "address": "Nguyễn Đình Chiểu, Huế", "note": "Ăn vặt đêm phong phú"},
+          {"name": "Nhà Đêm Restaurant", "address": "Đường Lê Lợi, Huế", "note": "View sông Hương lãng mạn"}
+        ]
+      },
+      "snack": {
+        "category": "Ăn vặt",
+        "places": [
+          {"name": "Chè Đông Ba", "address": "Chợ Đông Ba, Trần Hưng Đạo, Huế", "note": "20+ loại chè Huế đặc sản"},
+          {"name": "Chè Hẻm Lê Thánh Tôn", "address": "Hẻm Lê Thánh Tôn, Huế", "note": "Chè bình dân địa phương"},
+          {"name": "Bánh ướt thịt nướng", "address": "Phường Vĩnh Ninh, Huế", "note": "Đặc sản ăn vặt Huế"},
+          {"name": "Mứt gừng Huế", "address": "Chợ Đông Ba, Huế", "note": "Mứt gừng cay đặc sản về làm quà"},
+          {"name": "Nem tré Huế", "address": "Chợ Đông Ba, Huế", "note": "Nem tré đặc sản chua cay"}
+        ]
+      }
+    },
+    "cafe": {
+      "category": "Quán cà phê",
+      "places": [
+        {"name": "Cà phê Thúy", "address": "25 Đặng Thái Thân, Huế", "vibe": "Cà phê vườn cổ điển, vintage Huế"},
+        {"name": "Cà phê Nón", "address": "Đường Lê Lợi, Huế", "vibe": "View sông Hương, bình yên"},
+        {"name": "Cà phê Sầm", "address": "Phường Vĩnh Ninh, Huế", "vibe": "Cà phê hẻm yên tĩnh, quán xưa"},
+        {"name": "Phong Café", "address": "Đường Phạm Ngũ Lão, Huế", "vibe": "Cà phê nhỏ gọn, không gian ấm áp"},
+        {"name": "Cà phê Nen", "address": "1 Đinh Bộ Lĩnh, Huế", "vibe": "Gen Z, ảnh cực đẹp, cà phê sáng tạo"},
+        {"name": "Forget Me Not Cafe", "address": "Đường Nguyễn Chí Diễu, Huế", "vibe": "Không gian hoài niệm Huế"},
+        {"name": "Cà phê Bắp Rang Bơ", "address": "22 Trần Cao Vân, Huế", "vibe": "Cà phê đặc trưng, phong cách Huế"},
+        {"name": "Sông Hương View Café", "address": "Đường Lê Lợi, Huế", "vibe": "View sông Hương và cầu Trường Tiền"}
+      ]
+    },
+    "attractions": {
+      "category": "Điểm tham quan",
+      "places": [
+        {"name": "Đại Nội Huế (Hoàng thành)", "address": "Ngọ Môn, 23 Tháng 8, Thuận Hòa, Huế", "type": "heritage", "note": "Di sản UNESCO, vé 200.000đ"},
+        {"name": "Lăng Khải Định", "address": "Thủy Bằng, Hương Thủy, Huế", "type": "heritage", "note": "Lăng đẹp nhất, pha Đông-Tây độc đáo, vé 150.000đ"},
+        {"name": "Lăng Minh Mạng", "address": "Hương Thọ, Hương Trà, Huế", "type": "heritage", "note": "Lăng kiến trúc hài hòa nhất, vé 150.000đ"},
+        {"name": "Lăng Tự Đức", "address": "Thượng Ba, Thủy Xuân, Huế", "type": "heritage", "note": "Vườn tùng cực đẹp, vé 150.000đ"},
+        {"name": "Chùa Thiên Mụ", "address": "Kim Long, Hương Long, Huế", "type": "pagoda", "note": "Chùa cổ nhất Huế 1601, tháp 7 tầng"},
+        {"name": "Sông Hương & du thuyền rồng", "address": "Bến Lê Lợi, Huế", "type": "river", "note": "Du thuyền nghe ca Huế ~200.000đ/giờ"},
+        {"name": "Cầu Trường Tiền", "address": "Trần Hưng Đạo, Huế", "type": "landmark", "note": "Cầu biểu tượng Huế, đẹp nhất về đêm"},
+        {"name": "Đảo Cồn Hến", "address": "Vĩ Dạ, Huế", "type": "island", "note": "Đảo nhỏ giữa sông Hương, ăn cơm hến"},
+        {"name": "Phố cổ Nguyễn Đình Chiểu", "address": "Nguyễn Đình Chiểu, Huế", "type": "heritage", "note": "Nhà cổ tường vàng rêu phong"},
+        {"name": "Làng cổ Phước Tích", "address": "Phong Điền, Thừa Thiên Huế", "type": "village", "note": "Làng cổ 500 năm, nhà gỗ nguyên vẹn"}
+      ]
+    },
+    "accommodation": {
+      "category": "Lưu trú",
+      "places": [
+        {"name": "Pilgrimage Village Boutique Resort", "address": "130 Minh Mạng, Thủy Xuân, Huế", "type": "resort", "price_range": "2.000.000 - 6.000.000đ/đêm"},
+        {"name": "La Residence Hotel & Spa", "address": "5 Lê Lợi, Huế", "type": "hotel", "price_range": "1.500.000 - 4.000.000đ/đêm"},
+        {"name": "Imperial Hotel Huế", "address": "8 Hùng Vương, Huế", "type": "hotel", "price_range": "800.000 - 2.000.000đ/đêm"},
+        {"name": "Homestay Huế Xưa", "address": "15 Đặng Thái Thân, Huế", "type": "homestay", "price_range": "300.000 - 600.000đ/đêm"},
+        {"name": "Hue Backpackers Hostel", "address": "10 Phạm Ngũ Lão, Huế", "type": "hostel", "price_range": "120.000 - 280.000đ/đêm"},
+        {"name": "Vedana Resort Huế", "address": "Đầm Cầu Hai, Phú Lộc, Huế", "type": "resort", "price_range": "2.500.000 - 7.000.000đ/đêm"}
+      ]
+    },
+    "market_shopping": {
+      "category": "Chợ & Mua sắm",
+      "places": [
+        {"name": "Chợ Đông Ba", "address": "2 Trần Hưng Đạo, Phú Hòa, Huế", "type": "market", "note": "Chợ lớn nhất Huế, đặc sản và đồ lưu niệm"},
+        {"name": "Chợ An Cựu", "address": "Đường Hùng Vương, Huế", "type": "market", "note": "Chợ địa phương, giá bình dân"},
+        {"name": "Phố đi bộ Nguyễn Đình Chiểu", "address": "Nguyễn Đình Chiểu, Huế", "type": "pedestrian_street", "note": "Phố đặc sản Huế - nón lá, áo dài, ẩm thực"},
+        {"name": "Vincom Plaza Huế", "address": "50A Hùng Vương, Huế", "type": "mall"},
+        {"name": "Siêu thị Co.opMart Huế", "address": "6 Nguyễn Tri Phương, Huế", "type": "supermarket"},
+        {"name": "Phố mua nón lá Huế", "address": "Làng Thủy Thanh, Hương Thủy", "type": "craft_village", "note": "Nón lá Huế - đặc sản làm quà"}
+      ]
+    }
+  }
+}

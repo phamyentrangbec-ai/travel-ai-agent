@@ -1,0 +1,869 @@
+{
+  "Da Lat": [
+    "da lat",
+    "dalat",
+    "dl",
+    "lam dong",
+    "lam dong",
+    "thanh pho da lat",
+    "tpdl",
+    "da lat city",
+    "ho tuyen lam",
+    "hồ tuyền lâm",
+    "cau dat",
+    "cầu đất"
+  ],
+  "Hoi An": [
+    "hoi an",
+    "hoian",
+    "pho co",
+    "pho co hoi an",
+    "quang nam",
+    "quang nam",
+    "my son",
+    "mỹ sơn",
+    "thanh dia my son"
+  ],
+  "Ha Noi": [
+    "ha noi",
+    "hanoi",
+    "hn",
+    "thu do",
+    "ha noi capital",
+    "thanh pho ha noi",
+    "ho guom",
+    "hồ gươm",
+    "ho tay",
+    "hồ tây",
+    "ba vi",
+    "ba vì",
+    "van mieu",
+    "văn miếu",
+    "pho co ha noi",
+    "lang bac"
+  ],
+  "TP HCM": [
+    "ho chi minh",
+    "hcm",
+    "tphcm",
+    "saigon",
+    "sai gon",
+    "sg",
+    "tp hcm",
+    "thanh pho ho chi minh",
+    "ho chi minh city",
+    "tp ho chi minh",
+    "cu chi",
+    "củ chi",
+    "dia dao cu chi",
+    "cho ben thanh",
+    "chợ bến thành",
+    "landmark 81",
+    "dinh doc lap"
+  ],
+  "Da Nang": [
+    "da nang",
+    "danang",
+    "dn",
+    "da nang city",
+    "thanh pho da nang",
+    "son tra",
+    "sơn trà",
+    "my khe",
+    "mỹ khê",
+    "hai van",
+    "hải vân",
+    "deo hai van"
+  ],
+  "Nha Trang": [
+    "nha trang",
+    "nt",
+    "khanh hoa",
+    "khanh hoa",
+    "thanh pho nha trang",
+    "binh hung",
+    "bình hưng",
+    "hon mun",
+    "hon tam"
+  ],
+  "Phu Quoc": [
+    "phu quoc",
+    "pq",
+    "dao ngoc",
+    "kien giang island",
+    "phu quoc island",
+    "dao phu quoc"
+  ],
+  "Hue": [
+    "hue",
+    "co do",
+    "co do hue",
+    "thua thien hue",
+    "thua thien",
+    "thanh pho hue",
+    "pha tam giang",
+    "phá tam giang",
+    "bach ma",
+    "bạch mã",
+    "dai noi",
+    "đại nội",
+    "lang minh mang",
+    "lang khai dinh"
+  ],
+  "Ninh Binh": [
+    "ninh binh",
+    "nb",
+    "tam coc bich dong",
+    "thanh pho ninh binh",
+    "hang mua",
+    "bai dinh",
+    "bái đính",
+    "cuc phuong",
+    "cúc phương",
+    "tam coc"
+  ],
+  "Con Dao": [
+    "con dao",
+    "côn đảo",
+    "con island",
+    "dao con lon"
+  ],
+  "Sa Pa": [
+    "sa pa",
+    "sapa",
+    "sp",
+    "lao cai sa pa",
+    "fansipan",
+    "nui fansipan",
+    "sa pa lao cai",
+    "ta van",
+    "tả van",
+    "cat cat",
+    "cát cát",
+    "ban cat cat"
+  ],
+  "Lac Duong": [
+    "lac duong",
+    "lạc dương",
+    "lang biang",
+    "langbiang"
+  ],
+  "Hai Phong": [
+    "hai phong",
+    "hải phòng",
+    "haiphong",
+    "thanh pho hai phong",
+    "vinh lan ha",
+    "vịnh lan hạ",
+    "bach long vi",
+    "bạch long vĩ"
+  ],
+  "Ha Giang": [
+    "ha giang",
+    "hg",
+    "meo vac",
+    "lung cu",
+    "ha giang province",
+    "hoang su phi",
+    "hoàng su phì",
+    "song nho que",
+    "sông nho quế"
+  ],
+  "Cao Bang": [
+    "cao bang",
+    "cao bằng",
+    "ban gioc",
+    "bản giốc",
+    "thac ban gioc",
+    "dong nguom ngao",
+    "động ngườm ngao",
+    "pac bo",
+    "pác bó",
+    "ho thang hen"
+  ],
+  "Bac Kan": [
+    "bac kan",
+    "bắc kạn",
+    "ho ba be",
+    "hồ ba bể",
+    "ba be"
+  ],
+  "Lang Son": [
+    "lang son",
+    "lạng sơn",
+    "mau son",
+    "mẫu sơn",
+    "dong dang"
+  ],
+  "Quang Ninh": [
+    "quang ninh",
+    "qn",
+    "tuan chau",
+    "bai chay",
+    "mong cai",
+    "thanh pho ha long",
+    "minh chau",
+    "binh lieu",
+    "bình liêu",
+    "yen tu",
+    "yên tử"
+  ],
+  "Bac Giang": [
+    "bac giang",
+    "bắc giang",
+    "vai thieu",
+    "vải thiều",
+    "luc ngan"
+  ],
+  "Thai Nguyen": [
+    "thai nguyen",
+    "thái nguyên",
+    "che tan cuong",
+    "chè tân cương",
+    "ho nui coc"
+  ],
+  "Dien Bien": [
+    "dien bien",
+    "điện biên",
+    "dien bien phu",
+    "điện biên phủ",
+    "a pa chai",
+    "a pa chải",
+    "ho pa khoang"
+  ],
+  "Lai Chau": [
+    "lai chau",
+    "lai châu",
+    "sin suoi ho",
+    "sin suối hồ",
+    "o quy ho",
+    "ô quy hồ",
+    "putaleng",
+    "deo o quy ho"
+  ],
+  "Son La": [
+    "son la",
+    "sơn la",
+    "moc chau son la"
+  ],
+  "Yen Bai": [
+    "yen bai",
+    "yên bái",
+    "ruong bac thang",
+    "tu le",
+    "tú lệ",
+    "suoi giang",
+    "suối giàng"
+  ],
+  "Hoa Binh": [
+    "hoa binh",
+    "hòa bình",
+    "thung nai"
+  ],
+  "Tuyen Quang": [
+    "tuyen quang",
+    "tuyên quang",
+    "na hang",
+    "thac ban ba",
+    "lam binh",
+    "lâm bình"
+  ],
+  "Lao Cai": [
+    "lao cai",
+    "lc2",
+    "cua khau lao cai",
+    "thanh pho lao cai",
+    "y ty",
+    "y tý"
+  ],
+  "Vinh Phuc": [
+    "vinh phuc",
+    "vĩnh phúc",
+    "tay thien"
+  ],
+  "Phu Tho": [
+    "phu tho",
+    "pt",
+    "den hung",
+    "viet tri",
+    "thanh pho viet tri",
+    "xuan son",
+    "xuân sơn",
+    "vuon quoc gia xuan son"
+  ],
+  "Bac Ninh": [
+    "bac ninh",
+    "bắc ninh",
+    "kinh bac",
+    "kinh bắc",
+    "quan ho",
+    "quan họ"
+  ],
+  "Hai Duong": [
+    "hai duong",
+    "hải dương",
+    "con son",
+    "côn sơn",
+    "kiep bac"
+  ],
+  "Hung Yen": [
+    "hung yen",
+    "hưng yên",
+    "nhan long",
+    "nhãn lồng",
+    "pho hien"
+  ],
+  "Ha Nam": [
+    "ha nam",
+    "hà nam",
+    "tam chuc",
+    "tam chúc",
+    "phu ly"
+  ],
+  "Nam Dinh": [
+    "nam dinh",
+    "nam định",
+    "den tran",
+    "đền trần",
+    "phu giay"
+  ],
+  "Thai Binh": [
+    "thai binh",
+    "thái bình",
+    "chua keo"
+  ],
+  "Thanh Hoa": [
+    "thanh hoa",
+    "thanh hóa",
+    "thanh nha ho",
+    "pu luong",
+    "pù luông",
+    "hai tien",
+    "ben en"
+  ],
+  "Nghe An": [
+    "nghe an",
+    "nghệ an",
+    "tp vinh",
+    "thanh pho vinh",
+    "vinh nghe an",
+    "kim lien",
+    "vinh",
+    "pu mat",
+    "pù mát",
+    "khe kem"
+  ],
+  "Ha Tinh": [
+    "ha tinh",
+    "hà tĩnh",
+    "thien cam",
+    "thiên cầm",
+    "xuan thanh"
+  ],
+  "Quang Binh": [
+    "quang binh",
+    "quảng bình",
+    "dong hoi",
+    "đồng hới",
+    "dong thien duong",
+    "động thiên đường",
+    "suoi mooc",
+    "suối moọc"
+  ],
+  "Quang Tri": [
+    "quang tri",
+    "quảng trị",
+    "dong ha",
+    "đông hà",
+    "thanh co quang tri",
+    "con co",
+    "cồn cỏ",
+    "dia dao vinh moc"
+  ],
+  "Quang Ngai": [
+    "quang ngai",
+    "quảng ngãi",
+    "thanh pho quang ngai",
+    "sa huynh",
+    "sa huỳnh"
+  ],
+  "Binh Dinh": [
+    "binh dinh",
+    "bình định",
+    "quy nhon",
+    "thanh pho quy nhon",
+    "hon kho",
+    "hòn khô",
+    "cu lao xanh",
+    "cù lao xanh"
+  ],
+  "Phu Yen": [
+    "phu yen",
+    "phú yên",
+    "tuy hoa",
+    "tuy hòa",
+    "thanh pho tuy hoa",
+    "mui dien",
+    "ganh da dia",
+    "gành đá đĩa",
+    "bai xep",
+    "bãi xép",
+    "vung ro",
+    "vũng rô",
+    "dai lanh"
+  ],
+  "Ninh Thuan": [
+    "ninh thuan",
+    "ninh thuận",
+    "phan rang",
+    "phan rang thap cham",
+    "hang rai",
+    "hang rái",
+    "binh tien",
+    "bình tiên",
+    "mui dinh",
+    "mũi dinh",
+    "nui chua",
+    "núi chúa"
+  ],
+  "Binh Thuan": [
+    "binh thuan",
+    "bình thuận",
+    "phan thiet",
+    "phan thiết",
+    "bau trang",
+    "ke ga",
+    "kê gà"
+  ],
+  "Kon Tum": [
+    "kon tum",
+    "nha tho go"
+  ],
+  "Gia Lai": [
+    "gia lai",
+    "pleiku",
+    "plei ku",
+    "bien ho",
+    "biển hồ",
+    "chu dang ya",
+    "chư đăng ya"
+  ],
+  "Dak Lak": [
+    "dak lak",
+    "dlak",
+    "buon ma thuot",
+    "ho lak",
+    "dray nur",
+    "thanh pho buon ma thuot",
+    "buon don",
+    "buôn đôn"
+  ],
+  "Dak Nong": [
+    "dak nong",
+    "đắk nông",
+    "gia nghia"
+  ],
+  "Dong Nai": [
+    "dong nai",
+    "đồng nai",
+    "bien hoa",
+    "biên hòa",
+    "cat tien",
+    "cát tiên",
+    "giang dien"
+  ],
+  "Binh Duong": [
+    "binh duong",
+    "bình dương",
+    "dai nam",
+    "thu dau mot",
+    "thủ dầu một"
+  ],
+  "Binh Phuoc": [
+    "binh phuoc",
+    "bình phước",
+    "dong xoai",
+    "nui ba ra",
+    "bu gia map",
+    "bù gia mập"
+  ],
+  "Tay Ninh": [
+    "tay ninh",
+    "tây ninh",
+    "nui ba den",
+    "núi bà đen",
+    "toa thanh cao dai"
+  ],
+  "Ba Ria Vung Tau": [
+    "ba ria vung tau",
+    "brvt",
+    "vung tau",
+    "con dao vung tau",
+    "long hai",
+    "thanh pho vung tau",
+    "ba ria",
+    "vung tau city",
+    "ho coc",
+    "hồ cốc"
+  ],
+  "Can Tho": [
+    "can tho",
+    "ct",
+    "cho noi cai rang",
+    "ninh kieu",
+    "thanh pho can tho"
+  ],
+  "Long An": [
+    "long an",
+    "tan an",
+    "tân an",
+    "dong thap muoi"
+  ],
+  "Tien Giang": [
+    "tien giang",
+    "tiền giang",
+    "my tho",
+    "mỹ tho",
+    "hu tieu my tho",
+    "cu lao thoi son",
+    "cù lao thới sơn",
+    "cho noi cai be"
+  ],
+  "Ben Tre": [
+    "ben tre",
+    "bến tre",
+    "con phung",
+    "cồn phụng",
+    "xu dua"
+  ],
+  "Tra Vinh": [
+    "tra vinh",
+    "trà vinh",
+    "ao ba om"
+  ],
+  "Vinh Long": [
+    "vinh long",
+    "vĩnh long",
+    "cu lao an binh",
+    "cù lao an bình"
+  ],
+  "Dong Thap": [
+    "dong thap",
+    "đồng tháp",
+    "cao lanh",
+    "cao lãnh",
+    "sa dec",
+    "sa đéc",
+    "tram chim"
+  ],
+  "An Giang": [
+    "an giang",
+    "long xuyen",
+    "long xuyên",
+    "chau doc",
+    "châu đốc",
+    "nui cam",
+    "núi cấm",
+    "tra su",
+    "trà sư",
+    "rung tram tra su"
+  ],
+  "Kien Giang": [
+    "kien giang",
+    "kiên giang",
+    "ha tien",
+    "hà tiên",
+    "hai tac",
+    "hải tặc",
+    "quan dao hai tac",
+    "u minh thuong"
+  ],
+  "Hau Giang": [
+    "hau giang",
+    "hậu giang",
+    "vi thanh",
+    "vị thanh",
+    "lung ngoc hoang"
+  ],
+  "Soc Trang": [
+    "soc trang",
+    "sóc trăng",
+    "chua doi",
+    "chùa dơi"
+  ],
+  "Bac Lieu": [
+    "bac lieu",
+    "bạc liêu",
+    "don ca tai tu"
+  ],
+  "Ca Mau": [
+    "ca mau",
+    "cà mau",
+    "dat mui",
+    "đất mũi",
+    "mui ca mau",
+    "mũi cà mau",
+    "hon khoai",
+    "hòn khoai",
+    "u minh ha"
+  ],
+  "Quy Nhon": [
+    "quy nhon",
+    "quy nhơn",
+    "binh dinh",
+    "bình định",
+    "tp quy nhon",
+    "thanh pho quy nhon"
+  ],
+  "Buon Ma Thuot": [
+    "buon ma thuot",
+    "buôn ma thuột",
+    "bmt",
+    "ban me thuot",
+    "dak lak",
+    "đắk lắk",
+    "dak lac"
+  ],
+  "Moc Chau": [
+    "moc chau",
+    "mộc châu",
+    "son la",
+    "sơn la",
+    "thac dai yem"
+  ],
+  "Ha Long": [
+    "ha long",
+    "hạ long",
+    "halong",
+    "vinh ha long",
+    "vịnh hạ long",
+    "quang ninh",
+    "quảng ninh"
+  ],
+  "Phu Quy": [
+    "phu quy",
+    "phú quý",
+    "dao phu quy",
+    "đảo phú quý",
+    "phu quy island",
+    "cu lao thu"
+  ],
+  "Cu Lao Cham": [
+    "cu lao cham",
+    "cù lao chàm",
+    "dao cu lao cham",
+    "cham island"
+  ],
+  "Ba Na Hills": [
+    "ba na hills",
+    "ba na",
+    "bà nà",
+    "ba na hill",
+    "bana hills",
+    "cau vang",
+    "cầu vàng",
+    "golden bridge"
+  ],
+  "Tam Dao": [
+    "tam dao",
+    "tam đảo",
+    "tay thien tam dao"
+  ],
+  "Mui Ne": [
+    "mui ne",
+    "mũi né",
+    "doi cat mui ne",
+    "đồi cát mũi né"
+  ],
+  "Ly Son": [
+    "ly son",
+    "lý sơn",
+    "dao ly son",
+    "đảo lý sơn",
+    "cu lao re"
+  ],
+  "Co To": [
+    "co to",
+    "cô tô",
+    "dao co to",
+    "đảo cô tô"
+  ],
+  "Quan Lan": [
+    "quan lan",
+    "quan lạn",
+    "dao quan lan"
+  ],
+  "Cat Ba": [
+    "cat ba",
+    "cát bà",
+    "dao cat ba",
+    "đảo cát bà"
+  ],
+  "Pho Co Hoi An": [
+    "pho co hoi an",
+    "phố cổ hội an"
+  ],
+  "Phong Nha": [
+    "phong nha",
+    "phong nha ke bang",
+    "son doong cave",
+    "hang son doong"
+  ],
+  "Trang An": [
+    "trang an",
+    "tràng an",
+    "tam coc trang an"
+  ],
+  "Mai Chau": [
+    "mai chau",
+    "mai châu",
+    "ban lac mai chau"
+  ],
+  "Mu Cang Chai": [
+    "mu cang chai",
+    "mù cang chải",
+    "ruong bac thang mu cang chai"
+  ],
+  "Ta Xua": [
+    "ta xua",
+    "tà xùa",
+    "san may ta xua"
+  ],
+  "Mang Den": [
+    "mang den",
+    "măng đen",
+    "da lat 2",
+    "dalat 2"
+  ],
+  "Ta Dung": [
+    "ta dung",
+    "tà đùng",
+    "ho ta dung"
+  ],
+  "Bac Ha": [
+    "bac ha",
+    "bắc hà",
+    "cho bac ha"
+  ],
+  "Dong Van": [
+    "dong van",
+    "đồng văn",
+    "cao nguyen da dong van",
+    "ma pi leng",
+    "mã pí lèng"
+  ],
+  "Ninh Chu": [
+    "ninh chu",
+    "bai bien ninh chu"
+  ],
+  "Ho Tram": [
+    "ho tram",
+    "hồ tràm",
+    "ho tram strip"
+  ],
+  "Sam Son": [
+    "sam son",
+    "sầm sơn",
+    "bai bien sam son"
+  ],
+  "Cua Lo": [
+    "cua lo",
+    "cửa lò",
+    "bai bien cua lo"
+  ],
+  "Quy Hoa": [
+    "quy hoa",
+    "bai bien quy hoa"
+  ],
+  "Ky Co Eo Gio": [
+    "ky co",
+    "kỳ co",
+    "eo gio",
+    "eo gió"
+  ],
+  "Binh Ba": [
+    "binh ba",
+    "bình ba",
+    "dao binh ba",
+    "dao tom hum"
+  ],
+  "Diep Son": [
+    "diep son",
+    "điệp sơn",
+    "dao diep son",
+    "con duong giua bien"
+  ],
+  "Nam Du": [
+    "nam du",
+    "dao nam du",
+    "quan dao nam du"
+  ],
+  "Hon Son": [
+    "hon son",
+    "hòn sơn",
+    "dao hon son"
+  ],
+  "Hon Thom": [
+    "hon thom",
+    "hòn thơm",
+    "dao hon thom"
+  ],
+  "Pu Luong": [
+    "pu luong",
+    "pù luông",
+    "pu luong thanh hoa"
+  ],
+  "Binh Hung": [
+    "binh hung",
+    "bình hưng",
+    "dao binh hung"
+  ],
+  "Binh Lieu": [
+    "binh lieu",
+    "bình liêu",
+    "binh lieu quang ninh"
+  ],
+  "Y Ty": [
+    "y ty",
+    "y tý",
+    "y ty lao cai"
+  ],
+  "Hoang Su Phi": [
+    "hoang su phi",
+    "hoàng su phì",
+    "ruong bac thang hoang su phi"
+  ],
+  "Cu Lao Xanh": [
+    "cu lao xanh",
+    "cù lao xanh",
+    "dao cu lao xanh"
+  ],
+  "Hai Tac": [
+    "hai tac",
+    "hải tặc",
+    "quan dao hai tac",
+    "quần đảo hải tặc"
+  ],
+  "Bach Ma": [
+    "bach ma",
+    "bạch mã",
+    "vuon quoc gia bach ma"
+  ],
+  "Cuc Phuong": [
+    "cuc phuong",
+    "cúc phương",
+    "vuon quoc gia cuc phuong"
+  ],
+  "Hang Mua": [
+    "hang mua",
+    "bai dinh hang mua"
+  ],
+  "Vinh Hy": [
+    "vinh hy",
+    "vĩnh hy",
+    "vinh vinh hy",
+    "vịnh vĩnh hy",
+    "bai vinh hy",
+    "bãi vĩnh hy"
+  ]
+}

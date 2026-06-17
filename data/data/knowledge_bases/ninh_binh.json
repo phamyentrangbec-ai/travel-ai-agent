@@ -1,0 +1,307 @@
+{
+  "metadata": {
+    "destination": "Ninh Bình",
+    "description": "Vùng đất cố đô nghìn năm lịch sử với hệ thống hang động, sông nước và ruộng lúa bậc thang - mệnh danh Vịnh Hạ Long trên cạn của Việt Nam",
+    "version": "1.0",
+    "source": "Tổng hợp từ lịch trình thực tế và review địa phương"
+  },
+  "itinerary": {
+    "day_1": {
+      "title": "Ngày 1 - Tràng An & Bích Động",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng",
+          "name": "Cơm niêu Ninh Bình bà Thêm",
+          "address": "15 Trần Hưng Đạo, thành phố Ninh Bình",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Bánh cuốn chả mực Hoa Lư", "address": "Gần cổng Hoa Lư, huyện Hoa Lư"},
+            {"name": "Bún bò Nam Bộ Ninh Bình", "address": "Chợ thành phố Ninh Bình, đường Lê Đại Hành"}
+          ]
+        },
+        {
+          "time": "8:30 - 12:00",
+          "activity": "Chèo thuyền tham quan",
+          "name": "Quần thể danh thắng Tràng An",
+          "address": "Đường Tràng An, xã Trường Yên, huyện Hoa Lư, Ninh Bình",
+          "type": "attraction",
+          "note": "Di sản UNESCO kép duy nhất thế giới. Vé thuyền 250k/người, đi 3 tiếng qua các hang động. Nên đặt trước qua app hoặc đại lý. Ngắm cảnh đẹp nhất lúc sáng sớm, nước trong vắt."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Dê núi Hoa Lư - Nhà hàng Thúy Lan",
+          "address": "Khu du lịch Tràng An, huyện Hoa Lư, Ninh Bình",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Nhà hàng Thịt dê Hoa Lư Gia Viễn", "address": "Đường vào Tràng An, Ninh Bình"},
+            {"name": "Cơm niêu đặc sản Thiên Thủy", "address": "Gần Tràng An, Ninh Bình"}
+          ]
+        },
+        {
+          "time": "14:00 - 16:30",
+          "activity": "Tham quan chùa",
+          "name": "Chùa Bích Động",
+          "address": "Thôn Đam Khê, xã Ninh Hải, huyện Hoa Lư, Ninh Bình",
+          "type": "attraction",
+          "note": "Chùa hang trong núi đá vôi, leo lên hang thượng ngắm cảnh sông nước. Đi thuyền từ bến Tam Cốc vào chùa, tuyến đường nước đẹp nhất buổi chiều."
+        },
+        {
+          "time": "16:30",
+          "activity": "Check-in & cà phê ruộng lúa",
+          "name": "The Field Ninh Binh Cafe",
+          "address": "Đường Bích Động, xã Ninh Hải, huyện Hoa Lư, Ninh Bình",
+          "type": "cafe",
+          "note": "Cafe nhìn ra cánh đồng lúa và núi đá - góc sống ảo đỉnh nhất Ninh Bình. Gọi cafe trứng hoặc sinh tố tươi."
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Ăn tối",
+          "name": "Cơm niêu & nem chua rán Ninh Bình",
+          "address": "Phố Trần Hưng Đạo, thành phố Ninh Bình",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Nhà hàng Đặc sản Ninh Bình Thiên Xuân", "address": "Đường Lương Văn Tụy, Ninh Bình"},
+            {"name": "Nhà hàng đặc sản dê núi Việt Nhung", "address": "68 Trần Hưng Đạo, Ninh Bình"}
+          ]
+        },
+        {
+          "time": "20:00",
+          "activity": "Dạo bờ sông Vân",
+          "name": "Bờ kè sông Vân Ninh Bình",
+          "address": "Đường Trần Hưng Đạo, ven sông Vân, thành phố Ninh Bình",
+          "type": "attraction",
+          "note": "Khu vực tập trung nhiều quán cà phê và nhạc sống buổi tối. Ngắm cầu đèn sương mờ rất thơ."
+        }
+      ]
+    },
+    "day_2": {
+      "title": "Ngày 2 - Tam Cốc & Cố đô Hoa Lư",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng",
+          "name": "Bánh xèo Ninh Bình bà Minh",
+          "address": "Chợ Ninh Bình, đường Đinh Tiên Hoàng, Ninh Bình",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Bún chả cá bà Hà", "address": "Phố Lê Đại Hành, Ninh Bình"},
+            {"name": "Bánh mì Ninh Bình sáng sớm", "address": "Gần bến xe Ninh Bình"}
+          ]
+        },
+        {
+          "time": "8:00 - 11:30",
+          "activity": "Chèo thuyền",
+          "name": "Tam Cốc - Bích Động",
+          "address": "Thôn Văn Lâm, xã Ninh Hải, huyện Hoa Lư, Ninh Bình",
+          "type": "attraction",
+          "note": "Đi thuyền tay chèo qua 3 hang tối tăm - bà con chèo bằng chân. Vé 150k/người. Đẹp nhất mùa lúa chín tháng 9-10. Nhớ mang mũ chống nắng."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Cơm niêu đặc sản Thiên Thủy",
+          "address": "Khu du lịch Tam Cốc, Ninh Hải, Hoa Lư",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Nhà hàng Tam Cốc Garden", "address": "Đường Nguyễn Công Trứ, Ninh Hải"},
+            {"name": "Cơm niêu ruộng lúa Hồng Hải", "address": "Ninh Hải, Hoa Lư, Ninh Bình"}
+          ]
+        },
+        {
+          "time": "14:00 - 16:30",
+          "activity": "Tham quan cố đô",
+          "name": "Cố đô Hoa Lư",
+          "address": "Xã Trường Yên, huyện Hoa Lư, Ninh Bình",
+          "type": "attraction",
+          "note": "Kinh đô đầu tiên của nhà nước phong kiến Đại Cồ Việt. Đền thờ vua Đinh và vua Lê. Vé 20k/người. Buổi chiều ít khách hơn buổi sáng."
+        }
+      ],
+      "evening": [
+        {
+          "time": "17:30",
+          "activity": "Cà phê hoàng hôn",
+          "name": "Café ruộng lúa Bích Động road",
+          "address": "Đường Bích Động, xã Ninh Hải, Ninh Bình",
+          "type": "cafe",
+          "note": "Nhiều quán nhỏ dọc đường Bích Động với view ruộng lúa tuyệt đẹp lúc hoàng hôn. Gọi trà đá hoặc cà phê đen."
+        },
+        {
+          "time": "19:00",
+          "activity": "Ăn tối",
+          "name": "Nem chua rán Kim Sơn - Quán Lan",
+          "address": "Phố Lương Văn Tụy, thành phố Ninh Bình",
+          "type": "food",
+          "category": "dinner",
+          "note": "Nem chua rán giòn ngoài mềm trong - đặc sản Ninh Bình không thể bỏ. Ăn kèm bún và rau sống."
+        }
+      ]
+    },
+    "day_3": {
+      "title": "Ngày 3 - Hang Múa & Thung Nham",
+      "morning": [
+        {
+          "time": "6:30",
+          "activity": "Chinh phục Hang Múa",
+          "name": "Hang Múa (Mua Cave)",
+          "address": "Đường Mua Cave, thôn Khê Đầu Hạ, xã Ninh Xuân, Hoa Lư, Ninh Bình",
+          "type": "attraction",
+          "note": "Leo 500 bậc thang lên đỉnh núi - mất khoảng 20-25 phút. View toàn cảnh ruộng lúa Tam Cốc từ trên cao là điểm check-in nổi tiếng nhất Ninh Bình. Vé 100k/người. Nên đi sớm tránh nắng."
+        },
+        {
+          "time": "9:00",
+          "activity": "Ăn sáng sau leo núi",
+          "name": "Cơm niêu Hoa Lư bà Hương",
+          "address": "Gần khu vực Mua Cave, xã Ninh Xuân, Hoa Lư",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Bánh cuốn bà Nhàn", "address": "Đường Nguyễn Công Trứ, Ninh Hải"},
+            {"name": "Phở gà bà Lý sáng sớm", "address": "Chợ Ninh Hải, Hoa Lư"}
+          ]
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:00",
+          "activity": "Ăn trưa",
+          "name": "Cá kho làng Vũ Đại",
+          "address": "Các nhà hàng khu vực thành phố Ninh Bình",
+          "type": "food",
+          "category": "lunch",
+          "note": "Cá trắm kho riềng truyền thống - đặc sản nổi tiếng miền Bắc. Đặt trước vì phải kho 12 tiếng."
+        },
+        {
+          "time": "13:30 - 16:30",
+          "activity": "Tham quan vườn chim",
+          "name": "Vườn chim Thung Nham",
+          "address": "Xã Ninh Hải, huyện Hoa Lư, Ninh Bình",
+          "type": "attraction",
+          "note": "Khu sinh thái rừng ngập nước, hàng vạn cò và vạc làm tổ. Đi thuyền trong rừng nguyên sinh. Đẹp nhất mùa xuân và đầu hè."
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:00",
+          "activity": "Ăn tối đặc sản",
+          "name": "Thịt dê núi Hoa Lư nướng",
+          "address": "Nhà hàng dê núi Tuấn Dũng, 42 Trần Hưng Đạo, Ninh Bình",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Nhà hàng đặc sản Việt Nhung", "address": "68 Trần Hưng Đạo, Ninh Bình"},
+            {"name": "Quán dê núi bà Năm", "address": "Đường Đinh Tiên Hoàng, Ninh Bình"}
+          ]
+        },
+        {
+          "time": "20:00",
+          "activity": "Mua quà về",
+          "name": "Chợ đêm thành phố Ninh Bình",
+          "address": "Đường Trần Hưng Đạo, thành phố Ninh Bình",
+          "type": "attraction",
+          "note": "Mua nem chua Kim Sơn, mứt quất Ninh Bình, rượu cúc Ninh Bình làm quà. Giá tại chợ rẻ hơn cửa hàng du lịch."
+        }
+      ]
+    }
+  },
+  "places_directory": {
+    "food": {
+      "breakfast": {
+        "category": "Ăn sáng",
+        "places": [
+          {"name": "Cơm niêu Ninh Bình bà Thêm", "address": "15 Trần Hưng Đạo, thành phố Ninh Bình", "note": "Cơm niêu nấu trong nồi đất, cháy thơm lừng - đặc sản chỉ có ở đây"},
+          {"name": "Bánh cuốn chả mực Hoa Lư", "address": "Gần cổng Hoa Lư, huyện Hoa Lư", "note": "Bánh cuốn nóng với chả mực thơm ngon, ăn sáng hoặc bữa nhẹ"},
+          {"name": "Bánh xèo Ninh Bình bà Minh", "address": "Chợ Ninh Bình, đường Đinh Tiên Hoàng", "note": "Bánh xèo giòn nhân tôm thịt, đặc trưng miền Bắc"},
+          {"name": "Xôi gấc đặc sản bà Loan", "address": "Chợ Ninh Bình sáng sớm", "note": "Xôi gấc màu đỏ đẹp, thơm dẻo, ăn kèm ruốc hoặc gà"},
+          {"name": "Bún chả cá bà Hà", "address": "Phố Lê Đại Hành, Ninh Bình", "note": "Bún chả cá thu nhà làm, nước dùng trong thanh ngọt"}
+        ]
+      },
+      "lunch": {
+        "category": "Ăn trưa",
+        "places": [
+          {"name": "Thịt dê núi Hoa Lư - Thúy Lan", "address": "Khu du lịch Tràng An, huyện Hoa Lư", "note": "Dê núi leo núi đá vôi, thịt chắc thơm, nướng tảng hoặc hấp lá"},
+          {"name": "Cơm niêu đặc sản Thiên Thủy", "address": "Khu du lịch Tam Cốc, Ninh Hải, Hoa Lư", "note": "Cơm niêu truyền thống, cháy vàng, nhiều món đặc sản kèm"},
+          {"name": "Nhà hàng Tam Cốc Garden", "address": "Đường Nguyễn Công Trứ, Ninh Hải", "note": "View đẹp ra cánh đồng, đặc sản địa phương"},
+          {"name": "Cơm lam bản địa Tràng An", "address": "Khu vực cổng Tràng An, Trường Yên", "note": "Cơm lam ống tre, rau rừng và thịt kho tàu"},
+          {"name": "Cơm niêu ruộng lúa Hồng Hải", "address": "Ninh Hải, Hoa Lư, Ninh Bình", "note": "Nằm giữa ruộng lúa, không gian yên tĩnh và thơ"}
+        ]
+      },
+      "dinner": {
+        "category": "Ăn tối",
+        "places": [
+          {"name": "Dê núi nướng - Nhà hàng Tuấn Dũng", "address": "42 Trần Hưng Đạo, Ninh Bình", "note": "Dê nướng tảng, dê xào lăn, tái chanh - ngon nhất thành phố"},
+          {"name": "Nem chua rán Kim Sơn - Quán Lan", "address": "Phố Lương Văn Tụy, thành phố Ninh Bình", "note": "Nem chua rán giòn - đặc sản Ninh Bình không thể thiếu"},
+          {"name": "Nhà hàng đặc sản Việt Nhung", "address": "68 Trần Hưng Đạo, Ninh Bình", "note": "Thực đơn đầy đủ đặc sản: dê, cá kho, nem chua, cơm niêu"},
+          {"name": "Cá kho làng Vũ Đại", "address": "Các nhà hàng khu vực thành phố Ninh Bình", "note": "Cá trắm kho riềng 12 tiếng - đặt trước, mang cả nồi về được"},
+          {"name": "Lẩu hải sản & đặc sản bờ sông Vân", "address": "Khu bờ kè sông Vân, đường Trần Hưng Đạo", "note": "Nhiều quán lẩu sôi động ven sông, phù hợp nhóm bạn"}
+        ]
+      },
+      "snack": {
+        "category": "Ăn vặt & Đồ uống",
+        "places": [
+          {"name": "Kẹo dồi & bánh cốm Ninh Bình", "address": "Chợ Ninh Bình, đường Lê Đại Hành", "note": "Đặc sản mang về: kẹo dồi vừng, bánh cốm ngọt"},
+          {"name": "Nem chua Thanh Hóa kiểu Ninh Bình", "address": "Phố chợ Ninh Bình", "note": "Nem chua bọc lá chuối, ăn ngay tại chỗ"},
+          {"name": "Bánh cuốn chấm nước mắm", "address": "Chợ Ninh Hải, Hoa Lư", "note": "Bánh cuốn nóng tại chợ, buổi sáng nghi ngút khói"},
+          {"name": "Trà đá & cà phê vỉa hè phố cổ", "address": "Phố Trần Hưng Đạo, Ninh Bình", "note": "Quán cóc ven đường, ngắm phố xá yên bình"},
+          {"name": "Mứt quất Ninh Bình", "address": "Cửa hàng đặc sản trên đường Trần Hưng Đạo", "note": "Quà đặc trưng tại địa phương, 50-80k/hộp"}
+        ]
+      }
+    },
+    "cafe": {
+      "category": "Quán cà phê",
+      "places": [
+        {"name": "The Field Ninh Binh", "address": "Đường Bích Động, xã Ninh Hải, Hoa Lư, Ninh Bình", "vibe": "view"},
+        {"name": "Cafe nhìn ra ruộng lúa Bích Động road", "address": "Đường Bích Động, Ninh Hải, Ninh Bình", "vibe": "aesthetic"},
+        {"name": "Cafe Tràng An Garden", "address": "Khu vực Tràng An, Trường Yên, Ninh Bình", "vibe": "chill"},
+        {"name": "Tam Cốc Eco Cafe", "address": "Thôn Văn Lâm, Ninh Hải, Hoa Lư", "vibe": "aesthetic"},
+        {"name": "Bờ kè sông Vân Cafe", "address": "Ven sông Vân, đường Trần Hưng Đạo, Ninh Bình", "vibe": "chill"},
+        {"name": "Hang Múa View Cafe", "address": "Khu vực Hang Múa, Ninh Xuân, Hoa Lư", "vibe": "view"}
+      ]
+    },
+    "attractions": {
+      "category": "Điểm tham quan",
+      "places": [
+        {"name": "Quần thể Tràng An", "address": "Đường Tràng An, xã Trường Yên, huyện Hoa Lư", "type": "nature", "note": "Di sản UNESCO, vé thuyền 250k. Đi 3 tiếng qua 3 hang động kỳ ảo"},
+        {"name": "Tam Cốc - Bích Động", "address": "Thôn Văn Lâm, xã Ninh Hải, huyện Hoa Lư", "type": "nature", "note": "Thuyền tay chèo qua 3 hang, vé 150k. Đẹp mùa lúa vàng tháng 9-10"},
+        {"name": "Hang Múa (Mua Cave)", "address": "Thôn Khê Đầu Hạ, xã Ninh Xuân, Hoa Lư", "type": "viewpoint", "note": "Leo 500 bậc, view toàn cảnh ruộng lúa, vé 100k"},
+        {"name": "Cố đô Hoa Lư", "address": "Xã Trường Yên, huyện Hoa Lư, Ninh Bình", "type": "temple", "note": "Kinh đô đầu tiên Đại Cồ Việt - đền vua Đinh, vua Lê. Vé 20k"},
+        {"name": "Chùa Bích Động", "address": "Thôn Đam Khê, xã Ninh Hải, huyện Hoa Lư", "type": "temple", "note": "Chùa hang 3 tầng trong núi đá vôi, đi thuyền vào"},
+        {"name": "Vườn chim Thung Nham", "address": "Xã Ninh Hải, huyện Hoa Lư, Ninh Bình", "type": "nature", "note": "Hàng vạn cò, vạc làm tổ trong rừng ngập nước"},
+        {"name": "Chùa Bái Đính", "address": "Xã Gia Sinh, huyện Gia Viễn, Ninh Bình", "type": "temple", "note": "Chùa lớn nhất Đông Nam Á, nhiều kỷ lục Việt Nam"},
+        {"name": "Khu sinh thái Tràng An", "address": "Xã Trường Yên, huyện Hoa Lư, Ninh Bình", "type": "nature", "note": "Leo núi, thuyền độc mộc, picnic trong thung lũng"}
+      ]
+    },
+    "accommodation": {
+      "category": "Lưu trú",
+      "places": [
+        {"name": "Homestay tre Tràng An", "address": "Khu vực Tràng An, xã Trường Yên, Hoa Lư", "type": "homestay", "price_range": "300-600k/đêm"},
+        {"name": "Tam Coc Rice Fields Resort", "address": "Ninh Hải, Hoa Lư, Ninh Bình", "type": "resort", "price_range": "2-4 triệu/đêm"},
+        {"name": "Ninh Binh Hidden Charm Hotel", "address": "Thành phố Ninh Bình", "type": "hotel", "price_range": "600k-1.2 triệu/đêm"},
+        {"name": "Trang An Retreat", "address": "Khu vực Tràng An, Ninh Bình", "type": "resort", "price_range": "1.5-3 triệu/đêm"},
+        {"name": "Emeralda Resort Ninh Binh", "address": "Khu sinh thái Tràng An, Ninh Bình", "type": "resort", "price_range": "3-6 triệu/đêm"},
+        {"name": "Ninh Binh Friendly Hotel", "address": "Thành phố Ninh Bình", "type": "hotel", "price_range": "400-800k/đêm"}
+      ]
+    },
+    "market_shopping": {
+      "category": "Chợ & Mua sắm",
+      "places": [
+        {"name": "Chợ Ninh Bình", "address": "Đường Đinh Tiên Hoàng, thành phố Ninh Bình", "type": "market"},
+        {"name": "Chợ đêm thành phố Ninh Bình", "address": "Đường Trần Hưng Đạo, thành phố Ninh Bình", "type": "night_market"},
+        {"name": "Chợ Ninh Hải", "address": "Xã Ninh Hải, huyện Hoa Lư, Ninh Bình", "type": "market"},
+        {"name": "Phố đặc sản Trần Hưng Đạo", "address": "Phố Trần Hưng Đạo, thành phố Ninh Bình", "type": "shopping_street"}
+      ]
+    }
+  }
+}

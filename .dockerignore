@@ -1,0 +1,13 @@
+.env
+.env.example
+.greennode.json
+.agentbase/
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+*.md
+.claude/
+tools/
+main.py

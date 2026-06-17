@@ -1,0 +1,328 @@
+{
+  "metadata": {
+    "destination": "TP Hồ Chí Minh",
+    "description": "Thành phố không ngủ - trung tâm kinh tế sôi động nhất Việt Nam với ẩm thực đường phố đỉnh cao, cà phê Gen Z trendy và lịch sử hào hùng pha trộn kiến trúc Pháp thuộc",
+    "version": "1.0",
+    "source": "Tổng hợp từ lịch trình thực tế và review địa phương",
+    "trending_keywords": ["Landmark 81", "phố đi bộ Nguyễn Huệ", "Bưu điện Thành phố", "cafe rooftop", "chợ Bến Thành đêm"]
+  },
+  "itinerary": {
+    "day_1": {
+      "title": "Ngày 1 - Quận 1 Trung Tâm & Kiến trúc Pháp",
+      "morning": [
+        {
+          "time": "7:30",
+          "activity": "Ăn sáng",
+          "name": "Bánh mì Huỳnh Hoa",
+          "address": "26 Lê Thị Riêng, phường Bến Thành, quận 1, TP HCM",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Bún bò Huế Bà Lài", "address": "7 Kỳ Đồng, phường 9, quận 3, TP HCM"},
+            {"name": "Bánh cuốn Tây Hồ", "address": "42 Đặng Văn Ngữ, phường 10, quận Phú Nhuận"}
+          ]
+        },
+        {
+          "time": "9:00 - 12:00",
+          "activity": "Tham quan di tích lịch sử & kiến trúc",
+          "name": "Phố đi bộ Nguyễn Huệ & Nhà thờ Đức Bà",
+          "address": "Đường Nguyễn Huệ và Công xã Paris, quận 1, TP HCM",
+          "type": "attraction",
+          "note": "Bắt đầu từ bến Bạch Đằng đi bộ lên Nguyễn Huệ - trục phố đẹp nhất Sài Gòn. Ghé Nhà thờ Đức Bà (Công xã Paris, Q1) đang trùng tu - vẫn đẹp để chụp ngoài. Bưu điện Sài Gòn ngay kế bên - kiến trúc Pháp đẹp nhất VN."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Bánh xèo 46A",
+          "address": "46A Đinh Công Tráng, phường Tân Định, quận 1, TP HCM",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Cơm tấm Thuận Kiều", "address": "247 Thuận Kiều, phường 12, quận 11"},
+            {"name": "Phở Hòa Pasteur", "address": "260C Pasteur, phường 8, quận 3"}
+          ]
+        },
+        {
+          "time": "14:00 - 16:30",
+          "activity": "Cà phê & sống ảo",
+          "name": "L'Usine Cafe",
+          "address": "151 Đồng Khởi, phường Bến Nghé, quận 1, TP HCM",
+          "type": "cafe",
+          "note": "Concept store + cafe trong biệt thự Pháp cổ. Chụp ảnh đẹp ở hành lang và thang máy cổ điển. Đồ uống quality, brunch ngon. Nơi check-in classic của dân Sài Gòn."
+        },
+        {
+          "time": "16:30 - 18:00",
+          "activity": "Tham quan nhà thờ hồng",
+          "name": "Nhà thờ Tân Định (Pink Church)",
+          "address": "289 Hai Bà Trưng, phường 8, quận 3, TP HCM",
+          "type": "attraction",
+          "note": "Nhà thờ màu hồng pastel Gothic duy nhất Việt Nam - spot check-in hot nhất Instagram Sài Gòn. Không cần vé, chỉ cần ăn mặc lịch sự. Đẹp nhất buổi chiều ánh nắng vàng."
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Ăn tối đặc sản",
+          "name": "Bún bò Huế Bà Lài",
+          "address": "7 Kỳ Đồng, phường 9, quận 3, TP HCM",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Gỏi cuốn Bà Hà", "address": "Đường Phan Văn Hân, phường 17, Bình Thạnh"},
+            {"name": "Nhà hàng Cơm Niêu Singapore", "address": "6 Đinh Tiên Hoàng, quận 1"}
+          ]
+        },
+        {
+          "time": "20:30",
+          "activity": "Nightlife phố Tây",
+          "name": "Phố Tây Bùi Viện",
+          "address": "Đường Bùi Viện, phường Phạm Ngũ Lão, quận 1, TP HCM",
+          "type": "attraction",
+          "note": "Phố đi bộ đêm sôi động nhất Sài Gòn từ 20h đến tận 2-3h sáng. Nhạc sống, bia hơi 15-20k, gặp dân tây đủ quốc tịch."
+        }
+      ]
+    },
+    "day_2": {
+      "title": "Ngày 2 - Quận 3 & Thảo Điền cafe culture",
+      "morning": [
+        {
+          "time": "7:30",
+          "activity": "Ăn sáng",
+          "name": "Hủ tiếu Nam Vang Thanh Xuân",
+          "address": "9 Vĩnh Khánh, phường 9, quận 4, TP HCM",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Cơm tấm Thuận Kiều sáng sớm", "address": "247 Thuận Kiều, phường 12, quận 11"},
+            {"name": "Cháo lòng Cô Hai Sài Gòn", "address": "Chợ Bà Chiểu, quận Bình Thạnh"}
+          ]
+        },
+        {
+          "time": "9:00 - 12:00",
+          "activity": "Tham quan bảo tàng",
+          "name": "Bảo tàng Chứng tích Chiến tranh",
+          "address": "28 Võ Văn Tần, phường 6, quận 3, TP HCM",
+          "type": "attraction",
+          "note": "Bảo tàng lịch sử chiến tranh Việt Nam - rất xúc động và có chiều sâu. Vé 40k. Dành ít nhất 2 tiếng. Không phù hợp trẻ nhỏ dưới 10 tuổi."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Cơm tấm Thuận Kiều",
+          "address": "247 Thuận Kiều, phường 12, quận 11, TP HCM",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Phở 2000 Nguyễn Huệ", "address": "Lầu 1 chợ Bến Thành, quận 1"},
+            {"name": "Bún thịt nướng Hòa Lộc", "address": "Đường Lê Văn Sỹ, quận 3"}
+          ]
+        },
+        {
+          "time": "14:00 - 17:00",
+          "activity": "Cafe & làm việc",
+          "name": "The Workshop Coffee",
+          "address": "27 Ngô Đức Kế, phường Bến Nghé, quận 1, TP HCM",
+          "type": "cafe",
+          "note": "Specialty coffee roaster tốt nhất quận 1. Không gian công nghiệp vintage, tầng 2 với cửa sổ lớn. Gọi pour-over hoặc cold brew. Đông khách freelancer và khách nước ngoài."
+        }
+      ],
+      "evening": [
+        {
+          "time": "17:30",
+          "activity": "Mua sắm & ăn vặt",
+          "name": "Chợ Bến Thành",
+          "address": "Lê Lợi, Phường Bến Thành, Quận 1, TP HCM",
+          "type": "attraction",
+          "note": "Mua đồ lưu niệm, áo phông, vải lụa. Mặc cả 30-40%. Khu ẩm thực tầng trệt có đủ món đặc sản 3 miền."
+        },
+        {
+          "time": "19:00",
+          "activity": "Ăn tối",
+          "name": "Gỏi cuốn Bà Hà",
+          "address": "Đường Phan Văn Hân, phường 17, quận Bình Thạnh, TP HCM",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Nhà hàng Hải sản Hoàng Gia Q5", "address": "Đường Hùng Vương, quận 5"},
+            {"name": "Lẩu thái hải sản Thái Express", "address": "Nhiều chi nhánh quận 1, 3"}
+          ]
+        }
+      ]
+    },
+    "day_3": {
+      "title": "Ngày 3 - Thảo Điền (Q2/TP Thủ Đức) & Landmark 81",
+      "morning": [
+        {
+          "time": "8:00",
+          "activity": "Ăn sáng",
+          "name": "Nhà Của Nắng Brunch",
+          "address": "Khu Thảo Điền, thành phố Thủ Đức (quận 2 cũ), TP HCM",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Di Mai Cafe Thảo Điền", "address": "Khu Thảo Điền, thành phố Thủ Đức"},
+            {"name": "Bánh mì Như Lan", "address": "50 Hàm Nghi, quận 1, TP HCM"}
+          ]
+        },
+        {
+          "time": "9:30 - 12:00",
+          "activity": "Cafe hopping Thảo Điền",
+          "name": "Di Mai Cafe Thảo Điền",
+          "address": "Đường Xuân Thủy, khu Thảo Điền, thành phố Thủ Đức, TP HCM",
+          "type": "cafe",
+          "note": "Khu Thảo Điền có mật độ cafe đẹp cao nhất Sài Gòn - aesthetic, vintage, garden. Di Mai nổi tiếng nhất khu vực này. Đi bộ qua các ngõ nhỏ tìm cafe mới là trải nghiệm thú vị."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Bánh xèo miền Trung đường Đinh Công Tráng",
+          "address": "Đường Đinh Công Tráng, phường Tân Định, quận 1, TP HCM",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Cơm chiên Dương Châu Q5", "address": "Khu phố người Hoa, quận 5, TP HCM"},
+            {"name": "Dimsum & bánh bao Chợ Lớn", "address": "Đường Lương Nhữ Học, quận 5"}
+          ]
+        },
+        {
+          "time": "14:00 - 17:00",
+          "activity": "Ngắm thành phố từ trên cao",
+          "name": "Landmark 81 Sky View",
+          "address": "720A Điện Biên Phủ, phường 22, quận Bình Thạnh, TP HCM",
+          "type": "attraction",
+          "note": "Tòa nhà cao nhất Đông Nam Á 461m. Vé SkyView tầng 79-81 khoảng 400-600k người lớn. Ngắm toàn cảnh Sài Gòn 360 độ. Đặt trước online có giá ưu đãi hơn."
+        },
+        {
+          "time": "17:00",
+          "activity": "Cà phê rooftop",
+          "name": "Shin Coffee Rooftop",
+          "address": "Tòa nhà trung tâm, khu vực quận 1, TP HCM",
+          "type": "cafe",
+          "note": "Cà phê rooftop view Sài Gòn lúc chiều tối - đẹp nhất lúc golden hour 17-18h. Gọi coffee và ngắm hoàng hôn."
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Ăn tối Quận 4",
+          "name": "Hủ tiếu Nam Vang Thanh Xuân & hải sản Q4",
+          "address": "9 Vĩnh Khánh, phường 9, quận 4, TP HCM",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Nhà hàng hải sản phố Vĩnh Khánh", "address": "Đường Vĩnh Khánh, quận 4, TP HCM"},
+            {"name": "Cơm tấm Cali phòng lạnh", "address": "Đường Trần Hưng Đạo, quận 1"}
+          ]
+        },
+        {
+          "time": "21:00",
+          "activity": "Cà phê đêm & ngắm thành phố",
+          "name": "The Workshop Coffee đêm",
+          "address": "27 Ngô Đức Kế, phường Bến Nghé, quận 1, TP HCM",
+          "type": "cafe",
+          "note": "Mở đến 22-23h, không khí Sài Gòn đêm qua ô cửa sổ lớn. Gọi espresso tonic hoặc single origin pour-over."
+        }
+      ]
+    }
+  },
+  "places_directory": {
+    "food": {
+      "breakfast": {
+        "category": "Ăn sáng",
+        "places": [
+          {"name": "Bánh mì Huỳnh Hoa", "address": "26 Lê Thị Riêng, phường Bến Thành, quận 1", "note": "Bánh mì nhân đầy ặp nhất Sài Gòn - pate, jambon, chả. Xếp hàng nhưng rất đáng"},
+          {"name": "Bún bò Huế Bà Lài", "address": "7 Kỳ Đồng, phường 9, quận 3", "note": "Bún bò Huế đậm đà nhất quận 3, mở từ 6h"},
+          {"name": "Hủ tiếu Nam Vang Thanh Xuân", "address": "9 Vĩnh Khánh, phường 9, quận 4", "note": "Hủ tiếu Nam Vang khô nước ngon nhất Q4 - bình dân giá tốt"},
+          {"name": "Bánh mì Như Lan", "address": "50 Hàm Nghi, phường Nguyễn Thái Bình, quận 1", "note": "Chuỗi bánh mì lâu đời Sài Gòn, luôn mở sớm"},
+          {"name": "Cháo lòng Cô Hai Sài Gòn", "address": "Chợ Bà Chiểu, quận Bình Thạnh", "note": "Cháo lòng truyền thống Nam Bộ, ăn sáng cực ngon"}
+        ]
+      },
+      "lunch": {
+        "category": "Ăn trưa",
+        "places": [
+          {"name": "Bánh xèo 46A", "address": "46A Đinh Công Tráng, phường Tân Định, quận 1", "note": "Bánh xèo miền Trung giòn bì, tôm thịt đầy ặp, xếp hàng giờ cao điểm"},
+          {"name": "Cơm tấm Thuận Kiều", "address": "247 Thuận Kiều, phường 12, quận 11", "note": "Cơm tấm sườn bì chả đông khách nhất khu Chợ Lớn"},
+          {"name": "Phở Hòa Pasteur", "address": "260C Pasteur, phường 8, quận 3", "note": "Phở bò lâu đời nhất Sài Gòn, nước dùng trong ngọt"},
+          {"name": "Gỏi cuốn Bà Hà", "address": "Đường Phan Văn Hân, phường 17, Bình Thạnh", "note": "Gỏi cuốn tôm thịt rau sống, mắm nêm chua ngọt"},
+          {"name": "Dimsum Chợ Lớn", "address": "Đường Lương Nhữ Học, quận 5, TP HCM", "note": "Dimsum Quảng Đông authentic trong khu phố người Hoa"}
+        ]
+      },
+      "dinner": {
+        "category": "Ăn tối",
+        "places": [
+          {"name": "Hủ tiếu Nam Vang Thanh Xuân", "address": "9 Vĩnh Khánh, phường 9, quận 4", "note": "Tối ăn hủ tiếu xáo kiểu Nam Vang, đặc biệt ngon"},
+          {"name": "Bún bò Huế Bà Lài", "address": "7 Kỳ Đồng, phường 9, quận 3", "note": "Mở cả tối, bún bò đậm đà sả cay thơm"},
+          {"name": "Hải sản phố Vĩnh Khánh Q4", "address": "Đường Vĩnh Khánh, quận 4, TP HCM", "note": "Phố hải sản đêm nổi tiếng nhất Sài Gòn - mực, sò, nghêu"},
+          {"name": "Bánh xèo miền Trung Đinh Công Tráng", "address": "Đường Đinh Công Tráng, phường Tân Định, quận 1", "note": "Nhiều quán bánh xèo dọc phố, ăn tối cực vui"},
+          {"name": "Cơm niêu Singapore Đinh Tiên Hoàng", "address": "6 Đinh Tiên Hoàng, phường Đa Kao, quận 1", "note": "Cơm niêu rang muối, gà chiên, canh chua đặc trưng"}
+        ]
+      },
+      "snack": {
+        "category": "Ăn vặt & Đồ uống",
+        "places": [
+          {"name": "Bánh tráng trộn vỉa hè Sài Gòn", "address": "Rải rác khắp các quận, đặc biệt quận 3 và Gò Vấp", "note": "Bánh tráng trộn xoài xanh tôm khô - snack đường phố iconic nhất"},
+          {"name": "Trà sữa Gong Cha & TocoToco", "address": "Nhiều chi nhánh trên toàn TP HCM", "note": "Trà sữa Đài Loan chuẩn, thêm topping đa dạng"},
+          {"name": "Bò bía & bánh tráng cuốn thịt heo", "address": "Chợ Bà Chiểu, Bình Thạnh và chợ Tân Định, quận 1", "note": "Bò bía cuộn lạp xưởng trứng - món vặt kinh điển Sài Gòn"},
+          {"name": "Chè ba màu Sài Gòn", "address": "Phố Pasteur, quận 3 và chợ Bến Thành, quận 1", "note": "Chè đậu ba màu đá bào mát lạnh buổi trưa"},
+          {"name": "Xôi gà Xôi Bắc bà Minh", "address": "Chợ Tân Định, quận 1 và khu Bình Thạnh", "note": "Xôi gà ta ăn sáng hoặc ăn vặt cực ngon"}
+        ]
+      }
+    },
+    "cafe": {
+      "category": "Quán cà phê",
+      "places": [
+        {"name": "The Workshop Coffee", "address": "27 Ngô Đức Kế, phường Bến Nghé, quận 1", "vibe": "vintage"},
+        {"name": "L'Usine Cafe", "address": "151 Đồng Khởi, phường Bến Nghé, quận 1", "vibe": "aesthetic"},
+        {"name": "Nhà Của Nắng", "address": "Khu Thảo Điền, thành phố Thủ Đức (quận 2 cũ)", "vibe": "aesthetic"},
+        {"name": "Shin Coffee Rooftop", "address": "Khu vực trung tâm, quận 1, TP HCM", "vibe": "view"},
+        {"name": "Di Mai Cafe Thảo Điền", "address": "Đường Xuân Thủy, khu Thảo Điền, Thủ Đức", "vibe": "aesthetic"},
+        {"name": "Cafe Trung Nguyên Legend", "address": "82 Lý Tự Trọng, quận 1, TP HCM", "vibe": "vintage"},
+        {"name": "RuNam Bistro", "address": "195 Đồng Khởi, phường Bến Nghé, quận 1", "vibe": "aesthetic"},
+        {"name": "Oromia Coffee", "address": "Khu Thảo Điền, Thủ Đức, TP HCM", "vibe": "chill"}
+      ]
+    },
+    "attractions": {
+      "category": "Điểm tham quan",
+      "places": [
+        {"name": "Nhà thờ Tân Định (Pink Church)", "address": "289 Hai Bà Trưng, phường 8, quận 3", "type": "temple", "note": "Nhà thờ hồng pastel Gothic - spot check-in Instagram nổi nhất"},
+        {"name": "Bảo tàng Chứng tích Chiến tranh", "address": "28 Võ Văn Tần, phường 6, quận 3", "type": "viewpoint", "note": "Bảo tàng lịch sử chiến tranh, vé 40k, cần 2 tiếng"},
+        {"name": "Phố đi bộ Nguyễn Huệ", "address": "Đường Nguyễn Huệ, quận 1, TP HCM", "type": "market", "note": "Trục phố trung tâm đẹp, event cuối tuần"},
+        {"name": "Nhà thờ Đức Bà", "address": "Công xã Paris, phường Bến Nghé, quận 1", "type": "temple", "note": "Kiến trúc Gothic Pháp 1880, đang trùng tu nhưng vẫn đẹp"},
+        {"name": "Bưu điện Trung tâm Sài Gòn", "address": "2 Công xã Paris, phường Bến Nghé, quận 1", "type": "viewpoint", "note": "Bưu điện đẹp nhất Việt Nam, mái vòm sắt Gustave Eiffel"},
+        {"name": "Landmark 81 SkyView", "address": "720A Điện Biên Phủ, phường 22, Bình Thạnh", "type": "viewpoint", "note": "Cao nhất ĐNA 461m, vé 400-600k, view 360 độ"},
+        {"name": "Chợ Bến Thành", "address": "Lê Lợi, Phường Bến Thành, Quận 1", "type": "market", "note": "Biểu tượng Sài Gòn, mua đồ lưu niệm, ẩm thực 3 miền"},
+        {"name": "Phố Tây Bùi Viện", "address": "Đường Bùi Viện, phường Phạm Ngũ Lão, quận 1", "type": "market", "note": "Phố đi bộ đêm sôi động nhất TP HCM"},
+        {"name": "Chùa Ngọc Hoàng", "address": "73 Mai Thị Lựu, phường Đa Kao, quận 1", "type": "temple", "note": "Chùa Đạo giáo linh thiêng, khói hương nghi ngút, rất photogenic"},
+        {"name": "Thảo Cầm Viên Sài Gòn", "address": "2 Nguyễn Bỉnh Khiêm, phường Bến Nghé, quận 1", "type": "nature", "note": "Sở thú + thực vật viện giữa trung tâm, gia đình và trẻ em"}
+      ]
+    },
+    "accommodation": {
+      "category": "Lưu trú",
+      "places": [
+        {"name": "The Reverie Saigon", "address": "22-36 Nguyễn Huệ, quận 1, TP HCM", "type": "hotel", "price_range": "8-20 triệu/đêm"},
+        {"name": "Hotel Majestic Saigon", "address": "1 Đồng Khởi, phường Bến Nghé, quận 1", "type": "hotel", "price_range": "3-6 triệu/đêm"},
+        {"name": "Liberty Central Saigon", "address": "59-61 Pasteur, phường Bến Nghé, quận 1", "type": "hotel", "price_range": "1.5-3 triệu/đêm"},
+        {"name": "Cozy Saigon Hostel", "address": "Phố Phạm Ngũ Lão, quận 1", "type": "homestay", "price_range": "200-400k/người/đêm"},
+        {"name": "The Myst Dong Khoi", "address": "6-8 Hồ Huấn Nghiệp, phường Bến Nghé, quận 1", "type": "hotel", "price_range": "2-4 triệu/đêm"},
+        {"name": "Villa Song Saigon", "address": "197/2 Nguyễn Văn Hưởng, Thảo Điền, Thủ Đức", "type": "resort", "price_range": "4-8 triệu/đêm"}
+      ]
+    },
+    "market_shopping": {
+      "category": "Chợ & Mua sắm",
+      "places": [
+        {"name": "Chợ Bến Thành", "address": "Lê Lợi, Phường Bến Thành, Quận 1", "type": "market"},
+        {"name": "Phố Đông Khởi", "address": "Đường Đồng Khởi, phường Bến Nghé, quận 1", "type": "shopping_street"},
+        {"name": "Saigon Square", "address": "77-89 Nam Kỳ Khởi Nghĩa, phường Bến Nghé, quận 1", "type": "market"},
+        {"name": "Vincom Center Đồng Khởi", "address": "72 Lê Thánh Tôn, phường Bến Nghé, quận 1", "type": "shopping_street"},
+        {"name": "Chợ Bà Chiểu", "address": "Đường Bạch Đằng, quận Bình Thạnh", "type": "market"},
+        {"name": "Chợ Tân Định", "address": "Đường Hai Bà Trưng, phường 8, quận 3", "type": "market"}
+      ]
+    }
+  }
+}

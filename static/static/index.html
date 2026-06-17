@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trip Buddy ✈️</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+<script id="tailwind-config">
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary": "#b52330", "on-primary": "#ffffff",
+        "primary-container": "#ff5a5f", "on-primary-container": "#61000e",
+        "primary-fixed": "#ffdad8", "primary-fixed-dim": "#ffb3b0",
+        "secondary": "#845400", "on-secondary": "#ffffff",
+        "secondary-container": "#feb246", "on-secondary-container": "#6f4600",
+        "tertiary": "#006c4f", "on-tertiary": "#ffffff",
+        "tertiary-container": "#00a87d", "on-tertiary-container": "#003424",
+        "surface": "#fcf9f8", "surface-dim": "#dcd9d9",
+        "surface-container-lowest": "#ffffff", "surface-container-low": "#f6f3f2",
+        "surface-container": "#f0eded", "surface-container-high": "#eae7e7",
+        "surface-container-highest": "#e5e2e1",
+        "on-surface": "#1b1c1c", "on-surface-variant": "#5a403f",
+        "outline": "#8e706f", "outline-variant": "#e2bebc",
+        "background": "#fcf9f8", "on-background": "#1b1c1c",
+        "error": "#ba1a1a", "error-container": "#ffdad6",
+        "inverse-surface": "#303030", "inverse-on-surface": "#f3f0ef",
+      },
+      spacing: {
+        "stack-sm": "4px", "stack-md": "8px", "element-gap": "12px",
+        "gutter": "16px", "container-margin": "24px", "section-gap": "32px"
+      },
+      fontFamily: {
+        "sans": ["Plus Jakarta Sans", "sans-serif"],
+        "mono": ["DM Mono", "monospace"],
+      },
+      fontSize: {
+        "caption-xs": ["11px", { lineHeight: "14px", fontWeight: "400" }],
+        "label-sm":   ["13px", { lineHeight: "18px", fontWeight: "500" }],
+        "budget-mono":["14px", { lineHeight: "18px", fontWeight: "500" }],
+        "body-rg":    ["15px", { lineHeight: "20px", fontWeight: "400" }],
+        "heading-md": ["17px", { lineHeight: "22px", fontWeight: "600" }],
+        "display-lg": ["22px", { lineHeight: "28px", letterSpacing: "-0.02em", fontWeight: "700" }]
+      }
+    }
+  }
+}
+</script>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: 'Plus Jakarta Sans', sans-serif; background: #fcf9f8; color: #1b1c1c; -webkit-tap-highlight-color: transparent; }
+  .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; font-family: 'Material Symbols Outlined'; display: inline-block; line-height: 1; vertical-align: middle; }
+  .fill-icon { font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  .screen { display: none; }
+  .screen.active { display: flex; }
+  @keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+  .skeleton { background: linear-gradient(90deg,#f0eded 25%,#e5e2e1 50%,#f0eded 75%); background-size: 200%; animation: shimmer 1.5s infinite; border-radius: 8px; }
+  @keyframes waveform-pulse { 0%,100% { height: 4px; } 50% { height: 24px; } }
+  .waveform-bar { animation: waveform-pulse 1.2s ease-in-out infinite; }
+  .delay-1 { animation-delay: 0.1s; } .delay-2 { animation-delay: 0.2s; }
+  .delay-3 { animation-delay: 0.3s; } .delay-4 { animation-delay: 0.4s; }
+  @keyframes fadeInUp { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:translateY(0); } }
+  .fade-in { animation: fadeInUp 0.4s ease forwards; }
+  @keyframes ping-slow { 0%,100% { transform:scale(1); opacity:.6; } 50% { transform:scale(1.5); opacity:0; } }
+  .ping-slow { animation: ping-slow 1.8s ease-in-out infinite; }
+  .chat-bubble-agent { background:#f0eded; border-radius:4px 18px 18px 18px; padding:10px 14px; max-width:85%; }
+  .chat-bubble-user { background:#ff5a5f; color:#fff; border-radius:18px 4px 18px 18px; padding:10px 14px; max-width:85%; }
+  .chip-selected { background: #b52330 !important; color: #fff !important; border-color: #b52330 !important; }
+  .progress-dot { width:8px; height:8px; border-radius:50%; background:#e2bebc; transition:all 0.3s; }
+  .progress-dot.active { width:10px; height:10px; background:#b52330; box-shadow:0 0 0 3px rgba(181,35,48,0.15); }
+  .progress-dot.done { background:#006c4f; }
+  .bottom-sheet { border-radius: 32px 32px 0 0; box-shadow: 0 -8px 30px rgba(0,0,0,0.12); }
+  .bento-card { box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid rgba(226,190,188,0.3); }
+  .bar-transition { transition: height 0.6s cubic-bezier(0.34,1.56,0.64,1); }
+  .amount-mono { font-family: 'DM Mono', monospace; font-weight: 500; }
+  .modal-overlay { background: rgba(0,0,0,0.5); backdrop-filter: blur(4px); }
+</style>
+</head>
+<body class="min-h-screen flex flex-col items-center bg-background">
+<div class="w-full max-w-[430px] min-h-screen relative flex flex-col bg-surface overflow-hidden" id="app">
+
+<!-- ===== SCREEN: ONBOARDING ===== -->
+<div class="screen active flex-col w-full" id="screen-onboarding">
+  <section class="relative w-full h-[300px] overflow-hidden flex-shrink-0">
+    <div class="absolute inset-0 bg-gradient-to-br from-[#b52330] via-[#ff5a5f] to-[#feb246]"></div>
+    <div class="absolute inset-0 flex items-center justify-center opacity-20">
+      <span class="material-symbols-outlined fill-icon text-white" style="font-size:200px;">travel_explore</span>
+    </div>
+    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-surface"></div>
+    <div class="absolute bottom-6 left-6 right-6 z-10">
+      <div class="flex items-center gap-2 mb-3">
+        <span class="material-symbols-outlined fill-icon text-white text-[28px]">flight</span>
+        <span class="text-white font-bold text-[20px]">Trip Buddy</span>
+      </div>
+    </div>
+  </section>
+  <section class="flex-1 px-container-margin pt-6 pb-section-gap flex flex-col justify-between">
+    <div>
+      <h1 class="text-display-lg font-bold text-on-surface leading-tight mb-2">Lên kế hoạch chuyến đi trong 30 giây ✈️</h1>
+      <p class="text-body-rg text-on-surface-variant mb-6">Chỉ cần nói bạn muốn đi đâu — Trip Buddy lo phần còn lại.</p>
+      <ul class="space-y-3">
+        <li class="flex items-center gap-3">
+          <div class="w-7 h-7 rounded-full bg-tertiary-container flex items-center justify-center flex-shrink-0">
+            <span class="material-symbols-outlined fill-icon text-white text-[16px]">check_circle</span>
+          </div>
+          <span class="text-body-rg text-on-surface-variant">Lịch trình theo ngày tự động</span>
+        </li>
+        <li class="flex items-center gap-3">
+          <div class="w-7 h-7 rounded-full bg-tertiary-container flex items-center justify-center flex-shrink-0">
+            <span class="material-symbols-outlined fill-icon text-white text-[16px]">check_circle</span>
+          </div>
+          <span class="text-body-rg text-on-surface-variant">Địa điểm trending từ TikTok &amp; Instagram</span>
+        </li>
+        <li class="flex items-center gap-3">
+          <div class="w-7 h-7 rounded-full bg-tertiary-container flex items-center justify-center flex-shrink-0">
+            <span class="material-symbols-outlined fill-icon text-white text-[16px]">check_circle</span>
+          </div>
+          <span class="text-body-rg text-on-surface-variant">Tính &amp; chia tiền siêu nhanh</span>
+        </li>
+      </ul>
+    </div>
+    <div class="mt-section-gap space-y-3">
+      <button onclick="showScreen('plan')" class="w-full h-12 bg-primary text-white font-semibold text-[15px] rounded-[12px] shadow-lg flex items-center justify-center gap-2 active:scale-[0.98] transition-transform">
+        Bắt đầu ngay
+        <span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+      </button>
+      <div class="flex justify-center">
+        <a href="#" onclick="showScreen('expense'); return false;" class="text-[13px] text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1">
+          Mở lịch trình đã lưu →
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ===== SCREEN: PLAN (Home + Chat) ===== -->
+<div class="screen flex-col w-full" id="screen-plan">
+  <!-- Header (hidden on mobile plan screens per BUG U1 fix) -->
+  <header class="bg-surface border-b border-outline-variant fixed top-0 w-full max-w-[430px] z-50 flex justify-between items-center px-gutter h-14">
+    <div class="flex items-center gap-2">
+      <span class="material-symbols-outlined fill-icon text-primary">flight</span>
+      <span class="font-bold text-heading-md text-on-surface">Trip Buddy</span>
+    </div>
+    <button onclick="showScreen('onboarding')" class="hover:opacity-80 transition-opacity">
+      <span class="material-symbols-outlined text-on-surface-variant">arrow_back</span>
+    </button>
+  </header>
+
+  <main class="flex-1 pt-14 pb-32 overflow-y-auto no-scrollbar">
+    <!-- Destination chips -->
+    <div class="sticky top-14 bg-surface/90 backdrop-blur-md z-40 py-2 border-b border-outline-variant/30">
+      <div class="flex gap-2 px-container-margin overflow-x-auto no-scrollbar py-1">
+        <button class="dest-chip flex-shrink-0 px-4 py-2 rounded-full bg-surface-container text-on-surface-variant text-label-sm hover:bg-secondary-container/50 transition-colors border border-outline-variant/30" data-city="Đà Lạt">🌿 Đà Lạt</button>
+        <button class="dest-chip flex-shrink-0 px-4 py-2 rounded-full bg-surface-container text-on-surface-variant text-label-sm hover:bg-secondary-container/50 transition-colors border border-outline-variant/30" data-city="Hội An">🏮 Hội An</button>
+        <button class="dest-chip flex-shrink-0 px-4 py-2 rounded-full bg-surface-container text-on-surface-variant text-label-sm hover:bg-secondary-container/50 transition-colors border border-outline-variant/30" data-city="Đà Nẵng">🌊 Đà Nẵng</button>
+        <button class="dest-chip flex-shrink-0 px-4 py-2 rounded-full bg-surface-container text-on-surface-variant text-label-sm hover:bg-secondary-container/50 transition-colors border border-outline-variant/30" data-city="Nha Trang">🐚 Nha Trang</button>
+        <button class="dest-chip flex-shrink-0 px-4 py-2 rounded-full bg-surface-container text-on-surface-variant text-label-sm hover:bg-secondary-container/50 transition-colors border border-outline-variant/30" data-city="Phú Quốc">🌴 Phú Quốc</button>
+        <button class="dest-chip flex-shrink-0 px-4 py-2 rounded-full bg-surface-container text-on-surface-variant text-label-sm hover:bg-secondary-container/50 transition-colors border border-outline-variant/30" data-city="Hà Nội">🍜 Hà Nội</button>
+        <button class="dest-chip flex-shrink-0 px-4 py-2 rounded-full bg-surface-container text-on-surface-variant text-label-sm hover:bg-secondary-container/50 transition-colors border border-outline-variant/30" data-city="Sa Pa">❄️ Sa Pa</button>
+      </div>
+    </div>
+
+    <!-- Progress stepper (hidden until chat starts) -->
+    <div id="plan-stepper" class="hidden px-container-margin pt-4 pb-2">
+      <div class="flex items-center justify-center gap-2">
+        <div class="progress-dot active" id="dot-1"></div>
+        <div class="progress-dot" id="dot-2"></div>
+        <div class="progress-dot" id="dot-3"></div>
+        <div class="progress-dot" id="dot-4"></div>
+        <div class="progress-dot" id="dot-5"></div>
+      </div>
+      <p class="text-center text-caption-xs text-on-surface-variant mt-1" id="step-label">Bước 1 / 5</p>
+    </div>
+
+    <!-- Chat messages -->
+    <div id="chat-messages" class="px-container-margin py-4 space-y-3">
+      <!-- Empty state -->
+      <div id="empty-state" class="flex flex-col items-center justify-center py-16 text-center">
+        <div class="relative w-32 h-32 mb-4 flex items-center justify-center">
+          <div class="absolute inset-0 bg-primary-container/10 rounded-full blur-xl"></div>
+          <span class="material-symbols-outlined fill-icon text-primary-container relative z-10" style="font-size:80px;">travel_explore</span>
+          <div class="absolute -top-1 -right-1 bg-secondary-container p-1.5 rounded-full shadow-md">
+            <span class="material-symbols-outlined fill-icon text-white text-[18px]">location_on</span>
+          </div>
+        </div>
+        <h2 class="text-display-lg font-bold text-on-surface mb-2">Bạn muốn đi đâu?</h2>
+        <p class="text-body-rg text-on-surface-variant max-w-[260px]">Chọn điểm đến bên trên hoặc gõ tên thành phố bất kỳ.</p>
+      </div>
+    </div>
+
+    <!-- Quick reply chips -->
+    <div id="quick-chips" class="hidden px-container-margin pb-2">
+      <div class="flex gap-2 flex-wrap" id="chips-container"></div>
+    </div>
+  </main>
+
+  <!-- Bottom input bar — NO bottom nav on plan screens (BUG U1 fix) -->
+  <div class="fixed bottom-0 left-0 right-0 max-w-[430px] mx-auto px-container-margin pb-4 pt-2 bg-background/90 backdrop-blur-sm z-40">
+    <div class="flex items-center gap-2 bg-surface border border-outline-variant rounded-full px-2 h-[52px] shadow-sm" id="chat-input-bar">
+      <button id="mic-btn" onclick="toggleVoicePlan()" class="p-2 text-on-surface-variant hover:text-primary transition-colors">
+        <span class="material-symbols-outlined">mic</span>
+      </button>
+      <input id="chat-input" type="text" placeholder="Gõ tên thành phố — hoặc thử 🎤"
+        class="flex-1 bg-transparent border-none focus:outline-none focus:ring-0 text-body-rg text-on-surface placeholder:text-on-surface-variant/50"
+        onkeydown="if(event.key==='Enter')sendChat()">
+      <button onclick="sendChat()" class="bg-primary-container w-9 h-9 rounded-full flex items-center justify-center flex-shrink-0 active:scale-90 transition-transform">
+        <span class="material-symbols-outlined fill-icon text-white text-[18px]">send</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SCREEN: LOADING ===== -->
+<div class="screen flex-col w-full items-center justify-center min-h-screen" id="screen-loading">
+  <div class="w-full max-w-[430px] px-container-margin py-section-gap flex flex-col items-center">
+    <span class="material-symbols-outlined fill-icon text-primary-container mb-4" style="font-size:56px;">travel_explore</span>
+    <h2 class="text-display-lg font-bold text-on-surface mb-2 text-center">Đang tạo lịch trình...</h2>
+    <p class="text-body-rg text-on-surface-variant text-center mb-8">AI đang tìm những điểm trending và sắp xếp lịch trình phù hợp nhất cho bạn.</p>
+    <!-- Progress bar -->
+    <div class="w-full h-1.5 bg-surface-container rounded-full mb-8 overflow-hidden">
+      <div class="h-full bg-primary rounded-full transition-all duration-500" id="loading-bar" style="width:0%"></div>
+    </div>
+    <!-- Skeleton cards -->
+    <div class="w-full space-y-3">
+      <div class="skeleton h-20 w-full rounded-xl"></div>
+      <div class="skeleton h-16 w-4/5 rounded-xl"></div>
+      <div class="skeleton h-16 w-full rounded-xl"></div>
+      <div class="skeleton h-12 w-3/5 rounded-xl"></div>
+    </div>
+    <!-- Cancel button (shown after 3s per BUG U2 fix) -->
+    <div id="cancel-btn-wrapper" class="hidden mt-8 text-center">
+      <button onclick="cancelLoading()" class="text-label-sm text-on-surface-variant underline border border-outline-variant px-6 py-2 rounded-full">
+        Huỷ
+      </button>
+    </div>
+    <!-- Error state (shown after 15s per BUG U2 fix) -->
+    <div id="loading-error" class="hidden mt-6 text-center">
+      <div class="bg-error-container rounded-xl p-4 mb-4">
+        <p class="text-body-rg text-on-surface font-semibold mb-1">⚠️ Không tạo được lịch trình</p>
+        <p class="text-label-sm text-on-surface-variant">Kiểm tra kết nối mạng và thử lại.</p>
+      </div>
+      <div class="flex gap-3 justify-center">
+        <button onclick="retryLoading()" class="px-6 py-2 bg-primary text-white rounded-full text-label-sm">Thử lại</button>
+        <button onclick="cancelLoading()" class="px-6 py-2 border border-outline-variant text-on-surface-variant rounded-full text-label-sm">Huỷ</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== SCREEN: ITINERARY ===== -->
+<div class="screen flex-col w-full" id="screen-itinerary">
+  <!-- Top App Bar -->
+  <header class="bg-surface border-b border-outline-variant fixed top-0 w-full max-w-[430px] z-50 flex justify-between items-center px-gutter h-14">
+    <div class="flex items-center gap-2">
+      <span class="material-symbols-outlined fill-icon text-primary">flight</span>
+      <span class="font-bold text-heading-md text-on-surface">Trip Buddy</span>
+    </div>
+    <div class="flex items-center gap-3">
+      <button onclick="saveItinerary()" class="flex items-center gap-1 text-on-surface-variant hover:text-primary transition-colors">
+        <span class="material-symbols-outlined text-[20px]">bookmark</span>
+        <span class="text-label-sm">Lưu</span>
+      </button>
+      <button onclick="showScreen('plan')" class="text-on-surface-variant hover:opacity-80">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="flex-1 pt-14 pb-[140px] overflow-y-auto no-scrollbar" id="itinerary-content">
+    <!-- Dynamic content injected here -->
+  </main>
+
+  <!-- Q&A Chat panel (slide up from bottom, above nav) -->
+  <div id="itinerary-qa-panel" class="hidden fixed bottom-[64px] left-0 right-0 max-w-[430px] mx-auto z-40 bg-surface border-t border-outline-variant shadow-lg">
+    <!-- Q&A messages -->
+    <div id="qa-messages" class="max-h-[220px] overflow-y-auto p-3 space-y-2 no-scrollbar"></div>
+    <!-- Input row -->
+    <div class="flex items-center gap-2 px-3 pb-3 pt-1">
+      <input id="qa-input" type="text" placeholder="Hỏi về cà phê, ăn uống, chỗ ở..."
+        class="flex-1 border border-outline-variant rounded-full px-4 py-2.5 text-body-rg focus:outline-none focus:border-primary bg-surface-container-lowest text-sm"
+        onkeydown="if(event.key==='Enter')sendQA()">
+      <button onclick="sendQA()"
+        class="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center flex-shrink-0 active:scale-95 transition-transform">
+        <span class="material-symbols-outlined text-[18px]">send</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Bottom nav (visible on itinerary screen) -->
+  <nav class="fixed bottom-0 w-full max-w-[430px] z-50 bg-surface border-t border-outline-variant">
+    <div class="flex justify-around items-center h-[64px]">
+      <button class="flex flex-col items-center justify-center text-on-surface-variant pt-1 w-full h-full hover:bg-surface-container-low transition-colors"
+        onclick="showScreen('plan')">
+        <span class="material-symbols-outlined fill-icon text-on-surface-variant">calendar_today</span>
+        <span class="text-label-sm">Lên Lịch</span>
+      </button>
+      <button id="qa-toggle-btn" class="flex flex-col items-center justify-center text-on-surface-variant pt-1 w-full h-full hover:bg-surface-container-low transition-colors"
+        onclick="toggleQAPanel()">
+        <span class="material-symbols-outlined fill-icon text-on-surface-variant">chat_bubble</span>
+        <span class="text-label-sm">Hỏi thêm</span>
+      </button>
+      <button class="flex flex-col items-center justify-center text-primary border-t-2 border-primary pt-1 w-full h-full hover:bg-surface-container-low transition-colors"
+        onclick="goToExpense()">
+        <span class="material-symbols-outlined fill-icon text-primary">payments</span>
+        <span class="text-label-sm text-primary">Tính Tiền</span>
+      </button>
+    </div>
+  </nav>
+</div>
+
+<!-- ===== SCREEN: EXPENSE ===== -->
+<div class="screen flex-col w-full" id="screen-expense">
+  <header class="bg-surface border-b border-outline-variant sticky top-0 z-50 flex justify-between items-center px-gutter h-14">
+    <div class="flex items-center gap-2">
+      <span class="material-symbols-outlined fill-icon text-primary">flight</span>
+      <span class="font-bold text-heading-md text-on-surface">Trip Buddy</span>
+    </div>
+    <button onclick="showScreen('itinerary')" class="hover:opacity-80 text-on-surface-variant">
+      <span class="material-symbols-outlined">arrow_back</span>
+    </button>
+  </header>
+
+  <main class="flex-1 px-container-margin py-4 pb-[80px] overflow-y-auto no-scrollbar">
+
+    <!-- Setup members (shown when no members yet) -->
+    <div id="expense-setup" class="">
+      <h2 class="text-heading-md font-bold text-on-surface mb-2">Ai cùng đi?</h2>
+      <p class="text-body-rg text-on-surface-variant mb-4">Nhập tên thành viên (cách nhau bằng dấu phẩy)</p>
+      <div class="flex gap-2 mb-4">
+        <input id="members-input" type="text" placeholder="VD: Ngân, Thủy, Trang"
+          class="flex-1 border border-outline-variant rounded-xl px-4 py-3 text-body-rg focus:outline-none focus:border-primary bg-surface-container-lowest"
+          onkeydown="if(event.key==='Enter')setupMembers()">
+        <button onclick="setupMembers()" class="bg-primary text-white px-5 py-3 rounded-xl text-label-sm font-semibold">OK</button>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <button onclick="document.getElementById('members-input').value='Ngân, Thủy, Trang'" class="px-3 py-1.5 rounded-full border border-outline-variant text-label-sm text-on-surface-variant hover:bg-surface-container">Ngân, Thủy, Trang</button>
+        <button onclick="document.getElementById('members-input').value='An, Bình, Châu, Duy'" class="px-3 py-1.5 rounded-full border border-outline-variant text-label-sm text-on-surface-variant hover:bg-surface-container">An, Bình, Châu, Duy</button>
+      </div>
+    </div>
+
+    <!-- Expense tracker (shown after setup) -->
+    <div id="expense-tracker" class="hidden">
+      <!-- Summary card — BUG L6 fix: two separate rows -->
+      <section class="mb-section-gap">
+        <div class="bento-card bg-surface-container-lowest rounded-xl p-5">
+          <!-- Row 1: Trip total (cumulative) -->
+          <div class="flex justify-between items-start mb-3">
+            <div>
+              <p class="text-label-sm text-on-surface-variant mb-1">Tổng toàn chuyến</p>
+              <h2 class="text-display-lg font-bold text-primary amount-mono" id="exp-total">0đ</h2>
+            </div>
+            <div class="w-10 h-10 rounded-full bg-primary-container/20 flex items-center justify-center">
+              <span class="material-symbols-outlined fill-icon text-primary text-[20px]">wallet</span>
+            </div>
+          </div>
+          <!-- Row 2: Today only -->
+          <div class="border-t border-outline-variant/30 pt-3 flex justify-between items-center">
+            <span class="text-label-sm text-on-surface-variant flex items-center gap-1">
+              <span class="material-symbols-outlined text-[14px]">today</span>
+              Hôm nay
+            </span>
+            <span class="amount-mono text-label-sm text-secondary" id="exp-today">0đ</span>
+          </div>
+          <!-- Settlement hint -->
+          <div id="settlement-hint" class="hidden border-t border-outline-variant/30 pt-3 mt-3">
+            <div class="bg-surface-container-low rounded-lg p-3 flex justify-between items-center">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-tertiary text-[18px]">sync_alt</span>
+                <p id="settlement-text" class="text-body-rg text-on-surface text-[13px]"></p>
+              </div>
+              <button onclick="showSettlement()" class="text-primary text-label-sm hover:underline">Chi tiết</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Member row + avatars -->
+      <section class="mb-6">
+        <div class="flex items-center gap-4 overflow-x-auto no-scrollbar py-1" id="member-row"></div>
+      </section>
+
+      <!-- Bar chart — BUG L7 fix: dynamic data -->
+      <section class="mb-section-gap">
+        <div class="bento-card bg-surface-container-lowest rounded-xl p-5 h-56 flex flex-col">
+          <div class="flex justify-between items-center mb-4">
+            <h3 class="text-heading-md font-semibold">Phân bổ chi phí</h3>
+            <span class="material-symbols-outlined text-on-surface-variant">bar_chart</span>
+          </div>
+          <div class="flex-grow flex items-end justify-around gap-3 pb-1" id="bar-chart"></div>
+        </div>
+      </section>
+
+      <!-- Add expense input -->
+      <section class="mb-section-gap">
+        <h3 class="text-heading-md font-semibold mb-3">Thêm khoản chi</h3>
+        <div class="flex gap-2">
+          <input id="expense-input" type="text" placeholder="VD: Ngân trả taxi 200k, Trang không đi"
+            class="flex-1 border border-outline-variant rounded-xl px-4 py-3 text-body-rg focus:outline-none focus:border-primary bg-surface-container-lowest"
+            onkeydown="if(event.key==='Enter')addExpenseText()">
+          <button onclick="addExpenseText()" class="bg-primary text-white px-4 py-3 rounded-xl text-label-sm font-semibold">Thêm</button>
+        </div>
+        <div class="flex gap-2 mt-2 flex-wrap">
+          <span class="text-caption-xs text-on-surface-variant">Gợi ý:</span>
+          <button onclick="setExpenseExample('Ngân trả taxi 200k')" class="text-caption-xs text-primary underline">taxi 200k</button>
+          <button onclick="setExpenseExample('Thủy trả ăn trưa 450k cả nhóm')" class="text-caption-xs text-primary underline">ăn trưa 450k</button>
+          <button onclick="setExpenseExample('Trang trả vé tham quan 300k, Thủy không đi')" class="text-caption-xs text-primary underline">vé tham quan</button>
+        </div>
+      </section>
+
+      <!-- Expense history -->
+      <section>
+        <h3 class="text-heading-md font-semibold mb-3 flex items-center gap-2">
+          <span class="material-symbols-outlined fill-icon text-primary text-[18px]">receipt_long</span>
+          Lịch sử chi tiêu
+        </h3>
+        <div id="expense-list" class="space-y-3"></div>
+        <div id="expense-empty" class="text-center py-8 text-on-surface-variant text-body-rg">
+          Chưa có khoản chi nào. Thêm khoản đầu tiên bên trên! 💸
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Bottom nav (visible on expense screen) -->
+  <nav class="fixed bottom-0 w-full max-w-[430px] z-50 flex justify-around items-center bg-surface h-[64px] border-t border-outline-variant">
+    <button class="flex flex-col items-center justify-center text-on-surface-variant pt-1 w-full h-full hover:bg-surface-container-low transition-colors"
+      onclick="showScreen('itinerary')">
+      <span class="material-symbols-outlined text-on-surface-variant">calendar_today</span>
+      <span class="text-label-sm">Lên Lịch</span>
+    </button>
+    <button class="flex flex-col items-center justify-center text-primary border-t-2 border-primary pt-1 w-full h-full">
+      <span class="material-symbols-outlined fill-icon text-primary">payments</span>
+      <span class="text-label-sm text-primary">Tính Tiền</span>
+    </button>
+  </nav>
+
+  <!-- FAB mic button -->
+  <button onclick="openVoiceExpense()" class="fixed bottom-[80px] right-4 w-14 h-14 bg-primary-container rounded-full shadow-lg flex items-center justify-center z-40 active:scale-90 transition-transform">
+    <span class="material-symbols-outlined fill-icon text-white text-[24px]">mic</span>
+  </button>
+</div>
+
+<!-- ===== SETTLEMENT MODAL ===== -->
+<div id="settlement-modal" class="hidden fixed inset-0 z-[100] flex items-end justify-center modal-overlay" onclick="if(event.target===this)closeSettlement()">
+  <div class="bg-surface w-full max-w-[430px] bottom-sheet p-6 pb-8">
+    <div class="flex justify-center mb-4"><div class="w-12 h-1.5 bg-outline-variant rounded-full opacity-40"></div></div>
+    <h3 class="text-heading-md font-bold text-on-surface mb-4">Quyết toán chuyến đi</h3>
+    <div id="settlement-list" class="space-y-3 mb-6"></div>
+    <button onclick="closeSettlement()" class="w-full h-11 border border-outline-variant rounded-xl text-label-sm text-on-surface-variant">Đóng</button>
+  </div>
+</div>
+
+<!-- Confirm payment modal (BUG L8 fix) -->
+<div id="payment-confirm-modal" class="hidden fixed inset-0 z-[110] flex items-center justify-center modal-overlay px-container-margin">
+  <div class="bg-surface rounded-2xl p-6 w-full shadow-2xl">
+    <h3 class="text-heading-md font-bold text-on-surface mb-2">Xác nhận thanh toán?</h3>
+    <p id="payment-confirm-text" class="text-body-rg text-on-surface-variant mb-6"></p>
+    <div class="flex gap-3">
+      <button onclick="closePaymentConfirm()" class="flex-1 h-10 border border-outline-variant rounded-xl text-label-sm text-on-surface-variant">Huỷ</button>
+      <button id="payment-confirm-btn" class="flex-1 h-10 bg-primary text-white rounded-xl text-label-sm font-semibold">✓ Đã chuyển rồi</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== VOICE SHEET — Plan (Phase 1 only for planning) ===== -->
+<div id="voice-plan-sheet" class="hidden fixed inset-0 z-[80] flex items-end justify-center">
+  <div class="absolute inset-0 bg-black/40 backdrop-blur-[2px]" onclick="closeVoicePlan()"></div>
+  <div class="bg-surface-container-lowest w-full max-w-[430px] bottom-sheet p-6 pb-10 relative z-10">
+    <div class="flex justify-center mb-4"><div class="w-12 h-1.5 bg-outline-variant rounded-full opacity-40"></div></div>
+    <div class="flex flex-col items-center gap-4">
+      <div class="relative flex items-center justify-center w-16 h-16">
+        <div class="absolute w-14 h-14 bg-primary-container/20 rounded-full ping-slow"></div>
+        <span class="material-symbols-outlined fill-icon text-primary-container relative z-10" style="font-size:40px;">mic</span>
+      </div>
+      <h2 class="text-heading-md font-bold text-on-surface" id="voice-plan-status">Đang nghe...</h2>
+      <div class="flex items-end justify-center h-8 gap-[3px]" id="waveform-plan">
+        <div class="waveform-bar w-[3px] bg-primary-container rounded-sm delay-1"></div>
+        <div class="waveform-bar w-[3px] bg-primary-container rounded-sm delay-3"></div>
+        <div class="waveform-bar w-[3px] bg-primary-container rounded-sm delay-2"></div>
+        <div class="waveform-bar w-[3px] bg-primary-container rounded-sm delay-4"></div>
+        <div class="waveform-bar w-[3px] bg-primary-container rounded-sm delay-1"></div>
+        <div class="waveform-bar w-[3px] bg-primary-container rounded-sm delay-3"></div>
+        <div class="waveform-bar w-[3px] bg-primary-container rounded-sm delay-2"></div>
+      </div>
+      <p id="voice-plan-transcript" class="text-body-rg text-on-surface-variant italic text-center min-h-[20px]"></p>
+      <button onclick="closeVoicePlan()" class="text-label-sm text-on-surface-variant underline mt-2">Huỷ</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== VOICE SHEET — Expense (3 phases) ===== -->
+<div id="voice-expense-sheet" class="hidden fixed inset-0 z-[80] flex items-end justify-center">
+  <div class="absolute inset-0 bg-black/40 backdrop-blur-[2px]" onclick="closeVoiceExpense()"></div>
+  <div class="bg-surface-container-lowest w-full max-w-[430px] bottom-sheet pb-10 relative z-10">
+    <div class="flex justify-center pt-4 mb-2"><div class="w-12 h-1.5 bg-outline-variant rounded-full opacity-40"></div></div>
+
+    <!-- Phase 1: Recording -->
+    <div id="voice-phase1" class="p-6 flex flex-col items-center gap-4">
+      <div class="relative flex items-center justify-center w-16 h-16">
+        <div class="absolute w-14 h-14 bg-primary-container/20 rounded-full ping-slow"></div>
+        <span class="material-symbols-outlined fill-icon text-primary-container relative z-10" style="font-size:40px;">mic</span>
+      </div>
+      <h2 class="text-heading-md font-bold text-on-surface">Đang nghe...</h2>
+      <div class="flex items-end justify-center h-8 gap-[3px]">
+        <div class="waveform-bar w-[3px] bg-primary-container rounded-sm delay-1"></div>
+        <div class="waveform-bar w-[3px] bg-primary-container rounded-sm delay-3"></div>
+        <div class="waveform-bar w-[3px] bg-primary-container rounded-sm delay-2"></div>
+        <div class="waveform-bar w-[3px] bg-primary-container rounded-sm delay-4"></div>
+        <div class="waveform-bar w-[3px] bg-primary-container rounded-sm delay-1"></div>
+        <div class="waveform-bar w-[3px] bg-primary-container rounded-sm delay-3"></div>
+        <div class="waveform-bar w-[3px] bg-primary-container rounded-sm delay-2"></div>
+      </div>
+      <p id="voice-exp-transcript" class="text-body-rg text-on-surface-variant italic text-center min-h-[20px]"></p>
+      <button onclick="closeVoiceExpense()" class="text-label-sm text-on-surface-variant underline">Huỷ</button>
+    </div>
+
+    <!-- Phase 1.5: Processing (BUG V1 fix — MUST SHOW THIS STATE) -->
+    <div id="voice-phase15" class="hidden p-6 flex flex-col items-center gap-4">
+      <div class="w-14 h-14 border-2 border-primary border-t-transparent rounded-full" style="animation:spin 1s linear infinite"></div>
+      <h2 class="text-heading-md font-bold text-on-surface">Đang phân tích giọng nói...</h2>
+      <p class="text-label-sm text-on-surface-variant">Xử lý dữ liệu chi tiêu</p>
+    </div>
+
+    <!-- Phase 2: Confirmation -->
+    <div id="voice-phase2" class="hidden p-6">
+      <h2 class="text-heading-md font-bold text-on-surface mb-4">Xác nhận khoản chi</h2>
+      <div class="bg-surface-container rounded-xl p-4 mb-4">
+        <p id="voice-p2-transcript" class="text-label-sm text-on-surface-variant italic mb-3"></p>
+        <div class="space-y-2" id="voice-p2-breakdown"></div>
+      </div>
+      <div class="flex gap-3">
+        <button onclick="voicePhase1()" class="flex-1 h-11 border border-outline-variant rounded-xl text-label-sm text-on-surface-variant">Sửa lại</button>
+        <button onclick="confirmVoiceExpense()" class="flex-1 h-11 bg-primary text-white rounded-xl text-label-sm font-semibold">✓ Thêm khoản chi này</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Spin animation -->
+<style>
+  @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+</style>
+
+<script>
+// ============================================================
+// STATE
+// ============================================================
+const state = {
+  sessionId: 'trip_' + Date.now(),
+  currentScreen: 'onboarding',
+  planStage: 'start', // start, companions, duration, budget, style, post_result
+  planStep: 0,        // 0-4 for progress dots
+  itineraryData: null,
+  expenseMembers: [],
+  expenseData: null,
+  loadingTimer1: null,
+  loadingTimer2: null,
+  loadingInterv: null,
+  voicePlanRec: null,
+  voiceExpRec: null,
+  pendingVoiceText: null,
+  pendingExpenseParsed: null,
+  todayExpenses: 0,
+  markPaidQueue: [], // for settlement modal
+};
+
+// ============================================================
+// NAVIGATION
+// ============================================================
+function showScreen(name) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-' + name).classList.add('active');
+  state.currentScreen = name;
+}
+
+function goToExpense() {
+  showScreen('expense');
+  if (state.itineraryData) {
+    const city = state.itineraryData.city || '';
+    document.getElementById('expense-setup').classList.remove('hidden');
+    document.getElementById('expense-tracker').classList.add('hidden');
+  }
+}
+
+// ============================================================
+// FORMAT UTILS
+// ============================================================
+function fmtVND(n) {
+  if (!n) return '0đ';
+  if (n >= 1000000) return (n/1000000).toFixed(1).replace('.0','') + ' triệu đ';
+  if (n >= 1000) return Math.round(n/1000) + 'k đ';
+  return n.toLocaleString('vi-VN') + 'đ';
+}
+function fmtVNDFull(n) {
+  return Number(n||0).toLocaleString('vi-VN') + 'đ';
+}
+
+// ============================================================
+// DESTINATION CHIPS
+// ============================================================
+document.querySelectorAll('.dest-chip').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const city = btn.dataset.city;
+    document.getElementById('chat-input').value = city;
+    document.getElementById('empty-state').remove();
+    sendChat();
+  });
+});
+
+// ============================================================
+// CHAT / PLANNING
+// ============================================================
+const STEP_LABELS = ['Điểm đến','Nhóm đi','Thời gian','Ngân sách','Phong cách'];
+const STEP_CHIPS = {
+  companions: ['Nhóm bạn 👫','Cặp đôi 💑','Gia đình 👨‍👩‍👧','Solo 🧳'],
+  duration:   ['2N1Đ 🌙','3N2Đ ✨','4N3Đ 🎉'],
+  budget:     ['Tiết kiệm 💚','Tầm trung 💛','Sang chảnh 💎'],
+  style:      ['📸 Check-in','😌 Chill','🍜 Ẩm thực'],
+};
+// Map display label → value sent to backend (for chips where label ≠ backend value)
+const CHIP_VALUE_MAP = {
+  '2N1Đ 🌙': '1',
+  '3N2Đ ✨': '2',
+  '4N3Đ 🎉': '3',
+};
+
+function appendMessage(text, isUser) {
+  const empty = document.getElementById('empty-state');
+  if (empty) empty.remove();
+
+  const container = document.getElementById('chat-messages');
+  const div = document.createElement('div');
+  div.className = 'flex fade-in ' + (isUser ? 'justify-end' : 'justify-start');
+  div.innerHTML = '<div class="' + (isUser ? 'chat-bubble-user' : 'chat-bubble-agent') + ' text-body-rg">' + escHtml(text) + '</div>';
+  container.appendChild(div);
+  container.scrollTop = container.scrollHeight;
+}
+
+function escHtml(t) { return t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function showTyping() {
+  const container = document.getElementById('chat-messages');
+  const div = document.createElement('div');
+  div.id = 'typing-indicator';
+  div.className = 'flex justify-start';
+  div.innerHTML = '<div class="chat-bubble-agent text-on-surface-variant text-label-sm flex gap-1 items-center"><span>.</span><span>.</span><span>.</span></div>';
+  container.appendChild(div);
+  container.scrollTop = container.scrollHeight;
+}
+function removeTyping() {
+  const t = document.getElementById('typing-indicator');
+  if (t) t.remove();
+}
+
+function showQuickChips(stage) {
+  const chips = STEP_CHIPS[stage];
+  const wrapper = document.getElementById('quick-chips');
+  const container = document.getElementById('chips-container');
+  if (!chips) { wrapper.classList.add('hidden'); return; }
+  wrapper.classList.remove('hidden');
+  container.innerHTML = '';
+  chips.forEach(label => {
+    const btn = document.createElement('button');
+    btn.className = 'px-4 py-2 rounded-full border border-outline-variant bg-surface-container text-on-surface text-label-sm hover:bg-secondary-container/50 transition-colors active:scale-95';
+    btn.textContent = label;
+    // Use mapped backend value if available, else send the label directly
+    const sendValue = CHIP_VALUE_MAP[label] || label;
+    btn.onclick = () => { sendChatMessage(sendValue, label); };
+    container.appendChild(btn);
+  });
+}
+
+function updateStepper(step) {
+  document.getElementById('plan-stepper').classList.remove('hidden');
+  for (let i = 1; i <= 5; i++) {
+    const dot = document.getElementById('dot-' + i);
+    dot.className = 'progress-dot';
+    if (i < step) dot.classList.add('done');
+    else if (i === step) dot.classList.add('active');
+  }
+  const lbl = STEP_LABELS[step-1] || '';
+  document.getElementById('step-label').textContent = 'Bước ' + step + ' / 5 — ' + lbl;
+}
+
+async function sendChat() {
+  const input = document.getElementById('chat-input');
+  const msg = input.value.trim();
+  if (!msg) return;
+  input.value = '';
+  await sendChatMessage(msg);
+}
+
+async function sendChatMessage(msg, displayLabel) {
+  // Show pretty label in chat bubble, but send actual value to backend
+  appendMessage(displayLabel || msg, true);
+  document.getElementById('quick-chips').classList.add('hidden');
+  showTyping();
+
+  try {
+    const res = await fetch('/chat', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({message: msg, session_id: state.sessionId})
+    });
+    const data = await res.json();
+    removeTyping();
+
+    if (data.is_result && data.result) {
+      // Start loading screen
+      state.itineraryData = data.result;
+      showLoadingScreen();
+    } else {
+      appendMessage(data.reply || '...', false);
+      const stage = data.stage || 'start';
+      state.planStage = stage;
+
+      // Update stepper
+      const stepMap = {start:1, companions:2, duration:3, budget:4, budget_custom:4, style:5, post_result:5};
+      const step = stepMap[stage] || 1;
+      updateStepper(step);
+
+      // Show chips for current stage
+      showQuickChips(stage);
+    }
+  } catch(e) {
+    removeTyping();
+    appendMessage('Lỗi kết nối. Thử lại nhé! 🙏', false);
+  }
+}
+
+// ============================================================
+// LOADING SCREEN
+// ============================================================
+function showLoadingScreen() {
+  showScreen('loading');
+  const bar = document.getElementById('loading-bar');
+  const cancelWrapper = document.getElementById('cancel-btn-wrapper');
+  const errorDiv = document.getElementById('loading-error');
+  cancelWrapper.classList.add('hidden');
+  errorDiv.classList.add('hidden');
+
+  let pct = 0;
+  state.loadingInterv = setInterval(() => {
+    pct = Math.min(pct + Math.random() * 8, 88);
+    bar.style.width = pct + '%';
+  }, 500);
+
+  // BUG U2 fix: cancel after 3s
+  state.loadingTimer1 = setTimeout(() => {
+    cancelWrapper.classList.remove('hidden');
+  }, 3000);
+
+  // BUG U2 fix: error state after 15s
+  state.loadingTimer2 = setTimeout(() => {
+    errorDiv.classList.remove('hidden');
+  }, 15000);
+
+  // Finish loading immediately (data already fetched)
+  setTimeout(() => {
+    clearInterval(state.loadingInterv);
+    clearTimeout(state.loadingTimer1);
+    clearTimeout(state.loadingTimer2);
+    bar.style.width = '100%';
+    setTimeout(() => renderItinerary(), 400);
+  }, 1800);
+}
+
+function cancelLoading() {
+  clearInterval(state.loadingInterv);
+  clearTimeout(state.loadingTimer1);
+  clearTimeout(state.loadingTimer2);
+  showScreen('plan');
+}
+
+function retryLoading() {
+  clearInterval(state.loadingInterv);
+  if (state.itineraryData) renderItinerary();
+  else cancelLoading();
+}
+
+// ============================================================
+// ITINERARY RENDER
+// ============================================================
+const SLOT_ICONS = { morning:'wb_sunny', afternoon:'partly_cloudy_day', evening:'nights_stay', night:'bedtime' };
+const SLOT_LABELS = { morning:'Buổi sáng', afternoon:'Buổi chiều', evening:'Buổi tối', night:'Đêm' };
+const BUDGET_LABELS = { accommodation:'🏨 Chỗ ở', food:'🍜 Ăn uống', transport:'🚗 Di chuyển', activities:'🎡 Vui chơi' };
+
+function renderItinerary() {
+  const d = state.itineraryData;
+  if (!d) { showScreen('plan'); return; }
+
+  const cityName = d.city || 'Chuyến đi';
+  const duration = d.duration || '';
+  const companion = d.companions === 'friends' ? 'Nhóm bạn' : d.companions === 'couple' ? 'Cặp đôi' : d.companions === 'family' ? 'Gia đình' : 'Solo';
+
+  // Budget — BUG L4 fix: use correct line items that sum to total
+  const budget = d.budget || {};
+  const breakdown = budget.breakdown || {};
+  const totalBudget = budget.total_per_person || 0;
+
+  // If breakdown doesn't sum correctly, compute proper proportional values
+  const bkSum = Object.values(breakdown).reduce((a,b)=>a+b, 0);
+  let finalBreakdown = breakdown;
+  if (Math.abs(bkSum - totalBudget) > totalBudget * 0.05) {
+    // Proportionally scale breakdown to match total
+    const scale = totalBudget / (bkSum || 1);
+    finalBreakdown = {};
+    for (const [k,v] of Object.entries(breakdown)) {
+      finalBreakdown[k] = Math.round(v * scale);
+    }
+  }
+
+  let html = '';
+  // Hero card
+  html += `<section class="mx-gutter mt-4 rounded-xl overflow-hidden relative bento-card">
+    <div class="relative h-[180px] bg-gradient-to-br from-primary via-primary-container to-secondary flex items-end p-4">
+      <div class="absolute inset-0 flex items-center justify-center opacity-15">
+        <span class="material-symbols-outlined fill-icon text-white" style="font-size:120px;">travel_explore</span>
+      </div>
+      <div class="relative z-10">
+        <h1 class="text-white font-bold text-[20px] uppercase tracking-wide">📍 ${escHtml(cityName)} — ${escHtml(duration)}</h1>
+      </div>
+    </div>
+    <div class="px-4 py-3 bg-surface-container-low flex gap-2 flex-wrap">
+      <span class="px-3 py-1 bg-surface rounded-full border border-outline-variant/30 text-caption-xs text-on-surface-variant flex items-center gap-1">
+        <span class="material-symbols-outlined text-[14px]">group</span>${escHtml(companion)}
+      </span>
+      <span class="px-3 py-1 bg-surface rounded-full border border-outline-variant/30 text-caption-xs text-on-surface-variant flex items-center gap-1">
+        <span class="material-symbols-outlined text-[14px]">payments</span>${budget.tier === 'budget' ? 'Tiết kiệm' : budget.tier === 'mid' ? 'Tầm trung' : 'Sang chảnh'}
+      </span>
+    </div>
+  </section>`;
+
+  // Trending section
+  const trending = [...(d.live_trending||[]), ...(d.trending||[])].slice(0,6);
+  if (trending.length > 0) {
+    html += `<section class="mx-gutter mt-4">
+      <h3 class="text-heading-md font-semibold mb-3 flex items-center gap-2">
+        <span class="material-symbols-outlined fill-icon text-primary-container text-[18px]">trending_up</span>
+        Đang hot 🔥
+      </h3>
+      <div class="flex gap-2 overflow-x-auto no-scrollbar pb-1">`;
+    trending.forEach(t => {
+      const src = t.source || (t.tiktok ? 'TK' : 'WEB');
+      const srcColor = src === 'TK' ? 'bg-black text-white' : src === 'IG' ? 'bg-pink-600 text-white' : src === 'YT' ? 'bg-red-600 text-white' : 'bg-surface-container text-on-surface-variant';
+      const url = t.url ? `href="${escHtml(t.url)}" target="_blank"` : '';
+      html += `<a ${url} class="flex-shrink-0 bg-surface-container rounded-xl p-3 w-[140px] border border-outline-variant/30 block hover:border-primary/40 transition-colors">
+        <span class="inline-block px-2 py-0.5 rounded-full text-[10px] font-bold mb-2 ${srcColor}">${src}</span>
+        <p class="text-label-sm text-on-surface font-semibold leading-snug line-clamp-2">${escHtml(t.name)}</p>
+      </a>`;
+    });
+    html += `</div></section>`;
+  }
+
+  // Days
+  (d.days || []).forEach(day => {
+    html += `<section class="mx-gutter mt-4 rounded-xl overflow-hidden bento-card">
+      <div class="bg-primary px-4 py-2 flex justify-between items-center">
+        <span class="text-white font-semibold uppercase text-[13px]">${escHtml(day.title || 'Ngày ' + day.day)}</span>
+      </div>
+      <div class="p-4 space-y-4">`;
+
+    const activeSlots = ['morning','afternoon','evening','night'].filter(s => day[s]?.name);
+    activeSlots.forEach((slot, idx) => {
+      const item = day[slot];
+      const isLast = idx === activeSlots.length - 1;
+      const mapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(item.name + ' ' + cityName)}`;
+      const alts = item.alternatives || [];
+
+      html += `<div>
+        <div class="flex items-start gap-3">
+          <div class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center flex-shrink-0 mt-0.5">
+            <span class="material-symbols-outlined fill-icon text-secondary text-[18px]">${SLOT_ICONS[slot]}</span>
+          </div>
+          <div class="flex-1 min-w-0">
+            <p class="text-caption-xs text-on-surface-variant mb-0.5 uppercase tracking-wide">${SLOT_LABELS[slot]}</p>
+            <div class="flex items-start justify-between gap-2">
+              <h4 class="text-body-rg font-semibold text-on-surface flex-1">${escHtml(item.name)}</h4>
+              <a href="${mapsUrl}" target="_blank"
+                class="flex-shrink-0 bg-surface-container-high rounded-full px-2.5 py-1 text-caption-xs text-on-surface flex items-center gap-1 hover:bg-outline-variant/20 transition-colors mt-0.5">
+                <span class="material-symbols-outlined text-[12px]">location_on</span>Maps
+              </a>
+            </div>
+            <p class="text-caption-xs text-on-surface-variant mt-0.5">${escHtml(item.desc || '')}</p>
+            ${item.price ? `<span class="text-caption-xs amount-mono text-secondary mt-1 inline-block">${escHtml(item.price)}</span>` : ''}
+          </div>
+        </div>`;
+
+      // Alternatives
+      if (alts.length > 0) {
+        html += `<div class="ml-12 mt-2">
+          <p class="text-caption-xs text-on-surface-variant mb-1.5 flex items-center gap-1">
+            <span class="material-symbols-outlined text-[12px]">swap_horiz</span>
+            Thay thế:
+          </p>
+          <div class="flex gap-2 overflow-x-auto no-scrollbar pb-0.5">`;
+        alts.forEach(alt => {
+          const altMaps = `https://www.google.com/maps/search/${encodeURIComponent(alt.name + ' ' + cityName)}`;
+          html += `<a href="${altMaps}" target="_blank"
+            class="flex-shrink-0 bg-surface-container rounded-lg px-3 py-2 border border-outline-variant/30 hover:border-primary/40 transition-colors min-w-[140px] max-w-[180px]">
+            <p class="text-label-sm font-semibold text-on-surface leading-snug">${escHtml(alt.name)}</p>
+            ${alt.desc ? `<p class="text-caption-xs text-on-surface-variant mt-0.5 leading-snug">${escHtml(alt.desc)}</p>` : ''}
+            ${alt.price ? `<span class="text-caption-xs amount-mono text-secondary mt-1 inline-block">${escHtml(alt.price)}</span>` : ''}
+          </a>`;
+        });
+        html += `</div></div>`;
+      }
+
+      html += `${!isLast ? '<div class="ml-[18px] mt-3 h-4 border-l-2 border-dashed border-outline-variant"></div>' : ''}</div>`;
+    });
+
+    html += `</div></section>`;
+  });
+
+  // Budget breakdown — BUG L4 fix: show items that sum to total
+  if (totalBudget > 0) {
+    html += `<section class="mx-gutter mt-4 bento-card rounded-xl overflow-hidden">
+      <div class="bg-secondary px-4 py-2">
+        <span class="text-white font-semibold uppercase text-[13px]">💰 Ngân sách ước tính</span>
+      </div>
+      <div class="p-4">
+        <div class="space-y-2 mb-3">`;
+    for (const [key, val] of Object.entries(finalBreakdown)) {
+      const label = BUDGET_LABELS[key] || key;
+      html += `<div class="flex justify-between items-center">
+        <span class="text-body-rg text-on-surface-variant">${label}</span>
+        <span class="amount-mono text-label-sm text-on-surface">${fmtVNDFull(val)}</span>
+      </div>`;
+    }
+    html += `</div>
+        <div class="border-t border-outline-variant pt-2 flex justify-between items-center">
+          <span class="text-label-sm font-semibold text-on-surface">Tổng/người</span>
+          <span class="amount-mono text-heading-md font-bold text-primary">~${fmtVNDFull(totalBudget)}</span>
+        </div>
+      </div>
+    </section>`;
+  }
+
+  // Tips / hidden gems
+  const tips = d.tips || [];
+  if (tips.length > 0) {
+    html += `<section class="mx-gutter mt-4 mb-4 bento-card rounded-xl overflow-hidden">
+      <div class="bg-tertiary px-4 py-2">
+        <span class="text-white font-semibold uppercase text-[13px]">💎 Bí kíp local</span>
+      </div>
+      <div class="p-4 space-y-2">`;
+    tips.forEach(tip => {
+      html += `<div class="flex items-start gap-2">
+        <span class="text-tertiary-container mt-0.5">✦</span>
+        <div>
+          <p class="text-label-sm font-semibold text-on-surface">${escHtml(tip.name)}</p>
+          <p class="text-caption-xs text-on-surface-variant">${escHtml(tip.desc || '')}</p>
+        </div>
+      </div>`;
+    });
+    html += `</div></section>`;
+  }
+
+  // Go to expense button
+  html += `<div class="mx-gutter mt-4 mb-6">
+    <button onclick="goToExpense()" class="w-full h-12 bg-secondary-container text-on-secondary-container font-semibold text-heading-md rounded-xl flex items-center justify-center gap-2 shadow-sm active:scale-[0.98] transition-transform">
+      <span class="material-symbols-outlined fill-icon text-[20px]">payments</span>
+      💰 Tính tiền chuyến đi
+    </button>
+  </div>`;
+
+  document.getElementById('itinerary-content').innerHTML = html;
+  showScreen('itinerary');
+}
+
+function saveItinerary() {
+  if (!state.itineraryData) return;
+  const blob = new Blob([JSON.stringify(state.itineraryData, null, 2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'trip-buddy-itinerary.json';
+  a.click();
+}
+
+// ============================================================
+// ITINERARY Q&A PANEL
+// ============================================================
+function toggleQAPanel() {
+  const panel = document.getElementById('itinerary-qa-panel');
+  const btn = document.getElementById('qa-toggle-btn');
+  const isHidden = panel.classList.contains('hidden');
+  panel.classList.toggle('hidden', !isHidden);
+  if (isHidden) {
+    btn.querySelector('.material-symbols-outlined').textContent = 'keyboard_arrow_down';
+    btn.querySelector('.text-label-sm').textContent = 'Đóng';
+    document.getElementById('qa-input').focus();
+    // Scroll content up so it doesn't hide behind panel
+    document.getElementById('itinerary-content').style.paddingBottom = '310px';
+  } else {
+    btn.querySelector('.material-symbols-outlined').textContent = 'chat_bubble';
+    btn.querySelector('.text-label-sm').textContent = 'Hỏi thêm';
+    document.getElementById('itinerary-content').style.paddingBottom = '';
+  }
+}
+
+function appendQAMsg(text, isUser) {
+  const msgs = document.getElementById('qa-messages');
+  const div = document.createElement('div');
+  div.className = isUser
+    ? 'ml-auto max-w-[80%] bg-primary text-white rounded-2xl rounded-br-sm px-3 py-2 text-sm'
+    : 'mr-auto max-w-[85%] bg-surface-container rounded-2xl rounded-bl-sm px-3 py-2 text-sm text-on-surface';
+  div.textContent = text;
+  msgs.appendChild(div);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+
+async function sendQA() {
+  const input = document.getElementById('qa-input');
+  const text = input.value.trim();
+  if (!text) return;
+  input.value = '';
+  appendQAMsg(text, true);
+
+  // Show typing indicator
+  const typing = document.createElement('div');
+  typing.id = 'qa-typing';
+  typing.className = 'mr-auto bg-surface-container rounded-2xl rounded-bl-sm px-3 py-2 text-sm text-on-surface-variant';
+  typing.textContent = '...';
+  document.getElementById('qa-messages').appendChild(typing);
+  document.getElementById('qa-messages').scrollTop = document.getElementById('qa-messages').scrollHeight;
+
+  try {
+    const res = await fetch('/chat', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({message: text, session_id: state.sessionId})
+    });
+    const data = await res.json();
+    const t = document.getElementById('qa-typing');
+    if (t) t.remove();
+    appendQAMsg(data.reply || 'Xin lỗi, thử lại nhé!', false);
+  } catch(e) {
+    const t = document.getElementById('qa-typing');
+    if (t) t.remove();
+    appendQAMsg('Lỗi kết nối. Thử lại nhé!', false);
+  }
+}
+
+// ============================================================
+// EXPENSE TRACKER
+// ============================================================
+const AVATAR_COLORS = [
+  'bg-primary-container text-white',
+  'bg-secondary-container text-white',
+  'bg-tertiary-container text-white',
+  'bg-[#845400] text-white',
+];
+
+function setupMembers() {
+  const raw = document.getElementById('members-input').value.trim();
+  if (!raw) return;
+  const members = raw.split(',').map(m => m.trim()).filter(Boolean);
+  if (members.length < 1) return;
+  state.expenseMembers = members;
+  state.todayExpenses = 0;
+
+  fetch('/expense/members', {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({session_id: state.sessionId, members})
+  }).then(() => {
+    document.getElementById('expense-setup').classList.add('hidden');
+    document.getElementById('expense-tracker').classList.remove('hidden');
+    renderMemberRow();
+    renderBarChart({});
+    updateTotals(0, 0, []);
+  });
+}
+
+function renderMemberRow() {
+  const container = document.getElementById('member-row');
+  container.innerHTML = '';
+  state.expenseMembers.forEach((m, i) => {
+    const color = AVATAR_COLORS[i % AVATAR_COLORS.length];
+    container.innerHTML += `<div class="flex flex-col items-center gap-1 flex-shrink-0">
+      <div class="w-12 h-12 rounded-full ${color} flex items-center justify-center font-bold text-lg">${m[0].toUpperCase()}</div>
+      <span class="text-label-sm">${escHtml(m)}</span>
+    </div>`;
+  });
+  container.innerHTML += `<div class="flex flex-col items-center gap-1 flex-shrink-0">
+    <button class="w-12 h-12 rounded-full border-2 border-dashed border-outline-variant flex items-center justify-center text-outline-variant">
+      <span class="material-symbols-outlined">add</span>
+    </button>
+    <span class="text-label-sm text-outline">Mời</span>
+  </div>`;
+}
+
+function renderBarChart(perMember) {
+  const container = document.getElementById('bar-chart');
+  container.innerHTML = '';
+  const vals = state.expenseMembers.map(m => perMember[m] || 0);
+  const maxVal = Math.max(...vals, 1);
+
+  state.expenseMembers.forEach((m, i) => {
+    const amt = vals[i];
+    const pct = Math.max((amt / maxVal) * 100, 0);
+    const color = ['bg-primary-container','bg-secondary-container','bg-tertiary-container','bg-[#845400]'][i % 4];
+    container.innerHTML += `<div class="flex flex-col items-center gap-1 flex-1">
+      <span class="amount-mono text-caption-xs text-on-surface-variant">${fmtVND(amt)}</span>
+      <div class="w-full ${color} rounded-t-lg bar-transition" style="height:${pct}%;min-height:4px;max-height:120px"></div>
+      <span class="text-label-sm truncate w-full text-center">${escHtml(m)}</span>
+    </div>`;
+  });
+}
+
+function updateTotals(total, today, settlements) {
+  document.getElementById('exp-total').textContent = fmtVNDFull(total);
+  document.getElementById('exp-today').textContent = fmtVNDFull(today);
+
+  const hint = document.getElementById('settlement-hint');
+  const hintText = document.getElementById('settlement-text');
+  if (settlements && settlements.length > 0) {
+    const s = settlements[0];
+    hint.classList.remove('hidden');
+    hintText.textContent = `${s.from} → ${s.to}: ${fmtVNDFull(s.amount)}`;
+  } else {
+    hint.classList.add('hidden');
+  }
+}
+
+function addExpenseText() {
+  const input = document.getElementById('expense-input');
+  const text = input.value.trim();
+  if (!text) return;
+  input.value = '';
+  submitExpense(text);
+}
+
+function setExpenseExample(t) {
+  document.getElementById('expense-input').value = t;
+  document.getElementById('expense-input').focus();
+}
+
+function appendExpenseItem(exp) {
+  const list = document.getElementById('expense-list');
+  const empty = document.getElementById('expense-empty');
+  empty.classList.add('hidden');
+
+  const catIcons = {food:'🍜', transport:'🚗', accommodation:'🏨', activity:'🎡', other:'💰'};
+  const icon = catIcons['other'];
+
+  const div = document.createElement('div');
+  div.className = 'bento-card bg-surface-container-lowest rounded-xl p-4 fade-in';
+  const splits = exp.splits || {};
+  const splitLines = Object.entries(splits)
+    .filter(([,v]) => v > 0)
+    .map(([m,v]) => `${m}: ${fmtVNDFull(v)}`).join(', ');
+
+  div.innerHTML = `<div class="flex justify-between items-start mb-3">
+    <div class="flex gap-3 items-start">
+      <div class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center flex-shrink-0">
+        <span class="text-[18px]">${icon}</span>
+      </div>
+      <div>
+        <h4 class="text-body-rg font-semibold text-on-surface">${escHtml(exp.description || '').slice(0,60)}</h4>
+        <p class="text-caption-xs text-on-surface-variant">Vừa thêm</p>
+      </div>
+    </div>
+    <span class="amount-mono text-primary font-bold text-label-sm">${fmtVNDFull(exp.amount)}</span>
+  </div>
+  <div class="border-t border-outline-variant/20 pt-2 text-caption-xs text-on-surface-variant">${escHtml(splitLines)}</div>`;
+
+  list.insertBefore(div, list.firstChild);
+}
+
+// ============================================================
+// SETTLEMENT
+// ============================================================
+function showSettlement() {
+  const settleData = state.expenseData?.settlements || [];
+  const list = document.getElementById('settlement-list');
+  list.innerHTML = '';
+
+  if (settleData.length === 0) {
+    list.innerHTML = '<p class="text-body-rg text-on-surface-variant text-center py-4">Mọi người đã cân bằng! 🎉</p>';
+  } else {
+    settleData.forEach((s, idx) => {
+      list.innerHTML += `<div class="bento-card bg-surface-container-lowest rounded-xl p-4">
+        <div class="flex justify-between items-center mb-3">
+          <div class="flex items-center gap-2">
+            <span class="material-symbols-outlined text-tertiary text-[20px]">sync_alt</span>
+            <span class="text-body-rg text-on-surface">${escHtml(s.from)} <span class="text-on-surface-variant">→</span> ${escHtml(s.to)}</span>
+          </div>
+          <span class="amount-mono text-primary font-bold">${fmtVNDFull(s.amount)}</span>
+        </div>
+        <div class="flex gap-2 mb-3">
+          ${['🏦 Ngân hàng','💳 Ví điện tử','💵 Tiền mặt'].map((m,mi) => 
+            `<button onclick="selectPayMethod(${idx},${mi},this)" class="flex-1 py-1.5 border border-outline-variant rounded-lg text-caption-xs text-on-surface-variant hover:border-primary hover:text-primary transition-colors">${m}</button>`
+          ).join('')}
+        </div>
+        <button id="settle-btn-${idx}" onclick="confirmSettle(${idx},'${escHtml(s.from)}','${escHtml(s.to)}',${s.amount})" 
+          class="w-full h-9 bg-primary/30 text-primary rounded-xl text-label-sm font-semibold transition-all opacity-40 pointer-events-none">
+          Đánh dấu đã chuyển
+        </button>
+      </div>`;
+    });
+  }
+  document.getElementById('settlement-modal').classList.remove('hidden');
+}
+
+function selectPayMethod(idx, mi, btn) {
+  // Deselect siblings
+  btn.closest('.flex').querySelectorAll('button').forEach(b => {
+    b.classList.remove('border-primary','text-primary','bg-primary/10');
+    b.classList.add('border-outline-variant','text-on-surface-variant');
+  });
+  btn.classList.add('border-primary','text-primary','bg-primary/10');
+  btn.classList.remove('border-outline-variant','text-on-surface-variant');
+  // Enable confirm button
+  const settleBtn = document.getElementById('settle-btn-' + idx);
+  settleBtn.classList.remove('opacity-40','pointer-events-none','bg-primary/30');
+  settleBtn.classList.add('bg-primary','text-white');
+}
+
+function confirmSettle(idx, from, to, amount) {
+  // BUG L8 fix: show modal first, don't confirm directly
+  const modal = document.getElementById('payment-confirm-modal');
+  const text = document.getElementById('payment-confirm-text');
+  text.textContent = `${from} đã chuyển ${fmtVNDFull(amount)} cho ${to}.`;
+  modal.classList.remove('hidden');
+  document.getElementById('payment-confirm-btn').onclick = () => {
+    markSettled(idx);
+    closePaymentConfirm();
+    closeSettlement();
+  };
+}
+
+function markSettled(idx) {
+  // In a real app, would call backend; here just visual feedback
+  showToast('✓ Đã ghi nhận thanh toán!');
+}
+
+function closeSettlement() { document.getElementById('settlement-modal').classList.add('hidden'); }
+function closePaymentConfirm() { document.getElementById('payment-confirm-modal').classList.add('hidden'); }
+
+function showToast(msg) {
+  const t = document.createElement('div');
+  t.className = 'fixed top-20 left-1/2 -translate-x-1/2 bg-inverse-surface text-inverse-on-surface text-label-sm px-4 py-2 rounded-full shadow-lg z-[200] fade-in';
+  t.textContent = msg;
+  document.body.appendChild(t);
+  setTimeout(() => t.remove(), 2500);
+}
+
+let lastExpenseSummary = {};
+async function submitExpense(text) {
+  try {
+    const res = await fetch('/expense/add', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({session_id: state.sessionId, text})
+    });
+    const data = await res.json();
+    const summary = data.summary || {};
+    const expense = data.expense || {};
+    lastExpenseSummary = summary;
+    state.expenseData = summary;
+
+    state.todayExpenses += expense.amount || 0;
+    updateTotals(summary.total || 0, state.todayExpenses, summary.settlements || []);
+    renderBarChart(summary.per_member || {});
+    appendExpenseItem(expense);
+    closeVoiceExpense();
+  } catch(e) {
+    alert('Lỗi thêm chi tiêu. Thử lại!');
+  }
+}
+
+// ===================================================

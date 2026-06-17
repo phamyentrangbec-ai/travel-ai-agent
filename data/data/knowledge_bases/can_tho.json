@@ -1,0 +1,320 @@
+{
+  "metadata": {
+    "destination": "Cần Thơ",
+    "description": "Thủ phủ miền Tây sông nước - chợ nổi Cái Răng huyền thoại, vườn trái cây bốn mùa và ẩm thực miền Tây đậm chất Nam Bộ",
+    "version": "1.0",
+    "source": "Tổng hợp từ lịch trình thực tế và review địa phương"
+  },
+  "itinerary": {
+    "day_1": {
+      "title": "Ngày 1 - Chợ nổi Cái Răng & Ninh Kiều",
+      "morning": [
+        {
+          "time": "4:30",
+          "activity": "Dậy sớm ra bến thuyền",
+          "name": "Bến Cầu Đôi - Xuất phát chợ nổi",
+          "address": "Cầu Đôi, phường Cái Răng, quận Cái Răng, Cần Thơ",
+          "type": "attraction",
+          "note": "Chợ nổi Cái Răng họp từ 4-9h sáng, đông nhất 5-7h. Đặt thuyền trước qua nhà nghỉ hoặc tại bến. Giá 100-150k/người/2 tiếng. Chụp ảnh cần ống kính zoom và tripod."
+        },
+        {
+          "time": "5:00 - 7:30",
+          "activity": "Tham quan chợ nổi",
+          "name": "Chợ nổi Cái Răng",
+          "address": "Sông Cần Thơ, phường Cái Răng, quận Cái Răng, Cần Thơ",
+          "type": "attraction",
+          "note": "Hàng trăm ghe thuyền bán trái cây, rau củ với cây sào treo mặt hàng. Mua bánh cống, bánh tét, hủ tíu ngay trên ghe. Đây là chợ nổi thật - không phải cho khách du lịch."
+        },
+        {
+          "time": "8:00",
+          "activity": "Ăn sáng trên sông",
+          "name": "Bánh cống Cái Răng trên ghe",
+          "address": "Chợ nổi Cái Răng, phường Cái Răng, Cần Thơ",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Hủ tíu Nam Vang chợ Bình Thủy", "address": "Chợ Bình Thủy, phường Bình Thủy, quận Bình Thủy"},
+            {"name": "Cháo cá lóc buổi sáng", "address": "Dọc bến Ninh Kiều, đường Hai Bà Trưng, Cần Thơ"}
+          ]
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:00",
+          "activity": "Ăn trưa",
+          "name": "Lẩu mắm miền Tây - Nhà hàng Mekong",
+          "address": "Bờ sông Ninh Kiều, đường Hai Bà Trưng, quận Ninh Kiều, Cần Thơ",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Cơm tấm sườn bì chả Cần Thơ", "address": "Đường 30/4, quận Ninh Kiều, Cần Thơ"},
+            {"name": "Bún nước lèo Cần Thơ", "address": "Chợ Tân An, đường Trần Văn Hoài, Cần Thơ"}
+          ]
+        },
+        {
+          "time": "14:00 - 16:30",
+          "activity": "Tham quan nhà cổ",
+          "name": "Nhà cổ Bình Thủy",
+          "address": "144 Bùi Hữu Nghĩa, phường Bình Thủy, quận Bình Thủy, Cần Thơ",
+          "type": "attraction",
+          "note": "Biệt thự Pháp xây 1870 giữ nguyên vẹn, nội thất gỗ quý cổ xưa. Là bối cảnh phim L'Amant (Người Tình) của Pháp. Vé 15k. Hướng dẫn viên kể lịch sử gia đình cực hay."
+        },
+        {
+          "time": "17:00",
+          "activity": "Cà phê ven sông",
+          "name": "Cafe Bình Minh View Sông",
+          "address": "Bờ sông Hậu, đường Hai Bà Trưng, quận Ninh Kiều, Cần Thơ",
+          "type": "cafe",
+          "note": "Ngồi cafe nhìn ra sông Hậu mênh mang, ngắm thuyền bè qua lại. Gọi cà phê sữa đá hoặc nước dừa mát lạnh."
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Dạo bờ kè & ăn tối",
+          "name": "Bến Ninh Kiều riverside walk",
+          "address": "Đường Hai Bà Trưng, quận Ninh Kiều, Cần Thơ",
+          "type": "attraction",
+          "note": "Khu vực bờ kè đẹp nhất Cần Thơ về đêm - đèn lấp lánh, nhiều quán ăn, cà phê. Ngắm cầu Cần Thơ dây văng về đêm lung linh."
+        },
+        {
+          "time": "19:30",
+          "activity": "Ăn tối",
+          "name": "Lẩu mắm & cá lóc nướng trui",
+          "address": "Khu ẩm thực bờ kè Ninh Kiều, đường Hai Bà Trưng",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Nhà hàng hải sản Ninh Kiều Riverside", "address": "Bến Ninh Kiều, đường Hai Bà Trưng"},
+            {"name": "Quán cơm miền Tây bà Tư", "address": "Phố đi bộ Ninh Kiều, Cần Thơ"}
+          ]
+        }
+      ]
+    },
+    "day_2": {
+      "title": "Ngày 2 - Chợ nổi Phong Điền & Vườn Trái Cây",
+      "morning": [
+        {
+          "time": "5:30",
+          "activity": "Chợ nổi nhỏ hơn, authentic hơn",
+          "name": "Chợ nổi Phong Điền",
+          "address": "Xã Nhơn Ái, huyện Phong Điền, Cần Thơ (cách trung tâm 15km)",
+          "type": "attraction",
+          "note": "Nhỏ hơn Cái Răng nhưng authentic hơn - ít khách du lịch, nhiều dân địa phương buôn bán thật sự. Thuê xe máy hoặc xe đạp đến từ sáng sớm."
+        },
+        {
+          "time": "8:00",
+          "activity": "Ăn sáng",
+          "name": "Hủ tíu Nam Vang chợ Bình Thủy",
+          "address": "Chợ Bình Thủy, phường Bình Thủy, quận Bình Thủy, Cần Thơ",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Bánh cống chiên giòn bà Năm", "address": "Đường Mậu Thân, quận Ninh Kiều, Cần Thơ"},
+            {"name": "Bún bò Huế Cần Thơ", "address": "Chợ An Bình, quận Ninh Kiều"}
+          ]
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:00",
+          "activity": "Ăn trưa và tham quan vườn",
+          "name": "Vườn trái cây Phong Điền",
+          "address": "Huyện Phong Điền, Cần Thơ",
+          "type": "attraction",
+          "note": "Vào vườn ăn trái cây tươi: chôm chôm, măng cụt, sầu riêng theo mùa. Cơm trưa tại nhà vườn 80-120k/người bao gồm đủ món miền Tây: cá kho, rau luộc, canh chua."
+        },
+        {
+          "time": "14:00 - 17:00",
+          "activity": "Trải nghiệm đặc sản vườn",
+          "name": "Vườn cây ăn trái Mỹ Khánh",
+          "address": "Xã Mỹ Khánh, huyện Phong Điền, Cần Thơ",
+          "type": "attraction",
+          "note": "Khu sinh thái vườn trái cây lớn nhất Cần Thơ - đi thuyền trong vườn, đạp xe ven sông, thưởng thức trái cây. Vé khoảng 60-80k."
+        },
+        {
+          "time": "17:00",
+          "activity": "Cà phê hoàng hôn sông nước",
+          "name": "Mango Cruise Cafe Cần Thơ",
+          "address": "Bến Ninh Kiều, đường Hai Bà Trưng, Cần Thơ",
+          "type": "cafe",
+          "note": "Cà phê trên thuyền neo đậu ven sông Hậu - unique experience. Gọi cafe dừa hoặc sinh tố xoài miền Tây."
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Đình cổ",
+          "name": "Đình Bình Thủy",
+          "address": "Đường Lê Hồng Phong, phường Long Tuyền, quận Bình Thủy, Cần Thơ",
+          "type": "attraction",
+          "note": "Đình làng cổ xây năm 1844, kiến trúc Nam Bộ thuần khiết. Vào tự do, mở đến 17-18h."
+        },
+        {
+          "time": "19:30",
+          "activity": "Ăn tối",
+          "name": "Cơm tấm sườn bì chả Cần Thơ",
+          "address": "Đường 30/4, quận Ninh Kiều, Cần Thơ",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Lẩu mắm miền Tây nhà hàng Mekong", "address": "Đường Hai Bà Trưng, Ninh Kiều"},
+            {"name": "Bún nước lèo Sóc Trăng kiểu Cần Thơ", "address": "Chợ Tân An, đường Trần Văn Hoài"}
+          ]
+        }
+      ]
+    },
+    "day_3": {
+      "title": "Ngày 3 - Chùa Ông & Mua sắm đặc sản",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng",
+          "name": "Bánh cống chiên giòn - Quán Cô Ba",
+          "address": "Đường Mậu Thân, quận Ninh Kiều, Cần Thơ",
+          "type": "food",
+          "category": "breakfast",
+          "note": "Bánh cống chiên giòn nhân đậu xanh tôm đặc sản Cần Thơ - ăn nóng mới ngon, chấm tương ngọt kèm rau sống."
+        },
+        {
+          "time": "9:00 - 11:30",
+          "activity": "Tham quan chùa",
+          "name": "Chùa Ông (Quảng Triệu Hội Quán)",
+          "address": "32 Hai Bà Trưng, phường Tân An, quận Ninh Kiều, Cần Thơ",
+          "type": "attraction",
+          "note": "Chùa người Hoa xây 1894, kiến trúc lộng lẫy với rồng chầu và đèn lồng đỏ. Hương khói nghi ngút cả ngày. Chụp ảnh đẹp nhất buổi sáng ánh sáng tự nhiên."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:00",
+          "activity": "Ăn trưa",
+          "name": "Bún nước lèo miền Tây bà Năm",
+          "address": "Chợ Tân An, đường Trần Văn Hoài, quận Ninh Kiều, Cần Thơ",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Hủ tíu xào Cần Thơ", "address": "Phố ẩm thực đường Đề Thám, Ninh Kiều"},
+            {"name": "Cơm chiên mắm Cần Thơ", "address": "Đường Xô Viết Nghệ Tĩnh, Ninh Kiều"}
+          ]
+        },
+        {
+          "time": "14:00 - 17:00",
+          "activity": "Mua sắm đặc sản",
+          "name": "Chợ Cần Thơ (chợ trung tâm)",
+          "address": "Đường Hai Bà Trưng, quận Ninh Kiều, Cần Thơ",
+          "type": "attraction",
+          "note": "Mua đặc sản miền Tây: mắm cá trèn, bánh phồng tôm, mứt me, tôm khô Cà Mau. Trái cây tươi giá rẻ: sầu riêng, xoài cát Hòa Lộc, chôm chôm nhãn."
+        }
+      ],
+      "evening": [
+        {
+          "time": "17:30",
+          "activity": "Cafe view sông lúc chiều tà",
+          "name": "Westlake Cafe Cần Thơ",
+          "address": "Khu vực ven sông Cần Thơ, quận Ninh Kiều",
+          "type": "cafe",
+          "note": "Nhiều quán cafe view sông đẹp gần bến Ninh Kiều. Ngắm hoàng hôn trên sông Hậu với cầu Cần Thơ dây văng trong nắng chiều."
+        },
+        {
+          "time": "19:00",
+          "activity": "Ăn tối chia tay",
+          "name": "Lẩu cá kèo rau muống & cá lóc nướng trui",
+          "address": "Nhà hàng miền Tây, bờ kè Ninh Kiều, Cần Thơ",
+          "type": "food",
+          "category": "dinner",
+          "note": "Cá lóc nướng trui bọc lá chuối - đặc sản miền Tây không thể bỏ qua. Ăn với bún và rau sống đủ loại."
+        }
+      ]
+    }
+  },
+  "places_directory": {
+    "food": {
+      "breakfast": {
+        "category": "Ăn sáng",
+        "places": [
+          {"name": "Bánh cống Cái Răng trên ghe", "address": "Chợ nổi Cái Răng, phường Cái Răng", "note": "Bánh cống chiên ngay trên ghe - trải nghiệm độc nhất"},
+          {"name": "Hủ tíu Nam Vang chợ Bình Thủy", "address": "Chợ Bình Thủy, phường Bình Thủy, quận Bình Thủy", "note": "Hủ tíu khô + nước, thịt băm tươi, gan heo ngon"},
+          {"name": "Bánh cống chiên giòn Cô Ba", "address": "Đường Mậu Thân, quận Ninh Kiều, Cần Thơ", "note": "Bánh cống nhân đậu xanh tôm giòn tan, chấm tương chua ngọt"},
+          {"name": "Cháo cá lóc bà Út", "address": "Dọc bến Ninh Kiều, đường Hai Bà Trưng", "note": "Cháo cá lóc nấu gừng, ăn sáng kiểu miền Tây"},
+          {"name": "Bánh mì thịt kiểu Cần Thơ", "address": "Chợ An Bình, quận Ninh Kiều", "note": "Bánh mì nhân thịt heo quay hoặc pate kiểu miền Tây"}
+        ]
+      },
+      "lunch": {
+        "category": "Ăn trưa",
+        "places": [
+          {"name": "Lẩu mắm miền Tây - Nhà hàng Mekong", "address": "Bờ sông Ninh Kiều, đường Hai Bà Trưng", "note": "Lẩu mắm bông điên điển - linh hồn ẩm thực miền Tây"},
+          {"name": "Cơm trưa nhà vườn Phong Điền", "address": "Vườn trái cây huyện Phong Điền", "note": "Cơm miền Tây chính gốc: cá kho, rau luộc, canh chua, giá 80-120k"},
+          {"name": "Bún nước lèo bà Năm", "address": "Chợ Tân An, đường Trần Văn Hoài, Ninh Kiều", "note": "Bún nước lèo tôm cua đặc trưng Cần Thơ"},
+          {"name": "Cơm tấm sườn bì chả", "address": "Đường 30/4, quận Ninh Kiều, Cần Thơ", "note": "Cơm tấm nhiều chỗ ngon ở đường 30/4, giá 40-60k/phần"},
+          {"name": "Hủ tíu xào Cần Thơ", "address": "Phố ẩm thực đường Đề Thám, Ninh Kiều", "note": "Hủ tíu xào tôm thịt, đậm đà kiểu Nam Bộ"}
+        ]
+      },
+      "dinner": {
+        "category": "Ăn tối",
+        "places": [
+          {"name": "Lẩu mắm & cá lóc nướng trui", "address": "Khu ẩm thực bờ kè Ninh Kiều, đường Hai Bà Trưng", "note": "Combo đặc sản miền Tây đỉnh nhất"},
+          {"name": "Nhà hàng hải sản Ninh Kiều Riverside", "address": "Bến Ninh Kiều, đường Hai Bà Trưng", "note": "Hải sản sông nước, view đèn đêm Cần Thơ"},
+          {"name": "Cá kèo nướng muối ớt", "address": "Bờ kè Ninh Kiều, Cần Thơ", "note": "Cá kèo đặc sản miền Tây, nướng muối ớt cay thơm"},
+          {"name": "Lẩu cá linh bông điên điển", "address": "Nhà hàng dọc đường Hai Bà Trưng, Ninh Kiều", "note": "Đặc sản mùa nước nổi tháng 9-11"},
+          {"name": "Quán cơm miền Tây bà Tư", "address": "Phố đi bộ Ninh Kiều, Cần Thơ", "note": "Cơm bình dân đặc sản: mắm kho, tép rang, cá trê chiên"}
+        ]
+      },
+      "snack": {
+        "category": "Ăn vặt & Đồ uống",
+        "places": [
+          {"name": "Bánh tét lá cẩm Cần Thơ", "address": "Chợ trung tâm và chợ nổi Cái Răng", "note": "Bánh tét nhân mặn hoặc ngọt, lá cẩm màu tím đẹp"},
+          {"name": "Chè bưởi & chè thập cẩm miền Tây", "address": "Dọc đường Hai Bà Trưng và bờ kè Ninh Kiều", "note": "Chè ngọt mát mùa hè, đặc biệt chè bưởi thơm lạ"},
+          {"name": "Nem nướng & bún thịt nướng", "address": "Phố ẩm thực đường Đề Thám, Ninh Kiều", "note": "Nem nướng cuộn rau sống chấm mắm - kinh điển miền Tây"},
+          {"name": "Trái cây miền Tây tươi chợ Cần Thơ", "address": "Chợ Cần Thơ, đường Hai Bà Trưng", "note": "Xoài cát Hòa Lộc, sầu riêng Ri6, chôm chôm - rẻ nhất nước"},
+          {"name": "Nước dừa tươi & cacao miền Tây", "address": "Dọc đường Ninh Kiều, Cần Thơ", "note": "Dừa xiêm xanh uống tại chỗ, ngọt mát đặc trưng miền Tây"}
+        ]
+      }
+    },
+    "cafe": {
+      "category": "Quán cà phê",
+      "places": [
+        {"name": "Cafe Bình Minh View Sông", "address": "Bờ sông Hậu, đường Hai Bà Trưng, Ninh Kiều", "vibe": "view"},
+        {"name": "Mango Cruise Cafe", "address": "Bến Ninh Kiều, đường Hai Bà Trưng, Cần Thơ", "vibe": "chill"},
+        {"name": "Westlake Cafe Cần Thơ", "address": "Khu ven sông Cần Thơ, quận Ninh Kiều", "vibe": "aesthetic"},
+        {"name": "Cafe nhà cổ Bình Thủy", "address": "Khu vực Bình Thủy, Cần Thơ", "vibe": "vintage"},
+        {"name": "Riverfront Cafe Ninh Kiều", "address": "Dọc bờ kè Ninh Kiều, đường Hai Bà Trưng", "vibe": "view"},
+        {"name": "Cafe vườn trái cây Mỹ Khánh", "address": "Xã Mỹ Khánh, huyện Phong Điền, Cần Thơ", "vibe": "chill"}
+      ]
+    },
+    "attractions": {
+      "category": "Điểm tham quan",
+      "places": [
+        {"name": "Chợ nổi Cái Răng", "address": "Sông Cần Thơ, phường Cái Răng, quận Cái Răng", "type": "market", "note": "Họp 4-9h, đông nhất 5-7h. Đặt thuyền 100-150k/người"},
+        {"name": "Chợ nổi Phong Điền", "address": "Xã Nhơn Ái, huyện Phong Điền, Cần Thơ", "type": "market", "note": "Authentic hơn Cái Răng, ít khách du lịch hơn"},
+        {"name": "Vườn trái cây Mỹ Khánh", "address": "Xã Mỹ Khánh, huyện Phong Điền, Cần Thơ", "type": "nature", "note": "Đi thuyền trong vườn, đạp xe ven sông, vé 60-80k"},
+        {"name": "Nhà cổ Bình Thủy", "address": "144 Bùi Hữu Nghĩa, phường Bình Thủy, quận Bình Thủy", "type": "viewpoint", "note": "Bối cảnh phim L'Amant 1870, vé 15k"},
+        {"name": "Bến Ninh Kiều", "address": "Đường Hai Bà Trưng, quận Ninh Kiều, Cần Thơ", "type": "viewpoint", "note": "Bờ kè đẹp nhất Cần Thơ, đèn đêm lung linh"},
+        {"name": "Đình Bình Thủy", "address": "Đường Lê Hồng Phong, phường Long Tuyền, quận Bình Thủy", "type": "temple", "note": "Đình làng cổ 1844, kiến trúc Nam Bộ thuần khiết"},
+        {"name": "Chùa Ông (Quảng Triệu Hội Quán)", "address": "32 Hai Bà Trưng, phường Tân An, quận Ninh Kiều", "type": "temple", "note": "Chùa người Hoa 1894, rồng chầu lộng lẫy"},
+        {"name": "Vườn trái cây Phong Điền", "address": "Huyện Phong Điền, Cần Thơ", "type": "nature", "note": "Chôm chôm, sầu riêng, măng cụt theo mùa"}
+      ]
+    },
+    "accommodation": {
+      "category": "Lưu trú",
+      "places": [
+        {"name": "Ninh Kieu Riverside Hotel", "address": "Đường Hai Bà Trưng, quận Ninh Kiều, Cần Thơ", "type": "hotel", "price_range": "800k-1.5 triệu/đêm"},
+        {"name": "Victoria Can Tho Resort", "address": "Cái Khế, quận Ninh Kiều, Cần Thơ", "type": "resort", "price_range": "3-6 triệu/đêm"},
+        {"name": "Nam Bo Boutique Hotel", "address": "1 Ngô Quyền, quận Ninh Kiều, Cần Thơ", "type": "hotel", "price_range": "1.5-3 triệu/đêm"},
+        {"name": "Homestay nhà vườn Phong Điền", "address": "Huyện Phong Điền, Cần Thơ", "type": "homestay", "price_range": "300-600k/đêm"},
+        {"name": "Azerai Can Tho", "address": "Đường Hai Bà Trưng, quận Ninh Kiều, Cần Thơ", "type": "resort", "price_range": "4-8 triệu/đêm"},
+        {"name": "Muong Thanh Holiday Can Tho Hotel", "address": "Đường Trần Phú, Cần Thơ", "type": "hotel", "price_range": "700k-1.2 triệu/đêm"}
+      ]
+    },
+    "market_shopping": {
+      "category": "Chợ & Mua sắm",
+      "places": [
+        {"name": "Chợ Cần Thơ (chợ trung tâm)", "address": "Đường Hai Bà Trưng, quận Ninh Kiều", "type": "market"},
+        {"name": "Chợ nổi Cái Răng", "address": "Phường Cái Răng, quận Cái Răng", "type": "market"},
+        {"name": "Bờ kè Ninh Kiều đêm", "address": "Đường Hai Bà Trưng, quận Ninh Kiều", "type": "night_market"},
+        {"name": "Chợ An Bình Cần Thơ", "address": "Phường An Bình, quận Ninh Kiều", "type": "market"},
+        {"name": "Vincom Cần Thơ", "address": "Đường Trần Phú, quận Ninh Kiều, Cần Thơ", "type": "shopping_street"}
+      ]
+    }
+  }
+}

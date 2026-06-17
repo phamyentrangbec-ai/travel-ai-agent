@@ -1,0 +1,354 @@
+{
+  "metadata": {
+    "destination": "Hội An",
+    "description": "Knowledge base địa điểm Hội An tổng hợp từ lịch trình thực tế và danh sách địa điểm",
+    "version": "1.0",
+    "source": "Tổng hợp từ lịch trình thực tế và review địa phương"
+  },
+  "itinerary": {
+    "day_1": {
+      "title": "Ngày 1 - Phố Cổ & Ẩm Thực Đặc Trưng",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng",
+          "name": "Cơm gà Bà Buổi",
+          "address": "22 Trần Phú, Phường Minh An, Hội An",
+          "type": "food",
+          "category": "breakfast",
+          "note": "Cơm gà nổi tiếng nhất Hội An, mở từ 6h, đông khách nên đến sớm",
+          "alternatives": [
+            {"name": "Cơm gà Bà Nga", "address": "6 Phan Chu Trinh, Hội An"},
+            {"name": "Cơm gà A Sầu", "address": "1 Trần Cao Vân, Hội An"},
+            {"name": "Mì Quảng Ông Hai", "address": "6A Trương Minh Lượng, Hội An"}
+          ]
+        },
+        {
+          "time": "9:00 - 12:00",
+          "activity": "Tham quan Phố Cổ Hội An",
+          "name": "Phố cổ Hội An",
+          "address": "Đường Trần Phú - Nguyễn Thái Học, Phường Minh An",
+          "type": "attraction",
+          "note": "Mua vé tham quan phố cổ 120.000đ/người, bao gồm 5 điểm tham quan. Nên đi bộ từ sáng sớm khi trời còn mát"
+        },
+        {
+          "time": "10:00",
+          "activity": "Tham quan Chùa Cầu Nhật Bản",
+          "name": "Chùa Cầu (Lai Viễn Kiều)",
+          "address": "Đường Trần Phú, Phường Minh An, Hội An",
+          "type": "attraction",
+          "note": "Biểu tượng của Hội An, xây từ thế kỷ 17, không nên bỏ qua"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Morning Glory Restaurant",
+          "address": "106 Nguyễn Thái Học, Phường Minh An, Hội An",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "White Rose Restaurant", "address": "533 Hai Bà Trưng, Hội An"},
+            {"name": "Cargo Club", "address": "107-109 Nguyễn Thái Học, Hội An"},
+            {"name": "Mì Quảng Ông Hai", "address": "6A Trương Minh Lượng, Hội An"}
+          ]
+        },
+        {
+          "time": "14:30",
+          "activity": "Uống trà & nghỉ ngơi",
+          "name": "Reaching Out Tea House",
+          "address": "131 Trần Phú, Phường Minh An, Hội An",
+          "type": "cafe",
+          "note": "Quán trà im lặng nổi tiếng, nhân viên điếc câm - trải nghiệm độc đáo"
+        },
+        {
+          "time": "16:00 - 18:00",
+          "activity": "Dạo bờ sông Thu Bồn",
+          "name": "Bờ sông Thu Bồn",
+          "address": "Đường Bạch Đằng, Phường Minh An, Hội An",
+          "type": "attraction",
+          "note": "Đẹp nhất lúc chiều tà, thuê thuyền thúng hoặc đi dạo bờ sông"
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Ăn tối",
+          "name": "Cargo Club Restaurant & Cafe",
+          "address": "107-109 Nguyễn Thái Học, Phường Minh An, Hội An",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Nhà hàng Vy's Market", "address": "3 Nguyễn Hoàng, Hội An"},
+            {"name": "Nhà hàng Mango Mango", "address": "45 Nguyễn Phúc Chu, Hội An"}
+          ]
+        },
+        {
+          "time": "20:00",
+          "activity": "Thả đèn hoa đăng & ngắm phố đèn lồng",
+          "name": "Phố đèn lồng Hội An",
+          "address": "Đường Trần Phú & Nguyễn Thái Học, Hội An",
+          "type": "attraction",
+          "note": "Đêm 14 âm lịch hàng tháng đặc biệt đẹp - Đêm Rằm Hội An"
+        }
+      ]
+    },
+    "day_2": {
+      "title": "Ngày 2 - Làng Quê & Biển An Bàng",
+      "morning": [
+        {
+          "time": "7:30",
+          "activity": "Ăn sáng",
+          "name": "Bánh mì Phượng",
+          "address": "2B Phan Châu Trinh, Hội An",
+          "type": "food",
+          "category": "breakfast",
+          "note": "Được Anthony Bourdain khen - bánh mì ngon nhất Việt Nam",
+          "alternatives": [
+            {"name": "Bánh mì Madam Khanh", "address": "115 Trần Cao Vân, Hội An"},
+            {"name": "Bánh mì Tươi Phố Cổ", "address": "26 Trần Phú, Hội An"}
+          ]
+        },
+        {
+          "time": "9:00 - 12:00",
+          "activity": "Tham quan làng rau Trà Quế",
+          "name": "Làng rau Trà Quế",
+          "address": "Thôn Trà Quế, Xã Cẩm Hà, Hội An",
+          "type": "attraction",
+          "note": "Tham quan + học trồng rau cùng nông dân, vé 35.000đ"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa hải sản",
+          "name": "Quán Hải Sản Bạch Tuộc Phố Cổ",
+          "address": "9 Nguyễn Thị Minh Khai, Hội An",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Cơm gà Bà Nga", "address": "6 Phan Chu Trinh, Hội An"},
+            {"name": "Quán Bà Lê hải sản", "address": "84 Trần Phú, Hội An"}
+          ]
+        },
+        {
+          "time": "14:00 - 18:00",
+          "activity": "Tắm biển An Bàng",
+          "name": "Bãi biển An Bàng",
+          "address": "Đường An Bàng, Phường Cẩm An, Hội An",
+          "type": "attraction",
+          "note": "Bãi biển đẹp, nước trong, ít người hơn Cửa Đại. Thuê ghế nằm 50.000đ"
+        },
+        {
+          "time": "17:00",
+          "activity": "Cà phê view biển",
+          "name": "Soul Kitchen Beach Bar",
+          "address": "Bãi biển An Bàng, Hội An",
+          "type": "cafe",
+          "alternatives": [
+            {"name": "An Bang Beach Hideaway", "address": "Bãi An Bàng, Hội An"},
+            {"name": "Cocobana Beach Club", "address": "Bãi An Bàng, Hội An"}
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "time": "19:00",
+          "activity": "Ăn tối & ngắm phố",
+          "name": "White Rose Restaurant",
+          "address": "533 Hai Bà Trưng, Hội An",
+          "type": "food",
+          "category": "dinner",
+          "note": "Chuyên bánh bao hoa hồng trắng đặc sản Hội An",
+          "alternatives": [
+            {"name": "Morning Glory", "address": "106 Nguyễn Thái Học, Hội An"},
+            {"name": "Nhà hàng Phố Hội", "address": "36 Trần Phú, Hội An"}
+          ]
+        },
+        {
+          "time": "21:00",
+          "activity": "Ăn vặt & dạo phố",
+          "places": [
+            {"name": "Cao Lầu Chín Như", "address": "6 Trần Cao Vân, Hội An", "type": "food"},
+            {"name": "Chè bà Liên", "address": "27 Trần Phú, Hội An", "type": "food"}
+          ]
+        }
+      ]
+    },
+    "day_3": {
+      "title": "Ngày 3 - Làng Gốm & Mua Sắm",
+      "morning": [
+        {
+          "time": "7:30",
+          "activity": "Ăn sáng",
+          "name": "Cao Lầu Bà Lý",
+          "address": "Chợ Hội An, 53 Trần Phú, Hội An",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Cơm gà Bà Buổi", "address": "22 Trần Phú, Hội An"},
+            {"name": "Mì Quảng Ông Hai", "address": "6A Trương Minh Lượng, Hội An"}
+          ]
+        },
+        {
+          "time": "9:00 - 12:00",
+          "activity": "Tham quan làng gốm Thanh Hà",
+          "name": "Làng gốm Thanh Hà",
+          "address": "Thôn Thanh Hà, Phường Thanh Hà, Hội An",
+          "type": "attraction",
+          "note": "Làng gốm hơn 500 năm tuổi, vào cửa 35.000đ, có thể tự làm gốm"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Mì Quảng Ông Hai",
+          "address": "6A Trương Minh Lượng, Hội An",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Bánh Vạc Bà Ly", "address": "Chợ Hội An, Hội An"},
+            {"name": "Bánh Xèo Bà Dưỡng", "address": "233 Cẩm Nam, Hội An"}
+          ]
+        },
+        {
+          "time": "14:00 - 17:00",
+          "activity": "Mua sắm & thư giãn",
+          "places": [
+            {"name": "Chợ Hội An", "address": "Đường Trần Phú, Hội An", "type": "market"},
+            {"name": "Đường Trần Phú - mua đèn lồng", "address": "Trần Phú, Hội An", "type": "shopping"}
+          ]
+        },
+        {
+          "time": "16:30",
+          "activity": "Cà phê sân thượng view phố cổ",
+          "name": "The Espresso Station",
+          "address": "28/2 Trần Hưng Đạo, Hội An",
+          "type": "cafe"
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Ăn tối chia tay",
+          "name": "Morning Glory Restaurant",
+          "address": "106 Nguyễn Thái Học, Hội An",
+          "type": "food",
+          "category": "dinner"
+        },
+        {
+          "time": "20:00",
+          "activity": "Ăn vặt đêm cuối",
+          "options": [
+            {"name": "Bánh bao Bà Hường", "address": "35 Hoàng Văn Thụ, Hội An", "type": "food"},
+            {"name": "Che bắp làng cổ", "address": "Chợ Hội An, Hội An", "type": "food"}
+          ]
+        }
+      ]
+    }
+  },
+  "places_directory": {
+    "food": {
+      "breakfast": {
+        "category": "Ăn sáng",
+        "places": [
+          {"name": "Cơm gà Bà Buổi", "address": "22 Trần Phú, Hội An", "note": "Cơm gà ngon nhất phố cổ"},
+          {"name": "Bánh mì Phượng", "address": "2B Phan Châu Trinh, Hội An", "note": "Nổi tiếng quốc tế, Anthony Bourdain từng ăn"},
+          {"name": "Bánh mì Madam Khanh", "address": "115 Trần Cao Vân, Hội An", "note": "Bánh mì thập cẩm giòn ngon"},
+          {"name": "Mì Quảng Ông Hai", "address": "6A Trương Minh Lượng, Hội An", "note": "Mì Quảng chuẩn vị Quảng Nam"},
+          {"name": "Cao Lầu Bà Lý", "address": "Chợ Hội An, 53 Trần Phú", "note": "Cao lầu đặc sản Hội An"},
+          {"name": "Cơm gà Bà Nga", "address": "6 Phan Chu Trinh, Hội An", "note": "Đông khách sáng sớm"}
+        ]
+      },
+      "lunch": {
+        "category": "Ăn trưa",
+        "places": [
+          {"name": "Morning Glory Restaurant", "address": "106 Nguyễn Thái Học, Hội An", "note": "Ẩm thực Hội An đa dạng, có lớp học nấu ăn"},
+          {"name": "White Rose Restaurant", "address": "533 Hai Bà Trưng, Hội An", "note": "Chuyên bánh bao hoa hồng trắng"},
+          {"name": "Cargo Club", "address": "107-109 Nguyễn Thái Học, Hội An", "note": "View sông, menu phong phú"},
+          {"name": "Mì Quảng Ông Hai", "address": "6A Trương Minh Lượng, Hội An", "note": "Mì Quảng truyền thống"},
+          {"name": "Bánh Xèo Bà Dưỡng", "address": "233 Cẩm Nam, Hội An", "note": "Bánh xèo giòn, nhân tươi"},
+          {"name": "Quán Hải Sản Bạch Tuộc", "address": "9 Nguyễn Thị Minh Khai, Hội An", "note": "Hải sản tươi sống, giá bình dân"}
+        ]
+      },
+      "dinner": {
+        "category": "Ăn tối",
+        "places": [
+          {"name": "Cargo Club Restaurant", "address": "107-109 Nguyễn Thái Học, Hội An", "note": "Không gian đẹp, view sông Thu Bồn"},
+          {"name": "Nhà hàng Vy's Market", "address": "3 Nguyễn Hoàng, Hội An", "note": "Market restaurant độc đáo"},
+          {"name": "Morning Glory", "address": "106 Nguyễn Thái Học, Hội An", "note": "Ẩm thực fusion Hội An"},
+          {"name": "Nhà hàng Mango Mango", "address": "45 Nguyễn Phúc Chu, Hội An", "note": "Không gian lãng mạn"},
+          {"name": "Nhà hàng Phố Hội", "address": "36 Trần Phú, Hội An", "note": "View phố cổ, đèn lồng"},
+          {"name": "Quán Bà Lê hải sản", "address": "84 Trần Phú, Hội An", "note": "Hải sản tươi, view sông"}
+        ]
+      },
+      "snack": {
+        "category": "Ăn vặt",
+        "places": [
+          {"name": "Cao Lầu Chín Như", "address": "6 Trần Cao Vân, Hội An", "note": "Cao lầu đêm ngon nhất"},
+          {"name": "Chè bà Liên", "address": "27 Trần Phú, Hội An", "note": "Chè đậu, chè xôi truyền thống"},
+          {"name": "Bánh bao Bà Hường", "address": "35 Hoàng Văn Thụ, Hội An", "note": "Bánh bao chiên giòn"},
+          {"name": "Chè bắp Hội An", "address": "Chợ Hội An, Hội An", "note": "Đặc sản chè bắp làng cổ"},
+          {"name": "Bánh tráng cuốn thịt heo", "address": "Đường Trần Phú, Hội An", "note": "Đặc sản Quảng Nam"},
+          {"name": "Hoành thánh chiên", "address": "67 Trần Phú, Hội An", "note": "Món ăn đặc trưng phố cổ"}
+        ]
+      }
+    },
+    "cafe": {
+      "category": "Quán cà phê",
+      "places": [
+        {"name": "Reaching Out Tea House", "address": "131 Trần Phú, Hội An", "vibe": "Im lặng, trải nghiệm độc đáo, nhân viên điếc câm"},
+        {"name": "The Espresso Station", "address": "28/2 Trần Hưng Đạo, Hội An", "vibe": "Specialty coffee, tầng trệt thoáng mát"},
+        {"name": "Rosie's Cafe", "address": "56 Nguyễn Thái Học, Hội An", "vibe": "Vintage, view phố cổ, yên tĩnh"},
+        {"name": "Hoa Nang Coffee", "address": "26B Nguyễn Thị Minh Khai, Hội An", "vibe": "Gen Z, sân vườn xanh mát"},
+        {"name": "Mia Coffee House", "address": "9 Nguyễn Huệ, Hội An", "vibe": "Cổ điển, đèn lồng, rất Instagram"},
+        {"name": "Soul Kitchen Beach Bar", "address": "Bãi biển An Bàng, Hội An", "vibe": "View biển, cocktail, sunset"},
+        {"name": "The Market Restaurant", "address": "3 Nguyễn Hoàng, Hội An", "vibe": "Open kitchen, ẩm thực hiện đại"},
+        {"name": "Faifo Coffee", "address": "130 Trần Phú, Hội An", "vibe": "Tầng 2 view phố cổ tuyệt đẹp"},
+        {"name": "Hoi An Roastery", "address": "Đường Phạm Hồng Thái, Hội An", "vibe": "Specialty coffee, rang xay tại chỗ"},
+        {"name": "Cargo Club Cafe", "address": "107-109 Nguyễn Thái Học, Hội An", "vibe": "View sông Thu Bồn, không gian rộng"}
+      ]
+    },
+    "attractions": {
+      "category": "Điểm tham quan",
+      "places": [
+        {"name": "Chùa Cầu Nhật Bản (Lai Viễn Kiều)", "address": "Trần Phú, Minh An, Hội An", "type": "heritage", "note": "Biểu tượng Hội An, in trên tờ 20.000đ"},
+        {"name": "Phố cổ Hội An", "address": "Minh An, Hội An", "type": "heritage", "note": "Di sản thế giới UNESCO, vé 120.000đ/người"},
+        {"name": "Bãi biển An Bàng", "address": "Cẩm An, Hội An", "type": "beach", "note": "Bãi biển đẹp nhất Hội An, yên tĩnh hơn Cửa Đại"},
+        {"name": "Bãi biển Cửa Đại", "address": "Cẩm An, Hội An", "type": "beach", "note": "Gần phố cổ, nhiều dịch vụ"},
+        {"name": "Làng rau Trà Quế", "address": "Thôn Trà Quế, Cẩm Hà, Hội An", "type": "village", "note": "Làng rau 500 năm tuổi, học trồng rau"},
+        {"name": "Làng gốm Thanh Hà", "address": "Thanh Hà, Hội An", "type": "village", "note": "Làng gốm cổ, tự làm gốm"},
+        {"name": "Làng mộc Kim Bồng", "address": "Cẩm Kim, Hội An", "type": "village", "note": "Làng nghề điêu khắc gỗ truyền thống"},
+        {"name": "Bờ sông Thu Bồn", "address": "Đường Bạch Đằng, Hội An", "type": "riverside", "note": "Đẹp lúc hoàng hôn, thuê thuyền thúng"},
+        {"name": "Nhà cổ Tấn Ký", "address": "101 Nguyễn Thái Học, Hội An", "type": "heritage", "note": "Nhà cổ 200 năm, kiến trúc độc đáo"},
+        {"name": "Bảo tàng Gốm sứ Mậu Dịch", "address": "80 Trần Phú, Hội An", "type": "museum", "note": "Bộ sưu tập gốm sứ quý hiếm"},
+        {"name": "Hội quán Phúc Kiến", "address": "46 Trần Phú, Hội An", "type": "heritage", "note": "Kiến trúc Trung Hoa đặc sắc"},
+        {"name": "Rừng dừa Bảy Mẫu", "address": "Cẩm Thanh, Hội An", "type": "nature", "note": "Chèo thuyền thúng trong rừng dừa nước"}
+      ]
+    },
+    "accommodation": {
+      "category": "Lưu trú",
+      "places": [
+        {"name": "Anantara Hoi An Resort", "address": "1 Phạm Hồng Thái, Hội An", "type": "resort", "price_range": "3.000.000 - 8.000.000đ/đêm"},
+        {"name": "Victoria Hoi An Beach Resort", "address": "Bãi biển Cửa Đại, Hội An", "type": "resort", "price_range": "2.500.000 - 6.000.000đ/đêm"},
+        {"name": "Hoi An Historic Hotel", "address": "10 Trần Hưng Đạo, Hội An", "type": "hotel", "price_range": "1.200.000 - 2.500.000đ/đêm"},
+        {"name": "Homestay Hội An Xưa", "address": "52 Phan Bội Châu, Hội An", "type": "homestay", "price_range": "300.000 - 600.000đ/đêm"},
+        {"name": "The Lantern Hostel", "address": "120 Nguyễn Thái Học, Hội An", "type": "hostel", "price_range": "150.000 - 350.000đ/đêm"},
+        {"name": "Hoi An Silk Village", "address": "Cẩm Châu, Hội An", "type": "resort", "price_range": "1.800.000 - 4.000.000đ/đêm"}
+      ]
+    },
+    "market_shopping": {
+      "category": "Chợ & Mua sắm",
+      "places": [
+        {"name": "Chợ Hội An", "address": "53 Trần Phú, Hội An", "type": "market", "note": "Chợ truyền thống, ăn sáng ngon"},
+        {"name": "Phố đèn lồng Trần Phú", "address": "Trần Phú, Hội An", "type": "shopping_street", "note": "Mua đèn lồng đặc sản Hội An"},
+        {"name": "Đường Nguyễn Thái Học", "address": "Nguyễn Thái Học, Hội An", "type": "shopping_street", "note": "Quần áo may đo, đồ thủ công"},
+        {"name": "Trung tâm thương mại Lotte Mart Hội An", "address": "Đường Cửa Đại, Hội An", "type": "mall"},
+        {"name": "Làng lụa Hội An", "address": "Cẩm Châu, Hội An", "type": "craft_village", "note": "Mua lụa tơ tằm chất lượng cao"},
+        {"name": "Chợ đêm Hội An", "address": "Đường Nguyễn Hoàng, Hội An", "type": "night_market", "note": "Ăn vặt, mua sắm đêm"}
+      ]
+    }
+  }
+}

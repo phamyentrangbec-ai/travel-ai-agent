@@ -1,0 +1,358 @@
+{
+  "metadata": {
+    "destination": "Hà Nội",
+    "description": "Knowledge base địa điểm Hà Nội tổng hợp từ lịch trình thực tế và danh sách địa điểm",
+    "version": "1.0",
+    "source": "Tổng hợp từ lịch trình thực tế và review địa phương",
+    "trending_keywords": ["Train Street", "phố cổ Hà Nội đêm", "Hồ Tây", "cafe trứng", "Bún chả Obama", "Long Biên", "Hà Nội xưa"]
+  },
+  "itinerary": {
+    "day_1": {
+      "title": "Ngày 1 - Phố Cổ & Hồ Hoàn Kiếm",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng phở",
+          "name": "Phở Thìn",
+          "address": "13 Lò Đúc, Phường Đống Mác, Hai Bà Trưng, Hà Nội",
+          "type": "food",
+          "category": "breakfast",
+          "note": "Phở bò xào lửa nổi tiếng nhất Hà Nội, nấu từ 1955",
+          "alternatives": [
+            {"name": "Phở Bát Đàn", "address": "49 Bát Đàn, Hoàn Kiếm, Hà Nội"},
+            {"name": "Phở Gia Truyền Bát Đàn", "address": "49 Bát Đàn, Hà Nội"},
+            {"name": "Bánh cuốn Thanh Vân", "address": "14 Hàng Gà, Hoàn Kiếm, Hà Nội"}
+          ]
+        },
+        {
+          "time": "9:00 - 12:00",
+          "activity": "Tham quan Phố Cổ Hà Nội",
+          "name": "36 phố phường Hà Nội",
+          "address": "Quận Hoàn Kiếm, Hà Nội",
+          "type": "attraction",
+          "note": "Đi bộ qua các phố nghề: Hàng Bạc, Hàng Gai, Hàng Đào, Hàng Đường"
+        },
+        {
+          "time": "10:00",
+          "activity": "Tham quan Hồ Hoàn Kiếm & Đền Ngọc Sơn",
+          "name": "Hồ Hoàn Kiếm",
+          "address": "Đường Đinh Tiên Hoàng, Hoàn Kiếm, Hà Nội",
+          "type": "attraction",
+          "note": "Vé Đền Ngọc Sơn 30.000đ, đi bộ quanh hồ miễn phí"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa bún chả",
+          "name": "Bún chả Hương Liên",
+          "address": "24 Lê Văn Hưu, Phường Phan Chu Trinh, Hà Nội",
+          "type": "food",
+          "category": "lunch",
+          "note": "Quán Obama từng ăn năm 2016 cùng Anthony Bourdain",
+          "alternatives": [
+            {"name": "Bún chả Đắc Kim", "address": "1 Hàng Mành, Hoàn Kiếm, Hà Nội"},
+            {"name": "Bún đậu mắm tôm Cô Thắm", "address": "Số 6 Hàng Khay, Hà Nội"},
+            {"name": "Chả cá Lã Vọng", "address": "14 Chả Cá, Hoàn Kiếm, Hà Nội"}
+          ]
+        },
+        {
+          "time": "14:30",
+          "activity": "Cà phê trứng",
+          "name": "Cà phê Giảng",
+          "address": "39 Nguyễn Hữu Huân, Hoàn Kiếm, Hà Nội",
+          "type": "cafe",
+          "note": "Phát minh cà phê trứng từ 1946, phải thử khi đến Hà Nội"
+        },
+        {
+          "time": "16:00",
+          "activity": "Tham quan Văn Miếu",
+          "name": "Văn Miếu - Quốc Tử Giám",
+          "address": "58 Quốc Tử Giám, Đống Đa, Hà Nội",
+          "type": "attraction",
+          "note": "Đại học đầu tiên của Việt Nam, vé 30.000đ"
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Ăn tối phố cổ",
+          "name": "Chả cá Lã Vọng",
+          "address": "14 Chả Cá, Hoàn Kiếm, Hà Nội",
+          "type": "food",
+          "category": "dinner",
+          "note": "Món chả cá đặc sản Hà Nội từ thế kỷ 19",
+          "alternatives": [
+            {"name": "Xôi Yến", "address": "35B Nguyễn Hữu Huân, Hà Nội"},
+            {"name": "Nhà hàng Cơm Phố", "address": "29 Phan Đình Phùng, Hà Nội"}
+          ]
+        },
+        {
+          "time": "20:00",
+          "activity": "Dạo phố đi bộ Hồ Gươm",
+          "name": "Phố đi bộ Hoàn Kiếm",
+          "address": "Quanh Hồ Hoàn Kiếm, Hà Nội",
+          "type": "attraction",
+          "note": "Mở cửa tối thứ 6 - CN, đường Đinh Tiên Hoàng & Lê Thái Tổ"
+        }
+      ]
+    },
+    "day_2": {
+      "title": "Ngày 2 - Hồ Tây & Làng Cổ",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng",
+          "name": "Bánh cuốn Thanh Vân",
+          "address": "14 Hàng Gà, Hoàn Kiếm, Hà Nội",
+          "type": "food",
+          "category": "breakfast",
+          "note": "Bánh cuốn nóng nhân thịt nấm, ăn với chả lụa",
+          "alternatives": [
+            {"name": "Xôi Yến Hàng Điếu", "address": "35B Nguyễn Hữu Huân, Hà Nội"},
+            {"name": "Bánh mì Phố Cổ", "address": "49 Hàng Đào, Hà Nội"},
+            {"name": "Cháo sườn phố cổ", "address": "53 Lò Sũ, Hà Nội"}
+          ]
+        },
+        {
+          "time": "9:00 - 12:00",
+          "activity": "Thăm khu Tây Hồ",
+          "places": [
+            {"name": "Chùa Trấn Quốc", "address": "Đường Thanh Niên, Tây Hồ, Hà Nội", "type": "pagoda"},
+            {"name": "Hồ Tây", "address": "Quận Tây Hồ, Hà Nội", "type": "lake"},
+            {"name": "Phủ Tây Hồ", "address": "Đường Phủ Tây Hồ, Tây Hồ, Hà Nội", "type": "temple"}
+          ]
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa bún đậu",
+          "name": "Bún đậu mắm tôm Bà Đắng",
+          "address": "Hẻm Hàng Khay, Hoàn Kiếm, Hà Nội",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Bún đậu Cô Thắm", "address": "6 Hàng Khay, Hà Nội"},
+            {"name": "Bún đậu Mậu Dịch", "address": "10 Đinh Liệt, Hà Nội"}
+          ]
+        },
+        {
+          "time": "14:30",
+          "activity": "Cà phê sáng tạo",
+          "name": "The Note Coffee",
+          "address": "64 Lương Văn Can, Hoàn Kiếm, Hà Nội",
+          "type": "cafe",
+          "note": "Quán cà phê dán ghi chú kín tường, rất độc đáo và Instagram-worthy"
+        },
+        {
+          "time": "16:00",
+          "activity": "Tham quan Lăng Bác",
+          "name": "Lăng Chủ tịch Hồ Chí Minh",
+          "address": "2 Hùng Vương, Ba Đình, Hà Nội",
+          "type": "attraction",
+          "note": "Mở cửa T3-T5 (8:00-11:00), T7-CN (8:00-11:00), miễn phí"
+        }
+      ],
+      "evening": [
+        {
+          "time": "19:00",
+          "activity": "Ăn tối khu Tây Hồ",
+          "name": "Nhà hàng Quảng Bá",
+          "address": "Đường Quảng Bá, Tây Hồ, Hà Nội",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "La Badiane", "address": "10 Nam Ngư, Hoàn Kiếm, Hà Nội"},
+            {"name": "Nhà hàng Hoa Ban", "address": "16 Tô Ngọc Vân, Tây Hồ, Hà Nội"}
+          ]
+        },
+        {
+          "time": "20:30",
+          "activity": "Cà phê đêm",
+          "name": "Cà phê Giảng - chi nhánh tối",
+          "address": "39 Nguyễn Hữu Huân, Hoàn Kiếm, Hà Nội",
+          "type": "cafe"
+        }
+      ]
+    },
+    "day_3": {
+      "title": "Ngày 3 - Hà Nội Retro & Phố Ẩm Thực",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng",
+          "name": "Phở Bát Đàn",
+          "address": "49 Bát Đàn, Hoàn Kiếm, Hà Nội",
+          "type": "food",
+          "category": "breakfast",
+          "note": "Xếp hàng mua phở từ 7h sáng, ăn đứng - trải nghiệm đặc trưng Hà Nội",
+          "alternatives": [
+            {"name": "Phở Thìn", "address": "13 Lò Đúc, Hà Nội"},
+            {"name": "Xôi lạc Bùi Thị Xuân", "address": "Bùi Thị Xuân, Hai Bà Trưng, Hà Nội"}
+          ]
+        },
+        {
+          "time": "9:00 - 12:00",
+          "activity": "Tham quan Cầu Long Biên & chụp ảnh",
+          "name": "Cầu Long Biên",
+          "address": "Phường Phúc Xá, Ba Đình, Hà Nội",
+          "type": "attraction",
+          "note": "Cầu Pháp xây 1902, check-in trend Gen Z, view sông Hồng đẹp"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa phố Bùi Thị Xuân",
+          "name": "Bún đậu mắm tôm Bùi Thị Xuân",
+          "address": "Đường Bùi Thị Xuân, Hai Bà Trưng, Hà Nội",
+          "type": "food",
+          "category": "lunch",
+          "note": "Phố ẩm thực bình dân nổi tiếng Hà Nội",
+          "alternatives": [
+            {"name": "Bún chả Hương Liên", "address": "24 Lê Văn Hưu, Hà Nội"},
+            {"name": "Nem cua bể Thanh Xuân", "address": "126 Nguyễn Khang, Cầu Giấy, Hà Nội"}
+          ]
+        },
+        {
+          "time": "15:00",
+          "activity": "Cà phê retro",
+          "name": "Cafe Nhân",
+          "address": "3A Đinh Lễ, Hoàn Kiếm, Hà Nội",
+          "type": "cafe"
+        },
+        {
+          "time": "16:30",
+          "activity": "Mua quà & đồ lưu niệm",
+          "name": "Chợ Đồng Xuân",
+          "address": "Đồng Xuân, Hoàn Kiếm, Hà Nội",
+          "type": "market"
+        }
+      ],
+      "evening": [
+        {
+          "time": "19:00",
+          "activity": "Ăn tối phố cổ",
+          "name": "Xôi Yến",
+          "address": "35B Nguyễn Hữu Huân, Hoàn Kiếm, Hà Nội",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Bò kho bánh mì Cửa Nam", "address": "Cửa Nam, Hà Nội"},
+            {"name": "Bánh đúc Hà Nội", "address": "24 Hàng Buồm, Hà Nội"}
+          ]
+        },
+        {
+          "time": "20:30",
+          "activity": "Bia hơi phố cổ",
+          "name": "Bia hơi Hà Nội - Ngõ Hạ Hồi",
+          "address": "Ngõ Hạ Hồi, Hoàn Kiếm, Hà Nội",
+          "type": "food",
+          "note": "Bia hơi Hà Nội chỉ 7.000đ/cốc, ngồi vỉa hè xem phố"
+        }
+      ]
+    }
+  },
+  "places_directory": {
+    "food": {
+      "breakfast": {
+        "category": "Ăn sáng",
+        "places": [
+          {"name": "Phở Thìn", "address": "13 Lò Đúc, Hai Bà Trưng, Hà Nội", "note": "Phở bò xào lửa nổi tiếng nhất, nấu từ 1955"},
+          {"name": "Phở Bát Đàn", "address": "49 Bát Đàn, Hoàn Kiếm, Hà Nội", "note": "Xếp hàng mua phở, ăn đứng - trải nghiệm đặc trưng"},
+          {"name": "Bánh cuốn Thanh Vân", "address": "14 Hàng Gà, Hoàn Kiếm, Hà Nội", "note": "Bánh cuốn nóng nhân thịt nấm"},
+          {"name": "Xôi Yến", "address": "35B Nguyễn Hữu Huân, Hà Nội", "note": "Xôi đa dạng, ăn sáng bình dân"},
+          {"name": "Cháo sườn phố cổ", "address": "53 Lò Sũ, Hoàn Kiếm, Hà Nội", "note": "Cháo sườn nóng buổi sáng"},
+          {"name": "Bún ốc Phủ Tây Hồ", "address": "1 Phủ Tây Hồ, Tây Hồ, Hà Nội", "note": "Bún ốc nguội đặc trưng Hà Nội"},
+          {"name": "Bánh mì Phố Cổ", "address": "49 Hàng Đào, Hà Nội", "note": "Bánh mì thịt kiểu Hà Nội"}
+        ]
+      },
+      "lunch": {
+        "category": "Ăn trưa",
+        "places": [
+          {"name": "Bún chả Hương Liên", "address": "24 Lê Văn Hưu, Phan Chu Trinh, Hà Nội", "note": "Quán Obama ăn 2016, bún chả nổi tiếng nhất HN"},
+          {"name": "Bún đậu mắm tôm Cô Thắm", "address": "6 Hàng Khay, Hoàn Kiếm, Hà Nội", "note": "Bún đậu view hồ Gươm"},
+          {"name": "Chả cá Lã Vọng", "address": "14 Chả Cá, Hoàn Kiếm, Hà Nội", "note": "Đặc sản Hà Nội từ thế kỷ 19"},
+          {"name": "Bún chả Đắc Kim", "address": "1 Hàng Mành, Hoàn Kiếm, Hà Nội", "note": "Bún chả chuẩn vị Hà Nội"},
+          {"name": "Nem cua bể Bà Ngoại", "address": "Phường Nhân Chính, Thanh Xuân, Hà Nội", "note": "Nem cuốn hải sản đặc biệt"},
+          {"name": "Bún bò Nam Bộ", "address": "67 Hàng Điếu, Hoàn Kiếm, Hà Nội", "note": "Bún bò trộn chuẩn Hà Nội"}
+        ]
+      },
+      "dinner": {
+        "category": "Ăn tối",
+        "places": [
+          {"name": "Chả cá Lã Vọng", "address": "14 Chả Cá, Hoàn Kiếm, Hà Nội", "note": "Chả cá thăng long - đặc sản phải thử"},
+          {"name": "La Badiane", "address": "10 Nam Ngư, Hoàn Kiếm, Hà Nội", "note": "Fine dining Pháp-Việt, biệt thự Pháp cổ"},
+          {"name": "Nhà hàng Hoa Ban", "address": "16 Tô Ngọc Vân, Tây Hồ, Hà Nội", "note": "Ẩm thực Tây Bắc đặc sắc"},
+          {"name": "Cơm Phố", "address": "29 Phan Đình Phùng, Ba Đình, Hà Nội", "note": "Cơm niêu ẩm thực Việt truyền thống"},
+          {"name": "Bia hơi Hà Nội góc phố cổ", "address": "1A Tạ Hiện, Hoàn Kiếm, Hà Nội", "note": "Tụ điểm bia hơi nổi tiếng Gen Z"},
+          {"name": "Lẩu cua đồng Bà Chiên", "address": "46 Lò Đúc, Hai Bà Trưng, Hà Nội", "note": "Lẩu cua đặc sản Hà Nội"}
+        ]
+      },
+      "snack": {
+        "category": "Ăn vặt",
+        "places": [
+          {"name": "Bánh trôi tàu bà Giang", "address": "30 Hàng Giầy, Hoàn Kiếm, Hà Nội", "note": "Bánh trôi tàu nóng mùa lạnh"},
+          {"name": "Kem Tràng Tiền", "address": "35 Tràng Tiền, Hoàn Kiếm, Hà Nội", "note": "Kem que huyền thoại Hà Nội từ 1958"},
+          {"name": "Bánh đúc nóng Hàng Buồm", "address": "24 Hàng Buồm, Hà Nội", "note": "Bánh đúc mặn đặc trưng Hà Nội"},
+          {"name": "Chè Bốn Mùa", "address": "32 Lý Quốc Sư, Hoàn Kiếm, Hà Nội", "note": "Chè Hà Nội đủ loại"},
+          {"name": "Bánh mỳ que Hà Nội", "address": "Chợ Đồng Xuân, Hà Nội", "note": "Bánh mỳ que nóng giòn"}
+        ]
+      }
+    },
+    "cafe": {
+      "category": "Quán cà phê",
+      "places": [
+        {"name": "Cà phê Giảng", "address": "39 Nguyễn Hữu Huân, Hoàn Kiếm, Hà Nội", "vibe": "Phát minh cà phê trứng, cầu thang tối, trải nghiệm độc nhất"},
+        {"name": "The Note Coffee", "address": "64 Lương Văn Can, Hoàn Kiếm, Hà Nội", "vibe": "Tường dán kín ghi chú, cực Instagram, Gen Z yêu thích"},
+        {"name": "Cafe Nhân", "address": "3A Đinh Lễ, Hoàn Kiếm, Hà Nội", "vibe": "Retro Hà Nội xưa, cà phê đen đặc"},
+        {"name": "The Workshop Coffee", "address": "27 Trần Nhật Duật, Hoàn Kiếm, Hà Nội", "vibe": "Specialty coffee, không gian hiện đại"},
+        {"name": "Tranquil Books & Coffee", "address": "5 Nguyễn Quang Bích, Hoàn Kiếm, Hà Nội", "vibe": "Sách và cà phê, yên tĩnh, trí thức"},
+        {"name": "Ca phe Lam", "address": "60 Nguyễn Hữu Huân, Hoàn Kiếm, Hà Nội", "vibe": "Cà phê vỉa hè Hà Nội truyền thống"},
+        {"name": "Loading T cafe", "address": "Hà Nội", "vibe": "Phong cách gaming, Gen Z"},
+        {"name": "Oriberry Coffee", "address": "36 Cầu Gỗ, Hoàn Kiếm, Hà Nội", "vibe": "Specialty coffee view phố cổ"},
+        {"name": "Heritage Line Cafe", "address": "Tô Ngọc Vân, Tây Hồ, Hà Nội", "vibe": "View Hồ Tây tuyệt đẹp, cà phê chất"},
+        {"name": "Chot Thu Cafe", "address": "48 Tô Ngọc Vân, Tây Hồ, Hà Nội", "vibe": "View Hồ Tây, hoàng hôn đẹp"}
+      ]
+    },
+    "attractions": {
+      "category": "Điểm tham quan",
+      "places": [
+        {"name": "Hồ Hoàn Kiếm & Đền Ngọc Sơn", "address": "Đinh Tiên Hoàng, Hoàn Kiếm, Hà Nội", "type": "lake_temple", "note": "Trái tim Hà Nội, vé Đền Ngọc Sơn 30.000đ"},
+        {"name": "Văn Miếu - Quốc Tử Giám", "address": "58 Quốc Tử Giám, Đống Đa, Hà Nội", "type": "heritage", "note": "Đại học đầu tiên Việt Nam, vé 30.000đ"},
+        {"name": "Lăng Chủ tịch Hồ Chí Minh", "address": "2 Hùng Vương, Ba Đình, Hà Nội", "type": "mausoleum", "note": "Miễn phí, mở T3-T5 & T7-CN sáng"},
+        {"name": "Cầu Long Biên", "address": "Phúc Xá, Ba Đình, Hà Nội", "type": "landmark", "note": "Cầu Pháp 1902, check-in retro trend"},
+        {"name": "Phố cổ Hà Nội 36 phố phường", "address": "Hoàn Kiếm, Hà Nội", "type": "heritage", "note": "Phố nghề truyền thống, kiến trúc cổ"},
+        {"name": "Chùa Trấn Quốc", "address": "Đường Thanh Niên, Tây Hồ, Hà Nội", "type": "pagoda", "note": "Chùa cổ nhất Hà Nội, 1500 tuổi"},
+        {"name": "Hồ Tây", "address": "Quận Tây Hồ, Hà Nội", "type": "lake", "note": "Hồ nước ngọt lớn nhất Hà Nội"},
+        {"name": "Bảo tàng Hà Nội", "address": "Phạm Hùng, Nam Từ Liêm, Hà Nội", "type": "museum", "note": "Kiến trúc độc đáo hình kim tự tháp ngược"},
+        {"name": "Lò Đúc - phố bích họa", "address": "Phùng Hưng, Hoàn Kiếm, Hà Nội", "type": "street_art", "note": "Bích họa dưới gầm đường sắt, check-in đẹp"},
+        {"name": "Phủ Tây Hồ", "address": "Phủ Tây Hồ, Tây Hồ, Hà Nội", "type": "temple", "note": "Thờ Mẫu Liễu Hạnh, đông người ngày Rằm"}
+      ]
+    },
+    "accommodation": {
+      "category": "Lưu trú",
+      "places": [
+        {"name": "Sofitel Legend Metropole Hanoi", "address": "15 Ngô Quyền, Hoàn Kiếm, Hà Nội", "type": "hotel", "price_range": "5.000.000 - 20.000.000đ/đêm"},
+        {"name": "Lotte Hotel Hanoi", "address": "54 Liễu Giai, Ba Đình, Hà Nội", "type": "hotel", "price_range": "2.000.000 - 6.000.000đ/đêm"},
+        {"name": "Hanoi La Siesta Hotel", "address": "94 Mã Mây, Hoàn Kiếm, Hà Nội", "type": "hotel", "price_range": "800.000 - 2.000.000đ/đêm"},
+        {"name": "Hanoi Backpackers Hostel", "address": "48 Ngõ Huyện, Hoàn Kiếm, Hà Nội", "type": "hostel", "price_range": "150.000 - 300.000đ/đêm"},
+        {"name": "Homestay Phố Cổ Hà Nội", "address": "36 Hàng Buồm, Hoàn Kiếm, Hà Nội", "type": "homestay", "price_range": "400.000 - 800.000đ/đêm"},
+        {"name": "The Hanoi Club Hotel", "address": "76 Yên Phụ, Tây Hồ, Hà Nội", "type": "hotel", "price_range": "1.500.000 - 4.000.000đ/đêm"}
+      ]
+    },
+    "market_shopping": {
+      "category": "Chợ & Mua sắm",
+      "places": [
+        {"name": "Chợ Đồng Xuân", "address": "Đồng Xuân, Hoàn Kiếm, Hà Nội", "type": "market", "note": "Chợ đầu mối lớn nhất Hà Nội"},
+        {"name": "Phố đi bộ Hoàn Kiếm", "address": "Quanh Hồ Gươm, Hoàn Kiếm, Hà Nội", "type": "pedestrian_street"},
+        {"name": "Vincom Center Bà Triệu", "address": "191 Bà Triệu, Hai Bà Trưng, Hà Nội", "type": "mall"},
+        {"name": "Tràng Tiền Plaza", "address": "24 Hai Bà Trưng, Hoàn Kiếm, Hà Nội", "type": "mall"},
+        {"name": "Chợ Hàng Da", "address": "Hàng Da, Hoàn Kiếm, Hà Nội", "type": "market", "note": "Chợ truyền thống, hàng thổ cẩm"},
+        {"name": "Phố Hàng Gai - mua lụa", "address": "Hàng Gai, Hoàn Kiếm, Hà Nội", "type": "shopping_street", "note": "Mua lụa, áo dài, tranh thêu"},
+        {"name": "Chợ đêm phố cổ thứ 6-7-CN", "address": "Hàng Đào - Đồng Xuân, Hà Nội", "type": "night_market"}
+      ]
+    }
+  }
+}

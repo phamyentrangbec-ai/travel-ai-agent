@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "destination": "Vũng Tàu",
+    "description": "Thành phố biển gần Sài Gòn nhất - biển đẹp, hải sản tươi sống, công trình lịch sử và văn hóa biển đặc trưng Nam Bộ",
+    "version": "1.0",
+    "source": "Tổng hợp từ lịch trình thực tế và review địa phương"
+  },
+  "itinerary": {
+    "day_1": {
+      "title": "Ngày 1 - Bãi Sau & Khám phá ẩm thực đặc trưng",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng",
+          "name": "Bánh khọt Gốc Vú Sữa",
+          "address": "14 Nguyễn Trường Tộ, phường 2, Vũng Tàu",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Bánh mì Hòa Lợi", "address": "Đường Thùy Vân, phường Thắng Tam, Vũng Tàu"},
+            {"name": "Hủ tiếu bà Ba Vũng Tàu", "address": "Chợ Vũng Tàu, đường Nam Kỳ Khởi Nghĩa"}
+          ]
+        },
+        {
+          "time": "8:30 - 12:00",
+          "activity": "Tắm biển & nghỉ ngơi",
+          "name": "Bãi Sau (Back Beach)",
+          "address": "Đường Thùy Vân, phường Thắng Tam, Vũng Tàu",
+          "type": "attraction",
+          "note": "Bãi biển dài và đẹp nhất Vũng Tàu. Buổi sáng nước biển xanh trong, ít người hơn chiều. Thuê ghế nằm 30-50k/ghế. Nhiều dịch vụ thể thao nước: jet ski, dù kéo."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Cơm chiên hải sản Gành Hào",
+          "address": "Đường Gành Hào, phường 2, Vũng Tàu",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Nhà hàng hải sản Lan Rừng", "address": "Đường Trần Phú, Vũng Tàu"},
+            {"name": "Hải sản Biển Đông - Phước Hải", "address": "Bãi sau, đường Thùy Vân, Vũng Tàu"}
+          ]
+        },
+        {
+          "time": "14:00 - 16:30",
+          "activity": "Tham quan di tích",
+          "name": "Tượng Chúa Kitô Vua",
+          "address": "Núi Nhỏ, phường 2, Vũng Tàu",
+          "type": "attraction",
+          "note": "Leo 847 bậc thang lên đến tượng Chúa tay giang cao 32m. Ngắm toàn cảnh thành phố và biển từ trên cao. Vào trong tượng xem trời qua vòm ngực - độc đáo. Vé 10k."
+        },
+        {
+          "time": "16:30",
+          "activity": "Cà phê view biển",
+          "name": "The Light House Coffee Vũng Tàu",
+          "address": "Đường Hạ Long, phường 2, Vũng Tàu",
+          "type": "cafe",
+          "note": "Tầng cao nhìn ra biển Vũng Tàu, rất hot trên mạng xã hội. Gọi cafe kem hoặc sinh tố nhiệt đới."
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:00",
+          "activity": "Ăn tối hải sản",
+          "name": "Gỏi cá mai đặc sản Vũng Tàu",
+          "address": "Đường Trần Phú, khu ẩm thực phường 1, Vũng Tàu",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Nhà hàng Phú Quý hải sản", "address": "Đường Thùy Vân, Vũng Tàu"},
+            {"name": "Quán hải sản Bà Tư", "address": "Gần bãi sau, Vũng Tàu"}
+          ]
+        },
+        {
+          "time": "20:00",
+          "activity": "Dạo phố đêm",
+          "name": "Phố đêm Thùy Vân",
+          "address": "Đường Thùy Vân, phường Thắng Tam, Vũng Tàu",
+          "type": "attraction",
+          "note": "Đường biển sầm uất về đêm với nhiều quán nhậu, quán cafe và âm nhạc sống. Mua mực nướng và ốc dạo ven biển."
+        }
+      ]
+    },
+    "day_2": {
+      "title": "Ngày 2 - Bãi Dâu, Mũi Nghinh Phong & Hải Đăng",
+      "morning": [
+        {
+          "time": "6:30",
+          "activity": "Ăn sáng & ngắm bình minh",
+          "name": "Bún riêu cua đặc sản bà Năm",
+          "address": "Chợ Vũng Tàu, 53 Nam Kỳ Khởi Nghĩa, Vũng Tàu",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Bánh mì ốp la Vũng Tàu sáng sớm", "address": "Phố Hoàng Hoa Thám, Vũng Tàu"},
+            {"name": "Cháo cá bà Lan", "address": "Chợ xóm Cầu, phường 8, Vũng Tàu"}
+          ]
+        },
+        {
+          "time": "8:30 - 11:00",
+          "activity": "Tham quan bãi biển & chùa",
+          "name": "Bãi Dâu & Chùa Thích Ca Phật Đài",
+          "address": "Đường Trần Phú, phường 1, Vũng Tàu",
+          "type": "attraction",
+          "note": "Bãi Dâu bờ đá tự nhiên đẹp, ít người hơn Bãi Sau. Chùa Thích Ca Phật Đài trên núi Lớn - vào tự do, leo lên thấy tượng Phật nằm khổng lồ."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:00",
+          "activity": "Ăn trưa hải sản tươi",
+          "name": "Nhà hàng hải sản Hoàng Gia",
+          "address": "Đường Hạ Long, phường 1, Vũng Tàu",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Quán hải sản Năm Sành", "address": "Phường Thắng Nhất, Vũng Tàu"},
+            {"name": "Nhà hàng Phong Lan hải sản", "address": "Đường Trần Phú, Vũng Tàu"}
+          ]
+        },
+        {
+          "time": "14:00 - 16:30",
+          "activity": "Tham quan mũi đất",
+          "name": "Mũi Nghinh Phong",
+          "address": "Mũi Nghinh Phong, phường Thắng Nhì, Vũng Tàu",
+          "type": "attraction",
+          "note": "Mỏm đất nơi Bãi Trước và Bãi Sau gặp nhau. Gió mạnh, sóng dữ - cảnh quan hoang dã đẹp nhất Vũng Tàu. Ghé cà phê nhỏ tại đây ngắm biển."
+        },
+        {
+          "time": "16:00",
+          "activity": "Tham quan hải đăng",
+          "name": "Hải Đăng Vũng Tàu (Cape Light House)",
+          "address": "Núi Nhỏ, phường 2, Vũng Tàu",
+          "type": "attraction",
+          "note": "Hải đăng cổ xây từ thời Pháp, leo lên đỉnh ngắm hoàng hôn biển cực đẹp. Vé 10k. Nên đến 16h để có ánh sáng đẹp nhất."
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Ăn tối đặc sản",
+          "name": "Bánh khọt & lẩu hải sản phố Lê Lợi",
+          "address": "Phố Lê Lợi, phường 1, Vũng Tàu",
+          "type": "food",
+          "category": "dinner",
+          "note": "Bánh khọt chiên giòn vàng ươm, ăn kèm rau sống và tôm tươi - đặc sản không thể thiếu khi đến Vũng Tàu."
+        },
+        {
+          "time": "20:30",
+          "activity": "Cafe view biển đêm",
+          "name": "View Cafe Thùy Vân",
+          "address": "Đường Thùy Vân, phường Thắng Tam, Vũng Tàu",
+          "type": "cafe",
+          "note": "Nhiều quán cafe view biển tuyệt đẹp ban đêm dọc đường Thùy Vân. Ngắm đèn thành phố phản chiếu trên mặt biển."
+        }
+      ]
+    },
+    "day_3": {
+      "title": "Ngày 3 - Bãi Dứa, Làng Chài & Mua sắm",
+      "morning": [
+        {
+          "time": "6:00",
+          "activity": "Ra bến cá sáng sớm",
+          "name": "Cảng cá Bến Đình",
+          "address": "Bến Đình, phường Thắng Nhất, Vũng Tàu",
+          "type": "attraction",
+          "note": "Thuyền đánh cá vào lúc 5-7h sáng, hải sản tươi nhất giá rẻ nhất. Mực tươi, cá thu, tôm hùm... mua trực tiếp từ ngư dân."
+        },
+        {
+          "time": "8:00",
+          "activity": "Ăn sáng tại làng chài",
+          "name": "Bún mắm Vũng Tàu tại làng Chài",
+          "address": "Khu vực Bến Đình, phường Thắng Nhất, Vũng Tàu",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Cháo cá tươi bến cảng", "address": "Gần cảng cá Bến Đình, Vũng Tàu"},
+            {"name": "Bánh cuốn bà Tư", "address": "Chợ phường Thắng Nhì, Vũng Tàu"}
+          ]
+        },
+        {
+          "time": "9:30 - 12:00",
+          "activity": "Tắm biển lần cuối",
+          "name": "Bãi Dứa (Pineapple Beach)",
+          "address": "Đường Trần Phú, phường 1, Vũng Tàu",
+          "type": "attraction",
+          "note": "Bãi biển nhỏ giữa núi và biển, nước xanh hơn Bãi Sau, sóng nhẹ hơn. Ít người, sạch hơn, nhưng bãi hẹp hơn."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa chia tay",
+          "name": "Gỏi cá mai đặc sản - Quán Bà Mười",
+          "address": "Đường Hoàng Hoa Thám, phường Thắng Nhì, Vũng Tàu",
+          "type": "food",
+          "category": "lunch",
+          "note": "Gỏi cá mai trộn chua ngọt ăn với bánh tráng nướng - đặc sản chỉ có ở Vũng Tàu, nhất định phải thử."
+        },
+        {
+          "time": "14:00 - 16:00",
+          "activity": "Mua quà về",
+          "name": "Chợ Vũng Tàu",
+          "address": "53 Nam Kỳ Khởi Nghĩa, phường 1, Vũng Tàu",
+          "type": "attraction",
+          "note": "Mua bánh mì Vũng Tàu, mực khô, tôm khô, nước mắm Phú Quốc. Giá tại chợ tốt hơn siêu thị."
+        }
+      ],
+      "evening": [
+        {
+          "time": "17:00",
+          "activity": "Cà phê cuối ngày",
+          "name": "Cafe Bãi Trước (Front Beach)",
+          "address": "Đường Quang Trung, phường 1, Vũng Tàu",
+          "type": "cafe",
+          "note": "Bãi Trước calmer hơn Bãi Sau, nhiều quán cafe view nhìn ra biển về phía Bãi Dứa đẹp lúc chiều tà."
+        },
+        {
+          "time": "19:00",
+          "activity": "Ăn tối & trở về",
+          "name": "Nhà hàng hải sản Phú Quý",
+          "address": "Đường Thùy Vân, phường Thắng Tam, Vũng Tàu",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Cơm chiên hải sản Gành Hào", "address": "Đường Gành Hào, phường 2"},
+            {"name": "Ốc & hải sản vỉa hè Thùy Vân", "address": "Dọc đường Thùy Vân, Vũng Tàu"}
+          ]
+        }
+      ]
+    }
+  },
+  "places_directory": {
+    "food": {
+      "breakfast": {
+        "category": "Ăn sáng",
+        "places": [
+          {"name": "Bánh khọt Gốc Vú Sữa", "address": "14 Nguyễn Trường Tộ, phường 2, Vũng Tàu", "note": "Quán bánh khọt lâu đời nhất Vũng Tàu, chờ hơi lâu nhưng xứng đáng"},
+          {"name": "Bún riêu cua bà Năm", "address": "Chợ Vũng Tàu, 53 Nam Kỳ Khởi Nghĩa", "note": "Bún riêu đậm đà, nhiều gạch cua thật"},
+          {"name": "Cháo cá bà Lan", "address": "Chợ xóm Cầu, phường 8, Vũng Tàu", "note": "Cháo cá trắng nấu củ hành, ăn sáng cực ngon"},
+          {"name": "Bánh mì Hòa Lợi", "address": "Đường Thùy Vân, phường Thắng Tam", "note": "Bánh mì kẹp pate thịt nguội kiểu Sài Gòn"},
+          {"name": "Hủ tiếu bà Ba Vũng Tàu", "address": "Chợ Vũng Tàu, Nam Kỳ Khởi Nghĩa", "note": "Hủ tiếu khô ăn kèm nước dùng xương hầm"}
+        ]
+      },
+      "lunch": {
+        "category": "Ăn trưa",
+        "places": [
+          {"name": "Cơm chiên hải sản Gành Hào", "address": "Đường Gành Hào, phường 2, Vũng Tàu", "note": "Cơm chiên hải sản Vũng Tàu trứ danh, phần lớn mực và tôm tươi"},
+          {"name": "Gỏi cá mai Bà Mười", "address": "Đường Hoàng Hoa Thám, phường Thắng Nhì", "note": "Đặc sản Vũng Tàu, cá mai sống trộn chua ngọt"},
+          {"name": "Nhà hàng hải sản Hoàng Gia", "address": "Đường Hạ Long, phường 1, Vũng Tàu", "note": "Hải sản tươi chọn sống tại bể, chế biến theo yêu cầu"},
+          {"name": "Nhà hàng hải sản Lan Rừng", "address": "Đường Trần Phú, Vũng Tàu", "note": "Cua rang muối, tôm hùm nướng - giá hợp lý"},
+          {"name": "Quán hải sản Năm Sành", "address": "Phường Thắng Nhất, Vũng Tàu", "note": "Quen thuộc dân địa phương, rẻ và tươi ngon"}
+        ]
+      },
+      "dinner": {
+        "category": "Ăn tối",
+        "places": [
+          {"name": "Gỏi cá mai đặc sản Trần Phú", "address": "Phố Trần Phú, khu ẩm thực phường 1, Vũng Tàu", "note": "Gỏi cá mai tươi, ăn với bánh tráng nướng và rau sống"},
+          {"name": "Bánh khọt & lẩu hải sản Lê Lợi", "address": "Phố Lê Lợi, phường 1, Vũng Tàu", "note": "Combo bánh khọt + lẩu hải sản kinh điển"},
+          {"name": "Nhà hàng hải sản Phú Quý", "address": "Đường Thùy Vân, phường Thắng Tam", "note": "View bãi biển, hải sản tươi ngon, giá bình dân"},
+          {"name": "Ốc dạo & hải sản vỉa hè Thùy Vân", "address": "Dọc đường Thùy Vân, Vũng Tàu", "note": "Ốc hút, sò điệp nướng, nghêu hấp sả ngay bờ biển"},
+          {"name": "Nhà hàng Phong Lan hải sản", "address": "Đường Trần Phú, Vũng Tàu", "note": "Đặc biệt: cá mú hấp sả gừng và tôm hùm nướng"}
+        ]
+      },
+      "snack": {
+        "category": "Ăn vặt & Đồ uống",
+        "places": [
+          {"name": "Mực nướng ven biển Thùy Vân", "address": "Dọc bờ biển Thùy Vân, Vũng Tàu", "note": "Mực tươi nướng than, chấm tương ớt - ăn vặt đặc trưng biển"},
+          {"name": "Bánh mì Vũng Tàu take-away", "address": "Phố Hoàng Hoa Thám, Vũng Tàu", "note": "Bánh mì đặc sản, vỏ cứng giòn kiểu Vũng Tàu"},
+          {"name": "Nước mía siêu vị ven đường", "address": "Rải rác khắp trung tâm Vũng Tàu", "note": "Nước mía tươi mát sau khi tắm biển"},
+          {"name": "Chè đậu đen nước dừa bà Thanh", "address": "Gần chợ Vũng Tàu", "note": "Chè nước dừa mát lạnh buổi trưa hè"},
+          {"name": "Tôm khô & mực khô Cảng Bến Đình", "address": "Bến Đình, phường Thắng Nhất", "note": "Mua trực tiếp từ ngư dân sáng sớm, rẻ nhất"}
+        ]
+      }
+    },
+    "cafe": {
+      "category": "Quán cà phê",
+      "places": [
+        {"name": "The Light House Coffee", "address": "Đường Hạ Long, phường 2, Vũng Tàu", "vibe": "view"},
+        {"name": "View Cafe Thùy Vân", "address": "Đường Thùy Vân, phường Thắng Tam, Vũng Tàu", "vibe": "view"},
+        {"name": "Mũi Nghinh Phong Mini Cafe", "address": "Mũi Nghinh Phong, phường Thắng Nhì, Vũng Tàu", "vibe": "view"},
+        {"name": "Cafe Bãi Trước", "address": "Đường Quang Trung, phường 1, Vũng Tàu", "vibe": "chill"},
+        {"name": "Blue Ocean Cafe", "address": "Đường Trần Phú, Vũng Tàu", "vibe": "aesthetic"},
+        {"name": "Cafe Núi Nhỏ view", "address": "Chân núi Nhỏ, phường 2, Vũng Tàu", "vibe": "view"}
+      ]
+    },
+    "attractions": {
+      "category": "Điểm tham quan",
+      "places": [
+        {"name": "Bãi Sau (Back Beach)", "address": "Đường Thùy Vân, phường Thắng Tam, Vũng Tàu", "type": "nature", "note": "Bãi biển dài và đẹp nhất, nhiều dịch vụ thể thao nước"},
+        {"name": "Bãi Trước (Front Beach)", "address": "Đường Quang Trung, phường 1, Vũng Tàu", "type": "nature", "note": "Bãi biển view thành phố, sóng nhẹ hơn Bãi Sau"},
+        {"name": "Bãi Dâu", "address": "Đường Trần Phú, phường 1, Vũng Tàu", "type": "nature", "note": "Bờ đá tự nhiên, ít người, cảnh đẹp hoang sơ"},
+        {"name": "Bãi Dứa", "address": "Đường Trần Phú, phường 1, Vũng Tàu", "type": "nature", "note": "Bãi nhỏ nước xanh, sóng nhẹ, yên tĩnh"},
+        {"name": "Tượng Chúa Kitô Vua", "address": "Núi Nhỏ, phường 2, Vũng Tàu", "type": "temple", "note": "Leo 847 bậc, vào trong tượng nhìn qua vòm ngực ra biển. Vé 10k"},
+        {"name": "Chùa Thích Ca Phật Đài", "address": "Đường Trần Phú, phường 1, Vũng Tàu", "type": "temple", "note": "Tượng Phật nằm khổng lồ trong hang núi"},
+        {"name": "Hải Đăng Cape Light House", "address": "Núi Nhỏ, phường 2, Vũng Tàu", "type": "viewpoint", "note": "Hải đăng thời Pháp, leo lên ngắm toàn cảnh vịnh Vũng Tàu"},
+        {"name": "Mũi Nghinh Phong", "address": "Phường Thắng Nhì, Vũng Tàu", "type": "viewpoint", "note": "Điểm cực Nam bán đảo, gió lộng, sóng dữ, cảnh quan hoang sơ"},
+        {"name": "Cảng cá Bến Đình", "address": "Phường Thắng Nhất, Vũng Tàu", "type": "market", "note": "Tàu vào lúc 5-7h, hải sản tươi giá gốc"},
+        {"name": "Đồi Con Heo (Hill 4)", "address": "Phường Thắng Nhì, Vũng Tàu", "type": "viewpoint", "note": "Đỉnh cao nhất Vũng Tàu, ngắm toàn cảnh cả hai bãi biển"}
+      ]
+    },
+    "accommodation": {
+      "category": "Lưu trú",
+      "places": [
+        {"name": "Grand Hotel Vũng Tàu", "address": "Đường Thùy Vân, phường Thắng Tam, Vũng Tàu", "type": "hotel", "price_range": "1.5-3 triệu/đêm"},
+        {"name": "Pullman Vũng Tàu", "address": "Đường Thùy Vân, Vũng Tàu", "type": "hotel", "price_range": "3-6 triệu/đêm"},
+        {"name": "Rex Hotel Vũng Tàu", "address": "Đường Thùy Vân, Vũng Tàu", "type": "hotel", "price_range": "1-2 triệu/đêm"},
+        {"name": "Biển Xanh Hotel", "address": "Phường Thắng Tam, Vũng Tàu", "type": "hotel", "price_range": "600k-1.2 triệu/đêm"},
+        {"name": "Homestay Làng Chài", "address": "Khu làng chài phường Thắng Nhất, Vũng Tàu", "type": "homestay", "price_range": "400-700k/đêm"},
+        {"name": "Imperial Hotel Vũng Tàu", "address": "Đường Thùy Vân, Vũng Tàu", "type": "hotel", "price_range": "1.2-2.5 triệu/đêm"}
+      ]
+    },
+    "market_shopping": {
+      "category": "Chợ & Mua sắm",
+      "places": [
+        {"name": "Chợ Vũng Tàu", "address": "53 Nam Kỳ Khởi Nghĩa, phường 1, Vũng Tàu", "type": "market"},
+        {"name": "Cảng cá Bến Đình", "address": "Phường Thắng Nhất, Vũng Tàu", "type": "market"},
+        {"name": "Phố đêm Thùy Vân", "address": "Đường Thùy Vân, phường Thắng Tam", "type": "night_market"},
+        {"name": "Bigc Vũng Tàu", "address": "Đường Nam Kỳ Khởi Nghĩa, Vũng Tàu", "type": "shopping_street"}
+      ]
+    }
+  }
+}

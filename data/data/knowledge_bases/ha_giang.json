@@ -1,0 +1,303 @@
+{
+  "metadata": {
+    "destination": "Hà Giang",
+    "description": "Cực Bắc Tổ quốc với cao nguyên đá Đồng Văn huyền thoại, đèo Mã Pí Lèng hiểm trở và cánh đồng tam giác mạch rực rỡ - điểm đến của dân phượt đích thực",
+    "version": "1.0",
+    "source": "Tổng hợp từ lịch trình thực tế và review địa phương"
+  },
+  "itinerary": {
+    "day_1": {
+      "title": "Ngày 1 - Hà Giang thành phố & Đồng Văn",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng",
+          "name": "Cháo ấu tẩu Hà Giang",
+          "address": "Chợ Hà Giang, đường Nguyễn Trãi, thành phố Hà Giang",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Mèn mén bánh ngô sáng sớm", "address": "Chợ phiên thành phố Hà Giang"},
+            {"name": "Phở bò Hà Giang bà Hoa", "address": "Đường Trần Phú, thành phố Hà Giang"}
+          ]
+        },
+        {
+          "time": "8:00",
+          "activity": "Bắt đầu hành trình phượt",
+          "name": "Xuất phát từ Hà Giang lên Đồng Văn",
+          "address": "Thành phố Hà Giang, tỉnh Hà Giang",
+          "type": "attraction",
+          "note": "Cung đường Hà Giang - Đồng Văn khoảng 150km. Nên thuê xe máy hoặc đặt xe cung tại Hà Giang. Mang theo áo gió và áo ấm vì đỉnh đèo lạnh bất ngờ."
+        },
+        {
+          "time": "10:00 - 12:00",
+          "activity": "Tham quan",
+          "name": "Cao nguyên đá Đồng Văn (Dong Van Karst Plateau)",
+          "address": "Huyện Đồng Văn, tỉnh Hà Giang",
+          "type": "attraction",
+          "note": "Công viên địa chất toàn cầu UNESCO. Cảnh quan đá vôi hùng vĩ trải dài nhìn không thấy tận cùng. Dừng xe ở các điểm view dọc đường để chụp ảnh."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa tại Đồng Văn",
+          "name": "Cháo ấu tẩu phố cổ Đồng Văn",
+          "address": "Phố cổ Đồng Văn, thị trấn Đồng Văn, huyện Đồng Văn, Hà Giang",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Thắng cố ngựa quán Chị Hương", "address": "Chợ phiên Đồng Văn, thị trấn Đồng Văn"},
+            {"name": "Lợn cắp nách nướng phố cổ", "address": "Phố cổ Đồng Văn, thị trấn Đồng Văn"}
+          ]
+        },
+        {
+          "time": "14:00 - 17:00",
+          "activity": "Tham quan phố cổ",
+          "name": "Phố cổ Đồng Văn",
+          "address": "Khu phố cổ, thị trấn Đồng Văn, huyện Đồng Văn, Hà Giang",
+          "type": "attraction",
+          "note": "Kiến trúc nhà trình tường đất và đá độc đáo cuối thế kỷ 19. Khám phá các ngõ nhỏ, xem người H'Mông bán hàng, thưởng thức cà phê phố cổ."
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:00",
+          "activity": "Cà phê thung lũng đêm",
+          "name": "Cafe phố cổ Đồng Văn",
+          "address": "Phố cổ Đồng Văn, thị trấn Đồng Văn",
+          "type": "cafe",
+          "note": "Nhiều quán cà phê nhỏ mộc mạc trong các ngôi nhà đá cổ. Gọi cà phê đá hoặc trà thảo mộc vùng cao, ngắm phố cổ về đêm."
+        },
+        {
+          "time": "19:30",
+          "activity": "Ăn tối",
+          "name": "Thắng cố ngựa chợ Đồng Văn",
+          "address": "Khu chợ phiên Đồng Văn, thị trấn Đồng Văn",
+          "type": "food",
+          "category": "dinner",
+          "note": "Thắng cố ngựa Đồng Văn - công thức cổ truyền nhất Hà Giang. Ăn kèm mèn mén và uống rượu ngô Tây Bắc ấm người."
+        }
+      ]
+    },
+    "day_2": {
+      "title": "Ngày 2 - Đèo Mã Pí Lèng & Mèo Vạc",
+      "morning": [
+        {
+          "time": "6:30",
+          "activity": "Ăn sáng sớm",
+          "name": "Mèn mén sáng người H'Mông",
+          "address": "Chợ sáng thị trấn Đồng Văn",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Bánh ngô hấp buổi sáng", "address": "Phố chợ Đồng Văn sáng sớm"},
+            {"name": "Cháo ngô trắng bà Sùng", "address": "Đầu phố cổ Đồng Văn"}
+          ]
+        },
+        {
+          "time": "8:00 - 12:00",
+          "activity": "Chinh phục đèo huyền thoại",
+          "name": "Đèo Mã Pí Lèng",
+          "address": "Đường Hà Giang - Mèo Vạc, giữa Đồng Văn và Mèo Vạc, Hà Giang",
+          "type": "attraction",
+          "note": "Một trong tứ đại đỉnh đèo - dài 20km uốn lượn trên vách núi đá vôi thẳng đứng cao 1,600m. Dừng tại điểm ngắm Mã Pí Lèng để nhìn xuống thung lũng sông Nho Quế xanh biếc. Lái xe cẩn thận, đường hẹp."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa Mèo Vạc",
+          "name": "Cháo ấu tẩu Mèo Vạc",
+          "address": "Thị trấn Mèo Vạc, huyện Mèo Vạc, Hà Giang",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Cơm lam rau rừng Mèo Vạc", "address": "Chợ thị trấn Mèo Vạc"},
+            {"name": "Lợn cắp nách nướng than", "address": "Dọc phố thị trấn Mèo Vạc"}
+          ]
+        },
+        {
+          "time": "14:00 - 16:30",
+          "activity": "Chèo thuyền sông Nho Quế",
+          "name": "Thung lũng sông Nho Quế",
+          "address": "Dưới chân đèo Mã Pí Lèng, xã Pả Vi, huyện Mèo Vạc",
+          "type": "attraction",
+          "note": "Chèo thuyền trên sông Nho Quế xanh ngọc lam giữa hai vách núi đá dựng đứng - trải nghiệm độc nhất vô nhị. Thuê thuyền tại bến Pả Vi, khoảng 150-200k/chuyến."
+        },
+        {
+          "time": "17:00",
+          "activity": "Cà phê thung lũng",
+          "name": "Cà phê thung lũng Mã Pí Lèng View",
+          "address": "Điểm dừng ngắm cảnh đèo Mã Pí Lèng, đường Hà Giang - Mèo Vạc",
+          "type": "cafe",
+          "note": "Quán cà phê nhỏ ngay tại điểm nhìn đèo Mã Pí Lèng - ngồi nhìn xuống thung lũng sông Nho Quế khi hoàng hôn xuống là khoảnh khắc không thể quên."
+        }
+      ],
+      "evening": [
+        {
+          "time": "19:00",
+          "activity": "Ăn tối & nghỉ ngơi",
+          "name": "Lợn cắp nách nướng & rượu ngô Tây Bắc",
+          "address": "Nhà hàng địa phương thị trấn Mèo Vạc",
+          "type": "food",
+          "category": "dinner",
+          "note": "Lợn bản thả rừng nướng than củi, thịt chắc và thơm. Uống rượu ngô Men Lá tự nấu 40 độ - uống ít thôi, rất nặng."
+        }
+      ]
+    },
+    "day_3": {
+      "title": "Ngày 3 - Lũng Cú & Tam giác mạch (tháng 10-11)",
+      "morning": [
+        {
+          "time": "6:00",
+          "activity": "Ăn sáng & xuất phát sớm",
+          "name": "Cháo ấu tẩu sáng sớm",
+          "address": "Thị trấn Đồng Văn, huyện Đồng Văn",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Bánh ngô nướng than", "address": "Chợ sáng Đồng Văn"},
+            {"name": "Xôi đỗ xanh bà Vàng", "address": "Đầu phố cổ Đồng Văn"}
+          ]
+        },
+        {
+          "time": "8:00 - 11:30",
+          "activity": "Cột cờ cực Bắc",
+          "name": "Cột cờ Lũng Cú",
+          "address": "Xã Lũng Cú, huyện Đồng Văn, Hà Giang",
+          "type": "attraction",
+          "note": "Cực Bắc Tổ quốc - leo 839 bậc lên đỉnh núi Rồng ngắm cờ đỏ sao vàng tung bay. Xung quanh là ruộng tam giác mạch (tháng 10-11) đẹp như tranh. Vé 10k."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Cơm trắng & rau rừng Lũng Cú",
+          "address": "Nhà dân Lũng Cú, xã Lũng Cú, Đồng Văn",
+          "type": "food",
+          "category": "lunch",
+          "note": "Nhiều nhà dân người H'Mông tại Lũng Cú nấu cơm cho khách, khoảng 50-70k/người. Rau sắng, đậu Hà Lan rừng và gà đen đặc biệt ngon."
+        },
+        {
+          "time": "14:00 - 17:00",
+          "activity": "Cánh đồng hoa",
+          "name": "Cánh đồng tam giác mạch Hà Giang",
+          "address": "Rải rác khắp huyện Đồng Văn và Mèo Vạc, Hà Giang",
+          "type": "attraction",
+          "note": "Tháng 10-11 - hoa tam giác mạch hồng tím nở rộ trên cao nguyên đá. Đẹp nhất tại Lũng Táo, Phố Cáo và dọc đèo Mã Pí Lèng. Đây là lý do nhiều người quay lại Hà Giang."
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:00",
+          "activity": "Tham quan hang động",
+          "name": "Hang Lung Khuy",
+          "address": "Xã Lung Khuy, huyện Quản Bạ, Hà Giang",
+          "type": "attraction",
+          "note": "Hang động stalactite và stalagmite đẹp trên đường về. Vé 30k, đi trong 1 tiếng."
+        },
+        {
+          "time": "19:30",
+          "activity": "Ăn tối chia tay Hà Giang",
+          "name": "Thắng cố & mèn mén đặc sản",
+          "address": "Chợ phiên Đồng Văn, thị trấn Đồng Văn",
+          "type": "food",
+          "category": "dinner",
+          "note": "Bữa tối cuối cùng với đầy đủ đặc sản: thắng cố ngựa, mèn mén, rau rừng, uống rượu ngô Men Lá tiễn chân hành trình."
+        }
+      ]
+    }
+  },
+  "places_directory": {
+    "food": {
+      "breakfast": {
+        "category": "Ăn sáng",
+        "places": [
+          {"name": "Cháo ấu tẩu Đồng Văn", "address": "Phố cổ Đồng Văn, thị trấn Đồng Văn", "note": "Cháo nấu từ củ ấu tẩu - vị béo bùi, ấm bụng sáng lạnh vùng cao"},
+          {"name": "Mèn mén sáng chợ Đồng Văn", "address": "Chợ phiên Đồng Văn", "note": "Bánh ngô hấp chín mềm, chấm mắm ớt bản địa"},
+          {"name": "Bánh ngô nướng than", "address": "Dọc phố cổ Đồng Văn", "note": "Nướng trực tiếp trên than hồng, thơm nức cả phố"},
+          {"name": "Phở bò Hà Giang bà Hoa", "address": "Đường Trần Phú, thành phố Hà Giang", "note": "Phở bò thịt tươi, nước dùng trong ngọt sáng sớm"},
+          {"name": "Xôi đỗ xanh bản địa", "address": "Chợ sáng Đồng Văn và Mèo Vạc", "note": "Xôi đỗ xanh hoặc đỗ đen, nấu từ ngô nương bản địa"}
+        ]
+      },
+      "lunch": {
+        "category": "Ăn trưa",
+        "places": [
+          {"name": "Thắng cố ngựa chợ Đồng Văn", "address": "Khu chợ phiên Đồng Văn, thị trấn Đồng Văn", "note": "Thắng cố ngựa chính gốc - ninh từ tối hôm trước, ăn sáng hoặc trưa"},
+          {"name": "Lợn cắp nách nướng than", "address": "Phố thị trấn Đồng Văn và Mèo Vạc", "note": "Lợn bản thả rừng nướng - thịt chắc, ít mỡ, thơm lạ"},
+          {"name": "Cháo ấu tẩu Mèo Vạc", "address": "Thị trấn Mèo Vạc, huyện Mèo Vạc", "note": "Công thức cháo ấu tẩu riêng của Mèo Vạc - đậm đà hơn"},
+          {"name": "Cơm nhà dân Lũng Cú", "address": "Xã Lũng Cú, huyện Đồng Văn", "note": "Cơm gà đen, rau rừng, đậu Hà Lan - 50-70k/người"},
+          {"name": "Mèn mén & cơm lam đường núi", "address": "Các điểm dừng dọc đường Đồng Văn - Lũng Cú", "note": "Mua tại các bản làng ven đường, rẻ và ngon"}
+        ]
+      },
+      "dinner": {
+        "category": "Ăn tối",
+        "places": [
+          {"name": "Thắng cố & rượu ngô phố cổ", "address": "Phố cổ Đồng Văn, thị trấn Đồng Văn", "note": "Tối phố cổ yên tĩnh, ngồi ăn thắng cố uống rượu ngô bản địa"},
+          {"name": "Lợn cắp nách nướng than Mèo Vạc", "address": "Nhà hàng địa phương thị trấn Mèo Vạc", "note": "Lợn cắp nách nướng nguyên con hoặc tảng, chấm mắm ớt"},
+          {"name": "Nhà hàng Đồng Văn local", "address": "Đường trung tâm thị trấn Đồng Văn", "note": "Thực đơn đầy đủ đặc sản vùng cao"},
+          {"name": "Cơm nhà sàn homestay bản làng", "address": "Các bản làng quanh Đồng Văn", "note": "Nhiều homestay phục vụ cơm tối đặc sản kèm rượu ngô"},
+          {"name": "Rau rừng xào tỏi & thịt kho gừng", "address": "Chợ phiên Đồng Văn và Mèo Vạc", "note": "Các loại rau rừng đặc sản: rau sắng, cải xanh rừng, ngồng cải"}
+        ]
+      },
+      "snack": {
+        "category": "Ăn vặt & Đồ uống",
+        "places": [
+          {"name": "Rượu ngô Men Lá Tây Bắc", "address": "Các nhà dân và chợ phiên Hà Giang", "note": "Rượu ngô men lá tự nấu, nồng đậm hương ngô nương - mua chai về làm quà"},
+          {"name": "Mật ong hoa rừng Hà Giang", "address": "Chợ phiên Đồng Văn và Mèo Vạc", "note": "Mật ong rừng nguyên chất, màu sẫm sánh đặc"},
+          {"name": "Tam giác mạch làm bánh", "address": "Bản làng khu vực Đồng Văn tháng 10-11", "note": "Bánh làm từ bột hoa tam giác mạch, bán theo mùa"},
+          {"name": "Ngô nướng ven đường", "address": "Dọc các tuyến đường đèo Hà Giang", "note": "Ngô nếp nướng than, hạt vàng ngọt dẻo"},
+          {"name": "Trà từ thảo mộc núi", "address": "Các nhà hàng và homestay vùng cao", "note": "Trà giảo cổ lam, trà hoa tam giác mạch - đặc sản Hà Giang"}
+        ]
+      }
+    },
+    "cafe": {
+      "category": "Quán cà phê",
+      "places": [
+        {"name": "Cà phê thung lũng Mã Pí Lèng View", "address": "Điểm ngắm đèo Mã Pí Lèng, đường Hà Giang - Mèo Vạc", "vibe": "view"},
+        {"name": "Cafe phố cổ Đồng Văn", "address": "Phố cổ Đồng Văn, thị trấn Đồng Văn", "vibe": "vintage"},
+        {"name": "Nhà đá cafe Đồng Văn", "address": "Trong ngõ nhỏ phố cổ Đồng Văn", "vibe": "vintage"},
+        {"name": "Cafe view ruộng bậc thang Hoàng Su Phì", "address": "Huyện Hoàng Su Phì, Hà Giang", "vibe": "view"},
+        {"name": "Cafe đỉnh đèo Bắc Sum", "address": "Đèo Bắc Sum, đường Hà Giang - Đồng Văn", "vibe": "view"}
+      ]
+    },
+    "attractions": {
+      "category": "Điểm tham quan",
+      "places": [
+        {"name": "Đèo Mã Pí Lèng", "address": "Đường Hà Giang - Mèo Vạc, giữa Đồng Văn và Mèo Vạc", "type": "viewpoint", "note": "Tứ đại đỉnh đèo, vách núi 1,600m, nhìn xuống sông Nho Quế xanh ngọc"},
+        {"name": "Cao nguyên đá Đồng Văn", "address": "Huyện Đồng Văn, tỉnh Hà Giang", "type": "nature", "note": "Công viên địa chất toàn cầu UNESCO, cảnh quan đá vôi hùng vĩ"},
+        {"name": "Phố cổ Đồng Văn", "address": "Khu phố cổ, thị trấn Đồng Văn, huyện Đồng Văn", "type": "market", "note": "Kiến trúc nhà đất đá cuối thế kỷ 19, rất photogenic"},
+        {"name": "Cột cờ Lũng Cú", "address": "Xã Lũng Cú, huyện Đồng Văn, Hà Giang", "type": "viewpoint", "note": "Cực Bắc Tổ quốc, leo 839 bậc, vé 10k"},
+        {"name": "Sông Nho Quế", "address": "Xã Pả Vi, huyện Mèo Vạc, Hà Giang", "type": "nature", "note": "Chèo thuyền giữa vách núi đá vôi, nước xanh ngọc"},
+        {"name": "Hang Lung Khuy", "address": "Xã Lung Khuy, huyện Quản Bạ, Hà Giang", "type": "nature", "note": "Hang thạch nhũ đẹp, vé 30k"},
+        {"name": "Cánh đồng tam giác mạch", "address": "Huyện Đồng Văn và Mèo Vạc (tháng 10-11)", "type": "nature", "note": "Hoa hồng tím nở rộ tháng 10-11, đẹp nhất tại Lũng Táo và Phố Cáo"},
+        {"name": "Ruộng bậc thang Hoàng Su Phì", "address": "Huyện Hoàng Su Phì, tỉnh Hà Giang", "type": "nature", "note": "Ruộng bậc thang đẹp nhất tháng 9-10 mùa lúa chín vàng"},
+        {"name": "Chợ phiên Đồng Văn", "address": "Thị trấn Đồng Văn (Chủ nhật)", "type": "market", "note": "Họp chủ nhật, người H'Mông Hoa, H'Mông Đen, Dao đủ sắc màu"},
+        {"name": "Núi Đôi Quản Bạ (Tiên Sơn)", "address": "Thị trấn Tam Sơn, huyện Quản Bạ, Hà Giang", "type": "viewpoint", "note": "Hai ngọn núi tròn đều như vú người - điểm check-in đặc biệt của Hà Giang"}
+      ]
+    },
+    "accommodation": {
+      "category": "Lưu trú",
+      "places": [
+        {"name": "Homestay nhà đá Đồng Văn", "address": "Phố cổ Đồng Văn, thị trấn Đồng Văn", "type": "homestay", "price_range": "150-300k/người/đêm"},
+        {"name": "Lao Xa Village Homestay", "address": "Xã Lũng Cú, huyện Đồng Văn", "type": "homestay", "price_range": "100-200k/người/đêm"},
+        {"name": "Mèo Vạc Hostel", "address": "Thị trấn Mèo Vạc, huyện Mèo Vạc", "type": "homestay", "price_range": "150-250k/đêm"},
+        {"name": "Khách sạn Hà Giang", "address": "Thành phố Hà Giang", "type": "hotel", "price_range": "400-800k/đêm"},
+        {"name": "Tam Giác Mạch Retreat", "address": "Khu vực Đồng Văn, Hà Giang", "type": "resort", "price_range": "800k-1.5 triệu/đêm"},
+        {"name": "Bản Tha homestay", "address": "Bản Tha, xã Lũng Táo, Đồng Văn", "type": "homestay", "price_range": "100-180k/người/đêm"}
+      ]
+    },
+    "market_shopping": {
+      "category": "Chợ & Mua sắm",
+      "places": [
+        {"name": "Chợ phiên Đồng Văn", "address": "Thị trấn Đồng Văn (Chủ nhật)", "type": "market"},
+        {"name": "Chợ phiên Mèo Vạc", "address": "Thị trấn Mèo Vạc (thứ Hai)", "type": "market"},
+        {"name": "Chợ phiên Lũng Phìn", "address": "Xã Lũng Phìn, Đồng Văn (thứ Năm)", "type": "market"},
+        {"name": "Phố cổ Đồng Văn mua sắm", "address": "Phố cổ Đồng Văn, thị trấn Đồng Văn", "type": "shopping_street"},
+        {"name": "Chợ phiên Yên Minh", "address": "Thị trấn Yên Minh, huyện Yên Minh (Chủ nhật)", "type": "market"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "destination": "Hạ Long",
+    "description": "Knowledge base địa điểm Hạ Long tổng hợp từ lịch trình thực tế và danh sách địa điểm",
+    "version": "1.0",
+    "source": "Tổng hợp từ lịch trình thực tế và review địa phương",
+    "trending_keywords": ["du thuyền Hạ Long", "kayak", "hang Sửng Sốt", "đảo Ti Tóp", "check in Hạ Long"]
+  },
+  "itinerary": {
+    "day_1": {
+      "title": "Ngày 1 - Khám Phá Vịnh Hạ Long",
+      "morning": [
+        {
+          "time": "7:00",
+          "activity": "Ăn sáng bún riêu",
+          "name": "Bún riêu cua Hạ Long",
+          "address": "Khu Bạch Đằng, Phường Bạch Đằng, Hạ Long",
+          "type": "food",
+          "category": "breakfast",
+          "note": "Bún riêu cua biển tươi đặc trưng vùng ven biển Quảng Ninh",
+          "alternatives": [
+            {"name": "Bánh cuốn làng Hạ Long", "address": "32 Lê Thánh Tôn, Hạ Long"},
+            {"name": "Phở Quảng Ninh", "address": "Khu Hồng Gai, Hạ Long"},
+            {"name": "Cháo hải sản Hạ Long", "address": "Chợ Hạ Long, Hạ Long"}
+          ]
+        },
+        {
+          "time": "9:00",
+          "activity": "Lên du thuyền tham quan vịnh",
+          "name": "Bến tàu du lịch Tuần Châu",
+          "address": "Đảo Tuần Châu, Hạ Long",
+          "type": "attraction",
+          "note": "Đặt tour cruise 1-2 ngày, giá từ 1.500.000đ/người, gồm cả ăn uống"
+        },
+        {
+          "time": "10:00 - 12:00",
+          "activity": "Tham quan hang Sửng Sốt",
+          "name": "Hang Sửng Sốt (Surprise Cave)",
+          "address": "Đảo Bồ Hòn, Vịnh Hạ Long",
+          "type": "attraction",
+          "note": "Hang động lớn nhất vịnh Hạ Long, vé 200.000đ, leo 100 bậc đá"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa trên du thuyền",
+          "name": "Bữa trưa hải sản trên thuyền",
+          "address": "Trên du thuyền, Vịnh Hạ Long",
+          "type": "food",
+          "category": "lunch",
+          "note": "Hải sản tươi do thuyền viên mua từ bè nuôi trồng"
+        },
+        {
+          "time": "14:00 - 16:00",
+          "activity": "Chèo kayak trong vịnh",
+          "name": "Kayak Vịnh Hạ Long",
+          "address": "Vịnh Hạ Long",
+          "type": "attraction",
+          "note": "Chèo kayak qua hang tối, vào vịnh nhỏ yên tĩnh ~200.000đ/thuyền"
+        },
+        {
+          "time": "16:30 - 18:00",
+          "activity": "Tắm biển & xem hoàng hôn",
+          "name": "Bãi tắm Titop Island",
+          "address": "Đảo Ti Tốp, Vịnh Hạ Long",
+          "type": "attraction",
+          "note": "Leo đỉnh đảo view toàn vịnh cực đẹp, vé 30.000đ"
+        }
+      ],
+      "evening": [
+        {
+          "time": "19:00",
+          "activity": "Tiệc tối trên du thuyền",
+          "name": "Tiệc BBQ trên boong tàu",
+          "address": "Trên du thuyền, Vịnh Hạ Long",
+          "type": "food",
+          "category": "dinner",
+          "note": "BBQ hải sản dưới trời sao giữa vịnh - trải nghiệm khó quên"
+        },
+        {
+          "time": "21:00",
+          "activity": "Câu mực đêm",
+          "name": "Câu mực đêm trên vịnh",
+          "address": "Vịnh Hạ Long",
+          "type": "attraction",
+          "note": "Hoạt động phổ biến trên cruise, mực câu được nướng ăn luôn"
+        }
+      ]
+    },
+    "day_2": {
+      "title": "Ngày 2 - Hang Động & Đảo Khỉ",
+      "morning": [
+        {
+          "time": "6:30",
+          "activity": "Ngắm bình minh trên vịnh",
+          "name": "Bình minh Vịnh Hạ Long",
+          "address": "Boong thuyền, Vịnh Hạ Long",
+          "type": "attraction",
+          "note": "Cảnh bình minh trên vịnh cực đẹp - thức dậy sớm không hối tiếc"
+        },
+        {
+          "time": "7:30",
+          "activity": "Ăn sáng trên thuyền",
+          "name": "Bữa sáng Pho Yến trên thuyền",
+          "address": "Trên du thuyền, Vịnh Hạ Long",
+          "type": "food",
+          "category": "breakfast"
+        },
+        {
+          "time": "9:00 - 11:00",
+          "activity": "Tham quan hang Thiên Cung",
+          "name": "Hang Thiên Cung (Heaven Palace Cave)",
+          "address": "Đảo Đầu Gỗ, Vịnh Hạ Long",
+          "type": "attraction",
+          "note": "Hang thạch nhũ tuyệt đẹp, màu sắc đa dạng dưới ánh đèn, vé 200.000đ"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:00",
+          "activity": "Ăn trưa & trả phòng tàu",
+          "name": "Bữa trưa hải sản kết thúc tour",
+          "address": "Trên du thuyền, Vịnh Hạ Long",
+          "type": "food",
+          "category": "lunch"
+        },
+        {
+          "time": "14:30",
+          "activity": "Nghỉ ngơi & thăm thành phố Hạ Long",
+          "name": "Phố đi bộ Hạ Long",
+          "address": "Đường Trần Quốc Nghiễn, Bạch Đằng, Hạ Long",
+          "type": "attraction",
+          "note": "Phố đi bộ ven biển mới của Hạ Long"
+        },
+        {
+          "time": "16:00",
+          "activity": "Cà phê view biển",
+          "name": "Cà phê Bãi Cháy View",
+          "address": "Bãi Cháy, Hạ Long",
+          "type": "cafe"
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Ăn tối chợ đêm Hòn Gai",
+          "name": "Chợ đêm Hạ Long - Hòn Gai",
+          "address": "Khu Hòn Gai, Hạ Long",
+          "type": "food",
+          "category": "dinner",
+          "note": "Chợ đêm sầm uất, hải sản nướng, đồ ăn đa dạng"
+        },
+        {
+          "time": "20:30",
+          "activity": "Dạo bờ biển đêm",
+          "name": "Bờ biển Bãi Cháy đêm",
+          "address": "Bãi Cháy, Hạ Long",
+          "type": "attraction"
+        }
+      ]
+    },
+    "day_3": {
+      "title": "Ngày 3 - Cô Tô hoặc thăm thêm đảo",
+      "morning": [
+        {
+          "time": "7:30",
+          "activity": "Ăn sáng",
+          "name": "Bánh cuốn làng Hạ Long",
+          "address": "32 Lê Thánh Tôn, Hạ Long",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Bún riêu cua biển", "address": "Khu Bạch Đằng, Hạ Long"},
+            {"name": "Xôi hải sản", "address": "Chợ Hạ Long, Hạ Long"}
+          ]
+        },
+        {
+          "time": "9:00 - 12:00",
+          "activity": "Tham quan đảo Monkey Island",
+          "name": "Đảo Khỉ (Monkey Island)",
+          "address": "Cát Bà, Hải Phòng (gần Hạ Long)",
+          "type": "attraction",
+          "note": "Đảo khỉ hoang, leo núi xem khỉ tự nhiên - cần đặt tour riêng"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa hải sản Cát Bà",
+          "name": "Hải sản Cát Bà",
+          "address": "Thị trấn Cát Bà, Cát Hải, Hải Phòng",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Nhà hàng hải sản Green Mango", "address": "Cát Bà, Hải Phòng"},
+            {"name": "Quán hải sản bến cảng Cát Bà", "address": "Cảng Cát Bà, Hải Phòng"}
+          ]
+        },
+        {
+          "time": "14:30",
+          "activity": "Mua hải sản khô & đặc sản về",
+          "name": "Chợ Hạ Long - Hàng đặc sản",
+          "address": "Chợ Hạ Long, Giếng Đáy, Hạ Long",
+          "type": "market"
+        }
+      ],
+      "evening": [
+        {
+          "time": "19:00",
+          "activity": "Ăn tối tạm biệt Hạ Long",
+          "name": "Nhà hàng hải sản Cây Khế",
+          "address": "58 Vũ Văn Hiếu, Hạ Long",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Nhà hàng Mì Vạn Hoa", "address": "12 Lê Thánh Tôn, Hạ Long"},
+            {"name": "Hải sản Vịnh Xanh", "address": "Bãi Cháy, Hạ Long"}
+          ]
+        }
+      ]
+    }
+  },
+  "places_directory": {
+    "food": {
+      "breakfast": {
+        "category": "Ăn sáng",
+        "places": [
+          {"name": "Bún riêu cua Hạ Long", "address": "Khu Bạch Đằng, Bạch Đằng, Hạ Long", "note": "Bún riêu cua biển tươi đặc trưng"},
+          {"name": "Bánh cuốn làng Hạ Long", "address": "32 Lê Thánh Tôn, Hạ Long", "note": "Bánh cuốn nóng buổi sáng"},
+          {"name": "Phở Quảng Ninh", "address": "Khu Hồng Gai, Hạ Long", "note": "Phở bò đặc trưng vùng"},
+          {"name": "Cháo hải sản Hạ Long", "address": "Chợ Hạ Long, Hạ Long", "note": "Cháo hải sản buổi sáng"},
+          {"name": "Xôi hải sản", "address": "Chợ Hạ Long, Hạ Long", "note": "Xôi tôm mực đặc biệt"},
+          {"name": "Bánh mì hải sản Hạ Long", "address": "Đường Trần Quốc Nghiễn, Hạ Long", "note": "Bánh mì cua ghẹ đặc sản"}
+        ]
+      },
+      "lunch": {
+        "category": "Ăn trưa",
+        "places": [
+          {"name": "Hải sản tươi sống Hạ Long", "address": "Đường Hạ Long, Bãi Cháy, Hạ Long", "note": "Hải sản tươi chọn tại bể"},
+          {"name": "Nhà hàng hải sản Cây Khế", "address": "58 Vũ Văn Hiếu, Hạ Long", "note": "Nhà hàng uy tín, giá hợp lý"},
+          {"name": "Hải sản Cát Bà", "address": "Thị trấn Cát Bà, Cát Hải", "note": "Hải sản tươi ngon giá tốt"},
+          {"name": "Quán cơm bình dân Hạ Long", "address": "Khu Hòn Gai, Hạ Long", "note": "Cơm nhà giá bình dân"},
+          {"name": "Nhà hàng Mì Vạn Hoa", "address": "12 Lê Thánh Tôn, Hạ Long", "note": "Mì Quảng và ẩm thực đa dạng"},
+          {"name": "Ẩm thực trên du thuyền", "address": "Vịnh Hạ Long", "note": "Hải sản tươi sống giữa vịnh"}
+        ]
+      },
+      "dinner": {
+        "category": "Ăn tối",
+        "places": [
+          {"name": "Chợ đêm Hòn Gai", "address": "Khu Hòn Gai, Hạ Long", "note": "Hải sản nướng, đồ ăn đêm phong phú"},
+          {"name": "Nhà hàng hải sản Cây Khế", "address": "58 Vũ Văn Hiếu, Hạ Long", "note": "Hải sản chất lượng"},
+          {"name": "Hải sản Vịnh Xanh", "address": "Bãi Cháy, Hạ Long", "note": "View vịnh, hải sản tươi"},
+          {"name": "BBQ trên du thuyền", "address": "Vịnh Hạ Long", "note": "Trải nghiệm độc nhất giữa vịnh"},
+          {"name": "Nhà hàng Hoa Biển", "address": "Bãi Cháy, Hạ Long", "note": "Seafood restaurant view biển"},
+          {"name": "Quán hải sản bến cảng", "address": "Cảng Cái Rồng, Hạ Long", "note": "Hải sản tươi giá tốt"}
+        ]
+      },
+      "snack": {
+        "category": "Ăn vặt",
+        "places": [
+          {"name": "Chả mực Hạ Long", "address": "Chợ Hạ Long, Hạ Long", "note": "Đặc sản phải mua về làm quà"},
+          {"name": "Sá sùng Vân Đồn", "address": "Chợ Hạ Long, Hạ Long", "note": "Đặc sản biển nổi tiếng Quảng Ninh"},
+          {"name": "Bánh đa cua biển", "address": "Khu Hòn Gai, Hạ Long", "note": "Bánh đa đặc sản địa phương"},
+          {"name": "Mực khô nướng than", "address": "Chợ đêm Hòn Gai, Hạ Long", "note": "Ăn vặt đặc trưng ven biển"},
+          {"name": "Ruốc tôm Quảng Ninh", "address": "Chợ Hạ Long, Hạ Long", "note": "Ruốc tôm khô đặc sản"}
+        ]
+      }
+    },
+    "cafe": {
+      "category": "Quán cà phê",
+      "places": [
+        {"name": "Cà phê Bãi Cháy View", "address": "Bãi Cháy, Hạ Long", "vibe": "View vịnh Hạ Long cực đẹp"},
+        {"name": "Cà phê đêm Hòn Gai", "address": "Khu Hòn Gai, Hạ Long", "vibe": "Cà phê vỉa hè đông vui buổi tối"},
+        {"name": "The Coffee House Hạ Long", "address": "Đường Trần Quốc Nghiễn, Hạ Long", "vibe": "Chuỗi phổ biến, không gian thoáng"},
+        {"name": "Cộng Cà Phê Hạ Long", "address": "Bãi Cháy, Hạ Long", "vibe": "Retro, cà phê cốt dừa nổi tiếng"},
+        {"name": "Cà phê trên du thuyền", "address": "Vịnh Hạ Long", "vibe": "Cà phê sáng nhìn ra vịnh - trải nghiệm đặc biệt"},
+        {"name": "Café Coconut", "address": "Tuần Châu, Hạ Long", "vibe": "View đảo Tuần Châu, nhạc nhẹ"},
+        {"name": "Halong Bay Rooftop Bar", "address": "Sun World Hạ Long, Bãi Cháy", "vibe": "Rooftop view toàn cảnh vịnh"}
+      ]
+    },
+    "attractions": {
+      "category": "Điểm tham quan",
+      "places": [
+        {"name": "Vịnh Hạ Long", "address": "Quảng Ninh", "type": "natural_heritage", "note": "Di sản thiên nhiên thế giới UNESCO, 1969 hòn đảo đá vôi"},
+        {"name": "Hang Sửng Sốt", "address": "Đảo Bồ Hòn, Vịnh Hạ Long", "type": "cave", "note": "Hang lớn nhất vịnh, vé 200.000đ"},
+        {"name": "Hang Thiên Cung", "address": "Đảo Đầu Gỗ, Vịnh Hạ Long", "type": "cave", "note": "Thạch nhũ màu sắc đa dạng, vé 200.000đ"},
+        {"name": "Đảo Ti Tốp", "address": "Vịnh Hạ Long", "type": "island", "note": "Leo đỉnh view 360 độ, tắm biển, vé 30.000đ"},
+        {"name": "Đảo Tuần Châu", "address": "Hạ Long", "type": "island", "note": "Đảo nhân tạo lớn nhất, khu giải trí"},
+        {"name": "Kayak vịnh Hạ Long", "address": "Vịnh Hạ Long", "type": "activity", "note": "Chèo kayak qua hang tối, vào vịnh kín ~200.000đ"},
+        {"name": "Đảo Cô Tô", "address": "Huyện Cô Tô, Quảng Ninh", "type": "island", "note": "Đảo xa hoang sơ, 4-5 tiếng tàu - cần plan riêng"},
+        {"name": "Đảo Monkey Island (Cát Bà)", "address": "Cát Bà, Hải Phòng", "type": "island", "note": "Đảo khỉ hoang, leo núi, khỉ tự nhiên"},
+        {"name": "Sun World Hạ Long", "address": "Bãi Cháy, Hạ Long", "type": "theme_park", "note": "Công viên cáp treo, vé ~400.000đ"},
+        {"name": "Hang Đầu Gỗ", "address": "Đảo Đầu Gỗ, Vịnh Hạ Long", "type": "cave", "note": "Hang đẹp ít người biết, yên tĩnh hơn"}
+      ]
+    },
+    "accommodation": {
+      "category": "Lưu trú",
+      "places": [
+        {"name": "Heritage Line Cruise", "address": "Vịnh Hạ Long", "type": "cruise", "price_range": "4.000.000 - 12.000.000đ/người/đêm"},
+        {"name": "Indochina Sails Cruise", "address": "Vịnh Hạ Long", "type": "cruise", "price_range": "2.500.000 - 8.000.000đ/người/đêm"},
+        {"name": "Bhaya Cruises", "address": "Vịnh Hạ Long", "type": "cruise", "price_range": "2.000.000 - 6.000.000đ/người/đêm"},
+        {"name": "Novotel Ha Long Bay", "address": "Hạ Long Road, Bãi Cháy, Hạ Long", "type": "hotel", "price_range": "1.200.000 - 3.000.000đ/đêm"},
+        {"name": "FLC Grand Hotel Ha Long", "address": "Bãi Cháy, Hạ Long", "type": "hotel", "price_range": "1.500.000 - 4.000.000đ/đêm"},
+        {"name": "Hạ Long Backpacker Hostel", "address": "Khu Hòn Gai, Hạ Long", "type": "hostel", "price_range": "150.000 - 300.000đ/đêm"}
+      ]
+    },
+    "market_shopping": {
+      "category": "Chợ & Mua sắm",
+      "places": [
+        {"name": "Chợ Hạ Long (chợ Giếng Đáy)", "address": "Giếng Đáy, Hạ Long", "type": "market", "note": "Hải sản khô đặc sản về làm quà"},
+        {"name": "Chợ đêm Hòn Gai", "address": "Khu Hòn Gai, Hạ Long", "type": "night_market", "note": "Ăn vặt và mua sắm đêm"},
+        {"name": "Vincom Hạ Long", "address": "Bãi Cháy, Hạ Long", "type": "mall"},
+        {"name": "Phố mua hải sản khô", "address": "Đường Trần Quốc Nghiễn, Hạ Long", "type": "shopping_street", "note": "Chả mực, sá sùng, tôm khô đặc sản"},
+        {"name": "Chợ hải sản Cát Bà", "address": "Thị trấn Cát Bà, Hải Phòng", "type": "market", "note": "Hải sản tươi sống giá gốc"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "metadata": {
+    "destination": "Sa Pa",
+    "description": "Thị trấn sương mù trên đỉnh núi Hoàng Liên Sơn, tỉnh Lào Cai - thiên đường ruộng bậc thang, văn hóa dân tộc H'Mông và đỉnh Fansipan hùng vĩ",
+    "version": "1.0",
+    "source": "Tổng hợp từ lịch trình thực tế và review địa phương",
+    "trending_keywords": ["Fansipan", "ruộng bậc thang", "bản Cát Cát", "trekking Sa Pa", "homestay Sa Pa", "check in Sa Pa"]
+  },
+  "itinerary": {
+    "day_1": {
+      "title": "Ngày 1 - Khám phá Sa Pa town & Cát Cát village",
+      "morning": [
+        {
+          "time": "7:30",
+          "activity": "Ăn sáng",
+          "name": "Quán phở Bắc Sơn",
+          "address": "15 Cầu Mây, Sa Pa, Lào Cai",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Quán xôi thịt gà bà Liên", "address": "Chợ Sa Pa, phường Sa Pa"},
+            {"name": "Bánh cuốn Thanh Phúc", "address": "8 Thạch Sơn, Sa Pa"}
+          ]
+        },
+        {
+          "time": "9:00 - 12:00",
+          "activity": "Tham quan",
+          "name": "Bản Cát Cát (Cat Cat Village)",
+          "address": "Đường Cát Cát, phường Hàm Rồng, Sa Pa, Lào Cai",
+          "type": "attraction",
+          "note": "Đi bộ 2km từ trung tâm thị trấn hoặc đi xe ôm 20k. Vào cổng 70k/người. Nhớ mặc áo ấm buổi sáng vì sương mù nhiều. Xem thác nước trong bản và mua thổ cẩm H'Mông trực tiếp từ dân bản."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Nhà hàng Baguette & Chocolat",
+          "address": "Đường Thạch Sơn, Sa Pa, Lào Cai",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Cơm lam nhà sàn Bản Cát Cát", "address": "Bản Cát Cát, Sa Pa"},
+            {"name": "Nhà hàng Hmong Mountain Retreat", "address": "8 Mường Hoa, Sa Pa"}
+          ]
+        },
+        {
+          "time": "14:00 - 17:00",
+          "activity": "Tham quan",
+          "name": "Vườn hoa Hàm Rồng",
+          "address": "Đường Hàm Rồng, phường Hàm Rồng, Sa Pa, Lào Cai",
+          "type": "attraction",
+          "note": "Leo 600 bậc thang lên đỉnh để ngắm toàn cảnh Sa Pa. Có hoa đào nở đẹp tháng 1-2. Vé vào 70k/người."
+        },
+        {
+          "time": "16:30",
+          "activity": "Cà phê & check-in",
+          "name": "The Moment Cafe",
+          "address": "Đường Cầu Mây, Sa Pa, Lào Cai",
+          "type": "cafe",
+          "note": "View nhìn ra thung lũng Mường Hoa cực đẹp, rất hot trên Instagram. Gọi cà phê táo mèo hoặc rượu táo mèo ấm."
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Ăn tối",
+          "name": "Nướng bếp than phố Cầu Mây",
+          "address": "Phố Cầu Mây, Sa Pa, Lào Cai",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Nhà hàng Tinh Khôi", "address": "12 Mường Hoa, Sa Pa"},
+            {"name": "Nhà hàng Sapa Rooms", "address": "Đường Xuân Viên, Sa Pa"}
+          ]
+        },
+        {
+          "time": "20:00",
+          "activity": "Dạo chợ đêm",
+          "name": "Chợ đêm Sa Pa",
+          "address": "Quảng trường Sa Pa, đường Hoàng Diệu, Sa Pa",
+          "type": "attraction",
+          "note": "Họp từ 18h-23h. Mua thổ cẩm, bạc H'Mông, vòng tay, khăn thêu. Mặc cả được 30-40%."
+        }
+      ]
+    },
+    "day_2": {
+      "title": "Ngày 2 - Fansipan & Thung lũng Mường Hoa",
+      "morning": [
+        {
+          "time": "6:30",
+          "activity": "Ăn sáng",
+          "name": "Bánh ngô nướng & thắng cố chợ Sa Pa",
+          "address": "Chợ Sa Pa, phường Sa Pa, Lào Cai",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Quán bún bò sáng sớm bà Hiền", "address": "3 Thạch Sơn, Sa Pa"},
+            {"name": "Xôi ngũ sắc bản địa", "address": "Chợ Sa Pa tầng 1"}
+          ]
+        },
+        {
+          "time": "8:00 - 12:00",
+          "activity": "Chinh phục đỉnh Fansipan",
+          "name": "Cáp treo Fansipan Sun World",
+          "address": "1 Đường Hoàng Liên, Sa Pa, Lào Cai",
+          "type": "attraction",
+          "note": "Cáp treo dài nhất thế giới 6,282m. Vé khứ hồi khoảng 700k/người. Nên đi sáng sớm tránh mây che phủ. Trên đỉnh lạnh hơn rất nhiều, mang thêm áo. Đặt vé trước online tránh xếp hàng."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "13:00",
+          "activity": "Ăn trưa",
+          "name": "Nhà hàng Lẩu cá hồi Sa Pa Unique",
+          "address": "Đường Thạch Sơn, Sa Pa, Lào Cai",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Cá hồi nướng Fanxipan View", "address": "36 Cầu Mây, Sa Pa"},
+            {"name": "Nhà hàng Hmong Sapa", "address": "Khu Cầu Mây, Sa Pa"}
+          ]
+        },
+        {
+          "time": "14:30 - 17:00",
+          "activity": "Trekking",
+          "name": "Thung lũng Mường Hoa",
+          "address": "Thôn Hầu Thào, xã Hầu Thào, Sa Pa, Lào Cai",
+          "type": "attraction",
+          "note": "Trekking qua ruộng bậc thang đẹp nhất Sa Pa. Thuê hướng dẫn viên người H'Mông 100-150k/người/ngày. Đẹp nhất mùa nước đổ tháng 5-6 và gặt hái tháng 9-10."
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:00",
+          "activity": "Cà phê hoàng hôn",
+          "name": "Mood Cafe Sa Pa",
+          "address": "Đường Thạch Sơn, Sa Pa, Lào Cai",
+          "type": "cafe",
+          "note": "View nhìn xuống thung lũng, ánh hoàng hôn cực đẹp. Thử rượu táo mèo nóng hoặc trà thảo mộc bản địa."
+        },
+        {
+          "time": "19:30",
+          "activity": "Ăn tối",
+          "name": "Thắng cố & thịt lợn cắp nách nướng",
+          "address": "Chợ Sa Pa, khu ẩm thực tầng 2, Sa Pa",
+          "type": "food",
+          "category": "dinner",
+          "note": "Thắng cố là đặc sản không thể bỏ - lòng ngựa ninh với gia vị bản địa. Mùi khá đặc trưng nhưng rất ngon khi đã quen."
+        }
+      ]
+    },
+    "day_3": {
+      "title": "Ngày 3 - Chợ phiên Bắc Hà & Bản Tả Phìn",
+      "morning": [
+        {
+          "time": "6:00",
+          "activity": "Đi chợ phiên",
+          "name": "Chợ phiên Bắc Hà (Chủ nhật)",
+          "address": "Thị trấn Bắc Hà, huyện Bắc Hà, Lào Cai (cách Sa Pa 60km)",
+          "type": "attraction",
+          "note": "Họp chủ nhật hàng tuần từ sáng sớm đến trưa. Người Hoa, Dao Đỏ, H'Mông Hoa tập trung. Thuê xe ôm hoặc xe máy từ Sa Pa."
+        },
+        {
+          "time": "10:00",
+          "activity": "Ăn sáng tại chợ",
+          "name": "Thắng cố ngựa chợ Bắc Hà",
+          "address": "Chợ Bắc Hà, thị trấn Bắc Hà, Lào Cai",
+          "type": "food",
+          "category": "breakfast",
+          "note": "Tô thắng cố ngựa chính gốc 30-40k, ăn với bánh mì hoặc xôi. Đây là trải nghiệm ẩm thực đỉnh nhất Tây Bắc."
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Trở về Sa Pa & ăn trưa",
+          "name": "Nhà hàng Cơm niêu Sa Pa Organic",
+          "address": "Đường Mường Hoa, Sa Pa, Lào Cai",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Cơm lam gà đồi Hill Station", "address": "37 P. Mường Hoa, Sa Pa"},
+            {"name": "Nhà hàng Delta", "address": "Sa Pa town center"}
+          ]
+        },
+        {
+          "time": "14:30 - 17:00",
+          "activity": "Tham quan bản làng",
+          "name": "Bản Tả Phìn",
+          "address": "Xã Tả Phìn, huyện Sa Pa, Lào Cai (cách Sa Pa 12km)",
+          "type": "attraction",
+          "note": "Làng người Dao Đỏ với nghề tắm thuốc lá truyền thống. Thử tắm thuốc lá Dao Đỏ ngay tại nhà dân 100-150k/người. Mua vải thổ cẩm và đồ thêu tay."
+        },
+        {
+          "time": "16:30",
+          "activity": "Cà phê & nghỉ ngơi",
+          "name": "Hmong Sisters Cafe",
+          "address": "Phố Cầu Mây, Sa Pa, Lào Cai",
+          "type": "cafe",
+          "note": "Do người H'Mông địa phương quản lý, rất authentic. Thử trà gừng sả nóng hoặc café trứng theo phong cách Sa Pa."
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Ăn tối chia tay Sa Pa",
+          "name": "Lẩu cá hồi & thịt heo bản địa",
+          "address": "Nhà hàng Hmong Mountain Retreat, 8 Mường Hoa, Sa Pa",
+          "type": "food",
+          "category": "dinner",
+          "alternatives": [
+            {"name": "Nhà hàng Fanxipan Legend Hotel", "address": "Đường Hoàng Liên, Sa Pa"},
+            {"name": "Bếp Mường nhà sàn", "address": "Khu Thạch Sơn, Sa Pa"}
+          ]
+        },
+        {
+          "time": "20:00",
+          "activity": "Uống rượu & ngắm sao",
+          "name": "Rượu táo mèo & quán bar phố núi",
+          "address": "Các quán trên phố Cầu Mây, Sa Pa",
+          "type": "attraction",
+          "note": "Mua rượu táo mèo mang về làm quà - chai 500ml khoảng 50-80k. Trời quang có thể ngắm sao từ sân thượng homestay."
+        }
+      ]
+    }
+  },
+  "places_directory": {
+    "food": {
+      "breakfast": {
+        "category": "Ăn sáng",
+        "places": [
+          {"name": "Bánh ngô nướng chợ Sa Pa", "address": "Chợ Sa Pa, phường Sa Pa", "note": "Đặc sản buổi sáng, 5-10k/cái, thơm nức mùi ngô nướng than"},
+          {"name": "Thắng cố ngựa chợ Bắc Hà", "address": "Chợ Bắc Hà, thị trấn Bắc Hà (chỉ Chủ nhật)", "note": "Không thể bỏ qua nếu đi đúng ngày chợ phiên"},
+          {"name": "Xôi ngũ sắc bản địa", "address": "Chợ Sa Pa tầng 1, Sa Pa", "note": "Xôi tím, đỏ, vàng, xanh từ lá cây tự nhiên người H'Mông"},
+          {"name": "Quán phở Bắc Sơn", "address": "15 Cầu Mây, Sa Pa", "note": "Phở gà Ta núi đặc biệt, nước dùng ngọt tự nhiên"},
+          {"name": "Bánh cuốn Thanh Phúc", "address": "8 Thạch Sơn, Sa Pa", "note": "Bánh cuốn nhân thịt lợn bản địa, ăn kèm chả quế"}
+        ]
+      },
+      "lunch": {
+        "category": "Ăn trưa",
+        "places": [
+          {"name": "Nhà hàng Lẩu cá hồi Sa Pa Unique", "address": "Đường Thạch Sơn, Sa Pa", "note": "Cá hồi Sa Pa tươi, lẩu 2 người khoảng 300-400k"},
+          {"name": "Cơm lam gà đồi Hill Station", "address": "37 P. Mường Hoa, Sa Pa", "note": "Cơm nấu trong ống tre, gà thả đồi - authentic nhất"},
+          {"name": "Nhà hàng Baguette & Chocolat", "address": "Đường Thạch Sơn, Sa Pa", "note": "Quản lý bởi tổ chức xã hội, đào tạo thanh niên dân tộc thiểu số"},
+          {"name": "Cơm lam nhà sàn Bản Cát Cát", "address": "Bản Cát Cát, Sa Pa", "note": "Ăn trưa ngay trong bản, view đẹp, cơm lam thơm phức"},
+          {"name": "Nhà hàng Hmong Mountain Retreat", "address": "8 Mường Hoa, Sa Pa", "note": "Không gian nhà sàn, thực đơn dân tộc đa dạng và ngon"}
+        ]
+      },
+      "dinner": {
+        "category": "Ăn tối",
+        "places": [
+          {"name": "Nướng bếp than phố Cầu Mây", "address": "Phố Cầu Mây, Sa Pa", "note": "Dãy quán nướng sôi động về đêm, thịt lợn cắp nách, ngô nướng"},
+          {"name": "Thắng cố khu ẩm thực chợ Sa Pa", "address": "Chợ Sa Pa tầng 2, Sa Pa", "note": "Thắng cố truyền thống nhất tại trung tâm thị trấn"},
+          {"name": "Nhà hàng Tinh Khôi", "address": "12 Mường Hoa, Sa Pa", "note": "Lẩu thập cẩm bản địa, rau rừng tươi ngon"},
+          {"name": "Cá hồi nướng Fanxipan View", "address": "36 Cầu Mây, Sa Pa", "note": "View đẹp ra thung lũng, cá hồi nướng mỡ hành cực ngon"},
+          {"name": "Bếp Mường nhà sàn", "address": "Khu Thạch Sơn, Sa Pa", "note": "Không gian nhà sàn truyền thống, có biểu diễn văn nghệ dân tộc"}
+        ]
+      },
+      "snack": {
+        "category": "Ăn vặt & Đồ uống",
+        "places": [
+          {"name": "Thịt lợn cắp nách nướng chợ đêm", "address": "Quảng trường Sa Pa, đường Hoàng Diệu", "note": "Lợn bản địa nướng chín đều, ăn với lá mắc mật rừng"},
+          {"name": "Rượu táo mèo Sa Pa", "address": "Các cửa hàng phố Cầu Mây, Sa Pa", "note": "Mua chai 500ml khoảng 50-80k, thơm vị táo mèo núi rừng"},
+          {"name": "Bánh ngô nướng dọc phố", "address": "Rải rác trên phố Cầu Mây và chợ Sa Pa", "note": "5-10k/cái, nóng hổi buổi sáng sương mù se lạnh"},
+          {"name": "Lạc rang muối ớt bản địa", "address": "Chợ Sa Pa, gần cổng vào", "note": "Lạc đỏ rang với muối tiêu bản địa, vừa thơm vừa cay"},
+          {"name": "Trà sơn tra (táo mèo) nóng", "address": "Chợ Sa Pa và dọc phố trung tâm", "note": "Trà nóng từ quả táo mèo khô, uống buổi sáng sương rất hợp"}
+        ]
+      }
+    },
+    "cafe": {
+      "category": "Quán cà phê",
+      "places": [
+        {"name": "The Moment Cafe", "address": "Đường Cầu Mây, Sa Pa, Lào Cai", "vibe": "view"},
+        {"name": "Mood Cafe Sa Pa", "address": "Đường Thạch Sơn, Sa Pa, Lào Cai", "vibe": "aesthetic"},
+        {"name": "Hmong Sisters Cafe", "address": "Phố Cầu Mây, Sa Pa, Lào Cai", "vibe": "chill"},
+        {"name": "Mountain View Cafe Thạch Sơn", "address": "Đường Thạch Sơn, Sa Pa, Lào Cai", "vibe": "view"},
+        {"name": "The Gecko Cafe", "address": "Sa Pa town center, Lào Cai", "vibe": "chill"},
+        {"name": "Cafe nhìn núi đèo Ô Quy Hồ", "address": "Km 15 đường Sa Pa - Lai Châu", "vibe": "view"},
+        {"name": "Cafe sương mù bản Tả Giàng Phình", "address": "Tả Giàng Phình, Sa Pa", "vibe": "aesthetic"}
+      ]
+    },
+    "attractions": {
+      "category": "Điểm tham quan",
+      "places": [
+        {"name": "Cáp treo Fansipan Sun World", "address": "1 Đường Hoàng Liên, Sa Pa, Lào Cai", "type": "viewpoint", "note": "Vé ~700k khứ hồi, đặt trước online. Đỉnh cao nhất Đông Dương 3,143m"},
+        {"name": "Bản Cát Cát", "address": "Đường Cát Cát, phường Hàm Rồng, Sa Pa", "type": "nature", "note": "Vé 70k, đi bộ 2km từ trung tâm. Thác nước và dệt vải H'Mông"},
+        {"name": "Vườn hoa Hàm Rồng", "address": "Đường Hàm Rồng, phường Hàm Rồng, Sa Pa", "type": "nature", "note": "Leo 600 bậc, ngắm toàn cảnh Sa Pa. Đẹp nhất mùa hoa xuân"},
+        {"name": "Thung lũng Mường Hoa", "address": "Xã Hầu Thào, Sa Pa, Lào Cai", "type": "nature", "note": "Ruộng bậc thang đẹp nhất Sa Pa, trekking nửa ngày đến 1 ngày"},
+        {"name": "Bản Tả Phìn", "address": "Xã Tả Phìn, huyện Sa Pa, Lào Cai", "type": "nature", "note": "Làng Dao Đỏ, tắm thuốc lá truyền thống 100-150k/lần"},
+        {"name": "Thác Bạc (Silver Waterfall)", "address": "Km 12 Quốc lộ 4D, Sa Pa - Lai Châu", "type": "nature", "note": "Thác cao 200m, vé 20k, đẹp nhất mùa mưa tháng 5-9"},
+        {"name": "Chợ phiên Bắc Hà", "address": "Thị trấn Bắc Hà, huyện Bắc Hà, Lào Cai", "type": "market", "note": "Chủ nhật hàng tuần, sắc màu văn hóa Tây Bắc đặc sắc nhất"},
+        {"name": "Đèo Ô Quy Hồ", "address": "Km 15 đường Sa Pa - Lai Châu, Lào Cai", "type": "viewpoint", "note": "Một trong tứ đại đỉnh đèo Việt Nam, view tuyệt đỉnh"},
+        {"name": "Chợ đêm Sa Pa", "address": "Quảng trường Sa Pa, đường Hoàng Diệu", "type": "market", "note": "18h-23h, thổ cẩm và đặc sản vùng cao"},
+        {"name": "Bản Lao Chải - Tả Van", "address": "Xã Lao Chải và Tả Van, Sa Pa, Lào Cai", "type": "nature", "note": "Trekking combo 2 bản qua Mường Hoa, ít khách hơn Cát Cát"}
+      ]
+    },
+    "accommodation": {
+      "category": "Lưu trú",
+      "places": [
+        {"name": "Hmong Homestay Cát Cát", "address": "Bản Cát Cát, phường Hàm Rồng, Sa Pa", "type": "homestay", "price_range": "200-400k/người/đêm"},
+        {"name": "Topas Ecolodge", "address": "Bản Đá, xã Thanh Phú, Sa Pa, Lào Cai", "type": "resort", "price_range": "3-5 triệu/đêm"},
+        {"name": "Sapa Elegance Hotel", "address": "Phố Xuân Viên, Sa Pa, Lào Cai", "type": "hotel", "price_range": "800k-1.5 triệu/đêm"},
+        {"name": "Cat Cat View Hotel", "address": "Đường Cát Cát, Sa Pa, Lào Cai", "type": "hotel", "price_range": "600k-1.2 triệu/đêm"},
+        {"name": "Pao's Sapa Leisure Hotel", "address": "Đường Mường Hoa, Sa Pa", "type": "hotel", "price_range": "1-2 triệu/đêm"},
+        {"name": "Sapa Panorama Hotel", "address": "Thạch Sơn, Sa Pa, Lào Cai", "type": "hotel", "price_range": "700k-1.3 triệu/đêm"},
+        {"name": "Hmong Mountain Retreat", "address": "8 Mường Hoa, Sa Pa", "type": "homestay", "price_range": "500k-900k/đêm"}
+      ]
+    },
+    "market_shopping": {
+      "category": "Chợ & Mua sắm",
+      "places": [
+        {"name": "Chợ Sa Pa", "address": "Phường Sa Pa, thị trấn Sa Pa", "type": "market"},
+        {"name": "Chợ đêm Sa Pa", "address": "Quảng trường Sa Pa, đường Hoàng Diệu", "type": "night_market"},
+        {"name": "Chợ phiên Bắc Hà", "address": "Thị trấn Bắc Hà, Lào Cai (Chủ nhật)", "type": "market"},
+        {"name": "Phố thổ cẩm Cầu Mây", "address": "Phố Cầu Mây, Sa Pa", "type": "shopping_street"},
+        {"name": "Chợ phiên Cốc Ly", "address": "Xã Cốc Ly, Bắc Hà, Lào Cai (thứ Ba)", "type": "market"}
+      ]
+    }
+  }
+}

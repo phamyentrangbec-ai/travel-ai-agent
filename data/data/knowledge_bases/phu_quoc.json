@@ -1,0 +1,298 @@
+{
+  "metadata": {
+    "destination": "Phú Quốc",
+    "description": "Knowledge base địa điểm Phú Quốc tổng hợp từ lịch trình thực tế và danh sách địa điểm",
+    "version": "1.0",
+    "source": "Tổng hợp từ lịch trình thực tế và review địa phương"
+  },
+  "itinerary": {
+    "day_1": {
+      "title": "Ngày 1 - Khám Phá Đảo Ngọc & Chợ Đêm",
+      "morning": [
+        {
+          "time": "7:30",
+          "activity": "Ăn sáng bún quậy",
+          "name": "Bún quậy Kiến Xây",
+          "address": "72 Trần Hưng Đạo, Thị trấn Dương Đông, Phú Quốc",
+          "type": "food",
+          "category": "breakfast",
+          "note": "Đặc sản Phú Quốc - bún quậy có nước lèo hải sản đậm đà",
+          "alternatives": [
+            {"name": "Bún quậy Gia Anh", "address": "15 Nguyễn Trãi, Dương Đông, Phú Quốc"},
+            {"name": "Bánh canh Phú Quốc", "address": "Chợ Dương Đông, Phú Quốc"},
+            {"name": "Cháo cá thác lác", "address": "3 Trần Hưng Đạo, Phú Quốc"}
+          ]
+        },
+        {
+          "time": "9:00 - 12:00",
+          "activity": "Tham quan nhà tù Phú Quốc",
+          "name": "Nhà tù Phú Quốc (Nhà tù Cây Dừa)",
+          "address": "350 Nguyễn Văn Cừ, Dương Đông, Phú Quốc",
+          "type": "attraction",
+          "note": "Di tích lịch sử quan trọng, vé 25.000đ"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa hải sản Hàm Ninh",
+          "name": "Hải sản làng chài Hàm Ninh",
+          "address": "Làng chài Hàm Ninh, Hàm Ninh, Phú Quốc",
+          "type": "food",
+          "category": "lunch",
+          "note": "Ghẹ Hàm Ninh nổi tiếng nhất Phú Quốc, giá tại làng chài rẻ hơn thị trấn",
+          "alternatives": [
+            {"name": "Nhà hàng 3 Nghĩa Hàm Ninh", "address": "Làng Hàm Ninh, Phú Quốc"},
+            {"name": "Quán ghẹ Kiên Hải", "address": "Bến Hàm Ninh, Phú Quốc"}
+          ]
+        },
+        {
+          "time": "15:00 - 18:00",
+          "activity": "Tắm biển Bãi Sao",
+          "name": "Bãi Sao",
+          "address": "Xã An Thới, Phú Quốc",
+          "type": "attraction",
+          "note": "Top 10 bãi biển đẹp nhất thế giới, cát trắng mịn, nước trong xanh"
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Mua sắm & ăn vặt chợ đêm",
+          "name": "Chợ đêm Dinh Cậu",
+          "address": "Đường Bạch Đằng, Dương Đông, Phú Quốc",
+          "type": "market",
+          "note": "Chợ đêm nổi tiếng nhất Phú Quốc, hải sản nướng, đồ lưu niệm"
+        },
+        {
+          "time": "20:00",
+          "activity": "Ngắm Dinh Cậu về đêm",
+          "name": "Dinh Cậu",
+          "address": "Đường Bạch Đằng, Dương Đông, Phú Quốc",
+          "type": "attraction",
+          "note": "Đền trên đá nhô ra biển, view hoàng hôn tuyệt vời"
+        }
+      ]
+    },
+    "day_2": {
+      "title": "Ngày 2 - Bãi Dài & Safari",
+      "morning": [
+        {
+          "time": "7:30",
+          "activity": "Ăn sáng",
+          "name": "Bánh canh ghẹ Phú Quốc",
+          "address": "12 Trần Hưng Đạo, Dương Đông, Phú Quốc",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            {"name": "Bún quậy Kiến Xây", "address": "72 Trần Hưng Đạo, Phú Quốc"},
+            {"name": "Cơm tấm đặc biệt", "address": "45 Nguyễn Trung Trực, Phú Quốc"}
+          ]
+        },
+        {
+          "time": "9:00 - 12:00",
+          "activity": "Tắm biển Bãi Dài",
+          "name": "Bãi Dài (Long Beach)",
+          "address": "Xã Gành Dầu, Phú Quốc",
+          "type": "attraction",
+          "note": "Bãi biển hoang sơ dài nhất Phú Quốc, ít khách du lịch"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "13:00",
+          "activity": "Ăn trưa",
+          "name": "Nhà hàng 3 Nghĩa",
+          "address": "Làng Hàm Ninh, Phú Quốc",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            {"name": "Nhà hàng Trần", "address": "118 Trần Hưng Đạo, Dương Đông, Phú Quốc"},
+            {"name": "Quán cơm Thanh Hương", "address": "8 Nguyễn Trãi, Phú Quốc"}
+          ]
+        },
+        {
+          "time": "14:30 - 17:30",
+          "activity": "Tham quan Vinpearl Safari",
+          "name": "Vinpearl Safari Phú Quốc",
+          "address": "Ông Lang, Cửa Dương, Phú Quốc",
+          "type": "attraction",
+          "note": "Vườn thú bán hoang dã lớn nhất Đông Nam Á, vé ~700.000đ"
+        }
+      ],
+      "evening": [
+        {
+          "time": "19:00",
+          "activity": "Ăn tối hải sản",
+          "name": "Nhà hàng Ông Lang Seafood",
+          "address": "Bãi Ông Lang, Phú Quốc",
+          "type": "food",
+          "category": "dinner",
+          "note": "Nhà hàng view biển, hải sản tươi sống",
+          "alternatives": [
+            {"name": "Chợ đêm Dinh Cậu", "address": "Bạch Đằng, Phú Quốc"},
+            {"name": "Quán Bình An", "address": "10 Nguyễn Trung Trực, Phú Quốc"}
+          ]
+        }
+      ]
+    },
+    "day_3": {
+      "title": "Ngày 3 - Secret Beach & Nước Mắm",
+      "morning": [
+        {
+          "time": "8:00",
+          "activity": "Ăn sáng",
+          "name": "Bún quậy Phú Quốc Bà Nhị",
+          "address": "Đường Nguyễn Trãi, Dương Đông, Phú Quốc",
+          "type": "food",
+          "category": "breakfast"
+        },
+        {
+          "time": "9:30 - 12:00",
+          "activity": "Tham quan Bãi Ông Lang & Secret Beach",
+          "name": "Bãi Ông Lang (Ông Lang Beach)",
+          "address": "Xã Cửa Dương, Phú Quốc",
+          "type": "attraction",
+          "note": "Bãi biển ẩn của Phú Quốc, ít người, nước trong, bóng cây mát"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa",
+          "name": "Cơm dừa hải sản Phú Quốc",
+          "address": "8 Bùi Thị Xuân, Dương Đông, Phú Quốc",
+          "type": "food",
+          "category": "lunch"
+        },
+        {
+          "time": "14:00 - 16:00",
+          "activity": "Tham quan nhà thùng nước mắm Phú Quốc",
+          "name": "Nhà thùng nước mắm Khải Hoàn",
+          "address": "Dương Đông, Phú Quốc",
+          "type": "attraction",
+          "note": "Nước mắm Phú Quốc - đặc sản về làm quà, mua tại nhà thùng giá gốc"
+        },
+        {
+          "time": "16:30",
+          "activity": "Tham quan trang trại tiêu",
+          "name": "Vườn tiêu Phú Quốc",
+          "address": "Thôn Suối Mây, Dương Đông, Phú Quốc",
+          "type": "attraction",
+          "note": "Hồ tiêu Phú Quốc đặc sản, mua về làm quà"
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30",
+          "activity": "Hoàng hôn & cocktail",
+          "name": "The Crab House Beach Bar",
+          "address": "Bãi biển Dương Đông, Phú Quốc",
+          "type": "cafe",
+          "note": "View hoàng hôn đẹp nhất Phú Quốc"
+        },
+        {
+          "time": "20:00",
+          "activity": "Ăn tối & mua quà",
+          "name": "Chợ đêm Dinh Cậu",
+          "address": "Bạch Đằng, Dương Đông, Phú Quốc",
+          "type": "market"
+        }
+      ]
+    }
+  },
+  "places_directory": {
+    "food": {
+      "breakfast": {
+        "category": "Ăn sáng",
+        "places": [
+          {"name": "Bún quậy Kiến Xây", "address": "72 Trần Hưng Đạo, Dương Đông, Phú Quốc", "note": "Đặc sản bún quậy nổi tiếng nhất"},
+          {"name": "Bún quậy Gia Anh", "address": "15 Nguyễn Trãi, Dương Đông, Phú Quốc", "note": "Bún quậy chuẩn vị địa phương"},
+          {"name": "Bánh canh ghẹ Phú Quốc", "address": "12 Trần Hưng Đạo, Phú Quốc", "note": "Bánh canh đặc trưng hải đảo"},
+          {"name": "Cháo cá thác lác", "address": "3 Trần Hưng Đạo, Phú Quốc", "note": "Cháo cá đặc sản"},
+          {"name": "Xôi chiên phồng", "address": "Chợ Dương Đông, Phú Quốc", "note": "Ăn sáng bình dân"},
+          {"name": "Bún quậy Bà Nhị", "address": "Đường Nguyễn Trãi, Dương Đông, Phú Quốc", "note": "Quán quen của người địa phương"}
+        ]
+      },
+      "lunch": {
+        "category": "Ăn trưa",
+        "places": [
+          {"name": "Hải sản làng chài Hàm Ninh", "address": "Làng Hàm Ninh, Phú Quốc", "note": "Ghẹ Hàm Ninh nổi tiếng, giá tại chỗ rẻ"},
+          {"name": "Nhà hàng 3 Nghĩa", "address": "Làng Hàm Ninh, Phú Quốc", "note": "Hải sản tươi sống, uy tín"},
+          {"name": "Nhà hàng Trần", "address": "118 Trần Hưng Đạo, Dương Đông, Phú Quốc", "note": "Menu phong phú"},
+          {"name": "Cơm tấm đặc biệt", "address": "45 Nguyễn Trung Trực, Phú Quốc", "note": "Cơm tấm bình dân"},
+          {"name": "Quán cơm Thanh Hương", "address": "8 Nguyễn Trãi, Phú Quốc", "note": "Cơm nhà ăn ngon"},
+          {"name": "Bún bò Phú Quốc", "address": "20 Lê Lợi, Dương Đông, Phú Quốc", "note": "Bún bò cay thơm"}
+        ]
+      },
+      "dinner": {
+        "category": "Ăn tối",
+        "places": [
+          {"name": "Chợ đêm Dinh Cậu", "address": "Bạch Đằng, Dương Đông, Phú Quốc", "note": "Hải sản nướng đủ loại, ẩm thực đường phố"},
+          {"name": "Nhà hàng Ông Lang Seafood", "address": "Bãi Ông Lang, Phú Quốc", "note": "View biển, hải sản tươi"},
+          {"name": "The Crab House", "address": "Bãi Dương Đông, Phú Quốc", "note": "Chuyên cua ghẹ, view hoàng hôn"},
+          {"name": "Quán Bình An", "address": "10 Nguyễn Trung Trực, Phú Quốc", "note": "Cơm gia đình, giá bình dân"},
+          {"name": "Nhà hàng hải sản Gành Dầu", "address": "Gành Dầu, Phú Quốc", "note": "Hải sản tươi cực phẩm"},
+          {"name": "Phạm Gia Restaurant", "address": "Đường 30 Tháng 4, Dương Đông, Phú Quốc", "note": "Ẩm thực Việt đa dạng"}
+        ]
+      },
+      "snack": {
+        "category": "Ăn vặt",
+        "places": [
+          {"name": "Gỏi cá trích Phú Quốc", "address": "Chợ Dương Đông, Phú Quốc", "note": "Đặc sản gỏi cá trích không thể bỏ qua"},
+          {"name": "Nhum biển nướng mỡ hành", "address": "Bến Hàm Ninh, Phú Quốc", "note": "Đặc sản biển độc đáo"},
+          {"name": "Sim rừng Phú Quốc", "address": "Đường Trần Hưng Đạo, Phú Quốc", "note": "Rượu sim đặc sản"},
+          {"name": "Bánh tráng hải sản", "address": "Chợ đêm Dinh Cậu, Phú Quốc", "note": "Bánh tráng mực tôm nướng"},
+          {"name": "Chả cá thu Phú Quốc", "address": "Chợ Dương Đông, Phú Quốc", "note": "Đặc sản về làm quà"}
+        ]
+      }
+    },
+    "cafe": {
+      "category": "Quán cà phê",
+      "places": [
+        {"name": "The Crab House Beach Bar", "address": "Bãi Dương Đông, Phú Quốc", "vibe": "View hoàng hôn đẹp, cocktail, hải sản"},
+        {"name": "Cà phê Ống Tre", "address": "Đường Trần Hưng Đạo, Dương Đông, Phú Quốc", "vibe": "Cà phê trong ống tre độc đáo"},
+        {"name": "Sun World Hon Thom Cafe", "address": "Hòn Thơm, An Thới, Phú Quốc", "vibe": "View đảo cực đẹp"},
+        {"name": "Cộng Cà Phê Phú Quốc", "address": "25 Trần Hưng Đạo, Dương Đông", "vibe": "Retro, cà phê cốt dừa"},
+        {"name": "Nón Lá Coffee", "address": "Dương Đông, Phú Quốc", "vibe": "Cà phê sân vườn nhiệt đới"},
+        {"name": "The Long Beach Club", "address": "Bãi Dài, Gành Dầu, Phú Quốc", "vibe": "Beach club, cocktail, nhạc DJ"},
+        {"name": "Nhà gỗ Coffee", "address": "10 Trần Hưng Đạo, Dương Đông, Phú Quốc", "vibe": "Cà phê trong nhà gỗ cổ điển"}
+      ]
+    },
+    "attractions": {
+      "category": "Điểm tham quan",
+      "places": [
+        {"name": "Bãi Sao", "address": "An Thới, Phú Quốc", "type": "beach", "note": "Top 10 bãi biển đẹp nhất thế giới"},
+        {"name": "Bãi Dài (Long Beach)", "address": "Gành Dầu, Phú Quốc", "type": "beach", "note": "Bãi biển hoang sơ dài nhất, 15km"},
+        {"name": "Bãi Ông Lang", "address": "Cửa Dương, Phú Quốc", "type": "beach", "note": "Bãi biển ẩn, ít người, bóng mát"},
+        {"name": "Dinh Cậu", "address": "Bạch Đằng, Dương Đông, Phú Quốc", "type": "temple", "note": "Đền trên đá, hoàng hôn đẹp"},
+        {"name": "Vinpearl Safari Phú Quốc", "address": "Cửa Dương, Phú Quốc", "type": "safari", "note": "Vườn thú bán hoang dã lớn nhất ĐNA, vé ~700.000đ"},
+        {"name": "Nhà tù Phú Quốc", "address": "350 Nguyễn Văn Cừ, Dương Đông", "type": "heritage", "note": "Di tích lịch sử, vé 25.000đ"},
+        {"name": "Hàm Ninh làng chài", "address": "Xã Hàm Ninh, Phú Quốc", "type": "village", "note": "Làng chài cổ, ghẹ tươi ngon"},
+        {"name": "VinWonders Phú Quốc", "address": "Bãi Dài, Phú Quốc", "type": "theme_park", "note": "Công viên giải trí tổng hợp"},
+        {"name": "Vườn tiêu Phú Quốc", "address": "Suối Mây, Dương Đông, Phú Quốc", "type": "farm", "note": "Hồ tiêu đặc sản, tham quan miễn phí"},
+        {"name": "Nhà thùng nước mắm Khải Hoàn", "address": "Dương Đông, Phú Quốc", "type": "factory", "note": "Nước mắm Phú Quốc, mua tại xưởng giá gốc"}
+      ]
+    },
+    "accommodation": {
+      "category": "Lưu trú",
+      "places": [
+        {"name": "JW Marriott Phu Quoc Emerald Bay", "address": "Bãi Khem, An Thới, Phú Quốc", "type": "resort", "price_range": "5.000.000 - 25.000.000đ/đêm"},
+        {"name": "Fusion Resort Phu Quoc", "address": "Vũng Bầu, Cửa Cạn, Phú Quốc", "type": "resort", "price_range": "4.000.000 - 12.000.000đ/đêm"},
+        {"name": "La Veranda Resort", "address": "Trần Hưng Đạo, Dương Đông, Phú Quốc", "type": "resort", "price_range": "2.500.000 - 7.000.000đ/đêm"},
+        {"name": "Cassia Cottage", "address": "Bãi Ông Lang, Phú Quốc", "type": "hotel", "price_range": "1.200.000 - 3.000.000đ/đêm"},
+        {"name": "Phú Quốc Backpackers", "address": "Dương Đông, Phú Quốc", "type": "hostel", "price_range": "150.000 - 300.000đ/đêm"},
+        {"name": "Bamboo Cottage", "address": "Bãi Ông Lang, Phú Quốc", "type": "homestay", "price_range": "450.000 - 900.000đ/đêm"}
+      ]
+    },
+    "market_shopping": {
+      "category": "Chợ & Mua sắm",
+      "places": [
+        {"name": "Chợ đêm Dinh Cậu", "address": "Bạch Đằng, Dương Đông, Phú Quốc", "type": "night_market", "note": "Nổi tiếng nhất Phú Quốc, hải sản + đồ lưu niệm"},
+        {"name": "Chợ Dương Đông", "address": "Dương Đông, Phú Quốc", "type": "market", "note": "Chợ truyền thống, giá rẻ"},
+        {"name": "Vincom Shophouse Phú Quốc", "address": "Bãi Dài, Phú Quốc", "type": "mall"},
+        {"name": "Phố mua sắm Trần Hưng Đạo", "address": "Trần Hưng Đạo, Dương Đông, Phú Quốc", "type": "shopping_street", "note": "Đặc sản nước mắm, tiêu, sim rừng"}
+      ]
+    }
+  }
+}

@@ -1,0 +1,5869 @@
+{
+  "Da Lat": {
+    "trending": [
+      {
+        "name": "Tháp Vinaphone Đà Lạt",
+        "type": "viewpoint",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Khu tắm khoáng nóng Đankia",
+        "type": "wellness",
+        "vibe": "chill",
+        "tiktok": true
+      },
+      {
+        "name": "Cafe Túi Mơ To",
+        "type": "cafe",
+        "vibe": "vintage",
+        "tiktok": true
+      },
+      {
+        "name": "Đồi Chè Cầu Đất",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Cầu Gỗ Bình Minh săn mây",
+        "type": "viewpoint",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Cafe Tư Phùng",
+        "desc": "Cà phê kho chuẩn vị Đà Lạt, ngồi nghe nhạc xưa",
+        "price": "30k"
+      },
+      {
+        "name": "Bánh ướt lòng gà Long",
+        "desc": "Ăn sáng đặc sản Đà Lạt",
+        "price": "40k"
+      },
+      {
+        "name": "Chợ Đà Lạt sáng sớm",
+        "desc": "Dâu tây, bánh mì sandwich, không khí se lạnh",
+        "price": "50k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Tháp Vinaphone",
+        "desc": "Leo lên check-in view toàn thành phố trong sương",
+        "price": "free"
+      },
+      {
+        "name": "Đồi Chè Cầu Đất",
+        "desc": "Đồi chè bậc thang xanh mướt, cách trung tâm 25km",
+        "price": "30k"
+      },
+      {
+        "name": "Vườn Thú Zoodoo",
+        "desc": "Khu vui chơi thú cưng hot TikTok",
+        "price": "150k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Khu tắm khoáng nóng Đankia",
+        "desc": "Tắm khoáng thiên nhiên ~15km từ trung tâm",
+        "price": "150-250k"
+      },
+      {
+        "name": "Quảng trường Lâm Viên",
+        "desc": "Hoa đèn rực rỡ về đêm",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Chợ đêm Đà Lạt",
+        "desc": "Ăn vặt, mua đặc sản, không khí se lạnh",
+        "price": "50-100k"
+      },
+      {
+        "name": "Hẻm bar Phan Bội Châu",
+        "desc": "Phố bar Đà Lạt, nhạc acoustic",
+        "price": "100-200k"
+      }
+    ],
+    "food": [
+      "Bánh tráng nướng",
+      "Sữa đậu nành nóng",
+      "Bánh căn",
+      "Lẩu bò nhúng dấm",
+      "Hồng sấy dẻo"
+    ]
+  },
+  "Hoi An": {
+    "trending": [
+      {
+        "name": "Phố cổ Hội An về đêm",
+        "type": "landmark",
+        "vibe": "romantic",
+        "tiktok": true
+      },
+      {
+        "name": "Cồn Hến Cẩm Nam",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Làng rau Trà Quế",
+        "type": "unique",
+        "vibe": "cool",
+        "tiktok": true
+      },
+      {
+        "name": "An Bàng Beach",
+        "type": "beach",
+        "vibe": "chill",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Cơm gà Bà Buội",
+        "desc": "Cơm gà nổi tiếng nhất Hội An",
+        "price": "50k"
+      },
+      {
+        "name": "Bánh mì Phượng",
+        "desc": "Bánh mì ngon nhất Việt Nam theo Anthony Bourdain",
+        "price": "30k"
+      },
+      {
+        "name": "Làng rau Trà Quế",
+        "desc": "Trải nghiệm hái rau buổi sáng cùng nông dân",
+        "price": "50k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Phố cổ Hội An",
+        "desc": "Khám phá kiến trúc cổ, chùa Cầu, Nhà cổ Tấn Ký",
+        "price": "120k vé khu phố cổ"
+      },
+      {
+        "name": "An Bàng Beach",
+        "desc": "Bãi biển đẹp cách phố cổ 4km",
+        "price": "free"
+      },
+      {
+        "name": "Làng gốm Thanh Hà",
+        "desc": "Tự tay nặn gốm trải nghiệm",
+        "price": "60k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Phố đèn lồng về đêm",
+        "desc": "Thả đèn hoa đăng trên sông Hoài",
+        "price": "20k/đèn"
+      },
+      {
+        "name": "Chợ đêm Hội An",
+        "desc": "Ăn vặt, mua đồ lưu niệm",
+        "price": "50-100k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Bar Tam Tam",
+        "desc": "Bar acoustic bên sông, view đèn lồng",
+        "price": "100-200k"
+      },
+      {
+        "name": "Q Bar Hội An",
+        "desc": "Rooftop bar view phố cổ",
+        "price": "100-200k"
+      }
+    ],
+    "food": [
+      "Cao lầu",
+      "Mì Quảng",
+      "Bánh bao bánh vạc",
+      "Hoành thánh",
+      "Chè bắp"
+    ]
+  },
+  "Ha Noi": {
+    "trending": [
+      {
+        "name": "Phố đi bộ Hoàn Kiếm",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Cà phê trứng Giảng",
+        "type": "cafe",
+        "vibe": "unique",
+        "tiktok": true
+      },
+      {
+        "name": "Bích họa Phùng Hưng",
+        "type": "art",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Train Street Hà Nội",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Phở Thìn Lò Đúc",
+        "desc": "Phở bò nức tiếng Hà Nội từ 1979",
+        "price": "70k"
+      },
+      {
+        "name": "Bún chả Hương Liên",
+        "desc": "Obama từng ăn bún chả tại đây",
+        "price": "60k"
+      },
+      {
+        "name": "Cà phê Giảng",
+        "desc": "Cà phê trứng phát minh từ 1946",
+        "price": "40k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Hồ Hoàn Kiếm & Đền Ngọc Sơn",
+        "desc": "Biểu tượng Hà Nội nghìn năm tuổi",
+        "price": "30k"
+      },
+      {
+        "name": "Văn Miếu Quốc Tử Giám",
+        "desc": "Trường đại học đầu tiên VN",
+        "price": "30k"
+      },
+      {
+        "name": "Phố cổ 36 phố phường",
+        "desc": "Khám phá phố nghề cổ Hà Nội",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Tháp Rùa hoàng hôn",
+        "desc": "Chụp ảnh sunset cực đẹp",
+        "price": "free"
+      },
+      {
+        "name": "Bún đậu mắm tôm Cô Lan",
+        "desc": "Ăn bún đậu buổi tối kiểu Hà Nội",
+        "price": "70k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố Tạ Hiện",
+        "desc": "Phố bia Hà Nội, đông vui nhất cuối tuần",
+        "price": "50-200k"
+      },
+      {
+        "name": "Bích họa Phùng Hưng",
+        "desc": "Check-in nghệ thuật ban đêm",
+        "price": "free"
+      }
+    ],
+    "food": [
+      "Phở bò",
+      "Bún chả",
+      "Bánh cuốn",
+      "Cà phê trứng",
+      "Bún đậu mắm tôm"
+    ]
+  },
+  "TP HCM": {
+    "trending": [
+      {
+        "name": "Bến Bạch Đằng - Landmark 81",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Cà phê đường tàu Xóm Chiếu",
+        "type": "cafe",
+        "vibe": "unique",
+        "tiktok": true
+      },
+      {
+        "name": "Chợ Bến Thành về đêm",
+        "type": "market",
+        "vibe": "fun",
+        "tiktok": true
+      },
+      {
+        "name": "Aqua City Đồng Nai (từ SG)",
+        "type": "unique",
+        "vibe": "cool",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Hủ tiếu Nam Vang Thanh Xuân",
+        "desc": "Hủ tiếu nổi tiếng quận 5",
+        "price": "60k"
+      },
+      {
+        "name": "Bánh mì Huỳnh Hoa",
+        "desc": "Hàng bánh mì to nhất, ngon nhất Sài Gòn",
+        "price": "40k"
+      },
+      {
+        "name": "Cà phê sân thượng Nhà thờ Đức Bà",
+        "desc": "View nhà thờ 130 tuổi",
+        "price": "50k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Bảo tàng Chứng tích Chiến tranh",
+        "desc": "Bảo tàng ý nghĩa nhất SG",
+        "price": "40k"
+      },
+      {
+        "name": "Chợ Bến Thành",
+        "desc": "Mua sắm đặc sản, ăn vặt",
+        "price": "free"
+      },
+      {
+        "name": "Landmark 81 SkyView",
+        "desc": "Tòa nhà cao nhất VN, view 360°",
+        "price": "400k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Phố đi bộ Nguyễn Huệ",
+        "desc": "Trung tâm SG về đêm lung linh",
+        "price": "free"
+      },
+      {
+        "name": "Lẩu mắm Sài Gòn",
+        "desc": "Lẩu mắm miền Tây chính gốc",
+        "price": "150-200k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Bui Vien Walking Street",
+        "desc": "Phố Tây sôi động nhất ĐNA",
+        "price": "100-300k"
+      },
+      {
+        "name": "Rooftop Bar EON51 Bitexco",
+        "desc": "Bar tầng 51 view SG about night",
+        "price": "200-400k"
+      }
+    ],
+    "food": [
+      "Hủ tiếu Nam Vang",
+      "Bánh mì Sài Gòn",
+      "Cơm tấm sườn bì",
+      "Bò kho",
+      "Chè Sài Gòn"
+    ]
+  },
+  "Da Nang": {
+    "trending": [
+      {
+        "name": "Cầu Vàng Bà Nà Hills",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Cầu Rồng phun lửa",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Bãi biển Mỹ Khê",
+        "type": "beach",
+        "vibe": "chill",
+        "tiktok": true
+      },
+      {
+        "name": "Sunworld Bà Nà Hills",
+        "type": "attraction",
+        "vibe": "fun",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Mì Quảng Bà Mua",
+        "desc": "Mì Quảng chuẩn vị Đà Nẵng",
+        "price": "40k"
+      },
+      {
+        "name": "Bãi biển Mỹ Khê sáng sớm",
+        "desc": "Tắm biển buổi sáng, nước trong xanh",
+        "price": "free"
+      },
+      {
+        "name": "Bánh tráng cuộn thịt heo",
+        "desc": "Đặc sản sáng kiểu Đà Nẵng",
+        "price": "50k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Bà Nà Hills + Cầu Vàng",
+        "desc": "Cáp treo dài nhất thế giới, làng Pháp trên mây",
+        "price": "750k"
+      },
+      {
+        "name": "Ngũ Hành Sơn",
+        "desc": "Núi đá marble, chùa cổ, hang động",
+        "price": "40k"
+      },
+      {
+        "name": "Bán đảo Sơn Trà",
+        "desc": "Rừng nguyên sinh, biển xanh, chùa Linh Ứng",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Cầu Rồng phun lửa & nước",
+        "desc": "Show lửa thứ 7 và CN 21h",
+        "price": "free"
+      },
+      {
+        "name": "Bờ biển đi bộ Phạm Văn Đồng",
+        "desc": "Check-in hoàng hôn cực đẹp",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Chợ đêm Sơn Trà",
+        "desc": "Hải sản tươi sống, ăn vặt bờ biển",
+        "price": "100-300k"
+      },
+      {
+        "name": "Sky36 Bar",
+        "desc": "Bar cao nhất miền Trung",
+        "price": "200-400k"
+      }
+    ],
+    "food": [
+      "Mì Quảng",
+      "Bún chả cá",
+      "Bánh tráng cuộn",
+      "Hải sản tươi",
+      "Bánh xèo Đà Nẵng"
+    ]
+  },
+  "Nha Trang": {
+    "trending": [
+      {
+        "name": "VinWonders Nha Trang",
+        "type": "attraction",
+        "vibe": "fun",
+        "tiktok": true
+      },
+      {
+        "name": "Đảo Bình Ba snorkel",
+        "type": "beach",
+        "vibe": "adventure",
+        "tiktok": true
+      },
+      {
+        "name": "Cầu tàu 26/3 hoàng hôn",
+        "type": "viewpoint",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Nhum biển nướng mỡ hành",
+        "type": "food",
+        "vibe": "unique",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bún cá Nha Trang",
+        "desc": "Đặc sản sáng không thể bỏ",
+        "price": "45k"
+      },
+      {
+        "name": "Bãi Dài Cam Ranh",
+        "desc": "Biển đẹp nhất Nha Trang, cát trắng mịn",
+        "price": "free"
+      },
+      {
+        "name": "Chợ Đầm Nha Trang",
+        "desc": "Mua hải sản tươi, bánh căn sáng",
+        "price": "50k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Lặn ngắm san hô Hòn Mun",
+        "desc": "San hô đẹp nhất VN, tour 4 đảo",
+        "price": "350-450k"
+      },
+      {
+        "name": "Tháp Bà Ponagar",
+        "desc": "Di tích Chăm Pa nghìn năm tuổi",
+        "price": "22k"
+      },
+      {
+        "name": "VinWonders",
+        "desc": "Công viên giải trí đẳng cấp quốc tế",
+        "price": "600-800k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Cầu tàu 26/3",
+        "desc": "Check-in hoàng hôn, ăn hải sản BBQ bờ biển",
+        "price": "200-400k"
+      },
+      {
+        "name": "Ốc Nga Nha Trang",
+        "desc": "Quán ốc nổi tiếng nhất, 21h vẫn đông",
+        "price": "150-250k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố biển Trần Phú về đêm",
+        "desc": "Đi dạo, check-in đèn đêm ven biển",
+        "price": "free"
+      },
+      {
+        "name": "Sailing Club Beach Bar",
+        "desc": "Bar trực tiếp trên bãi biển",
+        "price": "200-400k"
+      }
+    ],
+    "food": [
+      "Bánh căn",
+      "Bún cá",
+      "Nem nướng Ninh Hòa",
+      "Nhum biển",
+      "Yến sào"
+    ]
+  },
+  "Phu Quoc": {
+    "trending": [
+      {
+        "name": "Vinpearl Safari Phú Quốc",
+        "type": "attraction",
+        "vibe": "fun",
+        "tiktok": true
+      },
+      {
+        "name": "Bãi Sao snorkel",
+        "type": "beach",
+        "vibe": "chill",
+        "tiktok": true
+      },
+      {
+        "name": "Cáp treo Hòn Thơm",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Chợ đêm Dinh Cậu",
+        "type": "market",
+        "vibe": "fun",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bún quậy Kiên Giang",
+        "desc": "Đặc sản sáng Phú Quốc",
+        "price": "50k"
+      },
+      {
+        "name": "Bãi Sao buổi sáng",
+        "desc": "Bãi biển đẹp nhất Phú Quốc, nước xanh trong",
+        "price": "free"
+      },
+      {
+        "name": "Làng chài Hàm Ninh",
+        "desc": "Ăn hải sản tươi, ngắm làng chài cổ",
+        "price": "100-200k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Cáp treo Hòn Thơm",
+        "desc": "Cáp treo biển dài nhất thế giới",
+        "price": "400k"
+      },
+      {
+        "name": "Vinpearl Safari",
+        "desc": "Vườn thú mở lớn nhất VN",
+        "price": "600k"
+      },
+      {
+        "name": "Lặn biển An Thới",
+        "desc": "San hô đa dạng, cá nhiều loại",
+        "price": "300-500k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Chợ đêm Dinh Cậu",
+        "desc": "Hải sản nướng, ốc, mực, tôm hùm",
+        "price": "200-500k"
+      },
+      {
+        "name": "Sunset Sanato Beach Club",
+        "desc": "Xem hoàng hôn đẹp nhất đảo",
+        "price": "100-300k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Bar Rory's Beach Bar",
+        "desc": "Chill bar trên bãi Trường",
+        "price": "100-200k"
+      },
+      {
+        "name": "Kem tràng tiền dừa",
+        "desc": "Kem Phú Quốc hot TikTok",
+        "price": "30k"
+      }
+    ],
+    "food": [
+      "Gỏi cá trích",
+      "Bún quậy",
+      "Nhum biển",
+      "Tôm hùm nướng",
+      "Nước mắm Phú Quốc"
+    ]
+  },
+  "Hue": {
+    "trending": [
+      {
+        "name": "Đại Nội Huế hoàng hôn",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Làng cổ Phước Tích",
+        "type": "unique",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Cầu ngói Thanh Toàn",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Bún bò Huế O Loan",
+        "type": "food",
+        "vibe": "unique",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bún bò Huế O Xuân",
+        "desc": "Bún bò chuẩn vị Huế từ sáng sớm",
+        "price": "50k"
+      },
+      {
+        "name": "Bánh canh Nam Phổ",
+        "desc": "Đặc sản sáng Huế ít ai biết",
+        "price": "35k"
+      },
+      {
+        "name": "Chợ Đông Ba buổi sáng",
+        "desc": "Chợ lớn nhất Huế, đặc sản phong phú",
+        "price": "50k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Đại Nội - Hoàng thành Huế",
+        "desc": "Cố đô 143 năm của triều Nguyễn",
+        "price": "200k"
+      },
+      {
+        "name": "Chùa Thiên Mụ",
+        "desc": "Biểu tượng Huế bên sông Hương",
+        "price": "free"
+      },
+      {
+        "name": "Lăng Tự Đức",
+        "desc": "Lăng tẩm đẹp và thơ mộng nhất",
+        "price": "150k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Bờ sông Hương hoàng hôn",
+        "desc": "Đi thuyền nghe ca Huế, ngắm hoàng hôn",
+        "price": "100-200k"
+      },
+      {
+        "name": "Cơm Huế bà Nguyệt",
+        "desc": "Cơm cung đình chính gốc",
+        "price": "120-200k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố đêm Chu Văn An",
+        "desc": "Phố bia Huế, nhộn nhịp về đêm",
+        "price": "50-150k"
+      },
+      {
+        "name": "Bánh bèo chén O Hồng",
+        "desc": "Ăn vặt đêm chuẩn Huế",
+        "price": "30-50k"
+      }
+    ],
+    "food": [
+      "Bún bò Huế",
+      "Cơm hến",
+      "Bánh bèo",
+      "Bánh khoái",
+      "Nem lụi"
+    ]
+  },
+  "Ninh Binh": {
+    "trending": [
+      {
+        "name": "Tràng An - Bái Đính",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Hang Múa view đỉnh núi",
+        "type": "viewpoint",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Cánh đồng lúa Tam Cốc mùa vàng",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Làng nổi Thung Nham",
+        "type": "nature",
+        "vibe": "chill",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Cơm cháy Ninh Bình",
+        "desc": "Đặc sản không thể bỏ qua khi đến NB",
+        "price": "60-120k"
+      },
+      {
+        "name": "Chèo thuyền Tam Cốc sáng sớm",
+        "desc": "Sương mù huyền ảo, ít người nhất",
+        "price": "200k/thuyền"
+      },
+      {
+        "name": "Bún mọc Ninh Bình",
+        "desc": "Bún sáng đặc sản địa phương",
+        "price": "40k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Tràng An UNESCO",
+        "desc": "Chèo thuyền qua hang động, di sản thế giới",
+        "price": "250k/thuyền"
+      },
+      {
+        "name": "Chùa Bái Đính",
+        "desc": "Chùa lớn nhất ĐNÁ, kỷ lục nhiều nhất",
+        "price": "free vào chùa"
+      },
+      {
+        "name": "Hang Múa",
+        "desc": "Leo 500 bậc thang, view Tam Cốc từ trên cao",
+        "price": "100k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn trên đỉnh Hang Múa",
+        "desc": "Sunset đẹp nhất Ninh Bình",
+        "price": "100k"
+      },
+      {
+        "name": "Dê núi nướng Ninh Bình",
+        "desc": "Đặc sản thịt dê địa phương",
+        "price": "200-350k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Tràng An",
+        "desc": "Các quán ăn đặc sản quanh khu du lịch",
+        "price": "100-200k"
+      },
+      {
+        "name": "Rượu Kim Sơn",
+        "desc": "Rượu nổi tiếng Ninh Bình",
+        "price": "50-100k/chai"
+      }
+    ],
+    "food": [
+      "Cơm cháy",
+      "Thịt dê núi",
+      "Cá rô đồng",
+      "Rượu Kim Sơn",
+      "Nem Yên Mạc"
+    ]
+  },
+  "Con Dao": {
+    "trending": [
+      {
+        "name": "Lặn ngắm san hô Côn Đảo",
+        "type": "beach",
+        "vibe": "adventure",
+        "tiktok": true
+      },
+      {
+        "name": "Bãi Đầm Trầu rùa biển",
+        "type": "nature",
+        "vibe": "unique",
+        "tiktok": true
+      },
+      {
+        "name": "Sân bay Côn Đảo retro",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bãi Đầm Trầu sáng sớm",
+        "desc": "Xem rùa biển về tổ (mùa 4-10)",
+        "price": "free"
+      },
+      {
+        "name": "Chợ Côn Đảo",
+        "desc": "Hải sản tươi, ăn sáng bình dân",
+        "price": "50k"
+      },
+      {
+        "name": "Bánh mì trứng Côn Đảo",
+        "desc": "Bánh mì sáng nổi tiếng đảo",
+        "price": "20k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Lặn biển Hòn Bảy Cạnh",
+        "desc": "San hô nguyên sơ, cá đủ loại",
+        "price": "400-600k/tour"
+      },
+      {
+        "name": "Bảo tàng Côn Đảo & Chuồng Cọp",
+        "desc": "Lịch sử cách mạng đầy xúc động",
+        "price": "40k"
+      },
+      {
+        "name": "Nghĩa trang Hàng Dương",
+        "desc": "Viếng mộ Võ Thị Sáu",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn Bãi Đất Dốc",
+        "desc": "Một trong những hoàng hôn đẹp nhất VN",
+        "price": "free"
+      },
+      {
+        "name": "Hải sản BBQ Cỏ Ống",
+        "desc": "Tôm hùm, mực, cá tươi nguyên con",
+        "price": "300-600k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Đêm Côn Đảo yên tĩnh",
+        "desc": "Không có bar ồn ào, ngắm sao trời",
+        "price": "free"
+      },
+      {
+        "name": "Ốc & hải sản vỉa hè",
+        "desc": "Ăn vặt đêm giản dị của dân đảo",
+        "price": "100-200k"
+      }
+    ],
+    "food": [
+      "Tôm hùm Côn Đảo",
+      "Bánh mì trứng",
+      "Hải sản tươi sống",
+      "Cua đá",
+      "Cá ngừ đại dương"
+    ]
+  },
+  "Sa Pa": {
+    "trending": [
+      {
+        "name": "Ruộng bậc thang Mù Cang Chải từ SaPa",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Đỉnh Fansipan cáp treo",
+        "type": "adventure",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Bản Cát Cát người Mông",
+        "type": "unique",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Săn mây Sa Pa sáng sớm",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Săn mây trên đỉnh Ô Quy Hồ",
+        "desc": "4h sáng đi để kịp biển mây",
+        "price": "free"
+      },
+      {
+        "name": "Chợ phiên Sa Pa sáng thứ 7",
+        "desc": "Chợ vùng cao đặc sắc nhất Tây Bắc",
+        "price": "50k"
+      },
+      {
+        "name": "Cháo ngô + thắng cố",
+        "desc": "Ăn sáng kiểu người Mông",
+        "price": "30-50k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Đỉnh Fansipan 3.143m",
+        "desc": "Nóc nhà Đông Dương, cáp treo 20 phút",
+        "price": "900k khứ hồi"
+      },
+      {
+        "name": "Bản Cát Cát",
+        "desc": "Làng người Mông, thác nước, cầu treo",
+        "price": "70k"
+      },
+      {
+        "name": "Thung lũng Mường Hoa",
+        "desc": "Ruộng bậc thang đẹp nhất vùng Sa Pa",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Thị trấn Sa Pa về đêm",
+        "desc": "Mua đồ thổ cẩm, ăn nướng ven đường",
+        "price": "100k"
+      },
+      {
+        "name": "Lẩu cá hồi Sa Pa",
+        "desc": "Cá hồi tươi nuôi tại chỗ",
+        "price": "200-350k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Quán rượu táo mèo",
+        "desc": "Rượu đặc sản Tây Bắc ấm người",
+        "price": "50-100k"
+      },
+      {
+        "name": "BBQ vỉa hè Sa Pa",
+        "desc": "Thịt nướng trên than, sương lạnh",
+        "price": "100-200k"
+      }
+    ],
+    "food": [
+      "Cá hồi Sa Pa",
+      "Thắng cố",
+      "Lợn cắp nách nướng",
+      "Rượu táo mèo",
+      "Cơm lam"
+    ]
+  },
+  "Ha Giang": {
+    "trending": [
+      {
+        "name": "Đèo Mã Pí Lèng",
+        "type": "viewpoint",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Cao nguyên đá Đồng Văn",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Cung đường loop Ha Giang",
+        "type": "adventure",
+        "vibe": "adventure",
+        "tiktok": true
+      },
+      {
+        "name": "Làng văn hóa Lũng Cú",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Chợ phiên Đồng Văn",
+        "desc": "Họp chợ thứ 7 và CN, đặc sản vùng cao",
+        "price": "50k"
+      },
+      {
+        "name": "Cột cờ Lũng Cú cực Bắc",
+        "desc": "Điểm cực Bắc của Tổ quốc",
+        "price": "30k"
+      },
+      {
+        "name": "Bánh cuốn trứng Hà Giang",
+        "desc": "Đặc sản sáng của người địa phương",
+        "price": "30k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Đèo Mã Pí Lèng",
+        "desc": "Một trong tứ đại đỉnh đèo huyền thoại VN",
+        "price": "free"
+      },
+      {
+        "name": "Hẻm Tu Sản",
+        "desc": "Thuyền trên dòng Nho Quế, vách đá 800m",
+        "price": "150k/thuyền"
+      },
+      {
+        "name": "Phố cổ Đồng Văn",
+        "desc": "Phố đá cổ lãng mạn trên cao nguyên",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn Mèo Vạc",
+        "desc": "View hoàng hôn trên cao nguyên đá",
+        "price": "free"
+      },
+      {
+        "name": "Thắng cố Mèo Vạc",
+        "desc": "Thắng cố ngựa truyền thống dân tộc",
+        "price": "60-100k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Rượu ngô Hà Giang",
+        "desc": "Rượu ngô men lá đặc sản",
+        "price": "40-80k"
+      },
+      {
+        "name": "Ngủ homestay nhà trình tường",
+        "desc": "Nhà đất truyền thống người Mông",
+        "price": "150-300k"
+      }
+    ],
+    "food": [
+      "Thắng cố",
+      "Mèn mén",
+      "Phở chua",
+      "Rượu ngô",
+      "Lợn đen nướng đá"
+    ]
+  },
+  "Ha Long": {
+    "trending": [
+      {
+        "name": "Du thuyền qua đêm Hạ Long",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Kayak trong hang tối Hạ Long",
+        "type": "adventure",
+        "vibe": "adventure",
+        "tiktok": true
+      },
+      {
+        "name": "Hang Sửng Sốt",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Đảo Ti Tốp leo đỉnh",
+        "type": "adventure",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bình minh trên vịnh từ boong tàu",
+        "desc": "Sunrise trên du thuyền, khung cảnh huyền ảo",
+        "price": "included in cruise"
+      },
+      {
+        "name": "Chợ cảng Hạ Long ăn sáng",
+        "desc": "Bánh cuốn, phở, bún riêu địa phương",
+        "price": "50k"
+      },
+      {
+        "name": "Chèo kayak buổi sáng",
+        "desc": "Khám phá hang động bằng kayak",
+        "price": "200k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Hang Sửng Sốt",
+        "desc": "Hang động lớn nhất, đẹp nhất Hạ Long",
+        "price": "150k"
+      },
+      {
+        "name": "Đảo Ti Tốp",
+        "desc": "Leo 427 bậc thang, view toàn vịnh 360°",
+        "price": "150k"
+      },
+      {
+        "name": "Làng chài Cửa Vạn",
+        "desc": "Làng chài nổi truyền thống trên vịnh",
+        "price": "100k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn vịnh Hạ Long",
+        "desc": "Ngắm sunset từ boong tàu với cocktail",
+        "price": "included"
+      },
+      {
+        "name": "Hải sản tươi BBQ trên du thuyền",
+        "desc": "Tôm hùm, mực, cá tươi từ biển",
+        "price": "400-800k"
+      },
+      {
+        "name": "Sunset cruise Vịnh Hạ Long",
+        "desc": "Tour thuyền ngắm hoàng hôn 2h, có cocktail",
+        "price": "350k"
+      },
+      {
+        "name": "Nhà hàng hải sản Cột 5-Cột 8",
+        "desc": "Khu ăn hải sản nổi tiếng nhất Hạ Long",
+        "price": "300-600k/người"
+      }
+    ],
+    "night": [
+      {
+        "name": "Câu mực đêm trên vịnh",
+        "desc": "Trải nghiệm câu cá mực ban đêm",
+        "price": "included in cruise"
+      },
+      {
+        "name": "Phố đi bộ Hạ Long",
+        "desc": "Shopping, ăn vặt ven biển",
+        "price": "100k"
+      },
+      {
+        "name": "Bar trên boong du thuyền Hạ Long",
+        "desc": "Cocktail nhìn ra vịnh đêm huyền ảo",
+        "price": "150k+"
+      },
+      {
+        "name": "Chợ đêm Hòn Gai",
+        "desc": "Hải sản tươi sống, quà lưu niệm, ăn vặt biển",
+        "price": "100-300k"
+      },
+      {
+        "name": "Cầu Bãi Cháy về đêm",
+        "desc": "Đèn LED lung linh, chụp ảnh cầu dây văng cực đỉnh",
+        "price": "free"
+      }
+    ],
+    "food": [
+      "Hải sản tươi sống",
+      "Sá sùng Quảng Ninh",
+      "Chả mực Hạ Long",
+      "Ngán Quảng Ninh",
+      "Bánh gật gù"
+    ]
+  },
+  "Can Tho": {
+    "trending": [
+      {
+        "name": "Chợ nổi Cái Răng sáng sớm",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Vườn cây ăn trái Mỹ Khánh",
+        "type": "nature",
+        "vibe": "fun",
+        "tiktok": true
+      },
+      {
+        "name": "Cầu đi bộ Ninh Kiều về đêm",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Chợ nổi Cái Răng 5h sáng",
+        "desc": "Chợ trên sông tấp nập, cano đi chợ",
+        "price": "150k/cano"
+      },
+      {
+        "name": "Bún riêu Cần Thơ",
+        "desc": "Bún riêu cua đồng miền Tây",
+        "price": "40k"
+      },
+      {
+        "name": "Bánh mì thanh long đỏ",
+        "desc": "Đặc sản độc đáo vùng ĐBSCL",
+        "price": "20k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Vườn du lịch sinh thái Mỹ Khánh",
+        "desc": "Hái trái cây, câu cá, đi xuồng ba lá",
+        "price": "100k"
+      },
+      {
+        "name": "Chùa Ông Cần Thơ",
+        "desc": "Chùa Hoa kiều nổi tiếng, kiến trúc độc đáo",
+        "price": "free"
+      },
+      {
+        "name": "Bến Ninh Kiều",
+        "desc": "Bến tàu đẹp, ngắm sông Hậu",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Cầu đi bộ Ninh Kiều về đêm",
+        "desc": "Cầu đèn lung linh phản chiếu xuống sông",
+        "price": "free"
+      },
+      {
+        "name": "Lẩu mắm miền Tây",
+        "desc": "Đặc sản không thể bỏ khi đến Cần Thơ",
+        "price": "150-200k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố đi bộ Ninh Kiều",
+        "desc": "Ăn vặt, check-in ven sông về đêm",
+        "price": "100k"
+      },
+      {
+        "name": "Quán nhậu bình dân bờ sông",
+        "desc": "Hải sản, đặc sản miền Tây",
+        "price": "100-200k"
+      }
+    ],
+    "food": [
+      "Bún cá Cần Thơ",
+      "Lẩu mắm",
+      "Bánh cống",
+      "Cháo cá lóc",
+      "Bún măng vịt"
+    ]
+  },
+  "Mui Ne": {
+    "trending": [
+      {
+        "name": "Đồi cát trắng Mũi Né",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Đồi cát đỏ ATV",
+        "type": "adventure",
+        "vibe": "adventure",
+        "tiktok": true
+      },
+      {
+        "name": "Suối Tiên (Fairy Stream)",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Khu nghỉ dưỡng Mũi Né",
+        "type": "chill",
+        "vibe": "chill",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Đồi cát trắng Bàu Trắng 5h sáng",
+        "desc": "Chụp ảnh bình minh trên đồi cát",
+        "price": "30k + 100k xe jeep"
+      },
+      {
+        "name": "Làng chài Mũi Né",
+        "desc": "Xem thuyền đánh cá về bến sáng sớm",
+        "price": "free"
+      },
+      {
+        "name": "Bánh mì chả cá Phan Thiết",
+        "desc": "Đặc sản sáng địa phương",
+        "price": "25k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Đồi cát đỏ Mũi Né",
+        "desc": "Trượt cát, lái ATV, chụp ảnh hoàng hôn",
+        "price": "50k vào + 100k ATV"
+      },
+      {
+        "name": "Suối Tiên",
+        "desc": "Đi bộ dọc suối cát đỏ - cát trắng kỳ ảo",
+        "price": "30k"
+      },
+      {
+        "name": "Mũi Né Kite Surfing",
+        "desc": "Khu kite surf nổi tiếng thế giới",
+        "price": "từ 1tr/buổi học"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn đồi cát đỏ",
+        "desc": "Sunset đẹp nhất tại đồi cát đỏ",
+        "price": "50k"
+      },
+      {
+        "name": "Hải sản BBQ bờ biển Phan Thiết",
+        "desc": "Mực, tôm, cá tươi nướng",
+        "price": "200-400k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ăn đêm Huynh Thuc Khang",
+        "desc": "Bánh tráng nướng, ốc, đặc sản biển",
+        "price": "100-200k"
+      },
+      {
+        "name": "Bar bãi biển Wax Bar",
+        "desc": "Nhạc hay, view biển đêm",
+        "price": "100-200k"
+      }
+    ],
+    "food": [
+      "Bánh tráng phơi sương",
+      "Nước mắm Phan Thiết",
+      "Cá mai",
+      "Thanh long ruột đỏ",
+      "Bánh rế"
+    ]
+  },
+  "Vung Tau": {
+    "trending": [
+      {
+        "name": "Tượng Chúa Kitô Vũng Tàu",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Bãi Trước sáng sớm",
+        "type": "beach",
+        "vibe": "chill",
+        "tiktok": true
+      },
+      {
+        "name": "Bánh khọt Vũng Tàu",
+        "type": "food",
+        "vibe": "unique",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bánh khọt Vũng Tàu",
+        "desc": "Đặc sản số 1 Vũng Tàu, ăn sáng ngon nhất",
+        "price": "50k"
+      },
+      {
+        "name": "Bãi Sau sáng sớm",
+        "desc": "Tắm biển buổi sáng, ít người",
+        "price": "free"
+      },
+      {
+        "name": "Hải sản tươi chợ Long Hương",
+        "desc": "Mua hải sản tươi về nướng",
+        "price": "100-300k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Tượng Chúa Kitô",
+        "desc": "Leo 847 bậc thang, view thành phố và biển",
+        "price": "free"
+      },
+      {
+        "name": "Bạch Dinh (Villa Blanche)",
+        "desc": "Biệt thự Pháp cổ từ 1898",
+        "price": "10k"
+      },
+      {
+        "name": "Núi Nhỏ cáp treo",
+        "desc": "Ngắm toàn cảnh Vũng Tàu",
+        "price": "100k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn mũi Nghinh Phong",
+        "desc": "Địa điểm xem hoàng hôn đẹp nhất VT",
+        "price": "free"
+      },
+      {
+        "name": "BBQ hải sản Bãi Sau",
+        "desc": "Tôm, mực, cua, cá nướng ven biển",
+        "price": "200-500k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ăn đêm Trương Công Định",
+        "desc": "Con phố ẩm thực VT sầm uất nhất",
+        "price": "100-200k"
+      },
+      {
+        "name": "Bar Rex Vũng Tàu",
+        "desc": "Bar lớn nhất Vũng Tàu",
+        "price": "100-200k"
+      },
+      {
+        "name": "Bar Rooftop Front Beach Vũng Tàu",
+        "desc": "Cocktail nhìn ra biển Front, đèn thành phố lung linh",
+        "price": "150k+"
+      },
+      {
+        "name": "Chợ đêm Vũng Tàu Thùy Vân",
+        "desc": "Hải sản nướng, cháo hải sản, ốc, đặc sản biển",
+        "price": "100-250k"
+      },
+      {
+        "name": "Bờ biển Front Beach đêm",
+        "desc": "Đi bộ dọc biển, kem, cà phê, sóng biển đêm",
+        "price": "free"
+      }
+    ],
+    "food": [
+      "Bánh khọt",
+      "Lẩu cua",
+      "Ốc Vũng Tàu",
+      "Cá mú hấp",
+      "Bánh mì que"
+    ]
+  },
+  "Quy Nhon": {
+    "trending": [
+      {
+        "name": "Eo Gió Quy Nhơn",
+        "type": "viewpoint",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Bãi Xép - phim Tôi Thấy Hoa Vàng",
+        "type": "beach",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Kỳ Co đảo thiên đường",
+        "type": "beach",
+        "vibe": "chill",
+        "tiktok": true
+      },
+      {
+        "name": "Ăn ghẹ rang me Quy Nhơn",
+        "type": "food",
+        "vibe": "unique",
+        "tiktok": true
+      },
+      {
+        "name": "Tháp đôi Chăm Pa",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bún chả cá Quy Nhơn",
+        "desc": "Bún chả cá đặc sản biển Bình Định",
+        "price": "45k"
+      },
+      {
+        "name": "Bánh hỏi lòng heo An Thái",
+        "desc": "Đặc sản sáng không thể bỏ",
+        "price": "50k"
+      },
+      {
+        "name": "Kỳ Co sáng sớm",
+        "desc": "Đảo đẹp nhất Bình Định, nước trong xanh",
+        "price": "150k/khứ hồi tàu"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Eo Gió",
+        "desc": "Đỉnh gió view biển Quy Nhơn cực đẹp",
+        "price": "20k"
+      },
+      {
+        "name": "Bãi Xép",
+        "desc": "Bãi biển xuất hiện trong phim Hoa Vàng Cỏ Xanh",
+        "price": "free"
+      },
+      {
+        "name": "Tháp đôi Chăm Pa",
+        "desc": "Di tích Chăm Pa 800 tuổi",
+        "price": "30k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Ghẹ rang me Quy Nhơn",
+        "desc": "Ghẹ tươi, rang me chua ngọt hot TikTok",
+        "price": "200-400k"
+      },
+      {
+        "name": "Hoàng hôn Bãi Dài",
+        "desc": "Sunset dọc đường Xuân Diệu ven biển",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Xuân Diệu",
+        "desc": "Con đường ven biển với hàng trăm quán ngon",
+        "price": "100-200k"
+      },
+      {
+        "name": "Kem dừa Quy Nhơn",
+        "desc": "Kem dừa 10k giải nhiệt nổi tiếng",
+        "price": "10-20k"
+      }
+    ],
+    "food": [
+      "Bánh hỏi chả ram",
+      "Bún chả cá",
+      "Ghẹ Quy Nhơn",
+      "Chả nem Chợ Dinh",
+      "Rượu bàu đá"
+    ]
+  },
+  "Phu Yen": {
+    "trending": [
+      {
+        "name": "Gành Đá Đĩa Phú Yên",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Mũi Điện - cực Đông Việt Nam",
+        "type": "viewpoint",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Vịnh Xuân Đài",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Hồ Xuân Bình sống ảo",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Mũi Điện đón bình minh",
+        "desc": "Điểm đón bình minh sớm nhất VN",
+        "price": "free"
+      },
+      {
+        "name": "Bún cá Tuy Hòa",
+        "desc": "Đặc sản sáng Phú Yên nổi tiếng",
+        "price": "40k"
+      },
+      {
+        "name": "Gành Đá Đĩa sáng sớm",
+        "desc": "Cột đá basalt hexagonal kỳ quan thiên nhiên",
+        "price": "40k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Gành Đá Đĩa",
+        "desc": "Cột đá lục giác tự nhiên độc nhất VN",
+        "price": "40k"
+      },
+      {
+        "name": "Đầm Ô Loan",
+        "desc": "Đầm nước lợ nổi tiếng, ốc nhảy đặc sản",
+        "price": "free"
+      },
+      {
+        "name": "Tháp Nhạn",
+        "desc": "Tháp Chăm Pa trên đỉnh đồi view thành phố",
+        "price": "20k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn Bãi Tràm",
+        "desc": "Biển hoang sơ, sunset đẹp",
+        "price": "free"
+      },
+      {
+        "name": "Ốc nhảy Đầm Ô Loan",
+        "desc": "Đặc sản số 1 Phú Yên",
+        "price": "100-200k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Tuy Hòa",
+        "desc": "Ăn vặt bánh tráng, hải sản",
+        "price": "50-150k"
+      },
+      {
+        "name": "Sò điệp nướng vỉa hè",
+        "desc": "Hải sản đặc trưng bờ biển Phú Yên",
+        "price": "100-200k"
+      }
+    ],
+    "food": [
+      "Ốc nhảy Ô Loan",
+      "Bánh hỏi cá ngừ đại dương",
+      "Sò điệp",
+      "Mực một nắng",
+      "Bún cá"
+    ]
+  },
+  "Quang Binh": {
+    "trending": [
+      {
+        "name": "Hang Sơn Đoòng (tour book trước 1 năm)",
+        "type": "adventure",
+        "vibe": "adventure",
+        "tiktok": true
+      },
+      {
+        "name": "Thiên Đường Cave",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Suối Moọc glamping",
+        "type": "unique",
+        "vibe": "chill",
+        "tiktok": true
+      },
+      {
+        "name": "Biển Nhật Lệ",
+        "type": "beach",
+        "vibe": "chill",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bánh mướt Đồng Hới",
+        "desc": "Đặc sản sáng Quảng Bình",
+        "price": "30k"
+      },
+      {
+        "name": "Biển Nhật Lệ sáng sớm",
+        "desc": "Tắm biển đẹp, sóng vừa phải",
+        "price": "free"
+      },
+      {
+        "name": "Bún bò Quảng Bình",
+        "desc": "Bún bò cay đặc trưng miền Trung",
+        "price": "40k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Hang Thiên Đường",
+        "desc": "Hang động đẹp nhất có thể đặt tour dễ",
+        "price": "700k/người"
+      },
+      {
+        "name": "Suối Moọc",
+        "desc": "Tắm suối trong rừng nguyên sinh, glamping đẹp",
+        "price": "100-200k"
+      },
+      {
+        "name": "Phong Nha Cave",
+        "desc": "Hang động sông ngầm nổi tiếng",
+        "price": "250k/thuyền"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn Bãi Đá Nhảy",
+        "desc": "Bãi đá thiên nhiên đẹp như tranh vẽ",
+        "price": "free"
+      },
+      {
+        "name": "Mực nướng Đồng Hới",
+        "desc": "Mực tươi nướng mọi, đặc sản biển NLệ",
+        "price": "150-250k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Đồng Hới",
+        "desc": "Hải sản, bánh tráng, nem lui",
+        "price": "100-200k"
+      },
+      {
+        "name": "Nem lui Quảng Bình",
+        "desc": "Nem nướng trên que sả đặc sản",
+        "price": "50k"
+      }
+    ],
+    "food": [
+      "Bánh mướt",
+      "Chè hạt sen",
+      "Mực nướng",
+      "Bánh tráng thịt heo",
+      "Rươi rang muối"
+    ]
+  },
+  "Quang Tri": {
+    "trending": [
+      {
+        "name": "Thành cổ Quảng Trị lịch sử",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Cầu Hiền Lương - vĩ tuyến 17",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Biển Cửa Tùng",
+        "type": "beach",
+        "vibe": "chill",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bánh ướt thịt heo Đông Hà",
+        "desc": "Đặc sản sáng Quảng Trị",
+        "price": "35k"
+      },
+      {
+        "name": "Bún bò Đông Hà",
+        "desc": "Bún bò cay đặc trưng vùng này",
+        "price": "40k"
+      },
+      {
+        "name": "Biển Cửa Tùng sáng sớm",
+        "desc": "Nữ hoàng bãi biển miền Trung",
+        "price": "free"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Thành cổ Quảng Trị",
+        "desc": "Di tích chiến tranh xúc động",
+        "price": "30k"
+      },
+      {
+        "name": "Cầu Hiền Lương",
+        "desc": "Cầu lịch sử chia đôi hai miền Nam Bắc",
+        "price": "free"
+      },
+      {
+        "name": "Địa đạo Vĩnh Mốc",
+        "desc": "Địa đạo sống dưới lòng đất thời chiến",
+        "price": "40k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Biển Cửa Việt hoàng hôn",
+        "desc": "Bãi biển hoang sơ, sunset đẹp",
+        "price": "free"
+      },
+      {
+        "name": "Hải sản tươi Cửa Việt",
+        "desc": "Cá, tôm, cua tươi từ biển lên",
+        "price": "200-400k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Đông Hà",
+        "desc": "Ăn vặt, quán nhậu địa phương",
+        "price": "100-200k"
+      },
+      {
+        "name": "Cháo vạt giường Quảng Trị",
+        "desc": "Cháo đặc sản đêm khuya",
+        "price": "40k"
+      }
+    ],
+    "food": [
+      "Bánh ướt cuốn thịt",
+      "Bún bò cay",
+      "Cháo vạt giường",
+      "Bánh nậm lọc",
+      "Mè xửng"
+    ]
+  },
+  "Quang Ngai": {
+    "trending": [
+      {
+        "name": "Đảo Lý Sơn - đảo tỏi",
+        "type": "beach",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Cổng Tò Vò Lý Sơn",
+        "type": "viewpoint",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Chùa Hang Lý Sơn",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bún măng vịt Quảng Ngãi",
+        "desc": "Đặc sản sáng độc đáo miền Trung",
+        "price": "40k"
+      },
+      {
+        "name": "Bánh mì que Quảng Ngãi",
+        "desc": "Bánh mì que nổi tiếng nhất VN",
+        "price": "15k"
+      },
+      {
+        "name": "Cảng Sa Kỳ đón tàu Lý Sơn",
+        "desc": "Tàu cao tốc Lý Sơn 30 phút",
+        "price": "250k khứ hồi"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Đảo Lý Sơn",
+        "desc": "Đảo tỏi huyền thoại, biển đẹp, núi lửa cổ",
+        "price": "200k vé tàu"
+      },
+      {
+        "name": "Cổng Tò Vò",
+        "desc": "Vòm đá tự nhiên đẹp nhất đảo Lý Sơn",
+        "price": "free"
+      },
+      {
+        "name": "Thành Cổ Lũy",
+        "desc": "Di tích Chăm Pa 2000 năm tuổi",
+        "price": "20k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Tỏi Lý Sơn nướng mỡ hành",
+        "desc": "Đặc sản tỏi cô đơn nổi tiếng",
+        "price": "50-100k"
+      },
+      {
+        "name": "Hoàng hôn Mỹ Khê Quảng Ngãi",
+        "desc": "Bãi biển đẹp ít người biết",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Quảng Ngãi",
+        "desc": "Kẹo gương, đường phèn, ẩm thực địa phương",
+        "price": "50-100k"
+      },
+      {
+        "name": "Mực nướng biển Sa Huỳnh",
+        "desc": "Hải sản biển ngon nổi tiếng",
+        "price": "100-200k"
+      }
+    ],
+    "food": [
+      "Bánh mì que",
+      "Gỏi cá bớp",
+      "Kẹo gương",
+      "Tỏi Lý Sơn",
+      "Hải sản Lý Sơn"
+    ]
+  },
+  "Gia Lai": {
+    "trending": [
+      {
+        "name": "Biển Hồ Pleiku (Hồ T'Nưng)",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Đồi chè Biển Hồ",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Thác Phú Cường",
+        "type": "nature",
+        "vibe": "adventure",
+        "tiktok": true
+      },
+      {
+        "name": "Cà phê Pleiku trong sương",
+        "type": "cafe",
+        "vibe": "chill",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Phở Gia Lai sáng sớm",
+        "desc": "Phở đặc biệt phong cách Tây Nguyên",
+        "price": "40k"
+      },
+      {
+        "name": "Biển Hồ trong sương sáng",
+        "desc": "Hồ miệng núi lửa đẹp huyền ảo buổi sáng",
+        "price": "10k"
+      },
+      {
+        "name": "Cà phê Phố núi Pleiku",
+        "desc": "Cà phê rang xay nguyên chất Tây Nguyên",
+        "price": "30k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Thác Phú Cường",
+        "desc": "Thác nước đẹp cách Pleiku 30km",
+        "price": "30k"
+      },
+      {
+        "name": "Làng văn hóa Plei Ốp",
+        "desc": "Làng Jrai truyền thống ngay trong thành phố",
+        "price": "free"
+      },
+      {
+        "name": "Đồi thông Pleiku",
+        "desc": "Đường thông rợp bóng mát, thơ mộng",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn Biển Hồ",
+        "desc": "Sunset tuyệt đẹp phản chiếu xuống hồ",
+        "price": "10k"
+      },
+      {
+        "name": "Gà nướng muối ớt Gia Lai",
+        "desc": "Gà địa phương nướng than hoa",
+        "price": "150-250k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Nguyễn Văn Cừ",
+        "desc": "Ẩm thực đêm Tây Nguyên phong phú",
+        "price": "100-200k"
+      },
+      {
+        "name": "Cà phê muối Phố núi",
+        "desc": "Cà phê muối đặc sản Gia Lai",
+        "price": "35k"
+      }
+    ],
+    "food": [
+      "Phở Gia Lai",
+      "Cơm lam",
+      "Cà phê Tây Nguyên",
+      "Gà nướng muối ớt",
+      "Rượu ghè"
+    ]
+  },
+  "Buon Ma Thuot": {
+    "trending": [
+      {
+        "name": "Buôn làng cà phê Đắk Lắk",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Hồ Lắk cưỡi voi",
+        "type": "unique",
+        "vibe": "adventure",
+        "tiktok": true
+      },
+      {
+        "name": "Thác Dray Nur",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Vườn quốc gia Yok Đôn",
+        "type": "nature",
+        "vibe": "adventure",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Cà phê Ban Mê sáng sớm",
+        "desc": "Thủ đô cà phê VN, uống cà phê chồn",
+        "price": "40-200k"
+      },
+      {
+        "name": "Bánh mì cà phê Buôn Ma Thuột",
+        "desc": "Sáng đặc trưng người BMT",
+        "price": "30k"
+      },
+      {
+        "name": "Buôn Đôn sáng sớm",
+        "desc": "Cưỡi voi buổi sáng, ít người hơn",
+        "price": "200-400k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Hồ Lắk",
+        "desc": "Hồ thiên nhiên lớn nhất Tây Nguyên, cưỡi voi",
+        "price": "150k vé vào"
+      },
+      {
+        "name": "Thác Dray Nur",
+        "desc": "Thác nước hùng vĩ nhất Đắk Lắk",
+        "price": "30k"
+      },
+      {
+        "name": "Bảo tàng các dân tộc VN Tây Nguyên",
+        "desc": "Văn hóa Ê Đê, M'Nông độc đáo",
+        "price": "20k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Cơm niêu Buôn Ma Thuột",
+        "desc": "Đặc sản cơm niêu đất truyền thống",
+        "price": "80-150k"
+      },
+      {
+        "name": "Hoàng hôn Hồ Ea Như",
+        "desc": "Hồ thơ mộng trong thành phố",
+        "price": "free"
+      },
+      {
+        "name": "Cơm lam gà nướng Buôn Ma Thuột",
+        "desc": "Đặc sản dân tộc, cơm nấu trong ống tre",
+        "price": "80-150k"
+      },
+      {
+        "name": "Hồ Ea Kao hoàng hôn",
+        "desc": "Hồ nhân tạo rộng, hoàng hôn soi bóng nước tím",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố cà phê Lý Thường Kiệt",
+        "desc": "Con phố toàn quán cà phê đặc sản",
+        "price": "40-80k"
+      },
+      {
+        "name": "Bò một nắng nướng than",
+        "desc": "Đặc sản bò Tây Nguyên nổi tiếng",
+        "price": "150-250k"
+      },
+      {
+        "name": "Cà phê acoustic Buôn Ma Thuột",
+        "desc": "Nhạc live, cà phê pha phin, không gian Tây Nguyên",
+        "price": "50-80k"
+      },
+      {
+        "name": "Quán nhậu đặc sản Tây Nguyên đêm",
+        "desc": "Heo rừng nướng, rượu cần, nhạc cồng chiêng",
+        "price": "200-400k"
+      },
+      {
+        "name": "Đường phố ẩm thực Nguyễn Tất Thành đêm",
+        "desc": "Hàng rong, bánh tráng trộn, chè Tây Nguyên",
+        "price": "30-80k"
+      }
+    ],
+    "food": [
+      "Cà phê Robusta",
+      "Cà phê chồn",
+      "Bò một nắng",
+      "Bánh căn Đắk Lắk",
+      "Cơm lam ống nứa"
+    ]
+  },
+  "Ninh Thuan": {
+    "trending": [
+      {
+        "name": "Vịnh Vĩnh Hy hoang sơ",
+        "type": "beach",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Đồng cừu An Hòa TikTok viral",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Cực Đông Mũi Dinh",
+        "type": "viewpoint",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Vườn nho Ninh Thuận",
+        "type": "unique",
+        "vibe": "fun",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bánh canh chả cá Phan Rang",
+        "desc": "Đặc sản sáng không thể bỏ NThuận",
+        "price": "45k"
+      },
+      {
+        "name": "Đồng cừu An Hòa 6h sáng",
+        "desc": "Cừu ăn cỏ buổi sáng, chụp ảnh cực đẹp",
+        "price": "30k"
+      },
+      {
+        "name": "Biển Ninh Chữ sáng sớm",
+        "desc": "Biển đẹp ít người vào buổi sáng",
+        "price": "free"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Vịnh Vĩnh Hy",
+        "desc": "Vịnh đẹp nhất Ninh Thuận, nước xanh trong",
+        "price": "free + 100k tàu"
+      },
+      {
+        "name": "Tháp Chăm Po Klong Garai",
+        "desc": "Tháp Chăm cổ đẹp nhất miền Nam",
+        "price": "30k"
+      },
+      {
+        "name": "Vườn nho Thái An",
+        "desc": "Vào vườn hái nho, uống rượu nho",
+        "price": "50k + nho"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn Mũi Dinh",
+        "desc": "Cực Đông VN, sunset không đâu đẹp hơn",
+        "price": "free"
+      },
+      {
+        "name": "Dê Ninh Thuận nướng",
+        "desc": "Dê núi đặc sản nổi tiếng nhất vùng",
+        "price": "200-400k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Phan Rang",
+        "desc": "Hải sản, đặc sản địa phương",
+        "price": "100-200k"
+      },
+      {
+        "name": "Rượu nho Ninh Thuận",
+        "desc": "Rượu nho đặc sản vùng đất nắng",
+        "price": "80-150k/chai"
+      }
+    ],
+    "food": [
+      "Bánh canh chả cá",
+      "Dê núi Ninh Thuận",
+      "Nho Ninh Thuận",
+      "Táo đỏ",
+      "Tôm giống Phan Rang"
+    ]
+  },
+  "Tay Ninh": {
+    "trending": [
+      {
+        "name": "Núi Bà Đen cáp treo",
+        "type": "adventure",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Tòa Thánh Cao Đài",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Khu du lịch Ma Thiên Lãnh",
+        "type": "attraction",
+        "vibe": "fun",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bánh tráng phơi sương Trảng Bàng",
+        "desc": "Đặc sản nổi tiếng nhất TN",
+        "price": "100-150k/set"
+      },
+      {
+        "name": "Cáp treo Núi Bà Đen sáng sớm",
+        "desc": "Ít người, có thể gặp mây ôm núi",
+        "price": "250k"
+      },
+      {
+        "name": "Mì Tây Ninh buổi sáng",
+        "desc": "Mì truyền thống người Tây Ninh",
+        "price": "35k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Núi Bà Đen 986m",
+        "desc": "Ngọn núi cao nhất Nam Bộ, cáp treo",
+        "price": "250k"
+      },
+      {
+        "name": "Tòa Thánh Cao Đài Tây Ninh",
+        "desc": "Kiến trúc kỳ ảo, lễ cúng 6h/12h/18h/24h",
+        "price": "free"
+      },
+      {
+        "name": "Hồ Dầu Tiếng",
+        "desc": "Hồ nhân tạo lớn nhất VN",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Bánh tráng cuốn thịt luộc Trảng Bàng",
+        "desc": "Ăn đặc sản tại quê hương bánh tráng",
+        "price": "100-200k"
+      },
+      {
+        "name": "Hoàng hôn từ đỉnh Núi Bà Đen",
+        "desc": "View sunset từ cao nhất Nam Bộ",
+        "price": "250k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Chợ đêm Tây Ninh",
+        "desc": "Ẩm thực, hàng hóa vùng biên",
+        "price": "100k"
+      },
+      {
+        "name": "Mãng cầu Tây Ninh",
+        "desc": "Đặc sản trái cây nổi tiếng nhất vùng",
+        "price": "30-50k/kg"
+      }
+    ],
+    "food": [
+      "Bánh tráng phơi sương",
+      "Mãng cầu Tây Ninh",
+      "Trâu xào lăn",
+      "Muối nhuyễn TN",
+      "Mắm tôm chà"
+    ]
+  },
+  "An Giang": {
+    "trending": [
+      {
+        "name": "Núi Cấm - Thiên Cấm Sơn",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Rừng Tràm Trà Sư mùa nước nổi",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Làng Chăm Châu Phong",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Chợ nổi Long Xuyên",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Rừng Tràm Trà Sư bình minh",
+        "desc": "Chèo xuồng trong rừng tràm ngập nước",
+        "price": "150k/xuồng"
+      },
+      {
+        "name": "Bún cá Long Xuyên",
+        "desc": "Bún cá nước ngọt đặc sản An Giang",
+        "price": "45k"
+      },
+      {
+        "name": "Cháo bò Châu Đốc",
+        "desc": "Cháo đặc sản sáng nổi tiếng",
+        "price": "40k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Núi Cấm cáp treo",
+        "desc": "Núi cao nhất vùng ĐBSCL, tượng Phật Di Lặc",
+        "price": "120k cáp treo"
+      },
+      {
+        "name": "Miếu Bà Chúa Xứ Núi Sam",
+        "desc": "Đền thiêng liêng nhất miền Nam",
+        "price": "free"
+      },
+      {
+        "name": "Làng Chăm Châu Phong",
+        "desc": "Văn hóa Hồi giáo độc đáo vùng ĐBSCL",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Chợ biên giới Tịnh Biên hoàng hôn",
+        "desc": "Chợ vùng biên Campuchia",
+        "price": "free"
+      },
+      {
+        "name": "Lẩu cá điêu hồng An Giang",
+        "desc": "Cá tươi sông Mê Kong đặc sản",
+        "price": "150-250k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ăn đêm Long Xuyên",
+        "desc": "Bún bò, hủ tiếu, bánh xèo đêm khuya",
+        "price": "50-100k"
+      },
+      {
+        "name": "Mắm Châu Đốc",
+        "desc": "Tham quan làng nghề mắm nổi tiếng nhất VN",
+        "price": "free"
+      }
+    ],
+    "food": [
+      "Bún cá Long Xuyên",
+      "Mắm Châu Đốc",
+      "Cơm tầm vông",
+      "Lẩu cá đồng",
+      "Bánh bò thốt nốt"
+    ]
+  },
+  "Moc Chau": {
+    "trending": [
+      {
+        "name": "Đồi chè xanh Mộc Châu",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Thác Dải Yếm mùa hoa",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Vườn mận hoa tháng 1-2",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Rừng thông Bản Áng",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Đồi chè Mộc Châu sáng sớm",
+        "desc": "Sương mù phủ đồi chè, check-in cực đẹp",
+        "price": "30k vào đồi"
+      },
+      {
+        "name": "Sữa Mộc Châu tươi",
+        "desc": "Uống sữa bò tươi nguyên chất tại nông trại",
+        "price": "20k"
+      },
+      {
+        "name": "Xôi nếp nương Mộc Châu",
+        "desc": "Xôi sáng đặc sản Tây Bắc",
+        "price": "25k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Thác Dải Yếm",
+        "desc": "Thác nước hùng vĩ nhất Mộc Châu",
+        "price": "30k"
+      },
+      {
+        "name": "Bản Áng rừng thông",
+        "desc": "Rừng thông đẹp, khí hậu mát lạnh",
+        "price": "20k"
+      },
+      {
+        "name": "Vườn táo mèo Mộc Châu",
+        "desc": "Hái táo, mua rượu táo mèo",
+        "price": "50k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn đồi chè Chiềng Hắc",
+        "desc": "Sunset vàng trên đồi chè đẹp nhất",
+        "price": "30k"
+      },
+      {
+        "name": "Lợn cắp nách nướng",
+        "desc": "Lợn đen bản địa nướng than",
+        "price": "200-350k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Lửa trại bản người Thái",
+        "desc": "Múa xòe, uống rượu cần, ăn cơm lam",
+        "price": "200k/người"
+      },
+      {
+        "name": "Rượu táo mèo Mộc Châu",
+        "desc": "Mua về làm quà đặc sản Tây Bắc",
+        "price": "80-150k/chai"
+      }
+    ],
+    "food": [
+      "Thịt trâu sấy gác bếp",
+      "Cơm lam",
+      "Xôi tím",
+      "Sữa tươi Mộc Châu",
+      "Rượu táo mèo"
+    ]
+  },
+  "Cao Bang": {
+    "trending": [
+      {
+        "name": "Thác Bản Giốc - thác đôi đẹp nhất VN",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Hang Pắc Bó lịch sử",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Hồ Thang Hen",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bún suông Cao Bằng sáng",
+        "desc": "Đặc sản sáng người Tày địa phương",
+        "price": "35k"
+      },
+      {
+        "name": "Thác Bản Giốc sáng sớm",
+        "desc": "Ít khách, sương mù, huyền ảo nhất",
+        "price": "45k"
+      },
+      {
+        "name": "Bánh coóng phù",
+        "desc": "Bánh gạo nếp đặc sản vùng cao",
+        "price": "20k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Thác Bản Giốc",
+        "desc": "Thác đôi tự nhiên đẹp nhất Đông Nam Á",
+        "price": "45k"
+      },
+      {
+        "name": "Hang Ngườm Ngao",
+        "desc": "Hang động kỳ ảo cạnh thác Bản Giốc",
+        "price": "65k"
+      },
+      {
+        "name": "Hang Pắc Bó",
+        "desc": "Nơi Bác Hồ hoạt động cách mạng",
+        "price": "20k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn bên thác Bản Giốc",
+        "desc": "Sunset trên biên giới, ánh vàng tuyệt đẹp",
+        "price": "45k"
+      },
+      {
+        "name": "Vịt quay Cao Bằng",
+        "desc": "Vịt quay đặc sản nổi tiếng vùng này",
+        "price": "180-250k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố đi bộ Cao Bằng",
+        "desc": "Ăn vặt, chợ đêm nhỏ nhắn",
+        "price": "50k"
+      },
+      {
+        "name": "Rượu men lá Cao Bằng",
+        "desc": "Rượu trắng men lá cực thơm",
+        "price": "50-100k"
+      }
+    ],
+    "food": [
+      "Vịt quay Cao Bằng",
+      "Bánh áp chao",
+      "Xôi trám đen",
+      "Hạt dẻ Trùng Khánh",
+      "Khâu nhục"
+    ]
+  },
+  "Lang Son": {
+    "trending": [
+      {
+        "name": "Núi Mẫu Sơn mùa băng tuyết",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Chợ Đồng Đăng - chợ biên mậu",
+        "type": "market",
+        "vibe": "fun",
+        "tiktok": true
+      },
+      {
+        "name": "Cửa khẩu Hữu Nghị",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bánh cuốn Lạng Sơn",
+        "desc": "Bánh cuốn thịt vịt đặc biệt Xứ Lạng",
+        "price": "40k"
+      },
+      {
+        "name": "Phở chua Lạng Sơn",
+        "desc": "Phở chua độc đáo chỉ có ở Lạng Sơn",
+        "price": "40k"
+      },
+      {
+        "name": "Chợ Đồng Đăng sáng",
+        "desc": "Chợ biên mậu đủ loại hàng hóa TQ",
+        "price": "free"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Núi Mẫu Sơn 1.541m",
+        "desc": "Băng tuyết mùa đông (tháng 12-2)",
+        "price": "30k"
+      },
+      {
+        "name": "Thành nhà Mạc",
+        "desc": "Thành cổ thế kỷ 16 còn nguyên vẹn",
+        "price": "20k"
+      },
+      {
+        "name": "Động Nhị Thanh",
+        "desc": "Hang động đẹp có chùa bên trong",
+        "price": "15k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Lợn quay Lạng Sơn",
+        "desc": "Lợn quay da giòn đặc sản nổi tiếng",
+        "price": "150-250k"
+      },
+      {
+        "name": "Khu phố ẩm thực Lạng Sơn",
+        "desc": "Vịt quay, lợn quay, khâu nhục",
+        "price": "100-200k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Hàng hóa chợ Kỳ Lừa",
+        "desc": "Mua sắm hàng Trung Quốc giá rẻ",
+        "price": "100-500k"
+      },
+      {
+        "name": "Rượu Mẫu Sơn",
+        "desc": "Rượu đặc sản vùng núi Mẫu Sơn",
+        "price": "60-150k"
+      }
+    ],
+    "food": [
+      "Lợn quay Lạng Sơn",
+      "Phở chua",
+      "Vịt quay",
+      "Khâu nhục",
+      "Rượu Mẫu Sơn"
+    ]
+  },
+  "Dien Bien": {
+    "trending": [
+      {
+        "name": "Đồi A1 - chiến trường Điện Biên Phủ",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Cánh đồng Mường Thanh",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Thác Treo Pú Nhung",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Pa pính tộp (cá nướng Thái)",
+        "desc": "Sáng đặc sản người Thái ĐB",
+        "price": "50k"
+      },
+      {
+        "name": "Cánh đồng Mường Thanh bình minh",
+        "desc": "Cánh đồng lúa đẹp lớn nhất Tây Bắc",
+        "price": "free"
+      },
+      {
+        "name": "Chợ phiên Điện Biên",
+        "desc": "Đặc sản, ẩm thực đa dân tộc",
+        "price": "50k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Bảo tàng Chiến thắng ĐBP",
+        "desc": "Lịch sử chiến thắng Điện Biên Phủ 1954",
+        "price": "30k"
+      },
+      {
+        "name": "Đồi A1",
+        "desc": "Trận địa chiến thắng lịch sử",
+        "price": "30k"
+      },
+      {
+        "name": "Hầm De Castries",
+        "desc": "Hầm chỉ huy Pháp bị tiêu diệt",
+        "price": "20k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Cơm lam nướng Điện Biên",
+        "desc": "Cơm lam ống nứa với gà đồi",
+        "price": "60k"
+      },
+      {
+        "name": "Múa xòe người Thái",
+        "desc": "Văn nghệ dân gian tại làng bản",
+        "price": "100k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Rượu cần Điện Biên",
+        "desc": "Rượu cần men lá uống cùng dân bản",
+        "price": "50-100k"
+      },
+      {
+        "name": "Thịt trâu gác bếp Tây Bắc",
+        "desc": "Đặc sản mua về làm quà",
+        "price": "300-500k/kg"
+      }
+    ],
+    "food": [
+      "Cơm lam",
+      "Pa pính tộp",
+      "Thịt trâu gác bếp",
+      "Rượu cần",
+      "Nậm pịa"
+    ]
+  },
+  "Hoa Binh": {
+    "trending": [
+      {
+        "name": "Mai Châu thung lũng xanh",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Thung Nai hồ sông Đà",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Bản Lác nhà sàn người Thái",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bản Lác sáng sớm",
+        "desc": "Nhà sàn, trẻ em dân tộc, sương mù thung lũng",
+        "price": "free"
+      },
+      {
+        "name": "Cơm lam + thịt gà đồi",
+        "desc": "Bữa sáng kiểu người Thái Mai Châu",
+        "price": "60k"
+      },
+      {
+        "name": "Thung Nai hồ sông Đà",
+        "desc": "Chèo thuyền sương sớm trên hồ",
+        "price": "100k/thuyền"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Mai Châu thung lũng",
+        "desc": "Đạp xe quanh thung lũng lúa xanh mát",
+        "price": "50k xe đạp"
+      },
+      {
+        "name": "Thác Thăng Thiên",
+        "desc": "Thác đẹp trong rừng Mai Châu",
+        "price": "20k"
+      },
+      {
+        "name": "Bản Pom Coọng",
+        "desc": "Bản người Thái trắng truyền thống",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Lửa trại nhà sàn Mai Châu",
+        "desc": "Múa sạp, rượu cần, thịt nướng",
+        "price": "200k/người"
+      },
+      {
+        "name": "Rượu cần Mai Châu",
+        "desc": "Rượu nếp truyền thống men lá",
+        "price": "50-100k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nghỉ nhà sàn bản Lác",
+        "desc": "Ngủ nhà sàn, nghe gió thung lũng",
+        "price": "200-400k/người"
+      },
+      {
+        "name": "Thịt nướng than hoa ngoài trời",
+        "desc": "Nướng thịt dưới trời sao Tây Bắc",
+        "price": "100-200k"
+      }
+    ],
+    "food": [
+      "Cơm lam",
+      "Rượu cần",
+      "Xôi ngũ sắc",
+      "Thịt trâu nướng",
+      "Cá suối nướng muối ớt"
+    ]
+  },
+  "Yen Bai": {
+    "trending": [
+      {
+        "name": "Ruộng bậc thang Mù Cang Chải mùa vàng",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Tà Xùa săn mây mùa đông",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Đèo Khau Phạ",
+        "type": "adventure",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Ruộng bậc thang Mù Cang Chải 7h",
+        "desc": "Bình minh trên ruộng bậc thang vàng (tháng 9-10)",
+        "price": "100k"
+      },
+      {
+        "name": "Thắng cố Yên Bái sáng phiên chợ",
+        "desc": "Thắng cố ngựa chính gốc Tây Bắc",
+        "price": "40k"
+      },
+      {
+        "name": "Mâm xôi Mù Cang Chải",
+        "desc": "Ngọn đồi hình mâm xôi đặc biệt",
+        "price": "free"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Tà Xùa",
+        "desc": "Đỉnh mây giữa trời, biển mây mùa đông",
+        "price": "free + xe ôm"
+      },
+      {
+        "name": "Đèo Khau Phạ",
+        "desc": "Một trong tứ đại đỉnh đèo TBắc",
+        "price": "free"
+      },
+      {
+        "name": "Thác Tà Ngào",
+        "desc": "Thác đẹp ở Mù Cang Chải",
+        "price": "20k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn trên đỉnh Tà Xùa",
+        "desc": "Biển mây dưới chân, sunset huyền ảo",
+        "price": "free"
+      },
+      {
+        "name": "Gà đồi nướng Yên Bái",
+        "desc": "Gà chạy bộ nướng thảo dược",
+        "price": "150-200k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Ngủ homestay bản Mông",
+        "desc": "Nhà trình tường, lò sưởi, sao trời",
+        "price": "200-400k"
+      },
+      {
+        "name": "Rượu san lùng Yên Bái",
+        "desc": "Rượu đặc sản Tây Bắc",
+        "price": "60-150k"
+      }
+    ],
+    "food": [
+      "Thịt trâu gác bếp",
+      "Xôi nếp nương",
+      "Cá suối",
+      "Rượu san lùng",
+      "Bánh chưng đen"
+    ]
+  },
+  "Son La": {
+    "trending": [
+      {
+        "name": "Mộc Châu đồng cỏ xanh",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Đèo Pha Đin huyền thoại",
+        "type": "adventure",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Vườn mận hoa Mộc Châu tháng 2",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Đồi chè Mộc Châu sáng",
+        "desc": "Sương phủ đồi chè, bò sữa ăn cỏ",
+        "price": "30k"
+      },
+      {
+        "name": "Sữa tươi Mộc Châu",
+        "desc": "Uống sữa bò tươi tại trang trại",
+        "price": "20k"
+      },
+      {
+        "name": "Bánh mì Sơn La đặc biệt",
+        "desc": "Bánh mì kẹp thịt chân giò",
+        "price": "25k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Đèo Pha Đin",
+        "desc": "Đèo huyền thoại trong KCCP",
+        "price": "free"
+      },
+      {
+        "name": "Hồ thủy điện Sơn La",
+        "desc": "Hồ nhân tạo lớn nhất ĐNA",
+        "price": "150k tàu"
+      },
+      {
+        "name": "Di tích Nhà tù Sơn La",
+        "desc": "Nhà tù thực dân Pháp lịch sử",
+        "price": "20k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Lợn cắp nách nướng Sơn La",
+        "desc": "Lợn đen bản nướng than đặc sản",
+        "price": "200-350k"
+      },
+      {
+        "name": "Hoàng hôn hồ Thủy điện Sơn La",
+        "desc": "Sunset trên mặt hồ rộng lớn",
+        "price": "150k tàu"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Sơn La",
+        "desc": "Thịt dê, cá sông Đà, rượu vùng cao",
+        "price": "100-200k"
+      },
+      {
+        "name": "Pa pính cá suối nướng",
+        "desc": "Cá suối nướng gói lá đặc sản",
+        "price": "80-150k"
+      }
+    ],
+    "food": [
+      "Sữa Mộc Châu",
+      "Lợn cắp nách",
+      "Pa pính",
+      "Rượu Mộc Châu",
+      "Chè Tà Xùa"
+    ]
+  },
+  "Vinh Phuc": {
+    "trending": [
+      {
+        "name": "Tam Đảo mây mù quanh năm",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Thiền viện Trúc Lâm Tây Thiên",
+        "type": "landmark",
+        "vibe": "chill",
+        "tiktok": true
+      },
+      {
+        "name": "Tháp truyền hình Tam Đảo",
+        "type": "viewpoint",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Tam Đảo trong mây sáng sớm",
+        "desc": "Thị trấn mây cách HN 80km",
+        "price": "free"
+      },
+      {
+        "name": "Thịt chó Tam Đảo sáng",
+        "desc": "Đặc sản nổi tiếng (tùy sở thích)",
+        "price": "100-200k"
+      },
+      {
+        "name": "Bánh sắn Tam Đảo",
+        "desc": "Bánh sắn hấp đặc sản địa phương",
+        "price": "20k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Thiền viện Trúc Lâm Tây Thiên",
+        "desc": "Thiền viện đẹp nhất miền Bắc",
+        "price": "free"
+      },
+      {
+        "name": "Thác Bạc Tam Đảo",
+        "desc": "Thác nước trong rừng nguyên sinh",
+        "price": "30k"
+      },
+      {
+        "name": "Đền Tây Thiên",
+        "desc": "Đền thiêng nhất vùng",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn Tam Đảo",
+        "desc": "Mây trên thị trấn, cảnh huyền ảo",
+        "price": "free"
+      },
+      {
+        "name": "Lẩu gà đồi Tam Đảo",
+        "desc": "Lẩu gà thảo mộc đặc trưng vùng núi",
+        "price": "200-300k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Tam Đảo",
+        "desc": "Bánh sắn, thịt nướng, rượu",
+        "price": "100k"
+      },
+      {
+        "name": "Rượu Tam Đảo",
+        "desc": "Rượu gạo đặc sản địa phương",
+        "price": "50-100k"
+      }
+    ],
+    "food": [
+      "Bánh sắn",
+      "Măng rừng",
+      "Lẩu gà đồi",
+      "Cá suối nướng",
+      "Rượu Tam Đảo"
+    ]
+  },
+  "Ha Nam": {
+    "trending": [
+      {
+        "name": "Tam Chúc - chùa lớn nhất thế giới",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Khu du lịch Tam Chúc",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Chùa Tam Chúc sáng sớm",
+        "desc": "Ít người, không khí tâm linh trong lành",
+        "price": "100k xe điện"
+      },
+      {
+        "name": "Bún cá rô Hà Nam",
+        "desc": "Đặc sản cá rô đồng nước ngọt",
+        "price": "40k"
+      },
+      {
+        "name": "Cháo lươn Phủ Lý",
+        "desc": "Cháo đặc sản vùng chiêm trũng",
+        "price": "40k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Tam Chúc toàn cảnh",
+        "desc": "Chùa lớn nhất thế giới 2024, 5000ha",
+        "price": "100k xe điện"
+      },
+      {
+        "name": "Đền Trần Thương",
+        "desc": "Đền thờ Trần Hưng Đạo linh thiêng",
+        "price": "free"
+      },
+      {
+        "name": "Kẽm Trống",
+        "desc": "Hẻm núi đá vôi trên sông Đáy",
+        "price": "50k thuyền"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn hồ Tam Chúc",
+        "desc": "Sunset nhìn xuống hồ và chùa",
+        "price": "free"
+      },
+      {
+        "name": "Cá kho Nhân Hậu",
+        "desc": "Cá kho nổi tiếng nhất Hà Nam",
+        "price": "50-100k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố đêm Phủ Lý",
+        "desc": "Ăn vặt, nhậu vùng đồng bằng",
+        "price": "50-100k"
+      },
+      {
+        "name": "Bánh gai Hà Nam",
+        "desc": "Đặc sản mang về làm quà",
+        "price": "20-30k"
+      }
+    ],
+    "food": [
+      "Cá kho Nhân Hậu",
+      "Bánh đa cua",
+      "Bún ốc",
+      "Bánh gai",
+      "Cháo lươn"
+    ]
+  },
+  "Thanh Hoa": {
+    "trending": [
+      {
+        "name": "Sầm Sơn beach resort",
+        "type": "beach",
+        "vibe": "chill",
+        "tiktok": true
+      },
+      {
+        "name": "Suối cá thần Cẩm Lương",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Thành Nhà Hồ UNESCO",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bún cá Nha Trang kiểu Thanh Hóa",
+        "desc": "Bún cá rô đặc sản sáng địa phương",
+        "price": "40k"
+      },
+      {
+        "name": "Biển Sầm Sơn sáng sớm",
+        "desc": "Tắm biển mát, ít người buổi sáng",
+        "price": "free"
+      },
+      {
+        "name": "Nem chua Thanh Hóa",
+        "desc": "Nem chua nổi tiếng nhất miền Bắc",
+        "price": "30k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Thành Nhà Hồ",
+        "desc": "Thành đá granit thế kỷ 14, di sản UNESCO",
+        "price": "40k"
+      },
+      {
+        "name": "Suối cá thần Cẩm Lương",
+        "desc": "Cá nước lạnh không sợ người",
+        "price": "30k"
+      },
+      {
+        "name": "Đền Lê Hoàn",
+        "desc": "Đền thờ vua Lê Hoàn lịch sử",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hải sản Sầm Sơn tươi sống",
+        "desc": "Cá, tôm, ghẹ nướng tươi ven biển",
+        "price": "200-400k"
+      },
+      {
+        "name": "Hoàng hôn bãi biển Sầm Sơn",
+        "desc": "Sunset ven biển nổi tiếng",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố đêm Sầm Sơn",
+        "desc": "Hải sản, nhậu biển, nhộn nhịp mùa hè",
+        "price": "100-300k"
+      },
+      {
+        "name": "Bánh khoái Thanh Hóa",
+        "desc": "Bánh khoái độc đáo khác miền Trung",
+        "price": "40k"
+      }
+    ],
+    "food": [
+      "Nem chua Thanh Hóa",
+      "Chả tôm",
+      "Bánh gai Tứ Trụ",
+      "Mực khô Sầm Sơn",
+      "Cháo cá Sầm Sơn"
+    ]
+  },
+  "Nghe An": {
+    "trending": [
+      {
+        "name": "Biển Cửa Lò resort",
+        "type": "beach",
+        "vibe": "chill",
+        "tiktok": true
+      },
+      {
+        "name": "Khu lưu niệm Kim Liên - quê Bác",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Thác Khe Kèm Quỳ Châu",
+        "type": "nature",
+        "vibe": "adventure",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Lươn Nghệ An sáng",
+        "desc": "Cháo lươn / miến lươn đặc sản",
+        "price": "50k"
+      },
+      {
+        "name": "Biển Cửa Lò sáng sớm",
+        "desc": "Bãi biển dài đẹp, nước trong",
+        "price": "free"
+      },
+      {
+        "name": "Tương Nam Đàn",
+        "desc": "Mua tương đặc sản Nghệ An làm quà",
+        "price": "30-50k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Quê Bác Kim Liên",
+        "desc": "Khu lưu niệm Chủ tịch HCM thiêng liêng",
+        "price": "30k"
+      },
+      {
+        "name": "Đền Cuông Nghệ An",
+        "desc": "Đền thờ An Dương Vương linh thiêng",
+        "price": "free"
+      },
+      {
+        "name": "Thác Khe Kèm",
+        "desc": "Thác đẹp rừng nguyên sinh Pù Mát",
+        "price": "30k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hải sản Cửa Lò tươi sống",
+        "desc": "Ghẹ, cá, tôm ven biển Nghệ An",
+        "price": "200-400k"
+      },
+      {
+        "name": "Lẩu bò Nghệ An",
+        "desc": "Bò địa phương lẩu cay đặc trưng",
+        "price": "200-300k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố đêm Vinh",
+        "desc": "Nhộn nhịp thành phố lớn miền Trung",
+        "price": "100-200k"
+      },
+      {
+        "name": "Bánh mướt Nghệ An",
+        "desc": "Bánh gạo lạ miệng ăn đêm khuya",
+        "price": "30k"
+      }
+    ],
+    "food": [
+      "Cháo lươn",
+      "Tương Nam Đàn",
+      "Lợn lửa",
+      "Cam Vinh",
+      "Bánh mướt"
+    ]
+  },
+  "Ha Tinh": {
+    "trending": [
+      {
+        "name": "Biển Xuân Thành",
+        "type": "beach",
+        "vibe": "chill",
+        "tiktok": true
+      },
+      {
+        "name": "Ngã ba Đồng Lộc",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Cháo hàu Hà Tĩnh",
+        "desc": "Đặc sản cháo hàu biển",
+        "price": "40k"
+      },
+      {
+        "name": "Biển Xuân Thành",
+        "desc": "Biển đẹp ít người biết Hà Tĩnh",
+        "price": "free"
+      },
+      {
+        "name": "Bánh đúc Hà Tĩnh",
+        "desc": "Bánh đúc lạc đặc sản sáng",
+        "price": "20k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Ngã ba Đồng Lộc",
+        "desc": "Di tích 10 cô gái anh hùng",
+        "price": "free"
+      },
+      {
+        "name": "Hồ Kẻ Gỗ",
+        "desc": "Hồ nước giữa rừng nguyên sinh đẹp",
+        "price": "50k"
+      },
+      {
+        "name": "Chùa Hương Tích núi Hồng Lĩnh",
+        "desc": "Chùa cổ trên núi linh thiêng",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hải sản Vũng Áng",
+        "desc": "Cảng biển công nghiệp, hải sản tươi rẻ",
+        "price": "200-300k"
+      },
+      {
+        "name": "Sunset biển Thiên Cầm",
+        "desc": "Bãi biển đẹp hoang sơ",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Quán nhậu Hà Tĩnh đêm",
+        "desc": "Nhậu bình dân miền Trung",
+        "price": "100-200k"
+      },
+      {
+        "name": "Kẹo cu đơ Hà Tĩnh",
+        "desc": "Đặc sản kẹo lạc mật nổi tiếng",
+        "price": "30-50k"
+      }
+    ],
+    "food": [
+      "Kẹo cu đơ",
+      "Cháo hàu",
+      "Hải sản Thiên Cầm",
+      "Nhút làng Thanh Lương",
+      "Cá trích rim"
+    ]
+  },
+  "Ben Tre": {
+    "trending": [
+      {
+        "name": "Cồn Phụng vườn dừa",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Kẹo dừa Bến Tre",
+        "type": "unique",
+        "vibe": "fun",
+        "tiktok": true
+      },
+      {
+        "name": "Đi xuồng Ba Lai sáng sớm",
+        "type": "unique",
+        "vibe": "aesthetic",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Cồn Phụng bình minh",
+        "desc": "Xuồng ba lá qua vườn dừa buổi sáng",
+        "price": "150k/xuồng"
+      },
+      {
+        "name": "Bánh xèo Bến Tre",
+        "desc": "Bánh xèo nhân tôm dừa đặc biệt",
+        "price": "50k"
+      },
+      {
+        "name": "Vườn ca cao Phú An Khang",
+        "desc": "Tham quan vườn, thử chocolate",
+        "price": "50k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Xưởng kẹo dừa",
+        "desc": "Xem làm kẹo dừa truyền thống, mua về quà",
+        "price": "free vào + mua kẹo"
+      },
+      {
+        "name": "Trại rắn Đồng Tâm",
+        "desc": "Vườn thú rắn lớn nhất VN",
+        "price": "40k"
+      },
+      {
+        "name": "Cồn Tiên biển Bến Tre",
+        "desc": "Biển đặc biệt của tỉnh dừa",
+        "price": "100k tàu"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Lẩu dừa Bến Tre",
+        "desc": "Lẩu nấu nước dừa tươi độc đáo",
+        "price": "150-200k"
+      },
+      {
+        "name": "Hoàng hôn sông Hàm Luông",
+        "desc": "Sunset trên sông dừa miền Tây",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Kẹo dừa + bánh dừa",
+        "desc": "Mua đặc sản mang về",
+        "price": "50-200k"
+      },
+      {
+        "name": "Tôm sú nướng muối ớt",
+        "desc": "Hải sản sông nước đặc trưng",
+        "price": "150-250k"
+      }
+    ],
+    "food": [
+      "Kẹo dừa",
+      "Bánh dừa nướng",
+      "Hủ tiếu Mỹ Tho",
+      "Lẩu dừa",
+      "Cơm dừa nướng"
+    ]
+  },
+  "Dong Thap": {
+    "trending": [
+      {
+        "name": "Mùa sen Tháp Mười tháng 5-8",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Vườn quốc gia Tràm Chim",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Làng hoa Sa Đéc",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Đồng sen Tháp Mười sáng sớm",
+        "desc": "Sen nở đẹp nhất 6-8h sáng",
+        "price": "100k xuồng"
+      },
+      {
+        "name": "Hủ tiếu Sa Đéc",
+        "desc": "Hủ tiếu sợi tươi nổi tiếng nhất miền Tây",
+        "price": "40k"
+      },
+      {
+        "name": "Vườn hoa Sa Đéc sáng",
+        "desc": "Làng hoa trăm năm tuổi",
+        "price": "free"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Tràm Chim - Sếu đầu đỏ",
+        "desc": "Khu đất ngập nước Ramsar, ngắm chim di cư",
+        "price": "50k"
+      },
+      {
+        "name": "Nhà cổ Huỳnh Thủy Lê Sa Đéc",
+        "desc": "Nhà cổ 150 tuổi liên quan tiểu thuyết Người Tình",
+        "price": "30k"
+      },
+      {
+        "name": "Tháp Mười sen mùa vàng",
+        "desc": "Cánh đồng sen bất tận",
+        "price": "100k xuồng"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn Đồng Tháp",
+        "desc": "Sunset trên cánh đồng sen",
+        "price": "free"
+      },
+      {
+        "name": "Lẩu cá linh bông điên điển",
+        "desc": "Đặc sản mùa nước nổi Đồng Tháp",
+        "price": "150-250k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Cao Lãnh",
+        "desc": "Đặc sản sông nước, nhậu miền Tây",
+        "price": "100-200k"
+      },
+      {
+        "name": "Xoài cát Hòa Lộc",
+        "desc": "Xoài ngon nhất VN mua về quà",
+        "price": "40-60k/kg"
+      }
+    ],
+    "food": [
+      "Hủ tiếu Sa Đéc",
+      "Cá linh bông điên điển",
+      "Bánh phồng tôm",
+      "Xoài cát",
+      "Sen Đồng Tháp"
+    ]
+  },
+  "Ca Mau": {
+    "trending": [
+      {
+        "name": "Đất Mũi Cà Mau cực Nam",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Rừng ngập mặn U Minh Hạ",
+        "type": "nature",
+        "vibe": "adventure",
+        "tiktok": true
+      },
+      {
+        "name": "Mũi Cà Mau biển hai chiều",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bún gỏi già Cà Mau",
+        "desc": "Đặc sản sáng Cà Mau",
+        "price": "40k"
+      },
+      {
+        "name": "Rừng U Minh sáng sớm",
+        "desc": "Chèo thuyền trong rừng tràm ngập nước",
+        "price": "150k"
+      },
+      {
+        "name": "Đất Mũi bình minh",
+        "desc": "Đón bình minh tại điểm cực Nam của Tổ quốc",
+        "price": "tàu 300k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Mũi Cà Mau",
+        "desc": "Điểm cực Nam VN, biển Đông + vịnh Thái Lan",
+        "price": "tàu 300k"
+      },
+      {
+        "name": "Vườn quốc gia Mũi Cà Mau",
+        "desc": "Rừng ngập mặn nguyên sinh",
+        "price": "50k"
+      },
+      {
+        "name": "Đảo Hòn Khoai",
+        "desc": "Đảo hoang sơ ngoài khơi Cà Mau",
+        "price": "300k tàu"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn Mũi Cà Mau",
+        "desc": "Hoàng hôn cực Nam Tổ quốc",
+        "price": "free"
+      },
+      {
+        "name": "Ba khía Rạch Gốc",
+        "desc": "Ba khía nướng đặc sản Cà Mau",
+        "price": "150-250k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Cua Cà Mau nướng",
+        "desc": "Cua ghạch nổi tiếng nhất VN",
+        "price": "300-600k/con"
+      },
+      {
+        "name": "Phố ẩm thực Năm Căn",
+        "desc": "Đặc sản sông nước vùng cực Nam",
+        "price": "100-200k"
+      }
+    ],
+    "food": [
+      "Cua Cà Mau",
+      "Ba khía",
+      "Tôm khô Rạch Gốc",
+      "Mắm cá sặc",
+      "Lẩu cua biển"
+    ]
+  },
+  "Bac Lieu": {
+    "trending": [
+      {
+        "name": "Nhà công tử Bạc Liêu",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Vườn nhãn cổ Bạc Liêu",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Đàn chim Sân chim Ngan Dừa",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bún bò Bạc Liêu",
+        "desc": "Bún bò kiểu miền Tây đặc sắc",
+        "price": "40k"
+      },
+      {
+        "name": "Vườn nhãn cổ bình minh",
+        "desc": "Vườn nhãn 100 tuổi hoang dã",
+        "price": "30k"
+      },
+      {
+        "name": "Chợ Bạc Liêu sáng",
+        "desc": "Hải sản tươi, bánh tét lá cẩm",
+        "price": "50k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Nhà công tử Bạc Liêu",
+        "desc": "Biệt thự nhà giàu huyền thoại Nam Bộ",
+        "price": "30k"
+      },
+      {
+        "name": "Đền thờ Bác Hồ Bạc Liêu",
+        "desc": "Công trình tôn giáo độc đáo",
+        "price": "free"
+      },
+      {
+        "name": "Bạch hạc phi thiên - sân chim",
+        "desc": "Ngàn con cò, vạc về tổ buổi chiều",
+        "price": "50k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Tôm biển Bạc Liêu",
+        "desc": "Tôm sú, tôm thẻ tươi ngon nhất vùng",
+        "price": "200-400k"
+      },
+      {
+        "name": "Hoàng hôn biển Bạc Liêu",
+        "desc": "Sunset ven bờ biển phẳng lặng",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Đờn ca tài tử Bạc Liêu",
+        "desc": "Di sản phi vật thể UNESCO, nghe nhạc cổ",
+        "price": "100k"
+      },
+      {
+        "name": "Bánh tét lá cẩm",
+        "desc": "Bánh tét nhân đậu màu tím đặc biệt",
+        "price": "30k"
+      }
+    ],
+    "food": [
+      "Tôm khô Bạc Liêu",
+      "Bánh tét lá cẩm",
+      "Bún bò Bạc Liêu",
+      "Cá kèo kho tộ",
+      "Muối hột Bạc Liêu"
+    ]
+  },
+  "Soc Trang": {
+    "trending": [
+      {
+        "name": "Chùa Dơi Sóc Trăng",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Chùa Khmer Sóc Trăng",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Bún nước lèo Sóc Trăng",
+        "type": "food",
+        "vibe": "unique",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bún nước lèo Sóc Trăng",
+        "desc": "Đặc sản bún nước mắm Khmer nổi tiếng",
+        "price": "45k"
+      },
+      {
+        "name": "Chùa Dơi sáng sớm",
+        "desc": "Đàn dơi khổng lồ ngủ trên cây trứng cá",
+        "price": "free"
+      },
+      {
+        "name": "Bánh pía Sóc Trăng",
+        "desc": "Bánh pía bắt đầu được làm từ sáng sớm",
+        "price": "30k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Chùa Kh'leang",
+        "desc": "Chùa Khmer 500 tuổi đẹp nhất Sóc Trăng",
+        "price": "free"
+      },
+      {
+        "name": "Chùa Đất Sét",
+        "desc": "Toàn bộ đồ vật trong chùa làm bằng đất sét",
+        "price": "free"
+      },
+      {
+        "name": "Bảo tàng Khmer Sóc Trăng",
+        "desc": "Văn hóa người Khmer Nam Bộ",
+        "price": "20k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Chợ đêm Sóc Trăng",
+        "desc": "Ăn vặt, bánh Khmer, hải sản",
+        "price": "100k"
+      },
+      {
+        "name": "Cua biển Sóc Trăng",
+        "desc": "Cua biển nổi tiếng vùng ĐBSCL",
+        "price": "200-400k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Lễ Ok Om Bok Khmer (tháng 11 AL)",
+        "desc": "Lễ hội đua ghe ngo nổi tiếng",
+        "price": "free"
+      },
+      {
+        "name": "Bánh pía về đêm",
+        "desc": "Mua đặc sản nổi tiếng mang về",
+        "price": "50-100k"
+      }
+    ],
+    "food": [
+      "Bún nước lèo",
+      "Bánh pía",
+      "Cua biển",
+      "Lạp xưởng Sóc Trăng",
+      "Xôi Xiêm"
+    ]
+  },
+  "Tra Vinh": {
+    "trending": [
+      {
+        "name": "Ao Bà Om - hồ Khmer cổ",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Chùa Âng 1000 tuổi",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bún gạo Trà Vinh",
+        "desc": "Bún đặc sản gạo cũ miền Tây",
+        "price": "35k"
+      },
+      {
+        "name": "Chùa Âng sáng sớm",
+        "desc": "Chùa Khmer 1000 năm trong rừng cây",
+        "price": "free"
+      },
+      {
+        "name": "Bánh tầm bì Trà Vinh",
+        "desc": "Bánh đặc sản Khmer miền Nam",
+        "price": "30k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Ao Bà Om",
+        "desc": "Hồ thiêng 2000 năm người Khmer",
+        "price": "free"
+      },
+      {
+        "name": "Bảo tàng văn hóa Khmer",
+        "desc": "Văn hóa người Khmer Nam Bộ phong phú",
+        "price": "20k"
+      },
+      {
+        "name": "Biển Ba Động",
+        "desc": "Biển đẹp ít người biết",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hải sản biển Ba Động",
+        "desc": "Hải sản tươi vùng biển Trà Vinh",
+        "price": "150-300k"
+      },
+      {
+        "name": "Cơm dừa đặc sản Trà Vinh",
+        "desc": "Cơm hấp trong dừa tươi",
+        "price": "50k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Trà Vinh",
+        "desc": "Bún nước lèo, cháo cá đêm khuya",
+        "price": "50-100k"
+      },
+      {
+        "name": "Dừa sáp Trà Vinh",
+        "desc": "Dừa ruột đặc sệt hiếm nhất VN",
+        "price": "50-80k/trái"
+      }
+    ],
+    "food": [
+      "Bánh tầm bì",
+      "Dừa sáp",
+      "Bún nước lèo",
+      "Cháo cá lóc",
+      "Lạp xưởng Khmer"
+    ]
+  },
+  "Vinh Long": {
+    "trending": [
+      {
+        "name": "Cù lao An Bình homestay",
+        "type": "unique",
+        "vibe": "chill",
+        "tiktok": true
+      },
+      {
+        "name": "Chợ nổi Trà Ôn",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Vườn trái cây Vĩnh Long",
+        "type": "nature",
+        "vibe": "fun",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Cù lao An Bình bình minh",
+        "desc": "Đạp xe qua cù lao, hái trái cây",
+        "price": "100k tàu"
+      },
+      {
+        "name": "Hủ tiếu cua Vĩnh Long",
+        "desc": "Hủ tiếu cua đồng đặc sản địa phương",
+        "price": "45k"
+      },
+      {
+        "name": "Chợ nổi Trà Ôn 5h sáng",
+        "desc": "Chợ nổi nhỏ, chân thực hơn Cái Răng",
+        "price": "150k tàu"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Làng nghề gốm đỏ Mỹ Long",
+        "desc": "Làng gốm truyền thống 200 tuổi",
+        "price": "free"
+      },
+      {
+        "name": "Vườn cam sành Tam Bình",
+        "desc": "Hái cam tại vườn, cực tươi ngon",
+        "price": "50k"
+      },
+      {
+        "name": "Văn Thánh Miếu Vĩnh Long",
+        "desc": "Công trình cổ nhất tỉnh",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Lẩu mắm miền Tây tại vườn",
+        "desc": "Ăn lẩu mắm giữa vườn cây",
+        "price": "150-200k"
+      },
+      {
+        "name": "Hoàng hôn sông Tiền",
+        "desc": "Sunset trên sông miền Tây",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Cơm nước cù lao An Bình",
+        "desc": "Ăn tối tại homestay cù lao",
+        "price": "100-150k"
+      },
+      {
+        "name": "Bưởi Năm Roi Vĩnh Long",
+        "desc": "Đặc sản bưởi ngon nhất VN",
+        "price": "30-50k/trái"
+      }
+    ],
+    "food": [
+      "Hủ tiếu cua",
+      "Bưởi Năm Roi",
+      "Lẩu mắm",
+      "Cháo đậu phộng",
+      "Cơm cháy chà bông"
+    ]
+  },
+  "Kon Tum": {
+    "trending": [
+      {
+        "name": "Rừng thông Măng Đen",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Làng dân tộc Kon Tum",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Nhà thờ gỗ Kon Tum",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Phở khô Gia Lai tại Kon Tum",
+        "desc": "Phở nước riêng đặc trưng Tây Nguyên",
+        "price": "40k"
+      },
+      {
+        "name": "Rừng thông Măng Đen sáng sớm",
+        "desc": "Rừng thông mát mẻ như Đà Lạt nhỏ",
+        "price": "free"
+      },
+      {
+        "name": "Cơm lam Kon Tum sáng",
+        "desc": "Cơm lam đặc sản dân tộc địa phương",
+        "price": "30k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Nhà thờ gỗ Kon Tum",
+        "desc": "Nhà thờ gỗ đẹp nhất Tây Nguyên 1913",
+        "price": "free"
+      },
+      {
+        "name": "Làng văn hóa Kon Kơ Tu",
+        "desc": "Làng dân tộc Ba Na ven sông Đắk Bla",
+        "price": "free"
+      },
+      {
+        "name": "Hồ Ya Ly",
+        "desc": "Hồ thủy điện Ya Ly đẹp như tranh",
+        "price": "100k tàu"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Ẩm thực Kon Tum đêm",
+        "desc": "Gà nướng, bò một nắng, rượu ghè",
+        "price": "150-250k"
+      },
+      {
+        "name": "Sunset sông Đắk Bla",
+        "desc": "Hoàng hôn trên sông Tây Nguyên",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Rượu ghè Tây Nguyên",
+        "desc": "Rượu cần truyền thống uống cùng dân bản",
+        "price": "50-100k"
+      },
+      {
+        "name": "Gõ chiêng văn hóa Tây Nguyên",
+        "desc": "Nghe chiêng cồng đặc sản âm nhạc",
+        "price": "100k"
+      }
+    ],
+    "food": [
+      "Phở khô Gia Lai",
+      "Cơm lam",
+      "Gà nướng Tây Nguyên",
+      "Rượu ghè",
+      "Bánh sừng trâu"
+    ]
+  },
+  "Dak Nong": {
+    "trending": [
+      {
+        "name": "Tà Đùng - Vịnh Hạ Long Tây Nguyên",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Thác Đray Sáp",
+        "type": "nature",
+        "vibe": "adventure",
+        "tiktok": true
+      },
+      {
+        "name": "Công viên địa chất núi lửa Đắk Nông",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Hồ Tà Đùng bình minh",
+        "desc": "Sương mù trên hồ, đẹp như Hạ Long",
+        "price": "150k tàu"
+      },
+      {
+        "name": "Bún bò Đắk Nông",
+        "desc": "Bún bò kiểu Tây Nguyên đặc biệt",
+        "price": "40k"
+      },
+      {
+        "name": "Cà phê Robusta Đắk Nông",
+        "desc": "Cà phê rang xay tươi",
+        "price": "25k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Tà Đùng hồ thủy điện",
+        "desc": "Vịnh Hạ Long thu nhỏ trên cao nguyên",
+        "price": "150k tàu"
+      },
+      {
+        "name": "Thác Đray Sáp",
+        "desc": "Thác nước cặp đôi hùng vĩ",
+        "price": "30k"
+      },
+      {
+        "name": "Hang động núi lửa Krông Nô",
+        "desc": "Hệ thống hang núi lửa dài nhất ĐNA",
+        "price": "60k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Bò tơ nướng Đắk Nông",
+        "desc": "Bò tơ non nướng than hoa Tây Nguyên",
+        "price": "200-350k"
+      },
+      {
+        "name": "Sunset Tà Đùng",
+        "desc": "Hoàng hôn trên hồ đảo Tây Nguyên",
+        "price": "150k tàu"
+      }
+    ],
+    "night": [
+      {
+        "name": "Cồng chiêng đêm Tây Nguyên",
+        "desc": "Văn nghệ dân tộc M'Nông",
+        "price": "100k"
+      },
+      {
+        "name": "Rượu cần Đắk Nông",
+        "desc": "Rượu cần đặc sản đêm rừng",
+        "price": "50k"
+      }
+    ],
+    "food": [
+      "Cà phê Đắk Nông",
+      "Bò một nắng",
+      "Cơm lam M'Nông",
+      "Thịt heo rừng",
+      "Rượu cần"
+    ]
+  },
+  "Binh Dinh": {
+    "trending": [
+      {
+        "name": "Eo Gió Quy Nhơn TikTok viral",
+        "type": "viewpoint",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Kỳ Co đảo thiên đường",
+        "type": "beach",
+        "vibe": "chill",
+        "tiktok": true
+      },
+      {
+        "name": "Bãi Xép hoang sơ",
+        "type": "beach",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Bánh hỏi chả ram",
+        "type": "food",
+        "vibe": "unique",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bánh hỏi lòng heo An Thái",
+        "desc": "Đặc sản sáng Bình Định nức tiếng",
+        "price": "50k"
+      },
+      {
+        "name": "Biển Quy Nhơn sáng sớm",
+        "desc": "Đường ven biển dài đẹp nhất miền Trung",
+        "price": "free"
+      },
+      {
+        "name": "Chợ Lớn Quy Nhơn",
+        "desc": "Mua hải sản tươi và đặc sản",
+        "price": "50k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Eo Gió",
+        "desc": "View biển cao cực đẹp, hot TikTok 2024",
+        "price": "20k"
+      },
+      {
+        "name": "Kỳ Co",
+        "desc": "Đảo đẹp nhất Bình Định, nước xanh như tranh",
+        "price": "150k tàu"
+      },
+      {
+        "name": "Tháp đôi Bình Định",
+        "desc": "Tháp Chăm Pa 800 năm tuổi",
+        "price": "30k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Ghẹ rang me Quy Nhơn",
+        "desc": "Đặc sản hải sản cực hot",
+        "price": "200-400k"
+      },
+      {
+        "name": "Sunset đường Xuân Diệu",
+        "desc": "Con đường ven biển đẹp nhất QN",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Quy Nhơn đêm",
+        "desc": "Bún chả cá, ghẹ, bánh xèo mực",
+        "price": "100-250k"
+      },
+      {
+        "name": "Kem dừa Quy Nhơn 10k",
+        "desc": "Kem dừa cực rẻ ngon siêu nổi tiếng",
+        "price": "10-20k"
+      }
+    ],
+    "food": [
+      "Bánh hỏi chả ram",
+      "Bún chả cá",
+      "Ghẹ Quy Nhơn",
+      "Rượu bàu đá",
+      "Nem chả Bình Định"
+    ]
+  },
+  "Binh Thuan": {
+    "trending": [
+      {
+        "name": "Đồi cát trắng Bàu Trắng",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Đồi cát đỏ ATV Mũi Né",
+        "type": "adventure",
+        "vibe": "adventure",
+        "tiktok": true
+      },
+      {
+        "name": "Biển Cổ Thạch đá đen kỳ lạ",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Kite surf Mũi Né",
+        "type": "adventure",
+        "vibe": "adventure",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bàu Trắng bình minh 5h",
+        "desc": "Đồi cát trắng tinh khôi khi mặt trời mọc",
+        "price": "30k"
+      },
+      {
+        "name": "Bánh mì chả cá Phan Thiết",
+        "desc": "Đặc sản sáng số 1 Bình Thuận",
+        "price": "25k"
+      },
+      {
+        "name": "Làng chài Phan Thiết sáng sớm",
+        "desc": "Thuyền đánh cá về bến, không khí làng biển",
+        "price": "free"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Bãi Đá Cổ Thạch",
+        "desc": "Bãi đá đen hàng triệu năm kỳ dị",
+        "price": "30k"
+      },
+      {
+        "name": "Suối Tiên Mũi Né",
+        "desc": "Suối nước đỏ chảy qua cát trắng-đỏ",
+        "price": "30k"
+      },
+      {
+        "name": "Đảo Phú Quý",
+        "desc": "Đảo xa bờ, biển xanh trong nguyên sơ",
+        "price": "tàu 200k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hoàng hôn đồi cát đỏ",
+        "desc": "Sunset trên đồi cát, ánh vàng đẹp nhất",
+        "price": "50k"
+      },
+      {
+        "name": "Hải sản BBQ bờ biển Phan Thiết",
+        "desc": "Mực, tôm, cá tươi nướng",
+        "price": "200-400k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Huynh Thúc Kháng",
+        "desc": "Bánh tráng nướng, ốc, đặc sản Phan Thiết",
+        "price": "100-200k"
+      },
+      {
+        "name": "Nước mắm Phan Thiết thăm làng nghề",
+        "desc": "Tham quan và mua nước mắm cổ truyền",
+        "price": "free"
+      }
+    ],
+    "food": [
+      "Bánh tráng phơi sương",
+      "Nước mắm Phan Thiết",
+      "Cá mai",
+      "Thanh long ruột đỏ",
+      "Bánh rế Phan Thiết"
+    ]
+  },
+  "Binh Phuoc": {
+    "trending": [
+      {
+        "name": "Núi Bà Rá Bình Phước",
+        "type": "nature",
+        "vibe": "adventure",
+        "tiktok": true
+      },
+      {
+        "name": "Vườn quốc gia Bù Gia Mập",
+        "type": "nature",
+        "vibe": "adventure",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Hủ tiếu Nam Vang Bình Phước",
+        "desc": "Hủ tiếu sáng miền Đông đặc sắc",
+        "price": "45k"
+      },
+      {
+        "name": "Núi Bà Rá sáng sớm",
+        "desc": "Leo núi buổi sáng, không khí mát mẻ",
+        "price": "30k"
+      },
+      {
+        "name": "Cà phê Bình Phước",
+        "desc": "Cà phê Robusta vùng miền Đông",
+        "price": "25k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Núi Bà Rá 736m",
+        "desc": "Đỉnh núi đẹp nhất Bình Phước",
+        "price": "30k"
+      },
+      {
+        "name": "Bù Gia Mập",
+        "desc": "Rừng nguyên sinh, đa dạng sinh học",
+        "price": "40k"
+      },
+      {
+        "name": "Hồ Thác Mơ",
+        "desc": "Hồ nhân tạo đẹp giữa rừng",
+        "price": "100k tàu"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Gà đồi nướng Bình Phước",
+        "desc": "Gà ta nướng thảo mộc địa phương",
+        "price": "150-250k"
+      },
+      {
+        "name": "Lẩu heo rừng miền Đông",
+        "desc": "Heo rừng lẩu đặc sản",
+        "price": "200-350k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Điều hạt sấy Bình Phước",
+        "desc": "Thủ đô hạt điều VN, mua về quà",
+        "price": "100-200k/kg"
+      },
+      {
+        "name": "Phố ăn đêm Đồng Xoài",
+        "desc": "Ẩm thực bình dân miền Đông",
+        "price": "100k"
+      }
+    ],
+    "food": [
+      "Hạt điều Bình Phước",
+      "Gà đồi nướng",
+      "Heo rừng",
+      "Mắm bò hóc",
+      "Tiêu Lộc Ninh"
+    ]
+  },
+  "Binh Duong": {
+    "trending": [
+      {
+        "name": "Đại Nam Văn Hiến - khu du lịch lớn nhất VN",
+        "type": "attraction",
+        "vibe": "fun",
+        "tiktok": true
+      },
+      {
+        "name": "WonderCity Bình Dương",
+        "type": "attraction",
+        "vibe": "fun",
+        "tiktok": true
+      },
+      {
+        "name": "Phố đi bộ Bình Dương",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bánh mì que Bình Dương",
+        "desc": "Bánh mì que nổi tiếng cạnh Sài Gòn",
+        "price": "15k"
+      },
+      {
+        "name": "Cháo lòng Bình Dương sáng",
+        "desc": "Cháo lòng bình dân nổi tiếng vùng",
+        "price": "40k"
+      },
+      {
+        "name": "Làng sơn mài Tương Bình Hiệp",
+        "desc": "Xem nghề sơn mài 300 năm tuổi",
+        "price": "free"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Đại Nam Văn Hiến",
+        "desc": "Khu du lịch khổng lồ nhất VN",
+        "price": "300-500k"
+      },
+      {
+        "name": "Chùa Bà Thiên Hậu Bình Dương",
+        "desc": "Chùa hoa đăng đẹp nhất miền Nam",
+        "price": "free"
+      },
+      {
+        "name": "Làng gốm Lái Thiêu",
+        "desc": "Làng gốm sứ 200 năm tuổi",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Phố đi bộ Thủ Dầu Một",
+        "desc": "Phố đi bộ mới nhất miền Nam",
+        "price": "free"
+      },
+      {
+        "name": "Lẩu bò Bình Dương",
+        "desc": "Lẩu bò đặc sản nổi tiếng",
+        "price": "200-350k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Chợ đêm Bình Dương",
+        "desc": "Mua sắm, ăn vặt nhộn nhịp",
+        "price": "100k"
+      },
+      {
+        "name": "Bánh bèo Bình Dương đêm",
+        "desc": "Ăn vặt đặc sản địa phương",
+        "price": "40k"
+      }
+    ],
+    "food": [
+      "Bánh bèo bì",
+      "Lẩu bò",
+      "Sơn mài Bình Dương (đặc sản thủ công)",
+      "Hủ tiếu bò viên",
+      "Gà nướng lu"
+    ]
+  },
+  "Dong Nai": {
+    "trending": [
+      {
+        "name": "Vườn quốc gia Cát Tiên",
+        "type": "nature",
+        "vibe": "adventure",
+        "tiktok": true
+      },
+      {
+        "name": "Khu du lịch Bửu Long",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Thác Giang Điền",
+        "type": "nature",
+        "vibe": "chill",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Cơm tấm Biên Hòa sáng",
+        "desc": "Cơm tấm miền Đông ngon nức tiếng",
+        "price": "45k"
+      },
+      {
+        "name": "Cát Tiên bình minh",
+        "desc": "Vào VQG sáng sớm gặp thú hoang",
+        "price": "60k"
+      },
+      {
+        "name": "Cà phê Trảng Bom",
+        "desc": "Cà phê Robusta miền Đông nguyên chất",
+        "price": "25k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Vườn quốc gia Cát Tiên",
+        "desc": "Rừng nguyên sinh cuối cùng miền Nam",
+        "price": "60k"
+      },
+      {
+        "name": "Bửu Long núi đá",
+        "desc": "Núi đá vôi đẹp như phim, gần Sài Gòn 30km",
+        "price": "50k"
+      },
+      {
+        "name": "Thác Giang Điền",
+        "desc": "Thác đẹp picnic cuối tuần",
+        "price": "50k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Nem nướng Biên Hòa",
+        "desc": "Nem nướng đặc sản Đồng Nai nổi tiếng",
+        "price": "100-150k"
+      },
+      {
+        "name": "Sunset hồ Trị An",
+        "desc": "Hoàng hôn hồ nhân tạo lớn",
+        "price": "100k tàu"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ăn đêm Biên Hòa",
+        "desc": "Ẩm thực bình dân sầm uất",
+        "price": "100k"
+      },
+      {
+        "name": "Bưởi Tân Triều",
+        "desc": "Bưởi da xanh đặc sản nổi tiếng",
+        "price": "40-60k/trái"
+      }
+    ],
+    "food": [
+      "Nem nướng Biên Hòa",
+      "Bưởi Tân Triều",
+      "Bánh canh ghẹ",
+      "Cơm tấm bì sườn",
+      "Chuối nướng Biên Hòa"
+    ]
+  },
+  "Tien Giang": {
+    "trending": [
+      {
+        "name": "Cù lao Thới Sơn Mỹ Tho",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Hũ tiếu Mỹ Tho tươi",
+        "type": "food",
+        "vibe": "unique",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Hủ tiếu Mỹ Tho tươi",
+        "desc": "Hủ tiếu sợi tươi ngon nhất miền Tây",
+        "price": "45k"
+      },
+      {
+        "name": "Cù lao Thới Sơn sáng sớm",
+        "desc": "Xuồng ba lá, vườn dừa, bình minh sông",
+        "price": "150k"
+      },
+      {
+        "name": "Bánh bèo Mỹ Tho",
+        "desc": "Bánh bèo chén đặc sản địa phương",
+        "price": "30k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Cù lao Thới Sơn",
+        "desc": "Cưỡi ngựa, uống dừa, trái cây miền Tây",
+        "price": "150k/cano"
+      },
+      {
+        "name": "Lăng Hoàng Gia Gò Công",
+        "desc": "Lăng nhà Nguyễn hoàng triều cổ",
+        "price": "20k"
+      },
+      {
+        "name": "Biển Gò Công Đông",
+        "desc": "Biển Tiền Giang ít người biết",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Lẩu mắm Mỹ Tho",
+        "desc": "Lẩu mắm đặc sản miền Tây nổi tiếng",
+        "price": "150-200k"
+      },
+      {
+        "name": "Sunset sông Tiền tại Mỹ Tho",
+        "desc": "Hoàng hôn trên sông Tiền",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ăn đêm Mỹ Tho",
+        "desc": "Hủ tiếu, bánh canh, ăn vặt",
+        "price": "50-100k"
+      },
+      {
+        "name": "Mãng cầu xiêm Tiền Giang",
+        "desc": "Đặc sản trái cây vùng sông nước",
+        "price": "30-50k"
+      }
+    ],
+    "food": [
+      "Hủ tiếu Mỹ Tho",
+      "Hủ tiếu gõ",
+      "Mãng cầu xiêm",
+      "Lẩu mắm",
+      "Bánh giá Gò Công"
+    ]
+  },
+  "Long An": {
+    "trending": [
+      {
+        "name": "Làng nổi Đồng Tháp Mười",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Khu sinh thái đồng bằng",
+        "type": "nature",
+        "vibe": "chill",
+        "tiktok": false
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bún bò Huế Long An",
+        "desc": "Bún bò kiểu Nam Bộ sáng sớm",
+        "price": "40k"
+      },
+      {
+        "name": "Cánh đồng sen Long An",
+        "desc": "Sen mọc dại mùa nước nổi",
+        "price": "free"
+      },
+      {
+        "name": "Bánh tét Long An",
+        "desc": "Bánh tét nếp cẩm đặc sản",
+        "price": "20k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Khu du lịch Làng nổi Tân Lập",
+        "desc": "Chèo xuồng giữa đồng sen và tràm",
+        "price": "100k"
+      },
+      {
+        "name": "Rừng Tràm Tân Lập",
+        "desc": "Rừng tràm ngập nước đặc trưng ĐBSCL",
+        "price": "80k"
+      },
+      {
+        "name": "Làng nghề đan lát Đức Hòa",
+        "desc": "Nghề đan lát thủ công truyền thống",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Cá lóc nướng trui Long An",
+        "desc": "Cá lóc nướng đất nổi tiếng",
+        "price": "100-200k"
+      },
+      {
+        "name": "Sunset đồng lúa Long An",
+        "desc": "Cảnh đồng quê bình yên",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Tân An",
+        "desc": "Ăn vặt, quán nhậu địa phương",
+        "price": "50-100k"
+      },
+      {
+        "name": "Nước mắm ruốc Long An",
+        "desc": "Đặc sản mang về làm quà",
+        "price": "50k"
+      }
+    ],
+    "food": [
+      "Cá lóc nướng trui",
+      "Bánh tét Long An",
+      "Lẩu cua đồng",
+      "Cháo bắp",
+      "Đặc sản đồng quê"
+    ]
+  },
+  "Hau Giang": {
+    "trending": [
+      {
+        "name": "Lung Ngọc Hoàng - đầm sen tự nhiên",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bún cá rô đồng Hậu Giang",
+        "desc": "Đặc sản sáng cá rô nước ngọt",
+        "price": "40k"
+      },
+      {
+        "name": "Lung Ngọc Hoàng sáng sớm",
+        "desc": "Đầm chim tự nhiên, sen nở buổi sáng",
+        "price": "50k"
+      },
+      {
+        "name": "Chợ Vị Thanh sáng",
+        "desc": "Chợ địa phương bình yên miền Tây",
+        "price": "30k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Khu bảo tồn Lung Ngọc Hoàng",
+        "desc": "Hệ sinh thái ngập nước đặc biệt",
+        "price": "50k"
+      },
+      {
+        "name": "Vườn cây ăn trái Hậu Giang",
+        "desc": "Bưởi năm roi, cam mật, xoài cát",
+        "price": "50k"
+      },
+      {
+        "name": "Cây số 0 miệt vườn",
+        "desc": "Khám phá miệt vườn chân thực",
+        "price": "100k xuồng"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Lẩu cá kèo Hậu Giang",
+        "desc": "Cá kèo kho tộ hoặc lẩu chua đặc sắc",
+        "price": "150-250k"
+      },
+      {
+        "name": "Hoàng hôn sông Hậu",
+        "desc": "Sunset bình yên miền Tây",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Ẩm thực đêm Vị Thanh",
+        "desc": "Nhậu bình dân sông nước",
+        "price": "50-100k"
+      },
+      {
+        "name": "Bưởi năm roi Hậu Giang",
+        "desc": "Mua bưởi về quà",
+        "price": "30-50k/trái"
+      }
+    ],
+    "food": [
+      "Cá kèo kho tộ",
+      "Bưởi năm roi",
+      "Lẩu cá đồng",
+      "Bánh cái",
+      "Khô cá sặc rằn"
+    ]
+  },
+  "Kien Giang": {
+    "trending": [
+      {
+        "name": "Phú Quốc - Bãi Sao",
+        "type": "beach",
+        "vibe": "chill",
+        "tiktok": true
+      },
+      {
+        "name": "Hà Tiên - Thạch Động",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Đảo Hòn Sơn hoang sơ",
+        "type": "beach",
+        "vibe": "adventure",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bún cá Kiên Giang sáng",
+        "desc": "Bún cá rô tươi đặc sản địa phương",
+        "price": "45k"
+      },
+      {
+        "name": "Hà Tiên Thạch Động sáng sớm",
+        "desc": "Núi đá vôi huyền bí, ít người",
+        "price": "20k"
+      },
+      {
+        "name": "Bãi biển Mũi Nai Hà Tiên",
+        "desc": "Biển đẹp nhất Hà Tiên, cát vàng",
+        "price": "free"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Hòn Sơn hoang sơ",
+        "desc": "Đảo đẹp nhất Kiên Giang chưa có người",
+        "price": "tàu 200k"
+      },
+      {
+        "name": "Thạch Động Hà Tiên",
+        "desc": "Hang động trong núi đá vôi kỳ ảo",
+        "price": "20k"
+      },
+      {
+        "name": "Mũi Nai Hà Tiên",
+        "desc": "Mũi đất đẹp view biển tuyệt vời",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hải sản tươi Hà Tiên",
+        "desc": "Sò huyết, cua, ghẹ giá rẻ",
+        "price": "150-300k"
+      },
+      {
+        "name": "Sunset Hà Tiên",
+        "desc": "Hoàng hôn đẹp nhất miền Tây",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Chợ đêm Hà Tiên",
+        "desc": "Hải sản, đặc sản vùng biên",
+        "price": "100-200k"
+      },
+      {
+        "name": "Tiêu Hà Tiên",
+        "desc": "Đặc sản tiêu nổi tiếng miền Tây",
+        "price": "50-100k"
+      }
+    ],
+    "food": [
+      "Bún cá Hà Tiên",
+      "Tiêu Hà Tiên",
+      "Gỏi cá Hà Tiên",
+      "Nước mắm Phú Quốc",
+      "Mắm ruốc"
+    ]
+  },
+  "Bac Giang": {
+    "trending": [
+      {
+        "name": "Vải thiều Lục Ngạn mùa 5-6",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Chùa Vĩnh Nghiêm",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Mì Chũ Bắc Giang sáng",
+        "desc": "Mì Chũ nổi tiếng nhất VN từ làng Chũ",
+        "price": "30k"
+      },
+      {
+        "name": "Vườn vải Lục Ngạn mùa hè",
+        "desc": "Hái vải tươi tại vườn",
+        "price": "50k + vải"
+      },
+      {
+        "name": "Chùa Vĩnh Nghiêm sáng sớm",
+        "desc": "Thiền viện cổ kính thế kỷ 13",
+        "price": "free"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Chùa Vĩnh Nghiêm",
+        "desc": "Chùa cổ nhất VN còn lưu mộc bản UNESCO",
+        "price": "free"
+      },
+      {
+        "name": "Khu du lịch Khuôn Thần",
+        "desc": "Hồ Khuôn Thần giữa rừng thông đẹp",
+        "price": "50k"
+      },
+      {
+        "name": "Làng Thổ Hà gốm cổ",
+        "desc": "Làng gốm cổ nổi tiếng đồng bằng Bắc Bộ",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Gà đồi Yên Thế nướng",
+        "desc": "Gà Yên Thế thả đồi ngon nổi tiếng",
+        "price": "150-250k"
+      },
+      {
+        "name": "Đặc sản Bắc Giang tổng hợp",
+        "desc": "Vải thiều, mì Chũ, bánh đa",
+        "price": "100k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ăn đêm Bắc Giang",
+        "desc": "Ẩm thực bình dân vùng Đông Bắc",
+        "price": "50-100k"
+      },
+      {
+        "name": "Mật ong Bắc Giang",
+        "desc": "Mua mật ong rừng về quà",
+        "price": "100-200k"
+      }
+    ],
+    "food": [
+      "Mì Chũ",
+      "Vải thiều Lục Ngạn",
+      "Gà đồi Yên Thế",
+      "Bánh đa làng",
+      "Tiết canh vịt"
+    ]
+  },
+  "Bac Ninh": {
+    "trending": [
+      {
+        "name": "Chùa Bút Tháp nghìn năm",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Làng Quan họ Lim",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Làng tranh Đông Hồ",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Phở Bắc Ninh sáng",
+        "desc": "Phở bò kiểu miền Bắc cổ truyền",
+        "price": "50k"
+      },
+      {
+        "name": "Chùa Bút Tháp sáng sớm",
+        "desc": "Tháp 17 tầng đẹp nhất miền Bắc, ít người",
+        "price": "free"
+      },
+      {
+        "name": "Bánh phu thê Bắc Ninh",
+        "desc": "Bánh đặc sản hôn nhân nổi tiếng",
+        "price": "20k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Chùa Dâu 2000 năm tuổi",
+        "desc": "Chùa cổ nhất VN",
+        "price": "free"
+      },
+      {
+        "name": "Làng tranh Đông Hồ",
+        "desc": "Làng tranh dân gian nghìn năm tuổi",
+        "price": "free"
+      },
+      {
+        "name": "Thành cổ Bắc Ninh",
+        "desc": "Thành quách lịch sử thời Nguyễn",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Lợn quay Bắc Ninh",
+        "desc": "Lợn quay lá mắc mật nổi tiếng",
+        "price": "150-300k"
+      },
+      {
+        "name": "Bánh khúc Bắc Ninh",
+        "desc": "Bánh khúc trứ danh vùng Kinh Bắc",
+        "price": "20-30k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Hội Lim đêm mùa xuân",
+        "desc": "Hát Quan họ trên hồ (tháng 1-2 AL)",
+        "price": "free"
+      },
+      {
+        "name": "Tương Bần Bắc Ninh",
+        "desc": "Tương nổi tiếng nhất miền Bắc",
+        "price": "30-50k"
+      }
+    ],
+    "food": [
+      "Bánh phu thê",
+      "Bánh khúc",
+      "Nem Bắc Ninh",
+      "Tương Bần",
+      "Rượu làng Vân"
+    ]
+  },
+  "Hai Duong": {
+    "trending": [
+      {
+        "name": "Côn Sơn - Kiếp Bạc",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Bánh đậu xanh Hải Dương",
+        "type": "food",
+        "vibe": "unique",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bánh đậu xanh Hải Dương sáng",
+        "desc": "Mua đặc sản nổi tiếng nhất miền Bắc",
+        "price": "30-80k/hộp"
+      },
+      {
+        "name": "Côn Sơn sáng sớm",
+        "desc": "Thiền viện cổ linh thiêng ít người",
+        "price": "free"
+      },
+      {
+        "name": "Phở Hải Dương",
+        "desc": "Phở bò chuẩn vị miền Bắc",
+        "price": "45k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Côn Sơn - Kiếp Bạc",
+        "desc": "Di tích quốc gia đặc biệt, Trần Hưng Đạo",
+        "price": "free"
+      },
+      {
+        "name": "Đảo Cò Chi Lăng Nam",
+        "desc": "Đảo cò hàng nghìn con, kỳ quan thiên nhiên",
+        "price": "50k"
+      },
+      {
+        "name": "Cụm di tích An Phụ - Kính Chủ",
+        "desc": "Núi đá linh thiêng vùng Đông Bắc",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Bánh gai Ninh Giang",
+        "desc": "Bánh gai ngon nhất VN",
+        "price": "20-30k"
+      },
+      {
+        "name": "Cá rô Đầm Sét Hải Dương",
+        "desc": "Cá rô đồng tươi ngon đặc sắc",
+        "price": "150-250k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố ẩm thực Hải Dương",
+        "desc": "Đặc sản vùng đồng bằng Bắc Bộ",
+        "price": "50-100k"
+      },
+      {
+        "name": "Vải thiều Thanh Hà mùa hè",
+        "desc": "Vải ngon đặc sản mua về",
+        "price": "30-50k/kg"
+      }
+    ],
+    "food": [
+      "Bánh đậu xanh",
+      "Bánh gai Ninh Giang",
+      "Cá rô đầm",
+      "Vải thiều Thanh Hà",
+      "Rượu Phú Lộc"
+    ]
+  },
+  "Hung Yen": {
+    "trending": [
+      {
+        "name": "Nhãn lồng Hưng Yên mùa hè",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Phố Hiến cổ kính",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Vườn nhãn lồng sáng hái tươi",
+        "desc": "Nhãn lồng tươi tại vườn mùa 7-8",
+        "price": "40k + nhãn"
+      },
+      {
+        "name": "Bánh cuốn Hưng Yên sáng",
+        "desc": "Bánh cuốn trứ danh kiểu miền Bắc",
+        "price": "35k"
+      },
+      {
+        "name": "Đền Mây - đền Thiên Hậu",
+        "desc": "Đền thiêng sáng sớm bình yên",
+        "price": "free"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Phố Hiến",
+        "desc": "Phố cổ từng là cảng sầm uất nhất Đàng Ngoài",
+        "price": "free"
+      },
+      {
+        "name": "Đền Trần Hưng Yên",
+        "desc": "Đền Trần linh thiêng nổi tiếng",
+        "price": "free"
+      },
+      {
+        "name": "Chùa Chuông",
+        "desc": "Chùa cổ nghìn năm, nhiều cây cổ thụ",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Lợn quay Hưng Yên",
+        "desc": "Lợn quay mật mía đặc sản",
+        "price": "150-250k"
+      },
+      {
+        "name": "Hoàng hôn sông Hồng",
+        "desc": "Sunset trên đê sông Hồng",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhãn lồng tươi và sấy",
+        "desc": "Mua đặc sản nhãn mang về",
+        "price": "50-100k"
+      },
+      {
+        "name": "Tương bần Hưng Yên",
+        "desc": "Tương nổi tiếng đồng bằng sông Hồng",
+        "price": "30-50k"
+      }
+    ],
+    "food": [
+      "Nhãn lồng",
+      "Bánh cuốn",
+      "Tương bần",
+      "Lợn quay mật mía",
+      "Chả rươi"
+    ]
+  },
+  "Thai Binh": {
+    "trending": [
+      {
+        "name": "Chùa Keo nghìn năm tuổi",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Biển Đồng Châu",
+        "type": "beach",
+        "vibe": "chill",
+        "tiktok": false
+      }
+    ],
+    "morning": [
+      {
+        "name": "Bánh cáy Thái Bình sáng",
+        "desc": "Đặc sản bánh truyền thống độc nhất",
+        "price": "30k"
+      },
+      {
+        "name": "Canh cá Thái Bình",
+        "desc": "Canh cá đặc sản không đâu có",
+        "price": "50k"
+      },
+      {
+        "name": "Đồng lúa Thái Bình sáng sớm",
+        "desc": "Vựa lúa đồng bằng, cảnh đồng quê đẹp",
+        "price": "free"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Chùa Keo Thái Bình",
+        "desc": "Chùa cổ 400 năm, kiến trúc gỗ tuyệt đẹp",
+        "price": "free"
+      },
+      {
+        "name": "Đền Tiên La",
+        "desc": "Đền thờ Bát Nàn tướng quân linh thiêng",
+        "price": "free"
+      },
+      {
+        "name": "Biển Đồng Châu",
+        "desc": "Biển Thái Bình ít người biết",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Cá trắm đen kho",
+        "desc": "Đặc sản cá trắm đen đồng ruộng",
+        "price": "200-300k"
+      },
+      {
+        "name": "Bún bò xào Thái Bình",
+        "desc": "Đặc sản bún đặc biệt địa phương",
+        "price": "50k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Bánh cáy làng Nguyễn",
+        "desc": "Mua bánh cáy về làm quà",
+        "price": "50-100k"
+      },
+      {
+        "name": "Phố ăn đêm TP Thái Bình",
+        "desc": "Ẩm thực bình dân đồng bằng",
+        "price": "50-100k"
+      }
+    ],
+    "food": [
+      "Bánh cáy",
+      "Canh cá Thái Bình",
+      "Chả giò Thái Bình",
+      "Bánh đúc Thái Bình",
+      "Ốc om chuối"
+    ]
+  },
+  "Nam Dinh": {
+    "trending": [
+      {
+        "name": "Đền Trần Nam Định - giỗ Tổ",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Phủ Giầy Vụ Bản",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Biển Thịnh Long",
+        "type": "beach",
+        "vibe": "chill",
+        "tiktok": false
+      }
+    ],
+    "morning": [
+      {
+        "name": "Phở bò Nam Định sáng",
+        "desc": "Phở bò chuẩn vị Nam Định - gốc phở Hà Nội",
+        "price": "50k"
+      },
+      {
+        "name": "Đền Trần sáng sớm",
+        "desc": "Đền thiêng dòng họ Trần uy nghiêm",
+        "price": "free"
+      },
+      {
+        "name": "Xôi Nam Định",
+        "desc": "Xôi đặc sản buổi sáng địa phương",
+        "price": "25k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Đền Trần + Chùa Phổ Minh",
+        "desc": "Quần thể di tích thời Trần nổi tiếng",
+        "price": "free"
+      },
+      {
+        "name": "Phủ Giầy Vụ Bản",
+        "desc": "Phủ thờ Thánh Mẫu Liễu Hạnh linh thiêng",
+        "price": "free"
+      },
+      {
+        "name": "Làng nghề dệt Nam Định",
+        "desc": "Làng dệt lụa truyền thống nổi tiếng",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Bánh cuốn Nam Định đêm",
+        "desc": "Bánh cuốn mỏng mướt đặc biệt",
+        "price": "40k"
+      },
+      {
+        "name": "Phở bò cuốn Nam Định",
+        "desc": "Biến tấu phở cuốn độc đáo",
+        "price": "60k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố phở Nam Định",
+        "desc": "Con phố toàn quán phở từ thời ông bà",
+        "price": "50k"
+      },
+      {
+        "name": "Kẹo sìu châu Nam Định",
+        "desc": "Kẹo đặc sản nghìn năm người Hoa",
+        "price": "30-50k"
+      }
+    ],
+    "food": [
+      "Phở bò Nam Định",
+      "Bánh cuốn",
+      "Kẹo sìu châu",
+      "Xôi ngô",
+      "Tôm biển Thịnh Long"
+    ]
+  },
+  "Thai Nguyen": {
+    "trending": [
+      {
+        "name": "Vườn chè Tân Cương",
+        "type": "nature",
+        "vibe": "aesthetic",
+        "tiktok": true
+      },
+      {
+        "name": "Hồ Núi Cốc resort",
+        "type": "nature",
+        "vibe": "chill",
+        "tiktok": true
+      },
+      {
+        "name": "ATK Định Hóa lịch sử",
+        "type": "landmark",
+        "vibe": "photo",
+        "tiktok": false
+      }
+    ],
+    "morning": [
+      {
+        "name": "Chè Tân Cương sáng sớm",
+        "desc": "Thưởng trà tại vườn, hái búp chè tươi",
+        "price": "50k"
+      },
+      {
+        "name": "Xôi trứng kiến Thái Nguyên",
+        "desc": "Đặc sản xôi độc lạ vùng núi",
+        "price": "30k"
+      },
+      {
+        "name": "Phở gà Thái Nguyên sáng",
+        "desc": "Phở gà đồi thơm ngon đặc biệt",
+        "price": "45k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Hồ Núi Cốc",
+        "desc": "Hồ thơ mộng giữa núi rừng Thái Nguyên",
+        "price": "100k tàu"
+      },
+      {
+        "name": "Vườn chè Tân Cương",
+        "desc": "Thủ đô trà VN, học pha trà",
+        "price": "50k"
+      },
+      {
+        "name": "Bảo tàng Văn hóa các dân tộc VN",
+        "desc": "Bảo tàng dân tộc học phong phú",
+        "price": "20k"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Gà đồi Thái Nguyên nướng",
+        "desc": "Gà thả đồi nướng lá chuối",
+        "price": "150-250k"
+      },
+      {
+        "name": "Sunset Hồ Núi Cốc",
+        "desc": "Hoàng hôn đẹp trên mặt hồ rừng núi",
+        "price": "100k tàu"
+      }
+    ],
+    "night": [
+      {
+        "name": "Chè Thái Nguyên pha truyền thống",
+        "desc": "Trà đêm đặc sản của vùng",
+        "price": "30-50k"
+      },
+      {
+        "name": "Cháo gà Thái Nguyên đêm",
+        "desc": "Cháo gà nóng đêm lạnh vùng núi",
+        "price": "50k"
+      }
+    ],
+    "food": [
+      "Chè Thái Nguyên",
+      "Gà đồi",
+      "Xôi trứng kiến",
+      "Mì Quảng Thái Nguyên",
+      "Cơm lam nứa"
+    ]
+  },
+  "Tuyen Quang": {
+    "trending": [
+      {
+        "name": "Na Hang - Vịnh Hạ Long cạn",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Hồ thủy điện Tuyên Quang",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Na Hang bình minh trên hồ",
+        "desc": "Sương mù trên vịnh cạn Na Hang huyền ảo",
+        "price": "200k tàu"
+      },
+      {
+        "name": "Cháo thịt lợn Tuyên Quang sáng",
+        "desc": "Sáng đặc sản địa phương vùng núi",
+        "price": "35k"
+      },
+      {
+        "name": "Bánh chuối Tuyên Quang",
+        "desc": "Bánh đặc sản vùng cao giản dị",
+        "price": "20k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Na Hang toàn cảnh",
+        "desc": "Tour thuyền ngắm vách đá, rừng nguyên sinh",
+        "price": "200k tàu"
+      },
+      {
+        "name": "Thác Bản Ba",
+        "desc": "Thác đẹp trong rừng nguyên sinh Na Hang",
+        "price": "30k"
+      },
+      {
+        "name": "Khu di tích Tân Trào",
+        "desc": "Căn cứ địa CM trước cách mạng 1945",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Cá tầm sông Gâm nướng",
+        "desc": "Cá tầm tươi đặc sản sông vùng cao",
+        "price": "200-400k"
+      },
+      {
+        "name": "Hoàng hôn hồ thủy điện",
+        "desc": "Sunset trên mặt nước bình yên",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Rượu ngô Na Hang",
+        "desc": "Rượu ngô men lá đặc sản vùng cao",
+        "price": "50-100k"
+      },
+      {
+        "name": "Phố ẩm thực Tuyên Quang đêm",
+        "desc": "Đặc sản địa phương đơn giản",
+        "price": "50-100k"
+      }
+    ],
+    "food": [
+      "Cá tầm sông Gâm",
+      "Vịt quay Na Hang",
+      "Cháo thịt lợn nương",
+      "Bánh gai Tuyên Quang",
+      "Rượu Na Hang"
+    ]
+  },
+  "Bac Kan": {
+    "trending": [
+      {
+        "name": "Hồ Ba Bể - hồ tự nhiên lớn nhất VN",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Thác Đầu Đẳng Ba Bể",
+        "type": "nature",
+        "vibe": "adventure",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Hồ Ba Bể bình minh",
+        "desc": "Hồ tự nhiên lớn nhất VN, di sản ASEAN",
+        "price": "100k tàu"
+      },
+      {
+        "name": "Bánh coóng phù Bắc Kạn",
+        "desc": "Bánh đặc sản vùng cao địa phương",
+        "price": "25k"
+      },
+      {
+        "name": "Cá chép hồ Ba Bể",
+        "desc": "Cá nuôi thiên nhiên trong hồ",
+        "price": "200k/kg"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Hồ Ba Bể",
+        "desc": "3 hồ liên thông, rừng nguyên sinh quanh hồ",
+        "price": "100k tàu"
+      },
+      {
+        "name": "Ao Tiên Ba Bể",
+        "desc": "Hồ nhỏ huyền bí trong lòng rừng",
+        "price": "100k tàu"
+      },
+      {
+        "name": "Làng người Tày ven hồ",
+        "desc": "Nhà sàn, dệt thổ cẩm truyền thống",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Cá anh vũ hồ Ba Bể",
+        "desc": "Cá quý hiếm đặc sản hồ",
+        "price": "300-500k"
+      },
+      {
+        "name": "Lửa trại nhà sàn người Tày",
+        "desc": "Văn hóa bản Tày bên hồ",
+        "price": "100k"
+      }
+    ],
+    "night": [
+      {
+        "name": "Ngủ homestay nhà sàn Ba Bể",
+        "desc": "Nhà sàn truyền thống ven hồ",
+        "price": "200-400k"
+      },
+      {
+        "name": "Rượu ngô Bắc Kạn",
+        "desc": "Rượu đặc sản dân tộc vùng cao",
+        "price": "50k"
+      }
+    ],
+    "food": [
+      "Cá anh vũ Ba Bể",
+      "Bánh coóng phù",
+      "Xôi ngũ sắc",
+      "Thịt lợn nướng muối",
+      "Rượu Bắc Kạn"
+    ]
+  },
+  "Lai Chau": {
+    "trending": [
+      {
+        "name": "Sin Suối Hồ làng thảo quả",
+        "type": "unique",
+        "vibe": "photo",
+        "tiktok": true
+      },
+      {
+        "name": "Pu Sam Cáp đỉnh mây",
+        "type": "nature",
+        "vibe": "photo",
+        "tiktok": true
+      }
+    ],
+    "morning": [
+      {
+        "name": "Sin Suối Hồ sáng sớm",
+        "desc": "Làng người Mông trồng hoa, du lịch cộng đồng",
+        "price": "150k homestay"
+      },
+      {
+        "name": "Cơm nếp nương Lai Châu",
+        "desc": "Cơm sáng đặc sắc người Thái",
+        "price": "30k"
+      },
+      {
+        "name": "Thác Tác Tình",
+        "desc": "Thác đẹp khu vực Lai Châu",
+        "price": "20k"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Pu Sam Cáp",
+        "desc": "Đỉnh 1861m, biển mây tuyệt đẹp",
+        "price": "free"
+      },
+      {
+        "name": "Bản Thẳm người Thái",
+        "desc": "Làng thổ cẩm và múa truyền thống",
+        "price": "free"
+      },
+      {
+        "name": "Đèo Ô Quy Hồ từ Lai Châu",
+        "desc": "Đèo huyền thoại Tây Bắc",
+        "price": "free"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Lợn cắp nách Lai Châu",
+        "desc": "Lợn đen bản địa nướng than",
+        "price": "200-350k"
+      },
+      {
+        "name": "Sunset Lai Châu",
+        "desc": "Hoàng hôn trên thung lũng Mường So",
+        "price": "free"
+      }
+    ],
+    "night": [
+      {
+        "name": "Rượu thóc Lai Châu",
+        "desc": "Rượu thóc nếp men lá cực thơm",
+        "price": "50-100k"
+      },
+      {
+        "name": "Ngủ nhà sàn bản Thái",
+        "desc": "Nhà sàn trong thung lũng bình yên",
+        "price": "200k"
+      }
+    ],
+    "food": [
+      "Cơm lam",
+      "Nậm pịa",
+      "Pa pính",
+      "Thảo quả Lai Châu",
+      "Cá suối nướng"
+    ]
+  }
+}

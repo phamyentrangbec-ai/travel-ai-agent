@@ -1,0 +1,3407 @@
+{
+  "Vinh Hy": {
+    "morning": [
+      {
+        "name": "Bến cá Vĩnh Hy",
+        "desc": "Chợ cá sáng sớm ngay bến tàu, hải sản tươi sống",
+        "price": "50.000-150.000 VND"
+      },
+      {
+        "name": "Quán cơm bà Tám Vĩnh Hy",
+        "desc": "Điểm ăn sáng bình dân với cơm hải sản cho ngư dân",
+        "price": "30.000-60.000 VND"
+      },
+      {
+        "name": "Lặn ngắm san hô Vĩnh Hy",
+        "desc": "Tour snorkeling buổi sáng tại rạn san hô tự nhiên",
+        "price": "200.000-400.000 VND"
+      },
+      {
+        "name": "Đường đèo Vĩnh Hy",
+        "desc": "Ngắm bình minh trên cung đường đèo ven biển",
+        "price": "Miễn phí"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Vịnh Vĩnh Hy",
+        "desc": "Tắm biển và kayak tại vịnh xanh ngọc bích",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Làng chài Vĩnh Hy",
+        "desc": "Tham quan làng chài truyền thống, trải nghiệm đời sống ngư dân",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bãi Hang Rái",
+        "desc": "Bãi đá san hô hóa thạch triệu năm tuổi",
+        "price": "30.000 VND"
+      },
+      {
+        "name": "Hòn Nưa",
+        "desc": "Đảo hoang với bãi cát trắng, đi tàu từ bến Vĩnh Hy",
+        "price": "300.000-500.000 VND"
+      },
+      {
+        "name": "Vườn nho Ninh Thuận (Ba Mọi)",
+        "desc": "Tham quan vườn nho, thưởng thức rượu vang nho",
+        "price": "50.000-100.000 VND"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Quán Ốc Vĩnh Hy",
+        "desc": "Ốc hương, ghẹ hấp bia tại quán ven vịnh",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn đèo Vĩnh Hy",
+        "desc": "Điểm dừng chân trên đèo ngắm sunset vịnh",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bè nổi Vĩnh Hy",
+        "desc": "Ăn hải sản trên bè nổi giữa vịnh",
+        "price": "200.000-500.000 VND"
+      },
+      {
+        "name": "TTC Resort Ninh Thuận - Sunset Bar",
+        "desc": "Cocktail ngắm hoàng hôn tại resort ven biển",
+        "price": "100.000-250.000 VND"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Vĩnh Hy Bay",
+        "desc": "Hải sản nướng view vịnh ban đêm",
+        "price": "200.000-600.000 VND"
+      },
+      {
+        "name": "Câu mực đêm Vĩnh Hy",
+        "desc": "Tour câu mực đêm trên thuyền thúng",
+        "price": "300.000-500.000 VND"
+      },
+      {
+        "name": "Quán nhậu hải sản bà Năm",
+        "desc": "Quán nhậu bình dân với tôm hùm giá rẻ",
+        "price": "150.000-400.000 VND"
+      },
+      {
+        "name": "Cắm trại bãi Bình Tiên",
+        "desc": "Cắm trại đêm bên bãi biển hoang sơ gần Vĩnh Hy",
+        "price": "100.000-200.000 VND"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Hang Rái",
+        "type": "nature",
+        "vibe": "hoang sơ, san hô hóa thạch",
+        "tiktok": true
+      },
+      {
+        "name": "Đèo Vĩnh Hy",
+        "type": "scenic_road",
+        "vibe": "cung đường biển đẹp nhất miền Trung",
+        "tiktok": true
+      },
+      {
+        "name": "Bãi Bình Tiên",
+        "type": "beach",
+        "vibe": "bãi biển đẹp nhất Ninh Thuận",
+        "tiktok": true
+      }
+    ]
+  },
+  "Phu Quy": {
+    "morning": [
+      {
+        "name": "Gành Hang",
+        "desc": "Bãi đá tự nhiên hình hang động, check-in sống ảo",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Chợ Phú Quý",
+        "desc": "Ăn sáng bún cá, bún sứa tại chợ đảo",
+        "price": "20.000-50.000 VND"
+      },
+      {
+        "name": "Ngọn Hải Đăng Phú Quý",
+        "desc": "Ngắm bình minh từ đỉnh ngọn hải đăng",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Chùa Linh Quang",
+        "desc": "Ngôi chùa cổ nhất đảo, kiến trúc độc đáo",
+        "price": "Miễn phí"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Bãi Nhỏ (Bãi Doi)",
+        "desc": "Bãi tắm đẹp nhất Phú Quý, nước xanh trong",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Đỉnh Cao Cát",
+        "desc": "Đỉnh cao nhất đảo, panorama 360 độ",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Lặn ngắm san hô Hòn Tranh",
+        "desc": "Snorkeling tại đảo nhỏ gần Phú Quý",
+        "price": "200.000-350.000 VND"
+      },
+      {
+        "name": "Vạn An Thạnh",
+        "desc": "Bộ xương cá voi lớn nhất Việt Nam tại đình vạn",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bãi Triều Dương",
+        "desc": "Bãi biển phía đông đảo với đá granit",
+        "price": "Miễn phí"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Quán Hải Sản Út Nhỏ",
+        "desc": "Hải sản bình dân giá rẻ ngay bến cảng",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Bãi Nhỏ sunset",
+        "desc": "Ngắm hoàng hôn tại bãi biển phía tây",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán cà phê Phú Quý Island",
+        "desc": "Cà phê view biển, nước ép trái cây",
+        "price": "25.000-60.000 VND"
+      },
+      {
+        "name": "Cầu cảng Phú Quý",
+        "desc": "Dạo bộ ngắm cảng cá lúc hoàng hôn",
+        "price": "Miễn phí"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Thanh Xuân",
+        "desc": "Nhà hàng hải sản lớn nhất đảo, đặc sản tôm hùm",
+        "price": "200.000-800.000 VND"
+      },
+      {
+        "name": "Quán nhậu Bảy Cũ",
+        "desc": "Quán nhậu địa phương, ốc biển tươi",
+        "price": "100.000-250.000 VND"
+      },
+      {
+        "name": "Câu cá đêm Phú Quý",
+        "desc": "Câu cá đêm tại cầu cảng hoặc trên thuyền",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Chợ đêm Phú Quý",
+        "desc": "Chợ hải sản đêm nhỏ gần cảng",
+        "price": "50.000-200.000 VND"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Gành Hang",
+        "type": "nature",
+        "vibe": "hang đá tự nhiên sống ảo",
+        "tiktok": true
+      },
+      {
+        "name": "Bãi Nhỏ",
+        "type": "beach",
+        "vibe": "maldives Việt Nam",
+        "tiktok": true
+      },
+      {
+        "name": "Hòn Tranh",
+        "type": "island",
+        "vibe": "đảo hoang snorkeling",
+        "tiktok": true
+      }
+    ]
+  },
+  "Cu Lao Cham": {
+    "morning": [
+      {
+        "name": "Bãi Ông",
+        "desc": "Bãi biển chính, bơi lội và ăn sáng hải sản",
+        "price": "Miễn phí (vé đảo 70.000 VND)"
+      },
+      {
+        "name": "Chợ Tân Hiệp",
+        "desc": "Chợ sáng trên đảo, mua đặc sản mắm, khô cá",
+        "price": "20.000-50.000 VND"
+      },
+      {
+        "name": "Lặn san hô Bãi Bắc",
+        "desc": "Tour snorkeling buổi sáng tại khu bảo tồn biển",
+        "price": "150.000-350.000 VND"
+      },
+      {
+        "name": "Chùa Hải Tạng",
+        "desc": "Chùa cổ trên đảo, kiến trúc thời Nguyễn",
+        "price": "Miễn phí"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Bãi Chồng",
+        "desc": "Bãi biển hoang sơ phía tây đảo, ít du khách",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bãi Hương",
+        "desc": "Làng chài yên bình với nhà cổ Hội An trên đảo",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Giếng cổ Chăm Pa",
+        "desc": "Di tích giếng nước ngọt từ thời Chăm Pa",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bãi Xếp",
+        "desc": "Bãi đá xếp tầng tự nhiên, chụp ảnh đẹp",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Rừng nguyên sinh Cù Lao Chàm",
+        "desc": "Trekking xuyên rừng nguyên sinh trên đảo",
+        "price": "50.000 VND"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Quán ốc bà Tư Tân Hiệp",
+        "desc": "Ốc biển tươi sống tại làng chài",
+        "price": "80.000-200.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn Bãi Ông",
+        "desc": "Sunset tại bãi biển chính với dừa xanh",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán Hải Sản Cù Lao Chàm",
+        "desc": "Hải sản nướng tại nhà hàng ven biển",
+        "price": "150.000-400.000 VND"
+      },
+      {
+        "name": "Homestay Bãi Hương",
+        "desc": "Trải nghiệm ở nhà dân, ăn cơm gia đình",
+        "price": "200.000-400.000 VND/đêm"
+      }
+    ],
+    "night": [
+      {
+        "name": "Câu mực đêm Cù Lao Chàm",
+        "desc": "Tour câu mực đêm trên thuyền thúng",
+        "price": "250.000-400.000 VND"
+      },
+      {
+        "name": "Nhà hàng Hai Sơn",
+        "desc": "Nhà hàng hải sản lớn tại bến Bãi Ông",
+        "price": "150.000-500.000 VND"
+      },
+      {
+        "name": "Ngắm sao đêm Bãi Chồng",
+        "desc": "Bãi biển không ánh đèn, ngắm sao tuyệt đẹp",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Lẩu cá mú Cù Lao Chàm",
+        "desc": "Đặc sản lẩu cá mú tại quán ven biển",
+        "price": "200.000-400.000 VND"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Bãi Chồng",
+        "type": "beach",
+        "vibe": "bãi biển hoang sơ, hidden gem",
+        "tiktok": true
+      },
+      {
+        "name": "Lặn san hô Bãi Bắc",
+        "type": "activity",
+        "vibe": "underwater world",
+        "tiktok": true
+      },
+      {
+        "name": "Câu mực đêm",
+        "type": "experience",
+        "vibe": "trải nghiệm độc đáo",
+        "tiktok": true
+      }
+    ]
+  },
+  "Ba Na Hills": {
+    "morning": [
+      {
+        "name": "Cáp treo Bà Nà Hills",
+        "desc": "Cáp treo dài nhất thế giới, view núi rừng sương mù",
+        "price": "Vé trọn gói 900.000 VND"
+      },
+      {
+        "name": "Cầu Vàng (Golden Bridge)",
+        "desc": "Check-in cầu bàn tay khổng lồ lúc vắng người",
+        "price": "Trong vé trọn gói"
+      },
+      {
+        "name": "Vườn hoa Le Jardin D'Amour",
+        "desc": "9 khu vườn hoa theo phong cách Pháp",
+        "price": "Trong vé trọn gói"
+      },
+      {
+        "name": "Hầm rượu Debay",
+        "desc": "Hầm rượu vang Pháp từ năm 1923",
+        "price": "Trong vé trọn gói"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Fantasy Park",
+        "desc": "Khu vui chơi trong nhà lớn nhất Việt Nam",
+        "price": "Trong vé trọn gói"
+      },
+      {
+        "name": "Làng Pháp (French Village)",
+        "desc": "Khu phố Pháp thu nhỏ với nhà thờ, quảng trường",
+        "price": "Trong vé trọn gói"
+      },
+      {
+        "name": "Chùa Linh Ứng Bà Nà",
+        "desc": "Chùa trên đỉnh núi với tượng Phật lớn",
+        "price": "Trong vé trọn gói"
+      },
+      {
+        "name": "Wax Museum",
+        "desc": "Bảo tàng tượng sáp các nhân vật nổi tiếng",
+        "price": "Trong vé trọn gói"
+      },
+      {
+        "name": "Alpine Coaster",
+        "desc": "Xe trượt núi tốc độ cao xuyên rừng",
+        "price": "Trong vé trọn gói"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Beer Plaza Bà Nà",
+        "desc": "Quảng trường bia với biểu diễn nhạc sống",
+        "price": "80.000-200.000 VND"
+      },
+      {
+        "name": "Nhà hàng Arapang",
+        "desc": "Nhà hàng buffet tại làng Pháp",
+        "price": "250.000-450.000 VND"
+      },
+      {
+        "name": "Show nghệ thuật Carnival",
+        "desc": "Show trình diễn ánh sáng và múa tại quảng trường",
+        "price": "Trong vé trọn gói"
+      },
+      {
+        "name": "Ngắm hoàng hôn Golden Bridge",
+        "desc": "Cầu Vàng lúc sunset với sương mù",
+        "price": "Trong vé trọn gói"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Morin (Mercure Danang French Village)",
+        "desc": "Fine dining Pháp tại resort trên đỉnh Bà Nà",
+        "price": "500.000-1.500.000 VND"
+      },
+      {
+        "name": "Quảng trường trung tâm Làng Pháp",
+        "desc": "Dạo phố ban đêm với đèn vàng lãng mạn",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Beer Festival Bà Nà",
+        "desc": "Bia tươi Đức và đồ ăn nướng BBQ",
+        "price": "150.000-400.000 VND"
+      },
+      {
+        "name": "Buffet BBQ & Hotpot Arapang",
+        "desc": "Buffet nướng và lẩu tại làng Pháp ban đêm",
+        "price": "350.000-550.000 VND"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Cầu Vàng",
+        "type": "landmark",
+        "vibe": "iconic, world-famous",
+        "tiktok": true
+      },
+      {
+        "name": "Alpine Coaster",
+        "type": "activity",
+        "vibe": "thrill ride xuyên rừng",
+        "tiktok": true
+      },
+      {
+        "name": "Làng Pháp sương mù",
+        "type": "scenic",
+        "vibe": "châu Âu giữa Việt Nam",
+        "tiktok": true
+      }
+    ]
+  },
+  "Tam Dao": {
+    "morning": [
+      {
+        "name": "Nhà thờ đá Tam Đảo",
+        "desc": "Nhà thờ đá cổ xây từ thời Pháp, biểu tượng Tam Đảo",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Phở bò Tam Đảo chợ",
+        "desc": "Phở nóng buổi sáng tại chợ thị trấn sương mù",
+        "price": "30.000-50.000 VND"
+      },
+      {
+        "name": "Đỉnh Rùng Rình",
+        "desc": "Trek lên đỉnh cao nhất Tam Đảo, sea of clouds",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Vườn Quốc gia Tam Đảo",
+        "desc": "Trekking rừng nguyên sinh buổi sáng sớm",
+        "price": "40.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Thác Bạc Tam Đảo",
+        "desc": "Thác nước lớn nhất khu vực, tắm thác mát lạnh",
+        "price": "20.000 VND"
+      },
+      {
+        "name": "Tháp Truyền hình Tam Đảo",
+        "desc": "Tháp TV trên đỉnh núi, view panorama",
+        "price": "20.000 VND"
+      },
+      {
+        "name": "Thiền viện Trúc Lâm Tây Thiên",
+        "desc": "Thiền viện lớn nhất Việt Nam, kiến trúc đẹp",
+        "price": "Miễn phí (cáp treo 120.000 VND)"
+      },
+      {
+        "name": "Đền Tây Thiên",
+        "desc": "Quần thể đền thờ Quốc Mẫu trên núi",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Khu du lịch Tam Đảo Golf Resort",
+        "desc": "Sân golf và khu nghỉ dưỡng trên cao",
+        "price": "500.000-1.500.000 VND"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Quán gà đồi Tam Đảo",
+        "desc": "Gà đồi nướng, đặc sản vùng núi",
+        "price": "150.000-300.000 VND"
+      },
+      {
+        "name": "Chợ đêm Tam Đảo",
+        "desc": "Chợ đêm nhỏ bán đồ ăn vặt, trứng nướng, ngô nướng",
+        "price": "20.000-80.000 VND"
+      },
+      {
+        "name": "Café Sương Mù",
+        "desc": "Quán cà phê view sương mù thị trấn",
+        "price": "30.000-70.000 VND"
+      },
+      {
+        "name": "Phố đi bộ Tam Đảo",
+        "desc": "Dạo phố sương mù buổi tối, ăn vặt đường phố",
+        "price": "Miễn phí"
+      }
+    ],
+    "night": [
+      {
+        "name": "Lẩu gà lá thuốc Tam Đảo",
+        "desc": "Đặc sản lẩu gà nấu lá thuốc bắc",
+        "price": "250.000-500.000 VND"
+      },
+      {
+        "name": "Nhà hàng Thung Lũng Xanh",
+        "desc": "Nhà hàng view thung lũng, các món Bắc",
+        "price": "200.000-400.000 VND"
+      },
+      {
+        "name": "Quán nướng Tam Đảo Town",
+        "desc": "Nướng BBQ sườn, bắp trong sương lạnh",
+        "price": "100.000-250.000 VND"
+      },
+      {
+        "name": "Belvedere Resort Tam Đảo",
+        "desc": "Bar và nhà hàng tại resort 4 sao",
+        "price": "200.000-500.000 VND"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Đỉnh Rùng Rình",
+        "type": "trekking",
+        "vibe": "săn mây, cloud hunting",
+        "tiktok": true
+      },
+      {
+        "name": "Nhà thờ đá",
+        "type": "heritage",
+        "vibe": "cổ kính Pháp giữa sương",
+        "tiktok": true
+      },
+      {
+        "name": "Thiền viện Trúc Lâm Tây Thiên",
+        "type": "spiritual",
+        "vibe": "thanh tịnh, zen",
+        "tiktok": true
+      }
+    ]
+  },
+  "Ly Son": {
+    "morning": [
+      {
+        "name": "Miệng núi lửa Thới Lới",
+        "desc": "Leo lên miệng núi lửa đã tắt, view toàn đảo",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Cánh đồng tỏi Lý Sơn",
+        "desc": "Tham quan cánh đồng tỏi nổi tiếng nhất Việt Nam",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Chùa Hang",
+        "desc": "Chùa trong hang đá tự nhiên bên bờ biển",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bún cá Lý Sơn",
+        "desc": "Ăn sáng bún cá đặc sản tại chợ đảo",
+        "price": "25.000-40.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Hang Câu",
+        "desc": "Vách đá bazan hùng vĩ hình vòng cung",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Cổng Tò Vò",
+        "desc": "Cổng đá bazan tự nhiên biểu tượng Lý Sơn",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Đảo Bé (An Bình)",
+        "desc": "Đi cano ra đảo nhỏ, nước trong veo xanh ngọc",
+        "price": "100.000-150.000 VND"
+      },
+      {
+        "name": "Đình làng An Vĩnh",
+        "desc": "Đình cổ nơi tổ chức lễ khao lề thế lính Hoàng Sa",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Chùa Đục",
+        "desc": "Chùa trên đỉnh núi Giếng Tiên, tượng Phật lớn",
+        "price": "Miễn phí"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Quán hải sản chị Bảy",
+        "desc": "Hải sản tươi sống giá bình dân trên đảo",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn Hang Câu",
+        "desc": "Sunset tại vách đá bazan ngoạn mục",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán Gió Biển Lý Sơn",
+        "desc": "Café ven biển, sinh tố, nước ép",
+        "price": "25.000-50.000 VND"
+      },
+      {
+        "name": "Cánh đồng tỏi lúc chiều tà",
+        "desc": "Ánh nắng vàng chiếu trên cánh đồng tỏi xanh",
+        "price": "Miễn phí"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Lý Sơn Island",
+        "desc": "Đặc sản gỏi tỏi Lý Sơn và hải sản nướng",
+        "price": "150.000-400.000 VND"
+      },
+      {
+        "name": "Quán nhậu Hải Đảo",
+        "desc": "Nhậu đêm với ốc, cua, ghẹ tươi",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Ngắm sao đêm đỉnh Thới Lới",
+        "desc": "Ngắm sao và dải ngân hà từ miệng núi lửa",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Gỏi tỏi Lý Sơn",
+        "desc": "Thưởng thức đặc sản tỏi đen nướng tại quán đêm",
+        "price": "80.000-150.000 VND"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Cổng Tò Vò",
+        "type": "nature",
+        "vibe": "cổng đá bazan triệu năm",
+        "tiktok": true
+      },
+      {
+        "name": "Đảo Bé",
+        "type": "island",
+        "vibe": "nước xanh ngọc bích trong veo",
+        "tiktok": true
+      },
+      {
+        "name": "Hang Câu",
+        "type": "nature",
+        "vibe": "vách đá volcanic dramatic",
+        "tiktok": true
+      }
+    ]
+  },
+  "Co To": {
+    "morning": [
+      {
+        "name": "Ngọn Hải Đăng Cô Tô",
+        "desc": "Hải đăng trên đỉnh đồi, panorama biển đảo",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bãi Hồng Vàn",
+        "desc": "Bãi biển đẹp nhất Cô Tô, cát trắng mịn",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán phở gà Cô Tô",
+        "desc": "Phở gà nóng buổi sáng tại thị trấn",
+        "price": "30.000-50.000 VND"
+      },
+      {
+        "name": "Cầu Mỹ",
+        "desc": "Cây cầu gỗ nhỏ bắc ra biển, check-in sáng sớm",
+        "price": "Miễn phí"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Bãi Vàn Chải",
+        "desc": "Bãi tắm chính với bờ cát dài vàng",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Đảo Cô Tô Con",
+        "desc": "Đi tàu ra đảo nhỏ hoang sơ, Robinson style",
+        "price": "100.000-200.000 VND"
+      },
+      {
+        "name": "Rừng trâm Cô Tô",
+        "desc": "Rừng cây trâm cổ thụ xanh mát",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bãi đá Cầu Mỹ",
+        "desc": "Bãi đá tự nhiên ven biển, ngắm sóng",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Hòn Hải Mã",
+        "desc": "Hòn đá hình cá ngựa tự nhiên",
+        "price": "Miễn phí"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Quán hải sản Cô Tô Night Market",
+        "desc": "Hải sản tươi sống tại chợ đêm",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Sunset Bãi Hồng Vàn",
+        "desc": "Hoàng hôn đẹp nhất trên bãi biển phía tây",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán café Cô Tô Island Coffee",
+        "desc": "Cà phê view biển chiều tà",
+        "price": "25.000-60.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn đỉnh Hải Đăng",
+        "desc": "View hoàng hôn panorama từ đỉnh cao nhất",
+        "price": "Miễn phí"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Phương Anh Cô Tô",
+        "desc": "Nhà hàng hải sản nổi tiếng nhất đảo",
+        "price": "150.000-500.000 VND"
+      },
+      {
+        "name": "Quán nhậu bãi biển Vàn Chải",
+        "desc": "Nhậu đêm trên bãi biển, nướng hải sản",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Cắm trại đêm Cô Tô Con",
+        "desc": "Cắm trại trên đảo hoang",
+        "price": "150.000-300.000 VND"
+      },
+      {
+        "name": "Đêm BBQ hải sản Hồng Vàn",
+        "desc": "BBQ hải sản tại homestay ven biển",
+        "price": "200.000-400.000 VND"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Cầu Mỹ",
+        "type": "landmark",
+        "vibe": "cây cầu gỗ ra biển, dreamy",
+        "tiktok": true
+      },
+      {
+        "name": "Cô Tô Con",
+        "type": "island",
+        "vibe": "đảo hoang Robinson",
+        "tiktok": true
+      },
+      {
+        "name": "Ngọn Hải Đăng",
+        "type": "viewpoint",
+        "vibe": "panorama biển đảo",
+        "tiktok": true
+      }
+    ]
+  },
+  "Cat Ba": {
+    "morning": [
+      {
+        "name": "Vịnh Lan Hạ",
+        "desc": "Du thuyền buổi sáng qua vịnh xanh ngọc, đẹp hơn Hạ Long",
+        "price": "300.000-800.000 VND"
+      },
+      {
+        "name": "Quán phở Cát Bà Town",
+        "desc": "Phở bò nóng tại phố cảng Cát Bà",
+        "price": "35.000-50.000 VND"
+      },
+      {
+        "name": "Chèo kayak Vịnh Lan Hạ",
+        "desc": "Kayak xuyên qua các đảo đá vôi",
+        "price": "200.000-400.000 VND"
+      },
+      {
+        "name": "Pháo đài Thần Công",
+        "desc": "Di tích quân sự trên đỉnh núi, view toàn vịnh",
+        "price": "40.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Làng chài Việt Hải",
+        "desc": "Làng chài biệt lập trong thung lũng, đi bộ hoặc thuyền",
+        "price": "50.000-200.000 VND"
+      },
+      {
+        "name": "Hang Quân Y (Hospital Cave)",
+        "desc": "Bệnh viện trong hang đá thời chiến tranh",
+        "price": "40.000 VND"
+      },
+      {
+        "name": "Vườn Quốc gia Cát Bà",
+        "desc": "Trekking rừng nguyên sinh, tìm voọc Cát Bà",
+        "price": "40.000 VND"
+      },
+      {
+        "name": "Bãi Cát Cò 1",
+        "desc": "Bãi tắm chính gần thị trấn Cát Bà",
+        "price": "30.000 VND"
+      },
+      {
+        "name": "Đảo Khỉ (Monkey Island)",
+        "desc": "Đảo có khỉ hoang dã, bãi tắm đẹp",
+        "price": "100.000-200.000 VND"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Nhà hàng nổi Vịnh Lan Hạ",
+        "desc": "Ăn hải sản trên nhà nổi giữa vịnh",
+        "price": "200.000-600.000 VND"
+      },
+      {
+        "name": "Sunset Bãi Cát Cò 2",
+        "desc": "Ngắm hoàng hôn tại bãi biển nhỏ yên tĩnh",
+        "price": "30.000 VND"
+      },
+      {
+        "name": "Quán café Noble House",
+        "desc": "Rooftop café view cảng Cát Bà",
+        "price": "40.000-80.000 VND"
+      },
+      {
+        "name": "Đường Nguyễn Đức Cảnh",
+        "desc": "Phố ven biển, dạo bộ ngắm hoàng hôn",
+        "price": "Miễn phí"
+      }
+    ],
+    "night": [
+      {
+        "name": "Phố Ẩm thực Cát Bà (1-4 Street)",
+        "desc": "Dãy nhà hàng hải sản ven cảng, đặc sản sam biển",
+        "price": "200.000-600.000 VND"
+      },
+      {
+        "name": "Good Bar Cat Ba",
+        "desc": "Bar đêm sôi động nhất Cát Bà, cocktail & nhạc",
+        "price": "80.000-200.000 VND"
+      },
+      {
+        "name": "Oasis Bar Cat Ba",
+        "desc": "Bar rooftop view biển, expat friendly",
+        "price": "60.000-150.000 VND"
+      },
+      {
+        "name": "Chợ đêm Cát Bà",
+        "desc": "Ăn vặt và hải sản nướng đêm",
+        "price": "50.000-200.000 VND"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Vịnh Lan Hạ",
+        "type": "nature",
+        "vibe": "Hạ Long ít người, xanh hơn",
+        "tiktok": true
+      },
+      {
+        "name": "Làng chài Việt Hải",
+        "type": "village",
+        "vibe": "hidden village giữa núi",
+        "tiktok": true
+      },
+      {
+        "name": "Kayak Lan Hạ Bay",
+        "type": "activity",
+        "vibe": "kayak giữa đảo đá",
+        "tiktok": true
+      }
+    ]
+  },
+  "Phong Nha": {
+    "morning": [
+      {
+        "name": "Động Phong Nha",
+        "desc": "Đi thuyền vào hang động với sông ngầm dài nhất",
+        "price": "150.000 VND"
+      },
+      {
+        "name": "Quán bún bò Phong Nha Town",
+        "desc": "Bún bò Huế style buổi sáng",
+        "price": "25.000-40.000 VND"
+      },
+      {
+        "name": "Suối Moọc",
+        "desc": "Suối nước trong xanh, chèo kayak và bơi",
+        "price": "80.000 VND"
+      },
+      {
+        "name": "Động Thiên Đường (Paradise Cave)",
+        "desc": "Hang động khô dài nhất châu Á, thạch nhũ tuyệt đẹp",
+        "price": "250.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Hang Tối (Dark Cave)",
+        "desc": "Zipline, bơi, trượt bùn trong hang tối",
+        "price": "450.000 VND"
+      },
+      {
+        "name": "Sông Chày - Hang Tối",
+        "desc": "Zipline qua sông vào hang, chèo kayak",
+        "price": "450.000 VND"
+      },
+      {
+        "name": "Vườn thực vật (Botanical Garden)",
+        "desc": "Khu vườn thực vật với suối và thác nước",
+        "price": "40.000 VND"
+      },
+      {
+        "name": "Hang Én",
+        "desc": "Hang động lớn thứ 3 thế giới, tour 2 ngày 1 đêm",
+        "price": "6.000.000-8.000.000 VND"
+      },
+      {
+        "name": "Pub with Cold Beer",
+        "desc": "Quán bia mát lạnh nổi tiếng nhất Phong Nha",
+        "price": "30.000-100.000 VND"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Bomb Crater Bar",
+        "desc": "Bar tại hố bom cũ, cocktail sáng tạo",
+        "price": "50.000-150.000 VND"
+      },
+      {
+        "name": "Quán cơm gà Phong Nha",
+        "desc": "Cơm gà địa phương giá sinh viên",
+        "price": "30.000-60.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn sông Son",
+        "desc": "Sunset trên sông Son yên bình",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "The Pub with Cold Beer",
+        "desc": "Live music và bia lạnh buổi tối",
+        "price": "40.000-120.000 VND"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Bamboo Café",
+        "desc": "Nhà hàng ven sông với món Việt và Tây",
+        "price": "80.000-250.000 VND"
+      },
+      {
+        "name": "Easy Tiger Hostel Bar",
+        "desc": "Bar backpacker sôi động, cocktail party",
+        "price": "50.000-150.000 VND"
+      },
+      {
+        "name": "Jungle Boss Homestay BBQ",
+        "desc": "BBQ đêm tại homestay trong rừng",
+        "price": "150.000-300.000 VND"
+      },
+      {
+        "name": "Oxalis Adventure Tours Office",
+        "desc": "Đăng ký tour hang động ngày hôm sau",
+        "price": "Tùy tour"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Hang Tối zipline",
+        "type": "adventure",
+        "vibe": "zipline vào hang, bùn therapy",
+        "tiktok": true
+      },
+      {
+        "name": "Suối Moọc",
+        "type": "nature",
+        "vibe": "suối xanh ngọc bích",
+        "tiktok": true
+      },
+      {
+        "name": "Sơn Đoòng",
+        "type": "cave",
+        "vibe": "hang động lớn nhất thế giới",
+        "tiktok": true
+      }
+    ]
+  },
+  "Trang An": {
+    "morning": [
+      {
+        "name": "Tràng An (bến thuyền)",
+        "desc": "Du thuyền xuyên hang động và núi đá vôi",
+        "price": "200.000 VND"
+      },
+      {
+        "name": "Chùa Bái Đính",
+        "desc": "Quần thể chùa lớn nhất Đông Nam Á",
+        "price": "Miễn phí (xe điện 30.000 VND)"
+      },
+      {
+        "name": "Phở Ninh Bình",
+        "desc": "Phở gà/bò buổi sáng tại thành phố Ninh Bình",
+        "price": "30.000-50.000 VND"
+      },
+      {
+        "name": "Cố đô Hoa Lư",
+        "desc": "Kinh đô đầu tiên của Việt Nam, đền Đinh-Lê",
+        "price": "20.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Hang Múa (Mua Cave)",
+        "desc": "Leo 500 bậc thang lên đỉnh, view Tam Cốc tuyệt đẹp",
+        "price": "100.000 VND"
+      },
+      {
+        "name": "Tam Cốc - Bích Động",
+        "desc": "Chèo thuyền qua 3 hang động trên sông Ngô Đồng",
+        "price": "150.000 VND"
+      },
+      {
+        "name": "Chùa Bích Động",
+        "desc": "Chùa cổ xây trên hang đá, Nam thiên đệ nhị động",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Thung Nham (Bird Valley)",
+        "desc": "Khu sinh thái ngắm chim, suối, hang động",
+        "price": "100.000 VND"
+      },
+      {
+        "name": "Đầm Vân Long",
+        "desc": "Khu bảo tồn ngập nước, chèo thuyền ngắm voọc",
+        "price": "60.000 VND"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Cơm cháy Ninh Bình",
+        "desc": "Đặc sản cơm cháy dê tái giá Ninh Bình",
+        "price": "100.000-200.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn Hang Múa",
+        "desc": "Sunset view ruộng lúa và núi đá vôi từ đỉnh",
+        "price": "100.000 VND"
+      },
+      {
+        "name": "Nhà hàng Trung Tuyến",
+        "desc": "Đặc sản thịt dê và cơm cháy nổi tiếng",
+        "price": "150.000-350.000 VND"
+      },
+      {
+        "name": "Quán café view Tam Cốc",
+        "desc": "Cà phê view cánh đồng lúa Tam Cốc",
+        "price": "30.000-60.000 VND"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Dê Núi Ninh Bình",
+        "desc": "Tái dê, lẩu dê, dê nướng - đặc sản #1",
+        "price": "200.000-500.000 VND"
+      },
+      {
+        "name": "Tam Coc Garden Resort",
+        "desc": "Dinner tại resort giữa cánh đồng lúa",
+        "price": "200.000-500.000 VND"
+      },
+      {
+        "name": "Phố Ninh Bình đêm",
+        "desc": "Dạo phố đêm thành phố Ninh Bình",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán bia hơi Ninh Bình",
+        "desc": "Bia hơi và đồ nhắm kiểu Bắc",
+        "price": "50.000-150.000 VND"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Hang Múa",
+        "type": "viewpoint",
+        "vibe": "500 bậc thang, view triệu đô",
+        "tiktok": true
+      },
+      {
+        "name": "Tràng An thuyền",
+        "type": "nature",
+        "vibe": "xuyên hang động trên thuyền",
+        "tiktok": true
+      },
+      {
+        "name": "Cánh đồng lúa Tam Cốc",
+        "type": "scenic",
+        "vibe": "mùa lúa chín vàng óng",
+        "tiktok": true
+      }
+    ]
+  },
+  "Mai Chau": {
+    "morning": [
+      {
+        "name": "Bản Lác",
+        "desc": "Làng dân tộc Thái, nhà sàn truyền thống",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Đạp xe ruộng lúa Mai Châu",
+        "desc": "Thuê xe đạp đi qua cánh đồng lúa xanh",
+        "price": "50.000-100.000 VND"
+      },
+      {
+        "name": "Xôi nếp nương Mai Châu",
+        "desc": "Ăn sáng xôi nếp nương với thịt gà bản",
+        "price": "20.000-40.000 VND"
+      },
+      {
+        "name": "Bản Pom Coọng",
+        "desc": "Bản người Thái gần trung tâm, dệt thổ cẩm",
+        "price": "Miễn phí"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Hang Mỏ Luông",
+        "desc": "Hang động lớn trong núi đá vôi",
+        "price": "20.000 VND"
+      },
+      {
+        "name": "Hồ Hòa Bình (chèo thuyền)",
+        "desc": "Du thuyền trên lòng hồ thủy điện",
+        "price": "200.000-500.000 VND"
+      },
+      {
+        "name": "Thác Go Lao",
+        "desc": "Thác nước nhỏ trong rừng, tắm mát",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bản Văn",
+        "desc": "Bản người Thái yên tĩnh hơn, ít du khách",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Trekking rừng Mai Châu",
+        "desc": "Đi bộ xuyên rừng và bản làng",
+        "price": "100.000-300.000 VND (guide)"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Cơm lam Mai Châu",
+        "desc": "Cơm nấu trong ống tre, đặc sản vùng núi",
+        "price": "50.000-100.000 VND"
+      },
+      {
+        "name": "Múa xòe bản Lác",
+        "desc": "Xem biểu diễn múa Thái và uống rượu cần",
+        "price": "50.000-100.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn thung lũng Mai Châu",
+        "desc": "View point nhìn toàn thung lũng",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Chợ Mai Châu",
+        "desc": "Chợ chiều bán thổ cẩm, mật ong, rượu cần",
+        "price": "Tùy mua"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Hai Lúa Mai Châu",
+        "desc": "Các món đặc sản dân tộc, cá suối nướng",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Rượu cần Mai Châu",
+        "desc": "Uống rượu cần bên bếp lửa nhà sàn",
+        "price": "50.000-100.000 VND"
+      },
+      {
+        "name": "Mai Chau Ecolodge Dinner",
+        "desc": "Dinner tại ecolodge giữa cánh đồng",
+        "price": "200.000-500.000 VND"
+      },
+      {
+        "name": "Đốt lửa trại bản Lác",
+        "desc": "Lửa trại, nhảy sạp, giao lưu văn hóa",
+        "price": "50.000-100.000 VND"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Đạp xe cánh đồng lúa",
+        "type": "activity",
+        "vibe": "peaceful countryside",
+        "tiktok": true
+      },
+      {
+        "name": "Nhà sàn bản Lác",
+        "type": "culture",
+        "vibe": "trải nghiệm dân tộc Thái",
+        "tiktok": true
+      },
+      {
+        "name": "Thung lũng Mai Châu",
+        "type": "scenic",
+        "vibe": "sea of rice paddies",
+        "tiktok": true
+      }
+    ]
+  },
+  "Mu Cang Chai": {
+    "morning": [
+      {
+        "name": "Ruộng bậc thang La Pán Tẩn",
+        "desc": "Ruộng bậc thang đẹp nhất vào mùa lúa chín",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Đèo Khau Phạ",
+        "desc": "Một trong tứ đại đỉnh đèo miền Bắc",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Chợ phiên Mù Cang Chải",
+        "desc": "Chợ sáng địa phương, phở ngựa, thắng cố",
+        "price": "20.000-50.000 VND"
+      },
+      {
+        "name": "Bản Chế Cu Nha",
+        "desc": "Ruộng bậc thang đẹp và ít du khách",
+        "price": "Miễn phí"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Ruộng bậc thang Mâm Xôi",
+        "desc": "Quả đồi hình mâm xôi nổi tiếng nhất",
+        "price": "20.000 VND"
+      },
+      {
+        "name": "Bản Dế Xu Phình",
+        "desc": "Bản Mông truyền thống, dệt lanh",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Thác Nậm Khắt",
+        "desc": "Thác nước đẹp giữa rừng nguyên sinh",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Paragliding Khau Phạ",
+        "desc": "Bay dù lượn ngắm ruộng bậc thang từ trên cao",
+        "price": "1.500.000-2.500.000 VND"
+      },
+      {
+        "name": "Trekking bản Lìm Mông",
+        "desc": "Đi bộ xuyên bản và ruộng bậc thang",
+        "price": "100.000-200.000 VND"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Thắng cố Mù Cang Chải",
+        "desc": "Đặc sản thắng cố ngựa vùng Tây Bắc",
+        "price": "40.000-80.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn đồi Mâm Xôi",
+        "desc": "Sunset ruộng bậc thang vàng óng ả",
+        "price": "20.000 VND"
+      },
+      {
+        "name": "Quán ăn Tú Lệ (trên đường)",
+        "desc": "Cơm nếp Tú Lệ và cá suối nướng",
+        "price": "50.000-150.000 VND"
+      },
+      {
+        "name": "Homestay view ruộng bậc thang",
+        "desc": "Check-in nhà sàn nhìn ra ruộng",
+        "price": "200.000-400.000 VND/đêm"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Mù Cang Chải Town",
+        "desc": "Cơm gà bản, rau rừng, thịt trâu gác bếp",
+        "price": "100.000-250.000 VND"
+      },
+      {
+        "name": "Rượu ngô Mù Cang Chải",
+        "desc": "Uống rượu ngô với thịt trâu sấy tại homestay",
+        "price": "50.000-100.000 VND"
+      },
+      {
+        "name": "Đốt lửa trại La Pán Tẩn",
+        "desc": "Lửa trại tại bản Mông với sao trời",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Ngắm sao đêm Khau Phạ",
+        "desc": "Milky way từ đỉnh đèo Khau Phạ",
+        "price": "Miễn phí"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Đồi Mâm Xôi",
+        "type": "viewpoint",
+        "vibe": "iconic rice terrace hill",
+        "tiktok": true
+      },
+      {
+        "name": "Paragliding Khau Phạ",
+        "type": "adventure",
+        "vibe": "bay trên ruộng bậc thang",
+        "tiktok": true
+      },
+      {
+        "name": "Mùa lúa chín tháng 9-10",
+        "type": "seasonal",
+        "vibe": "golden rice terraces",
+        "tiktok": true
+      }
+    ]
+  },
+  "Dong Van": {
+    "morning": [
+      {
+        "name": "Cột cờ Lũng Cú",
+        "desc": "Cột cờ cực Bắc Việt Nam trên đỉnh núi Rồng",
+        "price": "20.000 VND"
+      },
+      {
+        "name": "Phở Đồng Văn",
+        "desc": "Phở bò tại phố cổ Đồng Văn buổi sáng",
+        "price": "30.000-50.000 VND"
+      },
+      {
+        "name": "Phố cổ Đồng Văn",
+        "desc": "Khu phố cổ người Hmong với kiến trúc đá",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Dinh thự nhà Vương",
+        "desc": "Dinh thự vua Mèo, kiến trúc Trung Hoa pha Hmong",
+        "price": "20.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Đèo Mã Pí Lèng",
+        "desc": "Đèo hiểm trở nhất Việt Nam, view sông Nho Quế",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Sông Nho Quế",
+        "desc": "Chèo thuyền kayak trên hẻm vực sông xanh ngọc",
+        "price": "200.000-400.000 VND"
+      },
+      {
+        "name": "Cao nguyên đá Đồng Văn",
+        "desc": "Công viên địa chất toàn cầu UNESCO",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Làng văn hóa Lũng Cẩm",
+        "desc": "Bản Hmong cổ, bối cảnh phim Chuyện của Pao",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Hẻm vực Tu Sản",
+        "desc": "Hẻm vực sâu nhất Đông Nam Á",
+        "price": "Miễn phí"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Thắng cố Đồng Văn",
+        "desc": "Thắng cố ngựa truyền thống tại chợ phố cổ",
+        "price": "30.000-60.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn Mã Pí Lèng",
+        "desc": "Sunset tại đèo hùng vĩ nhất",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán café phố cổ Đồng Văn",
+        "desc": "Cà phê trong nhà cổ đá, không gian vintage",
+        "price": "25.000-50.000 VND"
+      },
+      {
+        "name": "Chợ phố cổ chiều",
+        "desc": "Mua thổ cẩm, mật ong bạc hà Đồng Văn",
+        "price": "Tùy mua"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Lũng Cẩm",
+        "desc": "Cơm gà đen, lợn cắp nách, rau bản",
+        "price": "100.000-250.000 VND"
+      },
+      {
+        "name": "Rượu ngô Đồng Văn",
+        "desc": "Rượu ngô với thịt trâu khô tại quán đêm",
+        "price": "50.000-100.000 VND"
+      },
+      {
+        "name": "Phố cổ Đồng Văn đêm",
+        "desc": "Phố cổ lên đèn, yên tĩnh, lãng mạn",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Auberge de Meo Vac",
+        "desc": "Restaurant tại khách sạn view thung lũng Mèo Vạc",
+        "price": "150.000-350.000 VND"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Mã Pí Lèng",
+        "type": "scenic_road",
+        "vibe": "con đèo huyền thoại",
+        "tiktok": true
+      },
+      {
+        "name": "Sông Nho Quế",
+        "type": "nature",
+        "vibe": "hẻm vực emerald river",
+        "tiktok": true
+      },
+      {
+        "name": "Phố cổ Đồng Văn",
+        "type": "heritage",
+        "vibe": "phố cổ đá Hmong",
+        "tiktok": true
+      }
+    ]
+  },
+  "Moc Chau": {
+    "morning": [
+      {
+        "name": "Đồi chè Trái Tim",
+        "desc": "Đồi chè hình trái tim nổi tiếng nhất Mộc Châu",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Đồi chè Mộc Châu",
+        "desc": "Cánh đồng chè xanh bạt ngàn, uống trà sáng",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Rừng thông Bản Áng",
+        "desc": "Rừng thông Đà Lạt thu nhỏ giữa Tây Bắc",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Sữa chua Mộc Châu",
+        "desc": "Ăn sáng với sữa chua và bánh sữa Mộc Châu",
+        "price": "10.000-30.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Thác Dải Yếm",
+        "desc": "Thác nước lớn nhất Mộc Châu, cầu kính bên cạnh",
+        "price": "100.000 VND"
+      },
+      {
+        "name": "Cầu kính Mộc Châu (Bạch Long)",
+        "desc": "Cầu kính đáy trong suốt dài nhất thế giới",
+        "price": "200.000-300.000 VND"
+      },
+      {
+        "name": "Thung lũng Mận Nà Ka",
+        "desc": "Thung lũng mận nổi tiếng, mùa hoa tháng 1-2",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Happy Land Mộc Châu",
+        "desc": "Khu du lịch với vườn hoa, cánh đồng cừu",
+        "price": "100.000 VND"
+      },
+      {
+        "name": "Ngũ Động Bản Ôn",
+        "desc": "Hệ thống 5 hang động đẹp trên núi",
+        "price": "60.000 VND"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Lẩu bò Mộc Châu",
+        "desc": "Thịt bò sữa Mộc Châu tươi, lẩu bò nhúng",
+        "price": "150.000-300.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn đồi chè",
+        "desc": "Sunset trên đồi chè xanh mướt",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán café Mộc Châu Arena",
+        "desc": "Cà phê giữa vườn hoa bốn mùa",
+        "price": "30.000-70.000 VND"
+      },
+      {
+        "name": "Chợ Mộc Châu",
+        "desc": "Chợ chiều mua đặc sản: bơ, sữa, mận",
+        "price": "Tùy mua"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Bò Tơ Mộc Châu",
+        "desc": "Bò 7 món Mộc Châu, đặc sản #1",
+        "price": "200.000-400.000 VND"
+      },
+      {
+        "name": "Quán nướng Mộc Châu Town",
+        "desc": "Nướng thịt bò và gà bản tại quán đêm",
+        "price": "100.000-250.000 VND"
+      },
+      {
+        "name": "Rượu mận Mộc Châu",
+        "desc": "Rượu mận ngâm đặc sản uống tại homestay",
+        "price": "30.000-80.000 VND"
+      },
+      {
+        "name": "Cắm trại đồi chè đêm",
+        "desc": "Cắm trại ngắm sao giữa đồi chè",
+        "price": "100.000-200.000 VND"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Đồi chè Trái Tim",
+        "type": "scenic",
+        "vibe": "iconic heart-shaped tea hill",
+        "tiktok": true
+      },
+      {
+        "name": "Cầu kính Bạch Long",
+        "type": "adventure",
+        "vibe": "cầu kính dài nhất TG",
+        "tiktok": true
+      },
+      {
+        "name": "Mùa hoa mận tháng 1-2",
+        "type": "seasonal",
+        "vibe": "hoa trắng cả thung lũng",
+        "tiktok": true
+      }
+    ]
+  },
+  "Ho Tram": {
+    "morning": [
+      {
+        "name": "Bãi biển Hồ Tràm",
+        "desc": "Bãi biển dài, cát mịn, ít du khách",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Suối nước nóng Bình Châu",
+        "desc": "Tắm khoáng nóng thiên nhiên, luộc trứng suối",
+        "price": "80.000-150.000 VND"
+      },
+      {
+        "name": "Chợ Phước Hải",
+        "desc": "Chợ cá buổi sáng, ăn sáng hải sản tươi",
+        "price": "30.000-80.000 VND"
+      },
+      {
+        "name": "The Grand Ho Tram - Beach Club",
+        "desc": "Bơi sáng tại resort 5 sao ven biển",
+        "price": "300.000-500.000 VND (day pass)"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Bãi biển Hồ Cốc",
+        "desc": "Bãi biển hoang sơ, sóng lớn, ít người",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Khu dự trữ sinh quyển Bình Châu - Phước Bửu",
+        "desc": "Rừng nguyên sinh ven biển, trekking",
+        "price": "30.000 VND"
+      },
+      {
+        "name": "Làng chài Phước Hải",
+        "desc": "Làng chài truyền thống, mua hải sản tươi",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "NovaWorld Ho Tram",
+        "desc": "Khu vui chơi giải trí mới, công viên nước",
+        "price": "200.000-500.000 VND"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Quán hải sản Phước Hải",
+        "desc": "Hải sản tươi sống giá rẻ tại làng chài",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Sunset Hồ Tràm Beach",
+        "desc": "Hoàng hôn trên bãi biển dài vắng vẻ",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "The Grand Ho Tram Sunset Bar",
+        "desc": "Cocktail ngắm hoàng hôn tại resort",
+        "price": "150.000-350.000 VND"
+      },
+      {
+        "name": "Quán café Hồ Cốc",
+        "desc": "Cà phê view biển yên tĩnh",
+        "price": "30.000-70.000 VND"
+      }
+    ],
+    "night": [
+      {
+        "name": "The Grand Ho Tram Casino",
+        "desc": "Casino quốc tế lớn nhất Việt Nam",
+        "price": "Tùy chơi (chỉ người nước ngoài)"
+      },
+      {
+        "name": "Nhà hàng Hải Sản Bảy Lùn",
+        "desc": "Nhà hàng hải sản lớn, tôm hùm bình dân",
+        "price": "200.000-600.000 VND"
+      },
+      {
+        "name": "BBQ đêm Hồ Tràm Strip",
+        "desc": "Nướng hải sản ven biển ban đêm",
+        "price": "150.000-350.000 VND"
+      },
+      {
+        "name": "Cắm trại đêm Hồ Cốc",
+        "desc": "Cắm trại bãi biển hoang sơ",
+        "price": "100.000-200.000 VND"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Hồ Cốc Beach",
+        "type": "beach",
+        "vibe": "bãi biển hoang sơ gần SG",
+        "tiktok": true
+      },
+      {
+        "name": "Suối nước nóng Bình Châu",
+        "type": "wellness",
+        "vibe": "hot spring tự nhiên",
+        "tiktok": true
+      },
+      {
+        "name": "NovaWorld Ho Tram",
+        "type": "entertainment",
+        "vibe": "khu vui chơi mới toanh",
+        "tiktok": true
+      }
+    ]
+  },
+  "Ky Co Eo Gio": {
+    "morning": [
+      {
+        "name": "Bãi biển Kỳ Co",
+        "desc": "Bãi biển đẹp nhất Quy Nhơn, nước xanh trong",
+        "price": "200.000 VND (vé vào)"
+      },
+      {
+        "name": "Eo Gió",
+        "desc": "Mũi đất hình chữ U hứng gió biển, check-in hot",
+        "price": "50.000 VND"
+      },
+      {
+        "name": "Quán bún cá Quy Nhơn",
+        "desc": "Bún cá dầm đặc sản buổi sáng",
+        "price": "25.000-40.000 VND"
+      },
+      {
+        "name": "Bãi Xép",
+        "desc": "Bãi biển nhỏ bối cảnh phim Tôi Thấy Hoa Vàng",
+        "price": "Miễn phí"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Cù Lao Xanh",
+        "desc": "Đảo xanh ngoài khơi, lặn san hô tuyệt đẹp",
+        "price": "300.000-500.000 VND"
+      },
+      {
+        "name": "Hòn Khô",
+        "desc": "Đảo đá nhỏ nối bờ bằng đường đá",
+        "price": "50.000-100.000 VND"
+      },
+      {
+        "name": "Ghềnh Ráng Tiên Sa",
+        "desc": "Bãi đá đẹp, mộ Hàn Mặc Tử",
+        "price": "20.000 VND"
+      },
+      {
+        "name": "Tháp Bánh Ít",
+        "desc": "Tháp Chăm cổ trên đồi view đẹp",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Lặn biển Kỳ Co",
+        "desc": "Snorkeling ngắm san hô tại Kỳ Co",
+        "price": "200.000-350.000 VND"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hải sản Bãi Xép",
+        "desc": "Hải sản tươi tại làng chài Bãi Xép",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Sunset Eo Gió",
+        "desc": "Hoàng hôn tại Eo Gió ngoạn mục",
+        "price": "50.000 VND"
+      },
+      {
+        "name": "Quán café LifeS Beach Quy Nhơn",
+        "desc": "Beach bar view biển thành phố",
+        "price": "40.000-100.000 VND"
+      },
+      {
+        "name": "Đầm Thị Nại",
+        "desc": "Cầu Thị Nại dài nhất Việt Nam lúc hoàng hôn",
+        "price": "Miễn phí"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Ốc Bà Lý Quy Nhơn",
+        "desc": "Ốc biển đặc sản Quy Nhơn nổi tiếng",
+        "price": "100.000-250.000 VND"
+      },
+      {
+        "name": "Phố đi bộ Xuân Diệu",
+        "desc": "Phố ven biển Quy Nhơn sôi động ban đêm",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán nhậu Hải Sản An Quy Nhơn",
+        "desc": "Hải sản nướng và bia hơi tại phố biển",
+        "price": "150.000-400.000 VND"
+      },
+      {
+        "name": "Bánh xèo tôm nhảy Quy Nhơn",
+        "desc": "Đặc sản bánh xèo tôm nhảy ban đêm",
+        "price": "50.000-100.000 VND"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Kỳ Co",
+        "type": "beach",
+        "vibe": "Maldives của Việt Nam",
+        "tiktok": true
+      },
+      {
+        "name": "Eo Gió",
+        "type": "viewpoint",
+        "vibe": "mũi đất hứng gió dramatic",
+        "tiktok": true
+      },
+      {
+        "name": "Bãi Xép",
+        "type": "beach",
+        "vibe": "bối cảnh phim Yellow Flowers",
+        "tiktok": true
+      }
+    ]
+  },
+  "Binh Ba": {
+    "morning": [
+      {
+        "name": "Bãi Chướng",
+        "desc": "Bãi biển chính của đảo, cát trắng nước trong",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Chợ Bình Ba",
+        "desc": "Ăn sáng bánh canh tôm hùm tại chợ đảo",
+        "price": "40.000-80.000 VND"
+      },
+      {
+        "name": "Bãi Nhà Cũ",
+        "desc": "Bãi biển hoang sơ phía đông đảo",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Lặn ngắm san hô Bình Ba",
+        "desc": "Snorkeling buổi sáng tại rạn san hô",
+        "price": "150.000-300.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Bãi Nồm",
+        "desc": "Bãi biển nhỏ yên tĩnh phía nam đảo",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Hòn Rùa",
+        "desc": "Hòn đảo nhỏ hình rùa gần Bình Ba",
+        "price": "100.000-200.000 VND"
+      },
+      {
+        "name": "Đạp xe vòng quanh đảo",
+        "desc": "Thuê xe đạp khám phá đảo nhỏ xinh",
+        "price": "50.000-100.000 VND"
+      },
+      {
+        "name": "Tắm biển Bãi Chướng",
+        "desc": "Bơi trong nước xanh ngọc bích trong veo",
+        "price": "Miễn phí"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Quán tôm hùm Bình Ba",
+        "desc": "Tôm hùm nướng phô mai đặc sản đảo",
+        "price": "300.000-800.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn Bãi Chướng",
+        "desc": "Sunset tại bãi biển chính đảo",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán ốc ven biển Bình Ba",
+        "desc": "Ốc biển các loại ven bến tàu",
+        "price": "80.000-200.000 VND"
+      },
+      {
+        "name": "Homestay Bình Ba view biển",
+        "desc": "Ngồi ban công homestay ngắm biển chiều",
+        "price": "300.000-600.000 VND/đêm"
+      }
+    ],
+    "night": [
+      {
+        "name": "Lẩu tôm hùm Bình Ba",
+        "desc": "Lẩu tôm hùm đặc sản, giá rẻ hơn đất liền",
+        "price": "400.000-1.000.000 VND"
+      },
+      {
+        "name": "Nhà hàng Hòa Bình Ba",
+        "desc": "Nhà hàng hải sản lớn nhất đảo",
+        "price": "200.000-500.000 VND"
+      },
+      {
+        "name": "Câu cá đêm Bình Ba",
+        "desc": "Câu cá và mực đêm tại bến tàu",
+        "price": "100.000-200.000 VND"
+      },
+      {
+        "name": "Ngắm sao đêm Bãi Nhà Cũ",
+        "desc": "Bãi biển không ánh đèn, trời đầy sao",
+        "price": "Miễn phí"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Tôm hùm Bình Ba",
+        "type": "food",
+        "vibe": "đảo tôm hùm giá rẻ",
+        "tiktok": true
+      },
+      {
+        "name": "Bãi Nhà Cũ",
+        "type": "beach",
+        "vibe": "bãi biển hoang sơ hidden",
+        "tiktok": true
+      },
+      {
+        "name": "Nước biển xanh Bình Ba",
+        "type": "scenic",
+        "vibe": "nước trong veo thấy đáy",
+        "tiktok": true
+      }
+    ]
+  },
+  "Nam Du": {
+    "morning": [
+      {
+        "name": "Bãi Mến",
+        "desc": "Bãi biển đẹp nhất Nam Du, cát trắng nước xanh",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Ngọn Hải Đăng Nam Du",
+        "desc": "Ngọn hải đăng trên đỉnh đảo, view panorama",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Chợ Nam Du",
+        "desc": "Ăn sáng bún cá, bánh canh tại chợ đảo",
+        "price": "20.000-50.000 VND"
+      },
+      {
+        "name": "Hòn Mấu",
+        "desc": "Đảo nhỏ xinh đẹp gần Nam Du, nước trong veo",
+        "price": "100.000-200.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Hòn Nồm",
+        "desc": "Đảo hoang với bãi cát trắng, lặn biển đẹp",
+        "price": "150.000-300.000 VND"
+      },
+      {
+        "name": "Bãi Ngự",
+        "desc": "Bãi biển nhỏ yên bình ở trung tâm đảo",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bãi Cây Mến",
+        "desc": "Bãi biển dưới tán dừa xanh mát",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Tour 4 đảo Nam Du",
+        "desc": "Tham quan các đảo nhỏ xung quanh bằng tàu",
+        "price": "250.000-500.000 VND"
+      },
+      {
+        "name": "Lặn ngắm san hô Hòn Dầu",
+        "desc": "Snorkeling tại rạn san hô đẹp",
+        "price": "200.000-350.000 VND"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Quán hải sản bà Ba Nam Du",
+        "desc": "Hải sản tươi giá rẻ tại bến cảng",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn Hòn Lớn",
+        "desc": "Sunset tuyệt đẹp từ đỉnh đảo Hòn Lớn",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Cảng Nam Du lúc chiều",
+        "desc": "Ngắm tàu cá về bến lúc hoàng hôn",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán café Bãi Mến",
+        "desc": "Cà phê và nước dừa ven biển",
+        "price": "20.000-50.000 VND"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Hải Sản Nam Du",
+        "desc": "Mực một nắng, cá bò nướng, đặc sản đảo",
+        "price": "150.000-400.000 VND"
+      },
+      {
+        "name": "Câu mực đêm Nam Du",
+        "desc": "Tour câu mực trên thuyền đêm trăng",
+        "price": "200.000-400.000 VND"
+      },
+      {
+        "name": "Quán nhậu ven cảng Nam Du",
+        "desc": "Nhậu hải sản đêm view biển",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Ngắm sao Bãi Mến",
+        "desc": "Bãi biển vắng đêm, trời sao rực rỡ",
+        "price": "Miễn phí"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Bãi Mến",
+        "type": "beach",
+        "vibe": "bãi biển đẹp nhất quần đảo",
+        "tiktok": true
+      },
+      {
+        "name": "Hòn Mấu",
+        "type": "island",
+        "vibe": "nước xanh như ngọc",
+        "tiktok": true
+      },
+      {
+        "name": "Hoàng hôn Nam Du",
+        "type": "scenic",
+        "vibe": "sunset biển đảo hoang sơ",
+        "tiktok": true
+      }
+    ]
+  },
+  "Pu Luong": {
+    "morning": [
+      {
+        "name": "Ruộng bậc thang Pù Luông",
+        "desc": "View ruộng bậc thang đẹp từ bản Đôn",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bản Đôn",
+        "desc": "Bản người Thái với nhà sàn truyền thống",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Xôi ngũ sắc Pù Luông",
+        "desc": "Ăn sáng xôi ngũ sắc tại homestay",
+        "price": "20.000-40.000 VND"
+      },
+      {
+        "name": "Trekking bản Hiêu",
+        "desc": "Đi bộ xuyên bản và rừng nguyên sinh",
+        "price": "100.000-200.000 VND (guide)"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Thác Hiêu",
+        "desc": "Thác nước đẹp nhất Pù Luông, tắm thác mát lạnh",
+        "price": "20.000 VND"
+      },
+      {
+        "name": "Chèo bè mảng sông Cái",
+        "desc": "Chèo bè tre trên sông giữa ruộng lúa và núi",
+        "price": "100.000-200.000 VND"
+      },
+      {
+        "name": "Bản Kho Mường",
+        "desc": "Bản người Mường, trải nghiệm văn hóa",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Hang Kho Mường",
+        "desc": "Hang động tự nhiên trong núi đá vôi",
+        "price": "20.000 VND"
+      },
+      {
+        "name": "Đạp xe ruộng bậc thang",
+        "desc": "Thuê xe đạp qua các bản và ruộng lúa",
+        "price": "50.000-100.000 VND"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Cơm lam gà bản Pù Luông",
+        "desc": "Cơm lam nấu trong ống tre với gà bản",
+        "price": "80.000-150.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn bản Đôn",
+        "desc": "Sunset trên ruộng bậc thang từ nhà sàn",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Pù Luông Retreat",
+        "desc": "Cà phê và snack tại retreat view ruộng",
+        "price": "50.000-150.000 VND"
+      },
+      {
+        "name": "Bản Nủa",
+        "desc": "Bản yên tĩnh ngắm hoàng hôn trên ruộng",
+        "price": "Miễn phí"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Pù Luông Natura",
+        "desc": "Dinner tại eco-resort giữa ruộng bậc thang",
+        "price": "200.000-450.000 VND"
+      },
+      {
+        "name": "Đốt lửa trại bản Đôn",
+        "desc": "Lửa trại và rượu cần với người Thái",
+        "price": "50.000-100.000 VND"
+      },
+      {
+        "name": "Cá suối nướng Pù Luông",
+        "desc": "Cá suối tươi nướng than tại homestay",
+        "price": "100.000-200.000 VND"
+      },
+      {
+        "name": "Ngắm sao đêm Pù Luông",
+        "desc": "Bầu trời sao trong vắt giữa núi rừng",
+        "price": "Miễn phí"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Chèo bè mảng",
+        "type": "activity",
+        "vibe": "bè tre trên sông giữa ruộng",
+        "tiktok": true
+      },
+      {
+        "name": "Ruộng bậc thang Pù Luông",
+        "type": "scenic",
+        "vibe": "ruộng bậc thang miền Trung",
+        "tiktok": true
+      },
+      {
+        "name": "Thác Hiêu",
+        "type": "waterfall",
+        "vibe": "thác nước giữa rừng xanh",
+        "tiktok": true
+      }
+    ]
+  },
+  "Bac Ha": {
+    "morning": [
+      {
+        "name": "Chợ phiên Bắc Hà (Chủ Nhật)",
+        "desc": "Chợ phiên lớn nhất Tây Bắc, đầy sắc màu",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Thắng cố Bắc Hà",
+        "desc": "Ăn sáng thắng cố ngựa tại chợ phiên",
+        "price": "30.000-50.000 VND"
+      },
+      {
+        "name": "Dinh thự Hoàng A Tưởng",
+        "desc": "Dinh thự cổ kiến trúc Pháp-Hmong",
+        "price": "20.000 VND"
+      },
+      {
+        "name": "Bản Phố",
+        "desc": "Bản người Hmong Hoa nổi tiếng rượu ngô",
+        "price": "Miễn phí"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Thung lũng hoa mận Bắc Hà",
+        "desc": "Mùa hoa mận trắng tháng 1-2, đẹp mê hồn",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Trekking bản Tả Van Chư",
+        "desc": "Đi bộ qua bản Hmong và ruộng bậc thang",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Thác Bản Mế",
+        "desc": "Thác nước đẹp trong rừng sâu",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bản Lầu Thí Ngài",
+        "desc": "Bản Hmong yên tĩnh với nhà trình tường",
+        "price": "Miễn phí"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Rượu ngô Bản Phố",
+        "desc": "Thưởng thức rượu ngô đặc sản nổi tiếng",
+        "price": "30.000-70.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn Bắc Hà",
+        "desc": "View thung lũng Bắc Hà lúc chiều tà",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán ăn chợ Bắc Hà",
+        "desc": "Các món dân tộc tại khu ẩm thực chợ",
+        "price": "30.000-80.000 VND"
+      },
+      {
+        "name": "Café Bắc Hà Town",
+        "desc": "Cà phê nhỏ tại thị trấn vùng cao",
+        "price": "15.000-35.000 VND"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Cốc Ly",
+        "desc": "Các món dân tộc: thịt ngựa, lợn cắp nách",
+        "price": "100.000-250.000 VND"
+      },
+      {
+        "name": "Lẩu lợn cắp nách Bắc Hà",
+        "desc": "Lẩu lợn bản, rau rừng, đặc sản vùng cao",
+        "price": "150.000-300.000 VND"
+      },
+      {
+        "name": "Homestay Hmong Bản Phố",
+        "desc": "Ở nhà dân, ăn cơm gia đình Hmong",
+        "price": "200.000-350.000 VND"
+      },
+      {
+        "name": "Ngắm sao đêm Bắc Hà",
+        "desc": "Trời sao vùng cao trong lành",
+        "price": "Miễn phí"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Chợ phiên Bắc Hà",
+        "type": "culture",
+        "vibe": "chợ phiên sắc màu nhất Tây Bắc",
+        "tiktok": true
+      },
+      {
+        "name": "Hoa mận Bắc Hà",
+        "type": "seasonal",
+        "vibe": "hoa trắng mùa xuân",
+        "tiktok": true
+      },
+      {
+        "name": "Rượu ngô Bản Phố",
+        "type": "food",
+        "vibe": "rượu ngô huyền thoại",
+        "tiktok": true
+      }
+    ]
+  },
+  "Ta Xua": {
+    "morning": [
+      {
+        "name": "Săn mây Tà Xùa",
+        "desc": "Săn biển mây lúc bình minh từ đỉnh Tà Xùa",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Sống lưng khủng long Tà Xùa",
+        "desc": "Dãy núi nhọn hình lưng khủng long",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Đỉnh Tà Xùa 2865m",
+        "desc": "Chinh phục đỉnh cao trekking buổi sáng",
+        "price": "100.000-300.000 VND (guide)"
+      },
+      {
+        "name": "Quán mì tôm bản Tà Xùa",
+        "desc": "Ăn sáng mì tôm nóng giữa núi rừng",
+        "price": "20.000-40.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Bản Háng Đồng",
+        "desc": "Bản Hmong trên mây, view biển mây tuyệt đẹp",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Trekking rừng Tà Xùa",
+        "desc": "Đi bộ xuyên rừng nguyên sinh già cổ thụ",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Bản Tà Xùa C",
+        "desc": "Bản người Hmong gần đỉnh, view đẹp",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Rừng trúc Tà Xùa",
+        "desc": "Rừng trúc xanh mướt trên đường trekking",
+        "price": "Miễn phí"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Cơm gà bản Tà Xùa",
+        "desc": "Gà bản nướng tại homestay vùng cao",
+        "price": "80.000-150.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn trên mây Tà Xùa",
+        "desc": "Sunset xuyên qua biển mây hùng vĩ",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Trà Shan Tuyết Tà Xùa",
+        "desc": "Uống trà Shan Tuyết cổ thụ tại bản",
+        "price": "20.000-50.000 VND"
+      },
+      {
+        "name": "Chè Shan Tuyết cổ thụ",
+        "desc": "Thưởng trà từ cây chè trăm tuổi",
+        "price": "30.000-80.000 VND"
+      }
+    ],
+    "night": [
+      {
+        "name": "Lẩu gà bản Tà Xùa",
+        "desc": "Lẩu gà đen, rau rừng giữa núi cao",
+        "price": "150.000-300.000 VND"
+      },
+      {
+        "name": "Homestay Tà Xùa Cloud View",
+        "desc": "Ở nhà sàn ngắm sao giữa biển mây",
+        "price": "200.000-400.000 VND/đêm"
+      },
+      {
+        "name": "Rượu ngô Tà Xùa",
+        "desc": "Rượu ngô bên bếp lửa nhà sàn",
+        "price": "30.000-60.000 VND"
+      },
+      {
+        "name": "Ngắm sao đêm Tà Xùa",
+        "desc": "Bầu trời sao tuyệt đẹp trên đỉnh 2865m",
+        "price": "Miễn phí"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Sống lưng khủng long",
+        "type": "trekking",
+        "vibe": "dinosaur spine dramatic",
+        "tiktok": true
+      },
+      {
+        "name": "Săn mây Tà Xùa",
+        "type": "nature",
+        "vibe": "sea of clouds epic",
+        "tiktok": true
+      },
+      {
+        "name": "Bản Háng Đồng trên mây",
+        "type": "village",
+        "vibe": "bản làng trên mây thực sự",
+        "tiktok": true
+      }
+    ]
+  },
+  "Mang Den": {
+    "morning": [
+      {
+        "name": "Hồ Đăk Ke",
+        "desc": "Hồ nước trong xanh giữa rừng thông",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Rừng thông Măng Đen",
+        "desc": "Rừng thông cổ thụ xanh mát, Đà Lạt thứ 2",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán phở Măng Đen",
+        "desc": "Phở nóng sáng sớm tại thị trấn sương mù",
+        "price": "25.000-40.000 VND"
+      },
+      {
+        "name": "Nhà thờ gỗ Măng Đen",
+        "desc": "Nhà thờ gỗ xinh đẹp giữa rừng thông",
+        "price": "Miễn phí"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Thác Pa Sỹ",
+        "desc": "Thác nước đẹp nhất Măng Đen, giữa rừng già",
+        "price": "20.000 VND"
+      },
+      {
+        "name": "Thác Đăk Ke",
+        "desc": "Thác nước gần hồ Đăk Ke, view đẹp",
+        "price": "20.000 VND"
+      },
+      {
+        "name": "Vườn sâm dây Ngọc Linh",
+        "desc": "Tham quan vườn sâm dây đặc sản Kon Tum",
+        "price": "50.000 VND"
+      },
+      {
+        "name": "Khu du lịch sinh thái Măng Đen",
+        "desc": "Khu vui chơi giữa rừng thông",
+        "price": "50.000-100.000 VND"
+      },
+      {
+        "name": "Hồ Toong Đam",
+        "desc": "Hồ nước tĩnh lặng giữa rừng",
+        "price": "Miễn phí"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Gà nướng Măng Đen",
+        "desc": "Gà bản nướng mắc khén đặc sản Tây Nguyên",
+        "price": "100.000-200.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn hồ Đăk Ke",
+        "desc": "Sunset phản chiếu trên mặt hồ tĩnh lặng",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Café Rừng Thông Măng Đen",
+        "desc": "Cà phê giữa rừng thông sương mù",
+        "price": "25.000-50.000 VND"
+      },
+      {
+        "name": "Cà phê weasel Kon Tum",
+        "desc": "Thưởng thức cà phê chồn Tây Nguyên",
+        "price": "40.000-80.000 VND"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Cơm Rừng Măng Đen",
+        "desc": "Cơm rừng với rau dớn, gà bản, cá suối",
+        "price": "100.000-250.000 VND"
+      },
+      {
+        "name": "Lẩu gà lá thuốc Tây Nguyên",
+        "desc": "Lẩu gà nấu lá thuốc bắc giữa rừng thông",
+        "price": "200.000-400.000 VND"
+      },
+      {
+        "name": "Rượu cần Kon Tum",
+        "desc": "Uống rượu cần truyền thống Bahnar",
+        "price": "50.000-100.000 VND"
+      },
+      {
+        "name": "Cắm trại rừng thông Măng Đen",
+        "desc": "Camping đêm giữa rừng thông",
+        "price": "100.000-200.000 VND"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Rừng thông Măng Đen",
+        "type": "nature",
+        "vibe": "Đà Lạt thứ 2 hoang sơ",
+        "tiktok": true
+      },
+      {
+        "name": "Thác Pa Sỹ",
+        "type": "waterfall",
+        "vibe": "thác giữa rừng già",
+        "tiktok": true
+      },
+      {
+        "name": "Hồ Đăk Ke",
+        "type": "lake",
+        "vibe": "hồ xanh giữa thông",
+        "tiktok": true
+      }
+    ]
+  },
+  "Ta Dung": {
+    "morning": [
+      {
+        "name": "Hồ Tà Đùng",
+        "desc": "Hạ Long trên cao nguyên, đảo nhỏ trên hồ",
+        "price": "30.000 VND"
+      },
+      {
+        "name": "Ngắm bình minh hồ Tà Đùng",
+        "desc": "Sunrise trên mặt hồ với sương mù",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán cơm sáng Tà Đùng",
+        "desc": "Cơm sáng tại khu du lịch gần hồ",
+        "price": "25.000-50.000 VND"
+      },
+      {
+        "name": "Chèo SUP hồ Tà Đùng",
+        "desc": "Chèo ván đứng trên hồ buổi sáng sớm",
+        "price": "100.000-200.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Du thuyền hồ Tà Đùng",
+        "desc": "Đi thuyền tham quan các đảo nhỏ trên hồ",
+        "price": "200.000-400.000 VND"
+      },
+      {
+        "name": "Trekking rừng Tà Đùng",
+        "desc": "Đi bộ xuyên rừng nguyên sinh ven hồ",
+        "price": "100.000-200.000 VND"
+      },
+      {
+        "name": "Bản M'Nông ven hồ",
+        "desc": "Thăm bản dân tộc M'Nông truyền thống",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Đảo trên hồ Tà Đùng",
+        "desc": "Khám phá đảo nhỏ giữa hồ, cắm trại",
+        "price": "150.000-300.000 VND"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Gà nướng bản M'Nông",
+        "desc": "Gà bản nướng kiểu dân tộc M'Nông",
+        "price": "100.000-200.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn hồ Tà Đùng",
+        "desc": "Sunset trên hồ với các đảo nhỏ nhấp nhô",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Cà phê ven hồ Tà Đùng",
+        "desc": "Cà phê view hồ lúc chiều tà",
+        "price": "25.000-50.000 VND"
+      },
+      {
+        "name": "Tà Đùng Topview Homestay",
+        "desc": "View hồ từ homestay trên đồi",
+        "price": "300.000-600.000 VND/đêm"
+      }
+    ],
+    "night": [
+      {
+        "name": "BBQ đêm ven hồ Tà Đùng",
+        "desc": "Nướng BBQ bên bờ hồ ban đêm",
+        "price": "150.000-300.000 VND"
+      },
+      {
+        "name": "Cắm trại đêm Tà Đùng",
+        "desc": "Camping trên đảo hoặc ven hồ",
+        "price": "100.000-200.000 VND"
+      },
+      {
+        "name": "Lẩu gà lá thuốc Tà Đùng",
+        "desc": "Lẩu nóng giữa rừng đêm",
+        "price": "200.000-350.000 VND"
+      },
+      {
+        "name": "Ngắm sao đêm Tà Đùng",
+        "desc": "Bầu trời sao trên hồ nước tĩnh lặng",
+        "price": "Miễn phí"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Hồ Tà Đùng",
+        "type": "lake",
+        "vibe": "Hạ Long thu nhỏ trên cao nguyên",
+        "tiktok": true
+      },
+      {
+        "name": "Cắm trại đảo giữa hồ",
+        "type": "camping",
+        "vibe": "island camping vibes",
+        "tiktok": true
+      },
+      {
+        "name": "SUP trên hồ Tà Đùng",
+        "type": "activity",
+        "vibe": "paddle board giữa thiên nhiên",
+        "tiktok": true
+      }
+    ]
+  },
+  "Y Ty": {
+    "morning": [
+      {
+        "name": "Săn mây Y Tý",
+        "desc": "Biển mây bình minh tại bản Y Tý",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Ruộng bậc thang Y Tý",
+        "desc": "Ruộng bậc thang hoang sơ giữa mây",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bản A Lù",
+        "desc": "Bản người Hà Nhì với nhà trình tường",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán ăn sáng bản Y Tý",
+        "desc": "Mì tôm, xôi sáng tại quán bản",
+        "price": "15.000-30.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Bản Ngải Thầu",
+        "desc": "Bản Hmong với ruộng bậc thang đẹp nhất",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Rừng già Y Tý",
+        "desc": "Trekking rừng nguyên sinh cổ thụ",
+        "price": "50.000-150.000 VND"
+      },
+      {
+        "name": "Bản Lao Chải (Y Tý)",
+        "desc": "Bản người Hà Nhì truyền thống",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Đường đi Lũng Pô",
+        "desc": "Cung đường biên giới view đẹp",
+        "price": "Miễn phí"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Thắng cố Y Tý",
+        "desc": "Thắng cố truyền thống tại quán bản",
+        "price": "30.000-60.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn biển mây Y Tý",
+        "desc": "Sunset trên biển mây hùng vĩ",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Trà thảo mộc Y Tý",
+        "desc": "Uống trà lá rừng tại homestay",
+        "price": "10.000-30.000 VND"
+      },
+      {
+        "name": "Homestay Hà Nhì Y Tý",
+        "desc": "Ở nhà trình tường, trải nghiệm văn hóa",
+        "price": "150.000-300.000 VND/đêm"
+      }
+    ],
+    "night": [
+      {
+        "name": "Cơm gà đen Y Tý",
+        "desc": "Gà đen bản địa nướng than",
+        "price": "100.000-200.000 VND"
+      },
+      {
+        "name": "Rượu ngô Y Tý",
+        "desc": "Rượu ngô bên bếp lửa nhà trình tường",
+        "price": "20.000-50.000 VND"
+      },
+      {
+        "name": "Đốt lửa trại bản A Lù",
+        "desc": "Lửa trại với người Hà Nhì",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Ngắm sao đêm Y Tý",
+        "desc": "Milky way rõ nét tại vùng biên giới",
+        "price": "Miễn phí"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Biển mây Y Tý",
+        "type": "nature",
+        "vibe": "sea of clouds biên giới",
+        "tiktok": true
+      },
+      {
+        "name": "Nhà trình tường Hà Nhì",
+        "type": "culture",
+        "vibe": "kiến trúc đất cổ xưa",
+        "tiktok": true
+      },
+      {
+        "name": "Ruộng bậc thang Y Tý",
+        "type": "scenic",
+        "vibe": "ruộng hoang sơ nhất Tây Bắc",
+        "tiktok": true
+      }
+    ]
+  },
+  "Hoang Su Phi": {
+    "morning": [
+      {
+        "name": "Ruộng bậc thang Thông Nguyên",
+        "desc": "Ruộng bậc thang di sản quốc gia đẹp nhất",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bản Luốc",
+        "desc": "Bản Hmong với ruộng bậc thang quanh làng",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bản Phùng",
+        "desc": "Ruộng bậc thang bản Phùng hoang sơ",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Chợ phiên Hoàng Su Phì",
+        "desc": "Chợ phiên vùng cao, phở ngựa, thắng cố",
+        "price": "20.000-50.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Bản Thái An",
+        "desc": "Ruộng bậc thang đẹp view thung lũng",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bản Nậm Ty",
+        "desc": "Bản người La Chí với nhà sàn đặc trưng",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Trekking Chiêu Lầu Thi",
+        "desc": "Chinh phục đỉnh núi cao nhất Hoàng Su Phì",
+        "price": "200.000-400.000 VND (guide)"
+      },
+      {
+        "name": "Bản Hồ Thầu",
+        "desc": "Bản người Dao yên tĩnh, view đẹp",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Thác Bản Vược",
+        "desc": "Thác nước đẹp trong rừng nguyên sinh",
+        "price": "Miễn phí"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Cơm lam gà bản Hoàng Su Phì",
+        "desc": "Cơm lam với gà đồi tại homestay",
+        "price": "80.000-150.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn ruộng bậc thang",
+        "desc": "Sunset vàng trên ruộng bậc thang mùa lúa chín",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Trà Shan Tuyết cổ thụ",
+        "desc": "Trà Shan Tuyết từ cây trăm tuổi",
+        "price": "20.000-50.000 VND"
+      },
+      {
+        "name": "Chợ chiều Hoàng Su Phì",
+        "desc": "Mua thổ cẩm, mật ong rừng",
+        "price": "Tùy mua"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Hoàng Su Phì Town",
+        "desc": "Các món vùng cao: thắng cố, lợn cắp nách",
+        "price": "100.000-250.000 VND"
+      },
+      {
+        "name": "Rượu thóc Hoàng Su Phì",
+        "desc": "Rượu thóc ủ truyền thống bên bếp lửa",
+        "price": "30.000-60.000 VND"
+      },
+      {
+        "name": "Homestay Bản Luốc",
+        "desc": "Ở nhà sàn Hmong, cơm gia đình",
+        "price": "200.000-350.000 VND"
+      },
+      {
+        "name": "Ngắm sao đêm Hoàng Su Phì",
+        "desc": "Bầu trời sao đẹp giữa núi rừng",
+        "price": "Miễn phí"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Ruộng bậc thang Hoàng Su Phì",
+        "type": "heritage",
+        "vibe": "di sản ruộng bậc thang quốc gia",
+        "tiktok": true
+      },
+      {
+        "name": "Bản Phùng",
+        "type": "village",
+        "vibe": "ruộng bậc thang hoang sơ nhất",
+        "tiktok": true
+      },
+      {
+        "name": "Đỉnh Chiêu Lầu Thi",
+        "type": "trekking",
+        "vibe": "đỉnh núi săn mây",
+        "tiktok": true
+      }
+    ]
+  },
+  "Binh Hung": {
+    "morning": [
+      {
+        "name": "Bãi Kinh",
+        "desc": "Bãi biển đẹp nhất Bình Hưng, nước xanh trong",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bãi Bồ Đề",
+        "desc": "Bãi đá tự nhiên với nước biển trong veo",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán bún cá Bình Hưng",
+        "desc": "Ăn sáng bún cá tươi tại đảo",
+        "price": "25.000-40.000 VND"
+      },
+      {
+        "name": "Lặn ngắm san hô Bình Hưng",
+        "desc": "Snorkeling tại vùng biển trong nhất",
+        "price": "150.000-300.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Hòn Chút",
+        "desc": "Đảo nhỏ gần Bình Hưng, bơi và picnic",
+        "price": "50.000-100.000 VND"
+      },
+      {
+        "name": "Mũi Bình Hưng",
+        "desc": "Mũi đất view biển panorama, check-in đẹp",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bãi đá Egg Bình Hưng",
+        "desc": "Bãi đá tròn hình trứng tự nhiên độc đáo",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Tắm biển Bãi Kinh",
+        "desc": "Bơi trong nước xanh ngọc trong veo",
+        "price": "Miễn phí"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Quán hải sản Bình Hưng",
+        "desc": "Hải sản tươi sống giá rẻ trên đảo",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn Bình Hưng",
+        "desc": "Sunset tại mũi đất phía tây đảo",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán café đảo Bình Hưng",
+        "desc": "Cà phê và nước dừa view biển",
+        "price": "20.000-50.000 VND"
+      },
+      {
+        "name": "Cầu cảng Bình Hưng chiều",
+        "desc": "Dạo bộ ngắm cảng cá vào lúc sunset",
+        "price": "Miễn phí"
+      }
+    ],
+    "night": [
+      {
+        "name": "BBQ hải sản Bình Hưng",
+        "desc": "Nướng hải sản tự mua trên bãi biển",
+        "price": "150.000-400.000 VND"
+      },
+      {
+        "name": "Cắm trại đêm Bãi Kinh",
+        "desc": "Camping bãi biển dưới trời sao",
+        "price": "100.000-200.000 VND"
+      },
+      {
+        "name": "Câu cá đêm Bình Hưng",
+        "desc": "Câu cá và mực tại cầu cảng đêm",
+        "price": "50.000-150.000 VND"
+      },
+      {
+        "name": "Ngắm sao Bình Hưng",
+        "desc": "Đảo nhỏ ít ánh đèn, sao đầy trời",
+        "price": "Miễn phí"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Nước biển Bình Hưng",
+        "type": "scenic",
+        "vibe": "nước trong nhất miền Trung",
+        "tiktok": true
+      },
+      {
+        "name": "Bãi đá Egg",
+        "type": "nature",
+        "vibe": "đá tròn hình trứng unique",
+        "tiktok": true
+      },
+      {
+        "name": "Cắm trại Bình Hưng",
+        "type": "camping",
+        "vibe": "camping đảo hoang vibes",
+        "tiktok": true
+      }
+    ]
+  },
+  "Hon Thom": {
+    "morning": [
+      {
+        "name": "Cáp treo Hòn Thơm",
+        "desc": "Cáp treo vượt biển dài nhất thế giới 7.9km",
+        "price": "Vé trọn gói 500.000-750.000 VND"
+      },
+      {
+        "name": "Bãi biển Hòn Thơm",
+        "desc": "Bãi biển cát trắng mịn dưới chân cáp treo",
+        "price": "Trong vé trọn gói"
+      },
+      {
+        "name": "Aquatopia Water Park",
+        "desc": "Công viên nước chủ đề lớn nhất Phú Quốc",
+        "price": "Trong vé trọn gói"
+      },
+      {
+        "name": "Quán ăn sáng Sun World",
+        "desc": "Ăn sáng tại khu ẩm thực Sun World",
+        "price": "50.000-100.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Bãi Sao (gần Hòn Thơm)",
+        "desc": "Bãi biển đẹp nhất Phú Quốc, cát trắng mịn",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Lặn biển Hòn Thơm",
+        "desc": "Snorkeling ngắm san hô quanh đảo",
+        "price": "200.000-400.000 VND"
+      },
+      {
+        "name": "Đảo Hòn Dăm",
+        "desc": "Đảo nhỏ gần Hòn Thơm, lặn biển đẹp",
+        "price": "200.000-350.000 VND"
+      },
+      {
+        "name": "Exotica Game Zone",
+        "desc": "Khu trò chơi mạo hiểm tại Sun World",
+        "price": "Trong vé trọn gói"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Sunset trên cáp treo",
+        "desc": "Ngắm hoàng hôn từ cabin cáp treo vượt biển",
+        "price": "Trong vé trọn gói"
+      },
+      {
+        "name": "Nhà hàng Hòn Thơm Sun World",
+        "desc": "Ẩm thực Việt và quốc tế view biển",
+        "price": "150.000-400.000 VND"
+      },
+      {
+        "name": "Beach Bar Hòn Thơm",
+        "desc": "Cocktail ngắm hoàng hôn trên bãi biển",
+        "price": "80.000-200.000 VND"
+      },
+      {
+        "name": "Show nhạc nước Sun World",
+        "desc": "Trình diễn nhạc nước buổi tối",
+        "price": "Trong vé trọn gói"
+      }
+    ],
+    "night": [
+      {
+        "name": "Sunset Town (An Thới)",
+        "desc": "Phố Địa Trung Hải với nhà hàng, bar",
+        "price": "Miễn phí (ăn uống tùy)"
+      },
+      {
+        "name": "Kiss Bridge",
+        "desc": "Cầu Hôn biểu tượng mới Phú Quốc, đẹp ban đêm",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Nhà hàng hải sản An Thới",
+        "desc": "Hải sản tươi tại cảng An Thới",
+        "price": "200.000-500.000 VND"
+      },
+      {
+        "name": "Show Vortex Hòn Thơm",
+        "desc": "Show nghệ thuật multimedia tại Sun World",
+        "price": "Trong vé trọn gói"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Cáp treo Hòn Thơm",
+        "type": "experience",
+        "vibe": "cáp treo vượt biển longest",
+        "tiktok": true
+      },
+      {
+        "name": "Aquatopia",
+        "type": "entertainment",
+        "vibe": "waterpark biển đảo",
+        "tiktok": true
+      },
+      {
+        "name": "Kiss Bridge",
+        "type": "landmark",
+        "vibe": "cầu hôn iconic mới",
+        "tiktok": true
+      }
+    ]
+  },
+  "Lac Duong": {
+    "morning": [
+      {
+        "name": "Đỉnh Langbiang",
+        "desc": "Chinh phục đỉnh Lang Biang 2167m, view Đà Lạt",
+        "price": "50.000 VND (xe jeep 300.000 VND)"
+      },
+      {
+        "name": "Làng Cù Lần",
+        "desc": "Làng dân tộc K'Ho trong rừng nguyên sinh",
+        "price": "50.000 VND"
+      },
+      {
+        "name": "Cà phê sáng LangFarm Lạc Dương",
+        "desc": "Cà phê và mứt dâu buổi sáng",
+        "price": "30.000-60.000 VND"
+      },
+      {
+        "name": "Vườn dâu tây Lạc Dương",
+        "desc": "Hái dâu tây tươi tại vườn",
+        "price": "100.000-200.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Thác K'Long K'Lanh",
+        "desc": "Thác nước giữa rừng thông, nước mát lạnh",
+        "price": "20.000 VND"
+      },
+      {
+        "name": "Hồ Suối Vàng (Dankia)",
+        "desc": "Hồ nước giữa rừng thông, cắm trại picnic",
+        "price": "20.000 VND"
+      },
+      {
+        "name": "Đồi cỏ hồng Lạc Dương",
+        "desc": "Cánh đồng cỏ hồng mùa tháng 11-12",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Làng K'Ho Lạc Dương",
+        "desc": "Bản dân tộc K'Ho, trải nghiệm cồng chiêng",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Rừng thông Lạc Dương",
+        "desc": "Rừng thông cổ thụ ven hồ Dankia",
+        "price": "Miễn phí"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Nhà hàng gà nướng Lạc Dương",
+        "desc": "Gà bản K'Ho nướng than hoa",
+        "price": "150.000-300.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn hồ Dankia",
+        "desc": "Sunset trên hồ giữa rừng thông",
+        "price": "20.000 VND"
+      },
+      {
+        "name": "Quán café view đồi thông",
+        "desc": "Cà phê giữa rừng thông Lạc Dương",
+        "price": "30.000-60.000 VND"
+      },
+      {
+        "name": "Chợ Lạc Dương",
+        "desc": "Chợ chiều mua rau hoa Đà Lạt giá rẻ",
+        "price": "Tùy mua"
+      }
+    ],
+    "night": [
+      {
+        "name": "Lẩu gà lá é Lạc Dương",
+        "desc": "Lẩu gà với lá é thơm đặc trưng Đà Lạt",
+        "price": "200.000-400.000 VND"
+      },
+      {
+        "name": "Cắm trại đêm hồ Dankia",
+        "desc": "Camping ven hồ giữa rừng thông",
+        "price": "100.000-200.000 VND"
+      },
+      {
+        "name": "Rượu cần K'Ho",
+        "desc": "Uống rượu cần bên bếp lửa nhà dài",
+        "price": "50.000-100.000 VND"
+      },
+      {
+        "name": "Ngắm sao đêm Langbiang",
+        "desc": "Bầu trời sao tại chân núi Langbiang",
+        "price": "Miễn phí"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Đỉnh Langbiang",
+        "type": "trekking",
+        "vibe": "đỉnh núi huyền thoại tình yêu",
+        "tiktok": true
+      },
+      {
+        "name": "Đồi cỏ hồng",
+        "type": "seasonal",
+        "vibe": "pink grass dreamland",
+        "tiktok": true
+      },
+      {
+        "name": "Làng Cù Lần",
+        "type": "culture",
+        "vibe": "hidden village in forest",
+        "tiktok": true
+      }
+    ]
+  },
+  "Diep Son": {
+    "morning": [
+      {
+        "name": "Con đường dưới biển Điệp Sơn",
+        "desc": "Đường đi bộ giữa biển nổi lúc thủy triều rút",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bãi biển Điệp Sơn 1",
+        "desc": "Bãi biển tại đảo Điệp Sơn thứ nhất",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Bãi biển Điệp Sơn 2",
+        "desc": "Bãi biển đảo thứ hai, yên tĩnh hơn",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán ăn sáng đảo Điệp Sơn",
+        "desc": "Cơm sáng đơn giản tại homestay đảo",
+        "price": "25.000-50.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Lặn ngắm san hô Điệp Sơn",
+        "desc": "Snorkeling quanh đảo, san hô đẹp",
+        "price": "150.000-300.000 VND"
+      },
+      {
+        "name": "Đảo Điệp Sơn 3",
+        "desc": "Đảo thứ ba hoang sơ nhất, ít du khách",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Trekking lên đồi Điệp Sơn",
+        "desc": "Leo đồi ngắm toàn cảnh 3 đảo và con đường biển",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Câu cá Điệp Sơn",
+        "desc": "Câu cá ven đảo, tự bắt tự nướng",
+        "price": "50.000-100.000 VND"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Hải sản nướng Điệp Sơn",
+        "desc": "Hải sản tươi nướng tại homestay trên đảo",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Ngắm hoàng hôn con đường biển",
+        "desc": "Sunset trên con đường giữa biển iconic",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Quán nhỏ trên đảo Điệp Sơn",
+        "desc": "Đồ uống và snack tại quán nhỏ",
+        "price": "20.000-50.000 VND"
+      },
+      {
+        "name": "Dạo bộ ven đảo",
+        "desc": "Đi bộ quanh đảo nhỏ lúc chiều",
+        "price": "Miễn phí"
+      }
+    ],
+    "night": [
+      {
+        "name": "BBQ hải sản đêm Điệp Sơn",
+        "desc": "Nướng hải sản trên bãi biển ban đêm",
+        "price": "150.000-350.000 VND"
+      },
+      {
+        "name": "Cắm trại đêm Điệp Sơn",
+        "desc": "Camping trên bãi biển đảo hoang",
+        "price": "100.000-200.000 VND"
+      },
+      {
+        "name": "Ngắm sao đêm Điệp Sơn",
+        "desc": "Đảo không điện lưới, sao cực đẹp",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Đốt lửa trại bãi biển",
+        "desc": "Lửa trại và guitar đêm trên đảo",
+        "price": "Miễn phí"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Con đường dưới biển",
+        "type": "nature",
+        "vibe": "walking on water, Moses road",
+        "tiktok": true
+      },
+      {
+        "name": "3 đảo Điệp Sơn",
+        "type": "island",
+        "vibe": "island hopping hoang sơ",
+        "tiktok": true
+      },
+      {
+        "name": "Camping đảo Điệp Sơn",
+        "type": "camping",
+        "vibe": "đảo hoang camping no WiFi",
+        "tiktok": true
+      }
+    ]
+  },
+  "Sam Son": {
+    "morning": [
+      {
+        "name": "Bãi biển Sầm Sơn",
+        "desc": "Bãi biển dài 6km, sóng lớn, đông vui",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Núi Trường Lệ",
+        "desc": "Leo núi Trường Lệ ngắm toàn cảnh biển",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Đền Độc Cước",
+        "desc": "Đền cổ trên đỉnh núi đá view biển",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Chợ hải sản Sầm Sơn",
+        "desc": "Ăn sáng và mua hải sản tươi sống",
+        "price": "30.000-80.000 VND"
+      }
+    ],
+    "afternoon": [
+      {
+        "name": "Hòn Trống Mái",
+        "desc": "Hai hòn đá chồng lên nhau biểu tượng Sầm Sơn",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Đền Tô Hiệu",
+        "desc": "Đền thờ trên núi Trường Lệ, di tích lịch sử",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "FLC Sầm Sơn Beach & Golf",
+        "desc": "Khu resort 5 sao với sân golf và bãi biển riêng",
+        "price": "500.000-1.500.000 VND"
+      },
+      {
+        "name": "Quảng trường biển Sầm Sơn",
+        "desc": "Quảng trường mới với nhạc nước, dạo bộ",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Chùa Cô Tiên",
+        "desc": "Chùa trên núi Trường Lệ, cổ kính thanh tịnh",
+        "price": "Miễn phí"
+      }
+    ],
+    "evening": [
+      {
+        "name": "Quán hải sản Long Vân",
+        "desc": "Nhà hàng hải sản nổi tiếng nhất Sầm Sơn",
+        "price": "150.000-400.000 VND"
+      },
+      {
+        "name": "Sunset bãi biển Sầm Sơn",
+        "desc": "Hoàng hôn trên biển, sóng vàng",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Phố đi bộ Sầm Sơn",
+        "desc": "Phố đi bộ ven biển sôi động buổi tối",
+        "price": "Miễn phí"
+      },
+      {
+        "name": "Chợ đêm Sầm Sơn",
+        "desc": "Chợ đêm ven biển, ăn vặt, đồ hải sản",
+        "price": "30.000-100.000 VND"
+      }
+    ],
+    "night": [
+      {
+        "name": "Nhà hàng Bảo Ngọc Sầm Sơn",
+        "desc": "Hải sản nướng và lẩu ven biển",
+        "price": "200.000-500.000 VND"
+      },
+      {
+        "name": "Bia hơi Sầm Sơn",
+        "desc": "Bia hơi và hải sản tại quán nhậu ven biển",
+        "price": "50.000-200.000 VND"
+      },
+      {
+        "name": "Karaoke biển Sầm Sơn",
+        "desc": "Karaoke view biển, vui nhộn nhóm bạn",
+        "price": "100.000-300.000 VND"
+      },
+      {
+        "name": "Quảng trường nhạc nước đêm",
+        "desc": "Show nhạc nước tại quảng trường biển",
+        "price": "Miễn phí"
+      }
+    ],
+    "trending": [
+      {
+        "name": "Quảng trường biển mới",
+        "type": "landmark",
+        "vibe": "quảng trường biển hiện đại",
+        "tiktok": true
+      },
+      {
+        "name": "Hòn Trống Mái",
+        "type": "nature",
+        "vibe": "đá biểu tượng tình yêu",
+        "tiktok": true
+      },
+      {
+        "name": "Đền Độc Cước",
+        "type": "heritage",
+        "vibe": "đền trên đỉnh đá view biển",
+        "tiktok": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "metadata": {
+    "destination": "Đà Lạt",
+    "description": "Knowledge base địa điểm Đà Lạt tổng hợp từ lịch trình thực tế và danh sách địa điểm",
+    "version": "1.1",
+    "source": "Lịch trình 3 ngày thực tế + danh sách địa điểm local",
+    "trending_keywords": ["Tháp Vinaphone", "tắm nước nóng Đankia", "Đà Lạt 2026", "check in Đà Lạt"]
+  },
+
+  "itinerary": {
+    "day_1": {
+      "title": "Ngày 1 - Đến nơi & Khám phá",
+      "morning": [
+        {
+          "time": "6:30",
+          "activity": "Homestay nhận phòng",
+          "name": "Homestay Mộc",
+          "address": "Hẻm 59 Đồng Đa, Phường 3, Tp Đà Lạt",
+          "type": "accommodation"
+        },
+        {
+          "time": "7:30",
+          "activity": "Ăn sáng",
+          "name": "Bánh ướt lòng gà Long",
+          "address": "202/2/5 Phan Đình Phùng",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            { "name": "Song Hân", "address": "1 ngõ Yên Bình (dưới chung cư Mạc Đĩnh Chi)" },
+            { "name": "Hàng bánh ướt", "address": "142 Nguyễn Công Trứ (4.3km)" },
+            { "name": "Hàng bánh ướt", "address": "39 Đồng Tâm, Đà Lạt (4.4km)" }
+          ]
+        },
+        {
+          "time": "8:15 - 12:00",
+          "activity": "Tham quan",
+          "name": "Puppy Farm",
+          "address": "Cam Ly, Măng Lin, Đà Lạt",
+          "type": "attraction",
+          "note": "Mongo Land - Tổ 16 Thôn 1 - Tà Nung (alternative)"
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "12:30",
+          "activity": "Ăn trưa + mua hồng trà",
+          "name": "Tiệm cơm Gánh",
+          "address": "77Bis Ba Tháng Hai, Phường 1, Đà Lạt (4km)",
+          "type": "food",
+          "category": "lunch",
+          "alternatives": [
+            { "name": "Hồng trà Hòa Bình", "address": "Khu Hoà Bình, Phường 1, Đà Lạt, Lâm Đồng (cách 800m tiệm cơm Gánh)" },
+            { "name": "Cơm tấm Lão Trư", "address": "32 Trần Phú, P3 (3.2km)" },
+            { "name": "Cơm tấm Mê Li", "address": "Hẻm 288 Bùi Thị Xuân, P2 (5.4km)" },
+            { "name": "Tiệm cơm niêu 3 mẹ con", "address": "1C Hoàng Hoa Thám (5km)" }
+          ],
+          "tip": "Ghé mua hồng trà xong ghé quán cơm ăn luôn"
+        },
+        {
+          "time": "14:00",
+          "activity": "Check in",
+          "name": "Homestay Mộc",
+          "address": "Hẻm 59 Đồng Đa, Phường 3, Tp Đà Lạt",
+          "type": "accommodation"
+        },
+        {
+          "time": "17:30 - 19:30",
+          "activity": "Ăn tối BBQ",
+          "name": "Mộc BBQ",
+          "address": "Hẻm 59 Đồng Đa, Phường 3, Tp Đà Lạt",
+          "type": "food",
+          "category": "dinner"
+        }
+      ],
+      "evening": [
+        {
+          "time": "20:00",
+          "activity": "Dạo chợ đêm",
+          "places": [
+            { "name": "Chợ đêm Đà Lạt", "address": "Ăn vặt ở chợ đêm luôn cho tiện", "type": "market" },
+            { "name": "Quảng trường Lâm Viên", "address": "Đà Lạt", "type": "landmark" },
+            { "name": "Đường Nguyễn Thị Minh Khai", "address": "Phường 1, Đà Lạt, Lâm Đồng", "type": "street" }
+          ],
+          "alternatives": [
+            { "name": "Chang Vang Coffee", "address": "119 Huỳnh Tấn Phát, P11, Đà Lạt", "type": "cafe" }
+          ]
+        }
+      ]
+    },
+
+    "day_2": {
+      "title": "Ngày 2 - Săn mây & Cà phê view đẹp",
+      "morning": [
+        {
+          "time": "4:00 - 10:00",
+          "activity": "Săn mây",
+          "places": [
+            { "name": "Cầu Gỗ Bình Minh", "note": "Hot trend hiện nay", "type": "attraction" },
+            { "name": "Checkin Cánh Quạt Gió Không Lơ", "type": "attraction" },
+            { "name": "Checkin Đồi Hoa Hồng Treo Gió", "type": "attraction" },
+            { "name": "Vườn Hoa Tiên Đậu", "type": "attraction" },
+            { "name": "Vườn Hoa Dây Chuyền Nhật", "type": "attraction" }
+          ],
+          "cafe_options": [
+            { "name": "Nhà Bên Suối", "address": "4/18 Trúc Lâm Yên Tử, P3", "type": "cafe" },
+            { "name": "Happy Hill", "address": "Cuối đường Hoa Phượng Tím, hồ Tuyền Lâm, Đà Lạt", "type": "cafe" }
+          ],
+          "breakfast_options": [
+            { "name": "Bánh căn cô Lệ", "address": "27/44 Yersin", "type": "food", "category": "breakfast" }
+          ]
+        },
+        {
+          "time": "11:00",
+          "activity": "Ăn trưa",
+          "options": [
+            { "name": "Nem nướng Tân Long", "address": "290 Bùi Thị Xuân", "type": "food", "category": "lunch" },
+            { "name": "Bún đậu Phố Cổ", "address": "144 Phan Đình Phùng", "type": "food", "category": "lunch" },
+            { "name": "Mì nấm Shiitake", "address": "16 Triệu Việt Vương", "type": "food", "category": "lunch" },
+            { "name": "Nhà bán lẩu", "address": "279/9/2 Phan Đình Phùng", "type": "food", "category": "lunch" }
+          ]
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "14:30 - 17:00",
+          "activity": "Đi cafe",
+          "options": [
+            { "name": "Nhà Bên Suối", "address": "4/18 Trúc Lâm Yên Tử, P3", "type": "cafe" },
+            { "name": "Cheo Veo", "address": "Hẻm Dã Chiến, 116 Hùng Vương, P11", "type": "cafe" },
+            { "name": "Nắng Xanh", "address": "116 Hùng Vương, P11", "type": "cafe" }
+          ],
+          "alternatives": [
+            { "name": "Tàu lửa (16h00)", "address": "117 Huỳnh Tấn Phát", "type": "attraction" },
+            { "name": "Đập hồ Ankroet", "type": "attraction" },
+            { "name": "Đồi Măng Lin", "type": "attraction" },
+            { "name": "Hongkong bên hông chợ", "type": "attraction" },
+            { "name": "Hồ Xuân Hương", "type": "attraction" }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "time": "19:30",
+          "activity": "Ăn tối",
+          "options": [
+            { "name": "Lẩu gà lá é Tao Ngộ", "address": "Đường Phù Đổng Thiên Vương", "type": "food", "category": "dinner" },
+            { "name": "Tiệm nướng Trạm Dừng Chill", "address": "111 Huỳnh Tấn Phát, P11", "type": "food", "category": "dinner" },
+            { "name": "Lẩu ghẹ Kim Chi", "address": "20 Thi Sách", "type": "food", "category": "dinner" },
+            { "name": "Nhà hàng Túi Mơ To", "address": "Hẻm 31 Sào Nam", "type": "food", "category": "dinner" }
+          ]
+        },
+        {
+          "time": "20:30 - 22:00",
+          "activity": "Tụ tập - check in xóm Lèo",
+          "name": "Xóm Lèo",
+          "note": "Ngắm view nhà lồng (có thể mua đồ ăn vặt mang theo)",
+          "type": "attraction"
+        },
+        {
+          "time": "22:00 - 23:30",
+          "activity": "Đi dạo ăn vặt",
+          "options": [
+            { "name": "Bánh tráng nướng", "address": "46 Nguyễn Văn Trỗi", "type": "food", "category": "snack" },
+            { "name": "Sữa kem Brazil", "address": "09 Khu Hòa Bình", "type": "food", "category": "snack" }
+          ]
+        }
+      ]
+    },
+
+    "day_3": {
+      "title": "Ngày 3 - Check thêm điểm & Ra về",
+      "morning": [
+        {
+          "time": "8:30 - 9:00",
+          "activity": "Ăn sáng",
+          "name": "Bánh căn cô Lệ",
+          "address": "27/44 Yersin",
+          "type": "food",
+          "category": "breakfast",
+          "alternatives": [
+            { "name": "Bánh cuốn nóng", "address": "12 Nguyễn Lương Bằng" }
+          ]
+        },
+        {
+          "time": "9:30 - 12:00",
+          "activity": "Check in chụp hình điểm free",
+          "places": [
+            { "name": "Hồ Xuân Hương", "type": "attraction" },
+            { "name": "Hongkong bên hông chợ Đà Lạt", "type": "attraction" },
+            { "name": "Đồi Măng Lin", "type": "attraction" },
+            { "name": "Đập Ankroet", "type": "attraction" }
+          ]
+        }
+      ],
+      "afternoon": [
+        {
+          "time": "14:30 - 15:00",
+          "activity": "Uống tà tưa",
+          "name": "Shancha",
+          "address": "54 Lê Văn Tám",
+          "type": "cafe"
+        },
+        {
+          "time": "15:00 - 17:30",
+          "activity": "Checkin những điểm chưa đi",
+          "places": [
+            { "name": "Đường Đồng Đa", "type": "street" },
+            { "name": "Dốc sương Nguyệt Ánh", "type": "attraction" },
+            { "name": "Cung đường Nguyễn Khuyến", "type": "attraction" }
+          ]
+        },
+        {
+          "time": "17:30",
+          "activity": "Ăn tối",
+          "options": [
+            { "name": "Chén đúc nóng", "address": "Hẻm 1/15 Nguyễn Đình Chiểu", "type": "food", "category": "dinner" },
+            { "name": "Hủ tiếu mực ông Diệm", "address": "14 Bà Triệu", "type": "food", "category": "dinner" },
+            { "name": "Bánh bèo bà Hường", "address": "402 Phan Đình Phùng", "type": "food", "category": "dinner" }
+          ]
+        }
+      ],
+      "evening": [
+        {
+          "time": "18:30 - 19:30",
+          "activity": "Mua quà",
+          "places": [
+            { "name": "Đường Nguyễn Văn Trỗi", "type": "shopping" },
+            { "name": "Langfarm", "type": "shopping" }
+          ]
+        },
+        {
+          "time": "19:30",
+          "activity": "Dạo ăn vặt",
+          "options": [
+            { "name": "Kem bơ Phụng", "address": "97A Nguyễn Văn Trỗi", "type": "food", "category": "snack" },
+            { "name": "Kimi bánh bông lan trứng nướng", "address": "21 Nguyễn Văn Trỗi", "type": "food", "category": "snack" },
+            { "name": "Kem bơ Nari", "address": "Nguyễn Văn Trỗi", "type": "food", "category": "snack" },
+            { "name": "Bánh tráng nướng Cô Hiệp", "address": "337 Hai Bà Trưng", "type": "food", "category": "snack" },
+            { "name": "The Umee", "address": "227 Hai Bà Trưng", "type": "food", "category": "snack" }
+          ]
+        },
+        {
+          "time": "20:00",
+          "activity": "Checkin xóm Lèo",
+          "name": "Xóm Lèo",
+          "type": "attraction"
+        }
+      ]
+    }
+  },
+
+  "places_directory": {
+
+    "food": {
+
+      "banh_canh_xiu_mai": {
+        "category": "Bánh canh - Xíu mại",
+        "places": [
+          { "name": "Bánh canh xíu mại", "address": "20 Áp Ánh Sáng" },
+          { "name": "Bánh canh xíu mại", "address": "71 Nguyễn An Ninh" },
+          { "name": "Bánh canh xíu mại", "address": "41 Yết Kiêu" },
+          { "name": "Bánh canh xíu mại", "address": "1C Hoàng Hoa Thám, Phường 10, Đà Lạt" },
+          { "name": "Bánh canh xíu mại", "address": "22 Bà Triệu, Phường 1, Đà Lạt" },
+          { "name": "Bánh canh xíu mại", "address": "27/44 Yersin, Phường 10, Đà Lạt" }
+        ]
+      },
+
+      "mi_quang": {
+        "category": "Mì Quảng",
+        "places": [
+          { "name": "Mì quảng", "address": "90 Nguyễn An Ninh" },
+          { "name": "Mì quảng", "address": "44 Nguyễn Lương Bằng, P2" },
+          { "name": "Mì quảng", "address": "24 Hoàng Diệu, Phường 5" },
+          { "name": "Mì quảng", "address": "26/4 Lê Văn Tám, Đà Lạt" },
+          { "name": "Mì quảng", "address": "14 Yersin, Đà Lạt" }
+        ]
+      },
+
+      "bun_mi": {
+        "category": "Bún / Mì",
+        "places": [
+          { "name": "Bún bò Huế Ty", "address": "56/4 Hải Thượng, Đà Lạt" },
+          { "name": "Bún bò Dần", "address": "195/6 Phan Đình Phùng, Đà Lạt" },
+          { "name": "Bún bò O Xuân", "address": "149 Nguyễn Công Trứ, Đà Lạt" },
+          { "name": "Bún cá dầm Cô Dung", "address": "15 Trần Hưng Đạo, Đà Lạt" },
+          { "name": "Mì sườn xá xíu", "address": "71 Yersin, Phường 10, Đà Lạt" },
+          { "name": "Mì nấm Shiitake", "address": "67 Triệu Việt Vương, Đà Lạt" },
+          { "name": "Tiệm mì Chisai", "address": "33/72 Nguyễn Công Trứ, Phường 8, Đà Lạt" },
+          { "name": "Khap Bun Kha", "address": "26 Nguyễn Văn Cừ, Phường 1, Đà Lạt" }
+        ]
+      },
+
+      "banh_trang_nuong_an_vat": {
+        "category": "Bánh tráng nướng - Ăn vặt",
+        "places": [
+          { "name": "Bánh tráng nướng Dì Đình", "address": "26 Hoàng Diệu, Phường 5, Đà Lạt" },
+          { "name": "Bánh tráng nướng Cô Lũng", "address": "41 Bùi Thị Xuân, Phường 2, Đà Lạt" },
+          { "name": "Bánh tráng nướng lòng đào Cô Hạnh", "address": "Nguyễn Công Trứ, Đà Lạt" },
+          { "name": "Bánh tráng nướng Hia Le", "address": "Hẻm 12C Triệu Việt Vương, Đà Lạt" },
+          { "name": "Sữa đậu nành Dung Béo", "address": "Đà Lạt" },
+          { "name": "Sữa Kem Brazil", "address": "9 Khu Hoà Bình, Đà Lạt" },
+          { "name": "Chân gà Quái Thú", "address": "16B Hoàng Văn Thụ, Phường 4" },
+          { "name": "Atispho", "address": "20 Phạm Hồng Thái, Phường 10" }
+        ]
+      },
+
+      "banh_cuon_banh_uot_banh_beo": {
+        "category": "Bánh cuốn / Bánh ướt / Bánh bèo",
+        "places": [
+          { "name": "Bánh ướt lòng gà Long", "address": "202/2/5 Phan Đình Phùng" },
+          { "name": "Bánh bèo Bà Hường", "address": "402 Phan Đình Phùng, Phường 2, Đà Lạt" },
+          { "name": "Bánh cuốn Ông Sỹ", "address": "2 Trần Quý Cáp, Đà Lạt" },
+          { "name": "Bánh cuốn Cô Hoá", "address": "12 Nguyễn Lương Bằng, Đà Lạt" },
+          { "name": "Bánh cuốn thủ công OOfh", "address": "93 Hai Bà Trưng – Kiot 9 Nguyễn Đình Chiểu" }
+        ]
+      },
+
+      "nuong_bbq": {
+        "category": "Nướng - BBQ",
+        "places": [
+          { "name": "Quán nướng Cu Đức", "address": "Đà Lạt" },
+          { "name": "Tiệm nướng Mậu Dịch", "address": "Đà Lạt" },
+          { "name": "Chiếc Rương BBQ", "address": "Đà Lạt" },
+          { "name": "Ungi Chingu", "address": "Đà Lạt" },
+          { "name": "Pineta BBQ", "address": "Đà Lạt" },
+          { "name": "Túi Nướng Lavender", "address": "17/6 Hẻm 17 Nguyễn Trãi, Phường 10, Đà Lạt" },
+          { "name": "Gà nướng cơm lam Lửa Hồng", "address": "2 Trần Hưng Đạo, Đà Lạt" },
+          { "name": "Chuyến Tàu Hoàng Hôn BBQ", "address": "Thửa 472, TBĐ 72B, Huỳnh Tấn Phát, Phường 11" }
+        ]
+      },
+
+      "specialty": {
+        "category": "Món đặc trưng Đà Lạt",
+        "places": [
+          { "name": "Canelés Đà Lạt", "address": "Đà Lạt", "note": "Since 2020, đặc sản bánh Pháp", "type": "bakery" },
+          { "name": "Cái cốc mẻ", "address": "Đà Lạt", "note": "Bánh flan + thạch cổ truyền", "type": "dessert" },
+          { "name": "Kem bơ Phụng", "address": "97A Nguyễn Văn Trỗi", "type": "dessert" },
+          { "name": "Kem bơ Nari", "address": "Nguyễn Văn Trỗi", "type": "dessert" }
+        ]
+      }
+    },
+
+    "cafe": {
+      "category": "Quán cà phê",
+      "places": [
+        { "name": "Tiệm cà phê Túi mơ to", "address": "Hẻm 31 Sào Nam, Phường 11, Đà Lạt" },
+        { "name": "Cheo Veo Cafe", "address": "Hẻm Dã Chiến, 116 Hùng Vương, Đà Lạt" },
+        { "name": "Lưng Chừng Cafe", "address": "Hẻm 31/8, đường 3/4, Đà Lạt" },
+        { "name": "Nắng thuỷ tinh", "address": "Quốc lộ 20, cầu suối đục" },
+        { "name": "Tiệm cà phê Cheo veoo", "address": "Hẻm dã chiến, 116 hùng vương" },
+        { "name": "The Campville Dalat", "address": "Đỉnh đa quý, xuân thọ" },
+        { "name": "Nhà bên rừng", "address": "Hẻm Ford Hùng vương, P11" },
+        { "name": "Lời của gió", "address": "Huỳnh tấn Phát, P11" },
+        { "name": "Tiệm Cà Phê Bình Minh Ơi", "address": "89 Hoàng Hoa Thám, Đà Lạt" },
+        { "name": "Tiệm Cà Phê Dốc Thị", "address": "Hẻm 108 Hùng Vương, Phường 11, Đà Lạt" },
+        { "name": "Nhà Của Thông", "address": "Hẻm 108 Hùng Vương, Đà Lạt" },
+        { "name": "Rừng Thông Mơ Farm & Bistro", "address": "Đường Hoa Hồng, Đà Lạt" },
+        { "name": "Linh Lam Cafe", "address": "14/2 Khởi Nghĩa Bắc Sơn, Đà Lạt" },
+        { "name": "Dalat Camp", "address": "Phường 7, TP. Đà Lạt, Lâm Đồng" },
+        { "name": "Cà Phê Đợi Một Người", "address": "24 Pasteur, Phường 4, Đà Lạt" },
+        { "name": "The Florest", "address": "Tà Nung, TP. Đà Lạt, Lâm Đồng" },
+        { "name": "Tiệm Coffee Nhà Ngoại", "address": "Hẻm 63 Đèo Prenn, Đà Lạt" },
+        { "name": "Đo Đo – Quán Nước Trong Rừng", "address": "31/8C đường 30/4, Đà Lạt" },
+        { "name": "Tiệm Bánh Thành Hôn Bakery & Coffee", "address": "36/3 Lê Văn Tám, Phường 10, Đà Lạt" },
+        { "name": "Vườn Hồng Persimmon", "address": "96 Hùng Vương, Đà Lạt" },
+        { "name": "Quán tại 9 Nguyễn Chí Thanh", "address": "9 Nguyễn Chí Thanh, Phường 1, Đà Lạt" },
+        { "name": "Onion Coffee & Pastry", "address": "278/2 Phù Đổng Thiên Vương, Đà Lạt" },
+        { "name": "Forty Eighty", "address": "48 Hàn Thuyên, Đà Lạt" },
+        { "name": "Chip's Corner", "address": "16/3 Hẻm 1 Khởi Nghĩa Bắc Sơn, Đà Lạt" },
+        { "name": "Gạt Tàn Đời Cafe", "address": "19A Đặng Thái Thân, Đà Lạt" },
+        { "name": "Nhà Bên Suối", "address": "4/18 Trúc Lâm Yên Tử, P3, Đà Lạt" },
+        { "name": "Happy Hill", "address": "Cuối đường Hoa Phượng Tím, hồ Tuyền Lâm, Đà Lạt" },
+        { "name": "Nắng Xanh", "address": "116 Hùng Vương, P11, Đà Lạt" },
+        { "name": "Shancha", "address": "54 Lê Văn Tám, Phường 10, Đà Lạt" },
+        { "name": "Chang Vang Coffee", "address": "119 Huỳnh Tấn Phát, P11, Đà Lạt" }
+      ]
+    },
+
+    "bakery_tiembanhpizza": {
+      "category": "Tiệm bánh – Pizza – Cafe có đồ ăn",
+      "places": [
+        { "name": "Shancha", "address": "54/1 Lê Văn Tám, Phường 10" },
+        { "name": "Tiệm bánh Thanh Châu", "address": "177bis 3/2, Phường 4" },
+        { "name": "Blue Dream Bread", "address": "14 Vạn Hạnh, Phường 8" },
+        { "name": "Pizza Chú Việt", "address": "22 Phan Chu Trinh, Phường 9" },
+        { "name": "Burrata Woodfired Pizza", "address": "Hẻm 32 đường 3/4, Phường 3" },
+        { "name": "Hoa May Garden", "address": "Thôn 5, Đà Lạt" },
+        { "name": "Nook Cafe", "address": "Đồi Dã Chiến, Phường 11" },
+        { "name": "Tiệm bánh & cà phê Nhà Máy Cày", "address": "Hẻm 31 Sào Nam, Phường 11" }
+      ]
+    },
+
+    "attractions": {
+      "category": "Điểm tham quan",
+      "places": [
+        { "name": "Tháp Vinaphone Đà Lạt", "address": "Đường Trần Hưng Đạo, phường 3, Đà Lạt", "type": "viewpoint", "note": "Check-in siêu hot 2026-2026! View toàn thành phố trong sương" },
+        { "name": "Khu tắm khoáng nóng Đankia", "address": "Đankia - Suối Vàng, Lạc Dương, Lâm Đồng", "type": "wellness", "note": "Tắm khoáng thiên nhiên hot TikTok 2026, ~15km từ trung tâm, 150-250k/người" },
+        { "name": "Puppy Farm", "address": "Cam Ly, Măng Lin, Đà Lạt", "type": "farm" },
+        { "name": "Cầu Gỗ Bình Minh", "note": "Hot trend săn mây", "type": "viewpoint" },
+        { "name": "Cánh Quạt Gió Không Lơ", "type": "viewpoint" },
+        { "name": "Đồi Hoa Hồng Treo Gió", "type": "garden" },
+        { "name": "Vườn Hoa Tiên Đậu", "type": "garden" },
+        { "name": "Vườn Hoa Dây Chuyền Nhật", "type": "garden" },
+        { "name": "Hồ Xuân Hương", "type": "lake" },
+        { "name": "Đập Ankroet", "type": "dam" },
+        { "name": "Đồi Măng Lin", "address": "Đà Lạt", "type": "hill" },
+        { "name": "Quảng trường Lâm Viên", "type": "landmark" },
+        { "name": "Xóm Lèo", "note": "Ngắm view nhà lồng", "type": "neighborhood" },
+        { "name": "Dốc sương Nguyệt Ánh", "type": "street" },
+        { "name": "Cung đường Nguyễn Khuyến", "type": "street" },
+        { "name": "Đường Đồng Đa", "type": "street" }
+      ]
+    },
+
+    "market_shopping": {
+      "category": "Chợ & mua sắm",
+      "spots": [
+        { "name": "Chợ Đà Lạt", "address": "Nguyễn Thị Minh Khai, Đà Lạt", "type": "market", "note": "Chợ đêm nổi tiếng, mua đặc sản địa phương, bán đến 23h" },
+        { "name": "Chợ Hoà Bình", "address": "Trung tâm Đà Lạt", "type": "market" },
+        { "name": "Xuân Hương Mall", "address": "Đà Lạt", "type": "mall" }
+      ]
+    }
+  }
+}
