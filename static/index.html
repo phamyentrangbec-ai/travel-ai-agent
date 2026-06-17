@@ -1657,134 +1657,124 @@ function closeVoiceExpense() {
 // ============================================================
 // PUSH-TO-TALK (PTT) VOICE
 // ============================================================
-let _micPermission = null; // 'granted' | 'denied' | null
-
-function _micErrMsg(code) {
-  if (code === 'not-allowed' || code === 'permission-denied')
-    return 'Mic chưa được cấp quyền!\nBấm vào 🔒 (hoặc 🎤) trên thanh địa chỉ → chọn Microphone → Cho phép → reload trang.';
-  if (code === 'no-speech') return 'Không nghe thấy giọng nói — thử lại nhé!';
-  if (code === 'network') return 'Lỗi mạng khi nhận dạng giọng. Kiểm tra kết nối!';
+function _pttErrMsg(code) {
+  if (code === 'not-allowed')
+    return '⚠️ Chưa cho phép mic!\nBấm 🔒 trên thanh địa chỉ → Microphone → Cho phép → F5 reload';
+  if (code === 'no-speech') return '';
   if (code === 'aborted') return '';
   return 'Mic lỗi: ' + code;
 }
 
-async function _ensureMic() {
-  if (_micPermission === 'granted') return true;
-  if (_micPermission === 'denied') {
-    showToast(_micErrMsg('not-allowed'));
-    return false;
-  }
-  try {
-    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-    stream.getTracks().forEach(t => t.stop());
-    _micPermission = 'granted';
-    return true;
-  } catch(err) {
-    _micPermission = 'denied';
-    showToast(_micErrMsg('not-allowed'));
-    return false;
-  }
-}
-
-function _makePTTRec() {
+function _makeRec() {
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-  if (!SR) { showToast('Trình duyệt không hỗ trợ voice. Dùng Chrome!'); return null; }
+  if (!SR) { showToast('Dùng Chrome để dùng voice!'); return null; }
   const rec = new SR();
   rec.lang = 'vi-VN';
-  rec.continuous = true;
+  rec.continuous = false;
   rec.interimResults = true;
   return rec;
 }
 
 function startPTTChat(e) {
-  if (e) e.preventDefault();
+  if (e) { e.preventDefault(); e.stopPropagation(); }
   if (state.voicePlanRec) return;
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) { showToast('Dùng Chrome để dùng voice!'); return; }
   const btn = document.getElementById('mic-btn');
   const input = document.getElementById('chat-input');
-  _ensureMic().then(ok => {
-    if (!ok) return;
-    const rec = _makePTTRec();
-    if (!rec) return;
-    state.voicePlanRec = rec;
-    input.value = '';
-    input.placeholder = '🎤 Đang nghe...';
-    btn.classList.add('text-primary');
-    btn.style.background = 'rgba(181,35,48,0.12)';
-    btn.style.borderRadius = '50%';
-    rec.onresult = (ev) => {
-      let final = '', interim = '';
-      for (let i = 0; i < ev.results.length; i++) {
-        if (ev.results[i].isFinal) final += ev.results[i][0].transcript;
-        else interim += ev.results[i][0].transcript;
-      }
-      input.value = final + interim;
-    };
-    rec.onend = () => {
-      state.voicePlanRec = null;
-      btn.classList.remove('text-primary');
-      btn.style.background = '';
-      input.placeholder = 'Gõ tên thành phố — hoặc giữ mic 🎤';
-      const txt = input.value.trim();
-      if (txt) sendChat();
-    };
-    rec.onerror = (ev) => {
-      if (ev.error === 'not-allowed') _micPermission = 'denied';
-      state.voicePlanRec = null;
-      btn.classList.remove('text-primary');
-      btn.style.background = '';
-      input.placeholder = 'Gõ tên thành phố — hoặc giữ mic 🎤';
-      const msg = _micErrMsg(ev.error);
-      if (msg) showToast(msg);
-    };
-    try { rec.start(); } catch(err) { state.voicePlanRec = null; }
-  });
+  input.value = '';
+  input.placeholder = '🎤 Đang nghe...';
+  btn.classList.add('text-primary');
+  btn.style.background = 'rgba(181,35,48,0.15)';
+  btn.style.borderRadius = '50%';
+  const rec = new SR();
+  rec.lang = 'vi-VN';
+  rec.continuous = false;
+  rec.interimResults = true;
+  state.voicePlanRec = rec;
+  rec.onresult = (ev) => {
+    let txt = '';
+    for (let i = 0; i < ev.results.length; i++) txt += ev.results[i][0].transcript;
+    input.value = txt;
+  };
+  rec.onend = () => {
+    state.voicePlanRec = null;
+    btn.classList.remove('text-primary');
+    btn.style.background = '';
+    input.placeholder = 'Gõ tên thành phố — hoặc giữ mic 🎤';
+    const txt = input.value.trim();
+    if (txt) sendChat();
+  };
+  rec.onerror = (ev) => {
+    state.voicePlanRec = null;
+    btn.classList.remove('text-primary');
+    btn.style.background = '';
+    input.placeholder = 'Gõ tên thành phố — hoặc giữ mic 🎤';
+    const msg = _pttErrMsg(ev.error);
+    if (msg) showToast(msg);
+  };
+  try { rec.start(); }
+  catch(err) {
+    state.voicePlanRec = null;
+    btn.classList.remove('text-primary');
+    btn.style.background = '';
+    input.placeholder = 'Gõ tên thành phố — hoặc giữ mic 🎤';
+    showToast('Không bật được mic: ' + err.message);
+  }
 }
 
 function stopPTTChat(e) {
-  if (e) e.preventDefault();
+  if (e) { e.preventDefault(); e.stopPropagation(); }
   if (state.voicePlanRec) { try { state.voicePlanRec.stop(); } catch(err) {} }
 }
 
 function startPTTExpense(e) {
-  if (e) e.preventDefault();
+  if (e) { e.preventDefault(); e.stopPropagation(); }
   if (state.voiceExpInputRec) return;
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) { showToast('Dùng Chrome để dùng voice!'); return; }
   const btn = document.getElementById('voice-expense-input-btn');
   const input = document.getElementById('expense-input');
-  _ensureMic().then(ok => {
-    if (!ok) return;
-    const rec = _makePTTRec();
-    if (!rec) return;
-    state.voiceExpInputRec = rec;
-    input.value = '';
-    input.placeholder = '🎤 Đang nghe...';
-    btn.classList.add('bg-primary', 'text-white', 'border-primary');
-    btn.classList.remove('text-on-surface-variant', 'border-outline-variant');
-    rec.onresult = (ev) => {
-      let txt = '';
-      for (let i = 0; i < ev.results.length; i++) txt += ev.results[i][0].transcript;
-      input.value = txt;
-    };
-    rec.onend = () => {
-      state.voiceExpInputRec = null;
-      btn.classList.remove('bg-primary', 'text-white', 'border-primary');
-      btn.classList.add('text-on-surface-variant', 'border-outline-variant');
-      input.placeholder = 'VD: Ngân trả taxi 200k, Trang không đi';
-    };
-    rec.onerror = (ev) => {
-      if (ev.error === 'not-allowed') _micPermission = 'denied';
-      state.voiceExpInputRec = null;
-      btn.classList.remove('bg-primary', 'text-white', 'border-primary');
-      btn.classList.add('text-on-surface-variant', 'border-outline-variant');
-      input.placeholder = 'VD: Ngân trả taxi 200k, Trang không đi';
-      const msg = _micErrMsg(ev.error);
-      if (msg) showToast(msg);
-    };
-    try { rec.start(); } catch(err) { state.voiceExpInputRec = null; }
-  });
+  input.value = '';
+  input.placeholder = '🎤 Đang nghe...';
+  btn.classList.add('bg-primary', 'text-white', 'border-primary');
+  btn.classList.remove('text-on-surface-variant', 'border-outline-variant');
+  const rec = new SR();
+  rec.lang = 'vi-VN';
+  rec.continuous = false;
+  rec.interimResults = true;
+  state.voiceExpInputRec = rec;
+  rec.onresult = (ev) => {
+    let txt = '';
+    for (let i = 0; i < ev.results.length; i++) txt += ev.results[i][0].transcript;
+    input.value = txt;
+  };
+  rec.onend = () => {
+    state.voiceExpInputRec = null;
+    btn.classList.remove('bg-primary', 'text-white', 'border-primary');
+    btn.classList.add('text-on-surface-variant', 'border-outline-variant');
+    input.placeholder = 'VD: Ngân trả taxi 200k, Trang không đi';
+  };
+  rec.onerror = (ev) => {
+    state.voiceExpInputRec = null;
+    btn.classList.remove('bg-primary', 'text-white', 'border-primary');
+    btn.classList.add('text-on-surface-variant', 'border-outline-variant');
+    input.placeholder = 'VD: Ngân trả taxi 200k, Trang không đi';
+    const msg = _pttErrMsg(ev.error);
+    if (msg) showToast(msg);
+  };
+  try { rec.start(); }
+  catch(err) {
+    state.voiceExpInputRec = null;
+    btn.classList.remove('bg-primary', 'text-white', 'border-primary');
+    btn.classList.add('text-on-surface-variant', 'border-outline-variant');
+    input.placeholder = 'VD: Ngân trả taxi 200k, Trang không đi';
+    showToast('Không bật được mic: ' + err.message);
+  }
 }
 
 function stopPTTExpense(e) {
-  if (e) e.preventDefault();
+  if (e) { e.preventDefault(); e.stopPropagation(); }
   if (state.voiceExpInputRec) { try { state.voiceExpInputRec.stop(); } catch(err) {} }
 }
 </script>
