@@ -204,10 +204,13 @@ tailwind.config = {
   <!-- Bottom input bar — NO bottom nav on plan screens (BUG U1 fix) -->
   <div class="fixed bottom-0 left-0 right-0 max-w-[430px] mx-auto px-container-margin pb-4 pt-2 bg-background/90 backdrop-blur-sm z-40">
     <div class="flex items-center gap-2 bg-surface border border-outline-variant rounded-full px-2 h-[52px] shadow-sm" id="chat-input-bar">
-      <button id="mic-btn" onclick="toggleVoicePlan()" class="p-2 text-on-surface-variant hover:text-primary transition-colors">
+      <button id="mic-btn"
+        onmousedown="startPTTChat(event)" ontouchstart="startPTTChat(event)"
+        onmouseup="stopPTTChat(event)" ontouchend="stopPTTChat(event)" onmouseleave="stopPTTChat(event)"
+        class="p-2 text-on-surface-variant hover:text-primary transition-colors select-none" style="touch-action:none" title="Giữ để nói">
         <span class="material-symbols-outlined">mic</span>
       </button>
-      <input id="chat-input" type="text" placeholder="Gõ tên thành phố — hoặc thử 🎤"
+      <input id="chat-input" type="text" placeholder="Gõ tên thành phố — hoặc giữ mic 🎤"
         class="flex-1 bg-transparent border-none focus:outline-none focus:ring-0 text-body-rg text-on-surface placeholder:text-on-surface-variant/50"
         onkeydown="if(event.key==='Enter')sendChat()">
       <button onclick="sendChat()" class="bg-primary-container w-9 h-9 rounded-full flex items-center justify-center flex-shrink-0 active:scale-90 transition-transform">
@@ -405,7 +408,10 @@ tailwind.config = {
       <section class="mb-section-gap">
         <h3 class="text-heading-md font-semibold mb-3">Thêm khoản chi</h3>
         <div class="flex gap-2">
-          <button onclick="voiceExpenseInput()" id="voice-expense-input-btn" class="border border-outline-variant px-3 py-3 rounded-xl text-on-surface-variant hover:bg-surface-container active:scale-95 transition-transform" title="Nói khoản chi">
+          <button id="voice-expense-input-btn"
+            onmousedown="startPTTExpense(event)" ontouchstart="startPTTExpense(event)"
+            onmouseup="stopPTTExpense(event)" ontouchend="stopPTTExpense(event)" onmouseleave="stopPTTExpense(event)"
+            class="border border-outline-variant px-3 py-3 rounded-xl text-on-surface-variant select-none" style="touch-action:none" title="Giữ để nói">
             <span class="material-symbols-outlined text-[20px]">mic</span>
           </button>
           <input id="expense-input" type="text" placeholder="VD: Ngân trả taxi 200k, Trang không đi"
@@ -1646,6 +1652,101 @@ function closeVoiceExpense() {
   if (state.voiceExpRec) { try { state.voiceExpRec.stop(); } catch(e){} state.voiceExpRec = null; }
   document.getElementById('voice-expense-sheet').classList.add('hidden');
   state.pendingExpenseParsed = null;
+}
+
+// ============================================================
+// PUSH-TO-TALK (PTT) VOICE
+// ============================================================
+function _makePTTRec(lang) {
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SR) { showToast('Trình duyệt không hỗ trợ voice. Dùng Chrome!'); return null; }
+  const rec = new SR();
+  rec.lang = lang || 'vi-VN';
+  rec.continuous = true;
+  rec.interimResults = true;
+  return rec;
+}
+
+function startPTTChat(e) {
+  if (e) e.preventDefault();
+  if (state.voicePlanRec) return;
+  const btn = document.getElementById('mic-btn');
+  const input = document.getElementById('chat-input');
+  const rec = _makePTTRec('vi-VN');
+  if (!rec) return;
+  state.voicePlanRec = rec;
+  input.value = '';
+  input.placeholder = '🎤 Đang nghe...';
+  btn.classList.add('text-primary');
+  btn.style.background = 'rgba(181,35,48,0.12)';
+  btn.style.borderRadius = '50%';
+  rec.onresult = (ev) => {
+    let final = '', interim = '';
+    for (let i = 0; i < ev.results.length; i++) {
+      if (ev.results[i].isFinal) final += ev.results[i][0].transcript;
+      else interim += ev.results[i][0].transcript;
+    }
+    input.value = final + interim;
+  };
+  rec.onend = () => {
+    state.voicePlanRec = null;
+    btn.classList.remove('text-primary');
+    btn.style.background = '';
+    input.placeholder = 'Gõ tên thành phố — hoặc giữ mic 🎤';
+    const txt = input.value.trim();
+    if (txt) sendChat();
+  };
+  rec.onerror = (ev) => {
+    state.voicePlanRec = null;
+    btn.classList.remove('text-primary');
+    btn.style.background = '';
+    input.placeholder = 'Gõ tên thành phố — hoặc giữ mic 🎤';
+    if (ev.error && ev.error !== 'aborted') showToast('Mic lỗi: ' + ev.error);
+  };
+  try { rec.start(); } catch(err) { state.voicePlanRec = null; }
+}
+
+function stopPTTChat(e) {
+  if (e) e.preventDefault();
+  if (state.voicePlanRec) { try { state.voicePlanRec.stop(); } catch(err) {} }
+}
+
+function startPTTExpense(e) {
+  if (e) e.preventDefault();
+  if (state.voiceExpInputRec) return;
+  const btn = document.getElementById('voice-expense-input-btn');
+  const input = document.getElementById('expense-input');
+  const rec = _makePTTRec('vi-VN');
+  if (!rec) return;
+  state.voiceExpInputRec = rec;
+  input.value = '';
+  input.placeholder = '🎤 Đang nghe...';
+  btn.classList.add('bg-primary', 'text-white', 'border-primary');
+  btn.classList.remove('text-on-surface-variant', 'border-outline-variant');
+  rec.onresult = (ev) => {
+    let txt = '';
+    for (let i = 0; i < ev.results.length; i++) txt += ev.results[i][0].transcript;
+    input.value = txt;
+  };
+  rec.onend = () => {
+    state.voiceExpInputRec = null;
+    btn.classList.remove('bg-primary', 'text-white', 'border-primary');
+    btn.classList.add('text-on-surface-variant', 'border-outline-variant');
+    input.placeholder = 'VD: Ngân trả taxi 200k, Trang không đi';
+  };
+  rec.onerror = (ev) => {
+    state.voiceExpInputRec = null;
+    btn.classList.remove('bg-primary', 'text-white', 'border-primary');
+    btn.classList.add('text-on-surface-variant', 'border-outline-variant');
+    input.placeholder = 'VD: Ngân trả taxi 200k, Trang không đi';
+    if (ev.error && ev.error !== 'aborted') showToast('Mic lỗi: ' + ev.error);
+  };
+  try { rec.start(); } catch(err) { state.voiceExpInputRec = null; }
+}
+
+function stopPTTExpense(e) {
+  if (e) e.preventDefault();
+  if (state.voiceExpInputRec) { try { state.voiceExpInputRec.stop(); } catch(err) {} }
 }
 </script>
 </div><!-- #app -->
