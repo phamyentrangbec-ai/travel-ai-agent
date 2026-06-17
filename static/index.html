@@ -1444,9 +1444,16 @@ async function submitExpense(text) {
     const expense = data.expense || {};
     lastExpenseSummary = summary;
     state.expenseData = summary;
-    state._expenseCount = (state._expenseCount || 0) + 1;
 
-    state.todayExpenses += expense.amount || 0;
+    if (!expense.amount || expense.amount === 0) {
+      fetch('/expense/undo', {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({session_id: state.sessionId})});
+      showToast('Không nhận ra số tiền — hãy ghi rõ, VD: "An trả 200k taxi"');
+      closeVoiceExpense();
+      return;
+    }
+
+    state._expenseCount = (state._expenseCount || 0) + 1;
+    state.todayExpenses = summary.total || 0;
     updateTotals(summary.total || 0, state.todayExpenses, summary.settlements || []);
     renderBarChart(summary.per_member || {});
     appendExpenseItem(expense, state._expenseCount - 1);
@@ -1517,13 +1524,13 @@ function startVoicePlan() {
   transcriptEl.textContent = '';
 
   rec.onresult = (e) => {
-    let interim = '', final = '';
-    for (let i = e.resultIndex; i < e.results.length; i++) {
+    let final = '', interim = '';
+    for (let i = 0; i < e.results.length; i++) {
       const t = e.results[i][0].transcript;
       if (e.results[i].isFinal) final += t;
       else interim += t;
     }
-    transcriptEl.textContent = final || interim;
+    transcriptEl.textContent = final + interim;
   };
   rec.onend = () => {
     const transcript = transcriptEl.textContent.trim();
@@ -1572,7 +1579,7 @@ function voicePhase1() {
 
   rec.onresult = (e) => {
     let txt = '';
-    for (let i = e.resultIndex; i < e.results.length; i++) {
+    for (let i = 0; i < e.results.length; i++) {
       txt += e.results[i][0].transcript;
     }
     transcriptEl.textContent = txt;
